@@ -1,0 +1,130 @@
+string Version = "1.00";
+
+string digikey_str;
+string digikey_list[];
+string p[];
+string msg;
+
+string main_path = filedir(argv[0]);
+string dat_file = main_path + "/digikey.dat";
+
+//Read the existing digikey list
+//Format:
+//Device:Package:Value;Digikey#
+int list_count=fileread(digikey_str, dat_file);
+string bom_dk_str="";
+string bom_part_str="";
+string bom_dk_list[];
+string bom_part_list[];
+int pn_dialog;
+
+string postcmd="Change display off;";
+
+if (schematic) {
+  schematic(SCH) {
+    SCH.parts(P) {
+      
+      string partPrefix="";
+      if(P.device) if(P.device.package) {
+        sprintf(partPrefix,"%s:%s:%s",P.device.name,P.device.package.name,P.value);
+//          dlgMessageBox(partPrefix);
+
+        string attrib;
+        attrib="";
+        list_count=strsplit(digikey_list,digikey_str,'\n');
+        if(partPrefix!="") {
+          for(int i=0;i<list_count;i++) {
+            strsplit(p,digikey_list[i],';');
+            if(partPrefix==p[0]) {
+              attrib=p[1];
+              sprintf(msg,"Found match: %s",digikey_list[i]);
+//              dlgMessageBox(msg);
+            }
+          }
+        }
+        if(attrib=="") { //Part isn't in the list, ask the user
+          if(P.device.package) {
+            pn_dialog = dlgDialog("New part found") {
+              dlgGridLayout{
+                dlgCell(0,0) dlgLabel("Name:");
+                dlgCell(0,1) dlgLabel(P.name);
+                dlgCell(1,0) dlgLabel("Value:");
+                dlgCell(1,1) dlgLabel(P.value);
+                dlgCell(2,0) dlgLabel("Device:");
+                dlgCell(2,1) dlgLabel(P.device.name);
+                dlgCell(3,0) dlgLabel("Package:");
+                dlgCell(3,1) dlgLabel(P.device.package.name);
+                dlgCell(4,0) dlgLabel("Digikey number:");
+                dlgCell(4,1) dlgStringEdit(attrib);
+                dlgCell(5,0,5,1) dlgPushButton("+OK") dlgAccept(0);
+                dlgCell(6,0,6,1) dlgPushButton("No Part") {attrib="$NOPART";dlgAccept(1);}
+                dlgCell(7,0,7,1) dlgPushButton("-Skip") {attrib="$NOPART";dlgAccept(2);}
+                dlgCell(8,0,8,1) dlgPushButton("Cancel") exit("");
+              };
+            };
+            if(pn_dialog < 2) sprintf(digikey_str,"%s\n%s;%s",digikey_str,partPrefix,attrib);
+          }
+        } else {
+          pn_dialog=1;
+        }
+      
+        if(pn_dialog<2) {
+	  sprintf(postcmd,"%sATTRIBUTE %s DIGIKEY '%s';",postcmd,P.name,attrib);
+
+          //Now stick it in the BOM list for this board
+          if(attrib!="$NOPART") {
+            int count_bom_dk=strsplit(bom_dk_list,bom_dk_str,'\n');
+            int found=-1;
+            for(int i=0;i<count_bom_dk;i++) {
+              if(attrib==bom_dk_list[i]) {
+                found=i;
+              }
+            }
+            if(found<0) {
+              sprintf(bom_dk_str,"%s\n%s",bom_dk_str,attrib);
+              sprintf(bom_part_str,"%s\n%s",bom_part_str,"");
+              found=strsplit(bom_dk_list,bom_dk_str,'\n')-1;
+              strsplit(bom_part_list,bom_part_str,'\n');
+            }
+            if(bom_part_list[found]=="") bom_part_list[found]=P.name; else sprintf(bom_part_list[found],"%s %s",bom_part_list[found],P.name);
+            bom_dk_str=strjoin(bom_dk_list,'\n');
+            bom_part_str=strjoin(bom_part_list,'\n');
+          }
+        }
+      } else {
+//      dlgMessageBox("No package");
+      }
+    }
+  }
+  
+  int count=strsplit(bom_dk_list,bom_dk_str,'\n');
+  strsplit(bom_part_list,bom_part_str,'\n');
+
+  string bom_str="";
+  string junk[];
+  for(int i=0;i<count;i++) {
+    int qty=strsplit(junk,bom_part_list[i],' ');
+    if(bom_dk_list[i]!="") {
+      if(bom_str=="") {
+        sprintf(bom_str,"%d,%s,%s",qty,bom_dk_list[i],bom_part_list[i]);
+      } else {
+        sprintf(bom_str,"%s\n%d,%s,%s",bom_str,qty,bom_dk_list[i],bom_part_list[i]);
+      }
+    }
+  }
+  dlgDialog("Digikey BOM Import") {
+    dlgVBoxLayout{
+      dlgLabel("Copy and paste this into Comma/Tab delimited text file import");
+      dlgTextEdit(bom_str);
+      dlgPushButton("+OK") dlgAccept(0);
+    };
+  };
+
+  output(dat_file,"wt") printf("%s",digikey_str);
+  dlgMessageBox(postcmd);
+  exit(postcmd);
+} else {
+  dlgMessageBox("Start this ULP in Schematic, please.", "OK");
+}
+
+// End-Of-File

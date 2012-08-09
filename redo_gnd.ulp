@@ -1,0 +1,19 @@
+string via_cmd;
+
+board(B) {
+  via_cmd="ripup GND;change drill 13;";
+  B.signals(S) {
+    if(S.name=="GND") {
+      S.vias(V) {
+        string new_via_cmd,this_via_cmd;
+        
+        sprintf(this_via_cmd,"via 'GND' Round (%d %d);",V.x/254/32,V.y/254/32);
+        dlgMessageBox(this_via_cmd);
+        sprintf(new_via_cmd,"%s%s\n;",via_cmd,this_via_cmd);
+        via_cmd=new_via_cmd;
+      }
+    }
+  }
+} 
+
+exit(via_cmd);
