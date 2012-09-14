@@ -2661,17 +2661,17 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instance part="C406" gate="G$1" x="-10.16" y="86.36"/>
 <instance part="P+1" gate="1" x="-10.16" y="99.06"/>
 <instance part="GND1" gate="1" x="-2.54" y="7.62"/>
-<instance part="C002" gate="G$1" x="99.06" y="68.58" rot="R90"/>
+<instance part="C002" gate="G$1" x="104.14" y="73.66" rot="R90"/>
 <instance part="C017" gate="G$1" x="147.32" y="66.04"/>
 <instance part="P+2" gate="1" x="149.86" y="96.52"/>
 <instance part="R001" gate="D" x="-22.86" y="78.74" rot="R90"/>
 <instance part="R001" gate="B" x="106.68" y="45.72" rot="R90"/>
 <instance part="R001" gate="C" x="96.52" y="45.72" rot="R90"/>
-<instance part="R001" gate="A" x="81.28" y="43.18" rot="R90"/>
+<instance part="R001" gate="A" x="86.36" y="45.72" rot="R90"/>
 <instance part="D401" gate="G$1" x="-22.86" y="45.72"/>
 <instance part="D001" gate="G$1" x="96.52" y="33.02"/>
 <instance part="D002" gate="G$1" x="106.68" y="33.02"/>
-<instance part="D402" gate="G$1" x="81.28" y="33.02"/>
+<instance part="D402" gate="G$1" x="86.36" y="33.02"/>
 <instance part="P+3" gate="1" x="127" y="33.02"/>
 <instance part="C004" gate="G$1" x="170.18" y="53.34"/>
 <instance part="J002" gate="G$1" x="-53.34" y="81.28" rot="R180"/>
@@ -2727,7 +2727,7 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="-12.7" y1="48.26" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="40.64" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="15.24" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="27.94" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="27.94" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="63.5" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="60.96" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
@@ -2738,13 +2738,13 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="147.32" y1="53.34" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="50.8" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="15.24" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="91.44" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 <junction x="5.08" y="40.64"/>
 <junction x="5.08" y="38.1"/>
 <junction x="-2.54" y="15.24"/>
@@ -2759,7 +2759,7 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <junction x="147.32" y="15.24"/>
 <junction x="170.18" y="15.24"/>
 <junction x="5.08" y="15.24"/>
-<junction x="81.28" y="15.24"/>
+<junction x="86.36" y="15.24"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="U401" gate="G$1" pin="AGND"/>
 <pinref part="U401" gate="G$1" pin="GND@1"/>
@@ -2890,57 +2890,17 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="J003" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="RXC/D0" class="0">
-<segment>
-<wire x1="68.58" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="71.12" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
-<label x="68.58" y="71.12" size="1.778" layer="95"/>
-<pinref part="U401" gate="G$1" pin="PD0(RXD)"/>
-<wire x1="96.52" y1="83.82" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U001" gate="G$1" pin="TXD"/>
-<wire x1="83.82" y1="83.82" x2="93.98" y2="83.82" width="0" layer="91"/>
-</segment>
-<segment>
-<wire x1="-63.5" y1="96.52" x2="-73.66" y2="96.52" width="0.1524" layer="91"/>
-<label x="-73.66" y="96.52" size="1.778" layer="95"/>
-<pinref part="J002" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="TXC/D1" class="0">
-<segment>
-<wire x1="68.58" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="68.58" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
-<label x="68.58" y="68.58" size="1.778" layer="95"/>
-<pinref part="U401" gate="G$1" pin="PD1(TXD)"/>
-<wire x1="101.6" y1="76.2" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U001" gate="G$1" pin="RXD"/>
-<wire x1="83.82" y1="76.2" x2="93.98" y2="76.2" width="0" layer="91"/>
-</segment>
-<segment>
-<wire x1="-63.5" y1="99.06" x2="-73.66" y2="99.06" width="0.1524" layer="91"/>
-<label x="-73.66" y="99.06" size="1.778" layer="95"/>
-<pinref part="J002" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="DTR#" class="0">
 <segment>
-<wire x1="106.68" y1="68.58" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U001" gate="G$1" pin="DTR"/>
 <pinref part="C002" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="93.98" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
-<label x="83.82" y="68.58" size="1.778" layer="95"/>
+<wire x1="99.06" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<label x="91.44" y="73.66" size="1.778" layer="95"/>
 <pinref part="C002" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -2999,10 +2959,9 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </net>
 <net name="D13" class="0">
 <segment>
-<wire x1="68.58" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="35.56" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="53.34" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="35.56" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 <label x="68.58" y="35.56" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="PB5(SCK)"/>
 <pinref part="R001" gate="A" pin="2"/>
@@ -3018,7 +2977,7 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="TXLED1" class="0">
 <segment>
 <wire x1="111.76" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="60.96" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
@@ -3026,7 +2985,7 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="R001" gate="B" pin="2"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="RXLED1" class="0">
 <segment>
 <wire x1="111.76" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="58.42" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
@@ -3050,7 +3009,7 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="81.28" y1="38.1" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="40.64" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R001" gate="A" pin="1"/>
 <pinref part="D402" gate="G$1" pin="A"/>
 </segment>
@@ -3312,6 +3271,40 @@ Standard 15-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="68.58" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="68.58" y="66.04" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="PD2(INT0)"/>
+</segment>
+</net>
+<net name="D0" class="0">
+<segment>
+<wire x1="-63.5" y1="99.06" x2="-73.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="-73.66" y="99.06" size="1.778" layer="95"/>
+<pinref part="J002" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="71.12" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
+<label x="68.58" y="71.12" size="1.778" layer="95"/>
+<pinref part="U401" gate="G$1" pin="PD0(RXD)"/>
+<wire x1="93.98" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U001" gate="G$1" pin="TXD"/>
+<wire x1="83.82" y1="86.36" x2="93.98" y2="86.36" width="0" layer="91"/>
+</segment>
+</net>
+<net name="D1" class="0">
+<segment>
+<wire x1="-63.5" y1="96.52" x2="-73.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="-73.66" y="96.52" size="1.778" layer="95"/>
+<pinref part="J002" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="68.58" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<label x="68.58" y="68.58" size="1.778" layer="95"/>
+<pinref part="U401" gate="G$1" pin="PD1(TXD)"/>
+<wire x1="93.98" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U001" gate="G$1" pin="RXD"/>
+<wire x1="83.82" y1="83.82" x2="93.98" y2="83.82" width="0" layer="91"/>
 </segment>
 </net>
 </nets>
