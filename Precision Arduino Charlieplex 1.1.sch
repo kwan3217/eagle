@@ -4148,6 +4148,275 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0603">
+<wire x1="0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
+<wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="LED5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED3MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
+<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="21"/>
+<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED-1206">
+<wire x1="-1" y1="1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1" x2="-1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
+<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
+<text x="-0.889" y="1.397" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.778" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="LED10MM">
+<wire x1="-5" y1="-2" x2="-5" y2="2" width="0.2032" layer="21" curve="316.862624"/>
+<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="21"/>
+<pad name="A" x="2.54" y="0" drill="2.4" diameter="3.7"/>
+<pad name="C" x="-2.54" y="0" drill="2.4" diameter="3.7" shape="square"/>
+<text x="2.159" y="2.54" size="1.016" layer="51" ratio="15">L</text>
+<text x="-2.921" y="2.54" size="1.016" layer="51" ratio="15">S</text>
+</package>
+<package name="FKIT-LED-1206">
+<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.1016" layer="21" curve="95.452622"/>
+<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.1016" layer="51" curve="84.547378"/>
+<wire x1="0.55" y1="0.5" x2="-0.55" y2="0.5" width="0.1016" layer="21" curve="95.452622"/>
+<wire x1="0.55" y1="-0.5" x2="0.55" y2="0.5" width="0.1016" layer="51" curve="84.547378"/>
+<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
+<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
+<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
+</package>
+<package name="LED3MM-NS">
+<description>&lt;h3&gt;LED 3MM - No Silk&lt;/h3&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
+<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
+<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128"/>
+<pad name="K" x="1.27" y="0" drill="0.8128"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED5MM-KIT">
+<description>&lt;h3&gt;LED5MM-KIT&lt;/h3&gt;
+5MM Through-hole LED&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<polygon width="0.127" layer="30">
+<vertex x="-1.2675" y="-0.9525" curve="-90"/>
+<vertex x="-2.2224" y="-0.0228" curve="-90.011749"/>
+<vertex x="-1.27" y="0.9526" curve="-90"/>
+<vertex x="-0.32" y="-0.0254" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.27" y="-0.4445" curve="-90.012891"/>
+<vertex x="-1.7145" y="-0.0203" curve="-90"/>
+<vertex x="-1.27" y="0.447" curve="-90"/>
+<vertex x="-0.8281" y="-0.0101" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="1.2725" y="-0.9525" curve="-90"/>
+<vertex x="0.3176" y="-0.0228" curve="-90.011749"/>
+<vertex x="1.27" y="0.9526" curve="-90"/>
+<vertex x="2.22" y="-0.0254" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.27" y="-0.4445" curve="-90.012891"/>
+<vertex x="0.8255" y="-0.0203" curve="-90"/>
+<vertex x="1.27" y="0.447" curve="-90"/>
+<vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED" prefix="LED" uservalue="yes">
+<description>&lt;b&gt;LEDs&lt;/b&gt;
+Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. 5mm - Spark Fun Electronics SKU : COM-00529 (and others)</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5MM" package="LED5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3MM" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10MM" package="LED10MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-FKIT-1206" package="FKIT-LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3MM-NO_SILK" package="LED3MM-NS">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM-KIT" package="LED5MM-KIT">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4162,169 +4431,833 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="D000" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="R1" library="KwanSystems" deviceset="RP4" device="04" value="47"/>
-<part name="R2" library="KwanSystems" deviceset="RP4" device="04" value="47"/>
-<part name="D001" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D002" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D003" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D004" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D005" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D006" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="R3" library="KwanSystems" deviceset="RP4" device="04" value="47"/>
-<part name="R4" library="KwanSystems" deviceset="RP4" device="04" value="47"/>
-<part name="D007" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D008" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D009" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D010" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D011" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D012" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D013" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D014" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D015" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D017" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D019" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D021" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D023" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D025" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D027" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D016" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D018" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D020" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D022" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D024" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D026" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D028" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D029" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D030" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D031" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D032" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D033" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D034" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D035" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D036" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D037" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D038" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D039" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D040" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D041" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D042" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D043" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D044" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D045" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D046" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D047" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D048" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D049" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D050" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D051" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D052" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D053" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D054" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D055" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D056" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D057" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D058" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D059" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D100" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D101" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D102" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D103" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D104" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D105" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D106" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D107" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D108" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D109" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D110" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D111" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D112" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D113" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D114" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D115" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D116" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D117" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D118" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D119" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D120" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D121" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D122" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D123" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D124" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D125" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D126" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D127" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D128" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D129" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D130" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D131" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D132" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D133" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D134" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D135" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D136" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D137" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D138" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D139" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D140" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D141" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D142" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D143" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D144" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D154" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D155" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D156" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D150" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D151" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D152" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D153" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D145" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D146" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D147" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D148" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D149" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D157" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D158" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
-<part name="D159" library="SparkFun" deviceset="LED" device="0603" value="HOUR"/>
+<part name="D000" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="R1" library="KwanSystems" deviceset="RP4" device="04" value="47">
+<attribute name="DIGIKEY" value="CRA4S847CT-ND"/>
+</part>
+<part name="R2" library="KwanSystems" deviceset="RP4" device="04" value="47">
+<attribute name="DIGIKEY" value="CRA4S847CT-ND"/>
+</part>
+<part name="D001" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D002" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D003" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D004" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D005" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D006" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="R3" library="KwanSystems" deviceset="RP4" device="04" value="47">
+<attribute name="DIGIKEY" value="CRA4S847CT-ND"/>
+</part>
+<part name="R4" library="KwanSystems" deviceset="RP4" device="04" value="47">
+<attribute name="DIGIKEY" value="CRA4S847CT-ND"/>
+</part>
+<part name="D007" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D008" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D009" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D010" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D011" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D012" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D013" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D014" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D015" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D017" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D019" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D021" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D023" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D025" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D027" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D016" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D018" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D020" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D022" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D024" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D026" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D028" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D029" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D030" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D031" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D032" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D033" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D034" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D035" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D036" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D037" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D038" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D039" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D040" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D041" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D042" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D043" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D044" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D045" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D046" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D047" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D048" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D049" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D050" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D051" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D052" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D053" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D054" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D055" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D056" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D057" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D058" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D059" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D100" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D101" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D102" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D103" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D104" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D105" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D106" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D107" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D108" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D109" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D110" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D111" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D112" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D113" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D114" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D115" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D116" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D117" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D118" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D119" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D120" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D121" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D122" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D123" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D124" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D125" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D126" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D127" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D128" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D129" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D130" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D131" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D132" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D133" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D134" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D135" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D136" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D137" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D138" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D139" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D140" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D141" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D142" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D143" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D144" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D154" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D155" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D156" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D150" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D151" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D152" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D153" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D145" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D146" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D147" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D148" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D149" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D157" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D158" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
+<part name="D159" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="C010" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C010" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF">
+<attribute name="DIGIKEY" value="445-7483-1-ND"/>
+</part>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
-<part name="C407" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18pF"/>
-<part name="C408" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18pF"/>
+<part name="C407" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18pF">
+<attribute name="DIGIKEY" value="478-6025-1-ND"/>
+</part>
+<part name="C408" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18pF">
+<attribute name="DIGIKEY" value="478-6025-1-ND"/>
+</part>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="Y401" library="KwanSystems" deviceset="TSX-3225" device="" value="12.00"/>
-<part name="J001" library="SparkFun" deviceset="M04" device="PTH"/>
-<part name="J002" library="SparkFun" deviceset="M04" device="PTH"/>
-<part name="S429" library="KwanSystems" deviceset="B3U-1100P" device=""/>
-<part name="J406" library="SparkFun" deviceset="M08" device="1X08"/>
-<part name="J405" library="SparkFun" deviceset="M08" device="1X08"/>
-<part name="U401" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMEGA328"/>
-<part name="U501" library="SparkFun" deviceset="FT232RL" device="SSOP"/>
-<part name="C420" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100nF"/>
-<part name="C502" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100nF"/>
+<part name="Y401" library="KwanSystems" deviceset="TSX-3225" device="" value="16MHz">
+<attribute name="DIGIKEY" value="887-1319-1-ND"/>
+</part>
+<part name="J001" library="SparkFun" deviceset="M04" device="PTH">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="J002" library="SparkFun" deviceset="M04" device="PTH">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="S429" library="KwanSystems" deviceset="B3U-1100P" device="">
+<attribute name="DIGIKEY" value="SW1021CT-ND"/>
+</part>
+<part name="J406" library="SparkFun" deviceset="M08" device="1X08">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="J405" library="SparkFun" deviceset="M08" device="1X08">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="U401" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMEGA328">
+<attribute name="DIGIKEY" value="ATMEGA328P-15AZCT-ND"/>
+</part>
+<part name="U501" library="SparkFun" deviceset="FT232RL" device="SSOP">
+<attribute name="DIGIKEY" value="768-1007-1-ND"/>
+</part>
+<part name="C420" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1316-1-ND"/>
+</part>
+<part name="C502" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1316-1-ND"/>
+</part>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="D501" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
-<part name="D502" library="SparkFun" deviceset="LED" device="0603" value="RED"/>
-<part name="R501" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="680"/>
-<part name="R502" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="680"/>
-<part name="C418" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="J003" library="SparkFun" deviceset="M06" device="SIP"/>
+<part name="D501" library="SparkFun" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D502" library="SparkFun" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="R501" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="680">
+<attribute name="DIGIKEY" value="P680GCT-ND"/>
+</part>
+<part name="R502" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="680">
+<attribute name="DIGIKEY" value="P680GCT-ND"/>
+</part>
+<part name="C418" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF">
+<attribute name="DIGIKEY" value="445-7483-1-ND"/>
+</part>
+<part name="J003" library="SparkFun" deviceset="M06" device="SIP">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="J005" library="SparkFun" deviceset="M06" device="SIP"/>
-<part name="U602" library="KwanSystems" deviceset="NC7SZ157" device="" value="ZF7"/>
+<part name="J005" library="SparkFun" deviceset="M06" device="SIP">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="U602" library="KwanSystems" deviceset="NC7SZ157" device="" value="ZF7">
+<attribute name="DIGIKEY" value="NC7SZ157P6XCT-ND"/>
+</part>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+8" library="SparkFun" deviceset="VCC" device=""/>
-<part name="R606" library="KwanSystems" deviceset="RP4" device="04" value="10k"/>
-<part name="JP1" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="JP2" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="JP3" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="JP4" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="J004" library="SparkFun" deviceset="M04" device="PTH"/>
-<part name="JP5" library="SparkFun" deviceset="M02" device="PTH"/>
+<part name="R606" library="KwanSystems" deviceset="RP4" device="04" value="10k">
+<attribute name="DIGIKEY" value="CRA4S810KCT-ND"/>
+</part>
+<part name="JP1" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="JP2" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="JP3" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="JP4" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="J004" library="SparkFun" deviceset="M04" device="PTH">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="JP5" library="SparkFun" deviceset="M02" device="PTH">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="D200" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D201" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D202" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D203" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D204" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D205" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D206" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D207" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D208" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D209" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D210" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D211" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D212" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D213" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D214" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D215" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D216" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D217" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D218" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D219" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D220" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D221" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D222" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D223" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D224" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D225" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D226" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D227" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D228" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D229" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D230" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D231" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D232" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D233" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D234" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D235" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D236" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D237" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D238" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D239" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D240" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D241" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D242" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D243" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D244" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D245" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D246" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D247" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D248" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D249" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D250" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D251" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D252" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D253" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D254" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D255" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D256" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D257" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D258" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D259" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D300" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D301" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D302" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D303" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D304" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D305" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D306" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D307" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D308" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D309" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D310" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D311" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D312" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D313" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D314" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D315" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D316" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D317" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D318" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D319" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D320" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D321" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D322" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D323" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D324" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D325" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D326" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D327" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D328" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D329" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D330" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D331" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D332" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D333" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D334" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D335" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D336" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D337" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D338" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D339" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D340" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D341" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D342" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D343" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D344" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D345" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D346" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D347" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D348" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D349" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D350" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D351" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D352" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D353" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D354" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D355" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D356" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D357" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D358" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D359" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4392,423 +5325,967 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instances>
 <instance part="D000" gate="G$1" x="53.34" y="27.94" smashed="yes">
 <attribute name="NAME" x="52.8574" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="A" x="-22.86" y="22.86"/>
+<instance part="R1" gate="A" x="-22.86" y="22.86">
+<attribute name="DIGIKEY" x="-22.86" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R1" gate="B" x="-22.86" y="35.56"/>
 <instance part="R1" gate="C" x="-22.86" y="48.26"/>
 <instance part="R1" gate="D" x="-22.86" y="60.96"/>
-<instance part="R2" gate="A" x="-22.86" y="73.66"/>
+<instance part="R2" gate="A" x="-22.86" y="73.66">
+<attribute name="DIGIKEY" x="-22.86" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R2" gate="B" x="-22.86" y="86.36"/>
 <instance part="R2" gate="C" x="-22.86" y="99.06"/>
 <instance part="R2" gate="D" x="-22.86" y="111.76"/>
 <instance part="D001" gate="G$1" x="53.34" y="40.64" smashed="yes">
 <attribute name="NAME" x="52.8574" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D002" gate="G$1" x="53.34" y="53.34" smashed="yes">
 <attribute name="NAME" x="52.8574" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D003" gate="G$1" x="53.34" y="66.04" smashed="yes">
 <attribute name="NAME" x="52.8574" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D004" gate="G$1" x="53.34" y="78.74" smashed="yes">
 <attribute name="NAME" x="52.8574" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D005" gate="G$1" x="53.34" y="91.44" smashed="yes">
 <attribute name="NAME" x="52.8574" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D006" gate="G$1" x="53.34" y="104.14" smashed="yes">
 <attribute name="NAME" x="52.8574" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R3" gate="A" x="-22.86" y="124.46"/>
+<instance part="R3" gate="A" x="-22.86" y="124.46">
+<attribute name="DIGIKEY" x="-22.86" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R3" gate="B" x="-22.86" y="137.16"/>
 <instance part="R3" gate="C" x="-22.86" y="149.86"/>
 <instance part="R3" gate="D" x="-22.86" y="162.56"/>
-<instance part="R4" gate="A" x="-22.86" y="175.26"/>
+<instance part="R4" gate="A" x="-22.86" y="175.26">
+<attribute name="DIGIKEY" x="-22.86" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R4" gate="B" x="-22.86" y="187.96"/>
 <instance part="R4" gate="C" x="-22.86" y="200.66"/>
 <instance part="R4" gate="D" x="-22.86" y="213.36"/>
 <instance part="D007" gate="G$1" x="53.34" y="116.84" smashed="yes">
 <attribute name="NAME" x="52.8574" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D008" gate="G$1" x="53.34" y="129.54" smashed="yes">
 <attribute name="NAME" x="52.8574" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D009" gate="G$1" x="53.34" y="142.24" smashed="yes">
 <attribute name="NAME" x="52.8574" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D010" gate="G$1" x="53.34" y="154.94" smashed="yes">
 <attribute name="NAME" x="52.8574" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D011" gate="G$1" x="53.34" y="167.64" smashed="yes">
 <attribute name="NAME" x="52.8574" y="170.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D012" gate="G$1" x="53.34" y="180.34" smashed="yes">
 <attribute name="NAME" x="52.8574" y="182.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D013" gate="G$1" x="53.34" y="193.04" smashed="yes">
 <attribute name="NAME" x="52.8574" y="195.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D014" gate="G$1" x="53.34" y="205.74" smashed="yes">
 <attribute name="NAME" x="52.8574" y="208.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="53.34" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D015" gate="G$1" x="63.5" y="27.94" smashed="yes">
 <attribute name="NAME" x="63.0174" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D017" gate="G$1" x="63.5" y="53.34" smashed="yes">
 <attribute name="NAME" x="63.0174" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D019" gate="G$1" x="63.5" y="78.74" smashed="yes">
 <attribute name="NAME" x="63.0174" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D021" gate="G$1" x="63.5" y="104.14" smashed="yes">
 <attribute name="NAME" x="63.0174" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D023" gate="G$1" x="63.5" y="129.54" smashed="yes">
 <attribute name="NAME" x="63.0174" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D025" gate="G$1" x="63.5" y="154.94" smashed="yes">
 <attribute name="NAME" x="63.0174" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D027" gate="G$1" x="63.5" y="180.34" smashed="yes">
 <attribute name="NAME" x="63.0174" y="182.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="63.5" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D016" gate="G$1" x="71.12" y="40.64" smashed="yes">
 <attribute name="NAME" x="70.6374" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D018" gate="G$1" x="71.12" y="66.04" smashed="yes">
 <attribute name="NAME" x="70.6374" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D020" gate="G$1" x="71.12" y="91.44" smashed="yes">
 <attribute name="NAME" x="70.6374" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D022" gate="G$1" x="71.12" y="116.84" smashed="yes">
 <attribute name="NAME" x="70.6374" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D024" gate="G$1" x="71.12" y="142.24" smashed="yes">
 <attribute name="NAME" x="70.6374" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D026" gate="G$1" x="71.12" y="167.64" smashed="yes">
 <attribute name="NAME" x="70.6374" y="170.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D028" gate="G$1" x="71.12" y="193.04" smashed="yes">
 <attribute name="NAME" x="70.6374" y="195.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="71.12" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D029" gate="G$1" x="81.28" y="27.94" smashed="yes">
 <attribute name="NAME" x="80.7974" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="81.28" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D030" gate="G$1" x="88.9" y="40.64" smashed="yes">
 <attribute name="NAME" x="88.4174" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="88.9" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D031" gate="G$1" x="96.52" y="53.34" smashed="yes">
 <attribute name="NAME" x="96.0374" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="96.52" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D032" gate="G$1" x="81.28" y="66.04" smashed="yes">
 <attribute name="NAME" x="80.7974" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="81.28" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D033" gate="G$1" x="88.9" y="78.74" smashed="yes">
 <attribute name="NAME" x="88.4174" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="88.9" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D034" gate="G$1" x="96.52" y="91.44" smashed="yes">
 <attribute name="NAME" x="96.0374" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="96.52" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D035" gate="G$1" x="81.28" y="104.14" smashed="yes">
 <attribute name="NAME" x="80.7974" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="81.28" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D036" gate="G$1" x="88.9" y="116.84" smashed="yes">
 <attribute name="NAME" x="88.4174" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D037" gate="G$1" x="96.52" y="129.54" smashed="yes">
 <attribute name="NAME" x="96.0374" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="96.52" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D038" gate="G$1" x="81.28" y="142.24" smashed="yes">
 <attribute name="NAME" x="80.7974" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="81.28" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D039" gate="G$1" x="88.9" y="154.94" smashed="yes">
 <attribute name="NAME" x="88.4174" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="88.9" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D040" gate="G$1" x="96.52" y="167.64" smashed="yes">
 <attribute name="NAME" x="96.0374" y="170.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D041" gate="G$1" x="81.28" y="180.34" smashed="yes">
 <attribute name="NAME" x="80.7974" y="182.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="81.28" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D042" gate="G$1" x="106.68" y="27.94" smashed="yes">
 <attribute name="NAME" x="106.1974" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="106.68" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D043" gate="G$1" x="114.3" y="40.64" smashed="yes">
 <attribute name="NAME" x="113.8174" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="114.3" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D044" gate="G$1" x="121.92" y="53.34" smashed="yes">
 <attribute name="NAME" x="121.4374" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="121.92" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D045" gate="G$1" x="129.54" y="66.04" smashed="yes">
 <attribute name="NAME" x="129.0574" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="129.54" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D046" gate="G$1" x="106.68" y="78.74" smashed="yes">
 <attribute name="NAME" x="106.1974" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="106.68" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D047" gate="G$1" x="114.3" y="91.44" smashed="yes">
 <attribute name="NAME" x="113.8174" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="114.3" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D048" gate="G$1" x="121.92" y="104.14" smashed="yes">
 <attribute name="NAME" x="121.4374" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="121.92" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D049" gate="G$1" x="129.54" y="116.84" smashed="yes">
 <attribute name="NAME" x="129.0574" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="129.54" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D050" gate="G$1" x="106.68" y="129.54" smashed="yes">
 <attribute name="NAME" x="106.1974" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="106.68" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D051" gate="G$1" x="114.3" y="142.24" smashed="yes">
 <attribute name="NAME" x="113.8174" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="114.3" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D052" gate="G$1" x="121.92" y="154.94" smashed="yes">
 <attribute name="NAME" x="121.4374" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="121.92" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D053" gate="G$1" x="129.54" y="167.64" smashed="yes">
 <attribute name="NAME" x="129.0574" y="170.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="129.54" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D054" gate="G$1" x="139.7" y="27.94" smashed="yes">
 <attribute name="NAME" x="139.2174" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="139.7" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D055" gate="G$1" x="147.32" y="40.64" smashed="yes">
 <attribute name="NAME" x="146.8374" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="147.32" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D056" gate="G$1" x="154.94" y="53.34" smashed="yes">
 <attribute name="NAME" x="154.4574" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="154.94" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D057" gate="G$1" x="162.56" y="66.04" smashed="yes">
 <attribute name="NAME" x="162.0774" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="162.56" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D058" gate="G$1" x="170.18" y="78.74" smashed="yes">
 <attribute name="NAME" x="169.6974" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="170.18" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D059" gate="G$1" x="139.7" y="91.44" smashed="yes">
 <attribute name="NAME" x="139.2174" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="139.7" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D100" gate="G$1" x="147.32" y="104.14" smashed="yes">
 <attribute name="NAME" x="146.8374" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="147.32" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D101" gate="G$1" x="154.94" y="116.84" smashed="yes">
 <attribute name="NAME" x="154.4574" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="154.94" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D102" gate="G$1" x="162.56" y="129.54" smashed="yes">
 <attribute name="NAME" x="162.0774" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="162.56" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D103" gate="G$1" x="170.18" y="142.24" smashed="yes">
 <attribute name="NAME" x="169.6974" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="170.18" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D104" gate="G$1" x="139.7" y="154.94" smashed="yes">
 <attribute name="NAME" x="139.2174" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="139.7" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D105" gate="G$1" x="180.34" y="27.94" smashed="yes">
 <attribute name="NAME" x="179.8574" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="180.34" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D106" gate="G$1" x="187.96" y="40.64" smashed="yes">
 <attribute name="NAME" x="187.4774" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="187.96" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D107" gate="G$1" x="195.58" y="53.34" smashed="yes">
 <attribute name="NAME" x="195.0974" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="195.58" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D108" gate="G$1" x="203.2" y="66.04" smashed="yes">
 <attribute name="NAME" x="202.7174" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="203.2" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D109" gate="G$1" x="210.82" y="78.74" smashed="yes">
 <attribute name="NAME" x="210.3374" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="210.82" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D110" gate="G$1" x="218.44" y="91.44" smashed="yes">
 <attribute name="NAME" x="217.9574" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="218.44" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D111" gate="G$1" x="180.34" y="104.14" smashed="yes">
 <attribute name="NAME" x="179.8574" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="180.34" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D112" gate="G$1" x="187.96" y="116.84" smashed="yes">
 <attribute name="NAME" x="187.4774" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="187.96" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D113" gate="G$1" x="195.58" y="129.54" smashed="yes">
 <attribute name="NAME" x="195.0974" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="195.58" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D114" gate="G$1" x="203.2" y="142.24" smashed="yes">
 <attribute name="NAME" x="202.7174" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="203.2" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D115" gate="G$1" x="228.6" y="27.94" smashed="yes">
 <attribute name="NAME" x="228.1174" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="228.6" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D116" gate="G$1" x="236.22" y="40.64" smashed="yes">
 <attribute name="NAME" x="235.7374" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D117" gate="G$1" x="243.84" y="53.34" smashed="yes">
 <attribute name="NAME" x="243.3574" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="243.84" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D118" gate="G$1" x="251.46" y="66.04" smashed="yes">
 <attribute name="NAME" x="250.9774" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="251.46" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D119" gate="G$1" x="259.08" y="78.74" smashed="yes">
 <attribute name="NAME" x="258.5974" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="259.08" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D120" gate="G$1" x="266.7" y="91.44" smashed="yes">
 <attribute name="NAME" x="266.2174" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="266.7" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D121" gate="G$1" x="274.32" y="104.14" smashed="yes">
 <attribute name="NAME" x="273.8374" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="274.32" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D122" gate="G$1" x="228.6" y="116.84" smashed="yes">
 <attribute name="NAME" x="228.1174" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="228.6" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D123" gate="G$1" x="236.22" y="129.54" smashed="yes">
 <attribute name="NAME" x="235.7374" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="236.22" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D124" gate="G$1" x="284.48" y="27.94" smashed="yes">
 <attribute name="NAME" x="283.9974" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="284.48" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D125" gate="G$1" x="292.1" y="40.64" smashed="yes">
 <attribute name="NAME" x="291.6174" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="292.1" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D126" gate="G$1" x="299.72" y="53.34" smashed="yes">
 <attribute name="NAME" x="299.2374" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="299.72" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D127" gate="G$1" x="307.34" y="66.04" smashed="yes">
 <attribute name="NAME" x="306.8574" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="307.34" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D128" gate="G$1" x="314.96" y="78.74" smashed="yes">
 <attribute name="NAME" x="314.4774" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="314.96" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D129" gate="G$1" x="322.58" y="91.44" smashed="yes">
 <attribute name="NAME" x="322.0974" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="322.58" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D130" gate="G$1" x="330.2" y="104.14" smashed="yes">
 <attribute name="NAME" x="329.7174" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="330.2" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D131" gate="G$1" x="337.82" y="116.84" smashed="yes">
 <attribute name="NAME" x="337.3374" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="337.82" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D132" gate="G$1" x="347.98" y="27.94" smashed="yes">
 <attribute name="NAME" x="347.4974" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="347.98" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D133" gate="G$1" x="355.6" y="40.64" smashed="yes">
 <attribute name="NAME" x="355.1174" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="355.6" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D134" gate="G$1" x="363.22" y="53.34" smashed="yes">
 <attribute name="NAME" x="362.7374" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="363.22" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D135" gate="G$1" x="370.84" y="66.04" smashed="yes">
 <attribute name="NAME" x="370.3574" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="370.84" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D136" gate="G$1" x="378.46" y="78.74" smashed="yes">
 <attribute name="NAME" x="377.9774" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="378.46" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D137" gate="G$1" x="386.08" y="91.44" smashed="yes">
 <attribute name="NAME" x="385.5974" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="386.08" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D138" gate="G$1" x="393.7" y="104.14" smashed="yes">
 <attribute name="NAME" x="393.2174" y="106.68" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="393.7" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D139" gate="G$1" x="403.86" y="27.94" smashed="yes">
 <attribute name="NAME" x="403.3774" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="403.86" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D140" gate="G$1" x="411.48" y="40.64" smashed="yes">
 <attribute name="NAME" x="410.9974" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="411.48" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D141" gate="G$1" x="419.1" y="53.34" smashed="yes">
 <attribute name="NAME" x="418.6174" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="419.1" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D142" gate="G$1" x="426.72" y="66.04" smashed="yes">
 <attribute name="NAME" x="426.2374" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="426.72" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D143" gate="G$1" x="434.34" y="78.74" smashed="yes">
 <attribute name="NAME" x="433.8574" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="434.34" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D144" gate="G$1" x="441.96" y="91.44" smashed="yes">
 <attribute name="NAME" x="441.4774" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="441.96" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D154" gate="G$1" x="525.78" y="27.94" smashed="yes">
 <attribute name="NAME" x="525.2974" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="525.78" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D155" gate="G$1" x="533.4" y="40.64" smashed="yes">
 <attribute name="NAME" x="532.9174" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="533.4" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D156" gate="G$1" x="541.02" y="53.34" smashed="yes">
 <attribute name="NAME" x="540.5374" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="541.02" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D150" gate="G$1" x="492.76" y="27.94" smashed="yes">
 <attribute name="NAME" x="492.2774" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="492.76" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D151" gate="G$1" x="500.38" y="40.64" smashed="yes">
 <attribute name="NAME" x="499.8974" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="500.38" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D152" gate="G$1" x="508" y="53.34" smashed="yes">
 <attribute name="NAME" x="507.5174" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="508" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D153" gate="G$1" x="515.62" y="66.04" smashed="yes">
 <attribute name="NAME" x="515.1374" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="515.62" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D145" gate="G$1" x="452.12" y="27.94" smashed="yes">
 <attribute name="NAME" x="451.6374" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="452.12" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D146" gate="G$1" x="459.74" y="40.64" smashed="yes">
 <attribute name="NAME" x="459.2574" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="459.74" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D147" gate="G$1" x="467.36" y="53.34" smashed="yes">
 <attribute name="NAME" x="466.8774" y="55.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="467.36" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D148" gate="G$1" x="474.98" y="66.04" smashed="yes">
 <attribute name="NAME" x="474.4974" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="474.98" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D149" gate="G$1" x="482.6" y="78.74" smashed="yes">
 <attribute name="NAME" x="482.1174" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="482.6" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D157" gate="G$1" x="551.18" y="27.94" smashed="yes">
 <attribute name="NAME" x="550.6974" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="551.18" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D158" gate="G$1" x="558.8" y="40.64" smashed="yes">
 <attribute name="NAME" x="558.3174" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="558.8" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D159" gate="G$1" x="568.96" y="27.94" smashed="yes">
 <attribute name="NAME" x="568.4774" y="30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="DIGIKEY" x="568.96" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+2" gate="1" x="-175.26" y="170.18"/>
-<instance part="C010" gate="G$1" x="-190.5" y="162.56"/>
+<instance part="C010" gate="G$1" x="-190.5" y="162.56">
+<attribute name="DIGIKEY" x="-190.5" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="-198.12" y="152.4" rot="MR0"/>
 <instance part="P+1" gate="1" x="-76.2" y="101.6"/>
-<instance part="C407" gate="G$1" x="-254" y="93.98" rot="R90"/>
-<instance part="C408" gate="G$1" x="-254" y="78.74" rot="R90"/>
+<instance part="C407" gate="G$1" x="-254" y="93.98" rot="R90">
+<attribute name="DIGIKEY" x="-254" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C408" gate="G$1" x="-254" y="78.74" rot="R90">
+<attribute name="DIGIKEY" x="-254" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="-261.62" y="53.34"/>
-<instance part="Y401" gate="G$1" x="-261.62" y="91.44" rot="R270"/>
+<instance part="Y401" gate="G$1" x="-261.62" y="91.44" rot="R270">
+<attribute name="DIGIKEY" x="-261.62" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y401" gate="G$2" x="-261.62" y="88.9" rot="R270"/>
 <instance part="Y401" gate="G$3" x="-246.38" y="86.36" rot="R270"/>
-<instance part="J001" gate="G$1" x="-215.9" y="172.72" rot="MR180"/>
-<instance part="J002" gate="G$1" x="-203.2" y="172.72" rot="MR180"/>
-<instance part="S429" gate="S" x="-261.62" y="119.38"/>
+<instance part="J001" gate="G$1" x="-215.9" y="172.72" rot="MR180">
+<attribute name="DIGIKEY" x="-215.9" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J002" gate="G$1" x="-203.2" y="172.72" rot="MR180">
+<attribute name="DIGIKEY" x="-203.2" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S429" gate="S" x="-261.62" y="119.38">
+<attribute name="DIGIKEY" x="-261.62" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="S429" gate="G" x="-271.78" y="119.38"/>
-<instance part="J406" gate="G$1" x="20.32" y="12.7" rot="R90"/>
-<instance part="J405" gate="G$1" x="0" y="12.7" rot="R90"/>
-<instance part="U401" gate="G$1" x="-210.82" y="93.98"/>
-<instance part="U501" gate="G$1" x="-137.16" y="99.06"/>
-<instance part="C420" gate="G$1" x="-241.3" y="104.14" rot="R270"/>
-<instance part="C502" gate="G$1" x="-114.3" y="104.14" rot="R270"/>
+<instance part="J406" gate="G$1" x="20.32" y="12.7" rot="R90">
+<attribute name="DIGIKEY" x="20.32" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J405" gate="G$1" x="0" y="12.7" rot="R90">
+<attribute name="DIGIKEY" x="0" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U401" gate="G$1" x="-210.82" y="93.98">
+<attribute name="DIGIKEY" x="-210.82" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U501" gate="G$1" x="-137.16" y="99.06">
+<attribute name="DIGIKEY" x="-137.16" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C420" gate="G$1" x="-241.3" y="104.14" rot="R270">
+<attribute name="DIGIKEY" x="-241.3" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C502" gate="G$1" x="-114.3" y="104.14" rot="R270">
+<attribute name="DIGIKEY" x="-114.3" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+6" gate="1" x="-243.84" y="132.08"/>
 <instance part="P+7" gate="1" x="-154.94" y="121.92"/>
 <instance part="GND2" gate="1" x="-154.94" y="73.66"/>
-<instance part="D501" gate="G$1" x="-86.36" y="96.52"/>
-<instance part="D502" gate="G$1" x="-76.2" y="96.52"/>
-<instance part="R501" gate="G$1" x="-99.06" y="91.44" rot="MR180"/>
-<instance part="R502" gate="G$1" x="-111.76" y="88.9" rot="MR180"/>
-<instance part="C418" gate="G$1" x="-246.38" y="109.22" rot="R90"/>
-<instance part="J003" gate="G$1" x="-259.08" y="33.02" rot="MR180"/>
+<instance part="D501" gate="G$1" x="-86.36" y="96.52">
+<attribute name="DIGIKEY" x="-86.36" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D502" gate="G$1" x="-76.2" y="96.52">
+<attribute name="DIGIKEY" x="-76.2" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R501" gate="G$1" x="-99.06" y="91.44" rot="MR180">
+<attribute name="DIGIKEY" x="-99.06" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R502" gate="G$1" x="-111.76" y="88.9" rot="MR180">
+<attribute name="DIGIKEY" x="-111.76" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C418" gate="G$1" x="-246.38" y="109.22" rot="R90">
+<attribute name="DIGIKEY" x="-246.38" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J003" gate="G$1" x="-259.08" y="33.02" rot="MR180">
+<attribute name="DIGIKEY" x="-259.08" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+3" gate="1" x="-233.68" y="35.56"/>
 <instance part="GND1" gate="1" x="-233.68" y="30.48"/>
-<instance part="J005" gate="G$1" x="-274.32" y="33.02" rot="MR180"/>
-<instance part="U602" gate="G$1" x="-312.42" y="81.28"/>
+<instance part="J005" gate="G$1" x="-274.32" y="33.02" rot="MR180">
+<attribute name="DIGIKEY" x="-274.32" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U602" gate="G$1" x="-312.42" y="81.28">
+<attribute name="DIGIKEY" x="-312.42" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="-340.36" y="78.74"/>
 <instance part="P+8" gate="1" x="-289.56" y="91.44"/>
-<instance part="R606" gate="A" x="-294.64" y="91.44" rot="R180"/>
+<instance part="R606" gate="A" x="-294.64" y="91.44" rot="R180">
+<attribute name="DIGIKEY" x="-294.64" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R606" gate="D" x="-243.84" y="124.46" rot="R270"/>
-<instance part="JP1" gate="G$1" x="-226.06" y="137.16"/>
-<instance part="JP2" gate="G$1" x="-220.98" y="137.16"/>
-<instance part="JP3" gate="G$1" x="-215.9" y="137.16"/>
-<instance part="JP4" gate="G$1" x="-210.82" y="137.16"/>
-<instance part="J004" gate="G$1" x="-162.56" y="160.02" rot="R180"/>
-<instance part="JP5" gate="G$1" x="-160.02" y="149.86" rot="R180"/>
+<instance part="JP1" gate="G$1" x="-226.06" y="137.16">
+<attribute name="DIGIKEY" x="-226.06" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="-220.98" y="137.16">
+<attribute name="DIGIKEY" x="-220.98" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP3" gate="G$1" x="-215.9" y="137.16">
+<attribute name="DIGIKEY" x="-215.9" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP4" gate="G$1" x="-210.82" y="137.16">
+<attribute name="DIGIKEY" x="-210.82" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J004" gate="G$1" x="-162.56" y="160.02" rot="R180">
+<attribute name="DIGIKEY" x="-162.56" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP5" gate="G$1" x="-160.02" y="149.86" rot="R180">
+<attribute name="DIGIKEY" x="-160.02" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D200" gate="G$1" x="53.34" y="0">
+<attribute name="DIGIKEY" x="53.34" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D201" gate="G$1" x="63.5" y="0">
+<attribute name="DIGIKEY" x="63.5" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D202" gate="G$1" x="73.66" y="0">
+<attribute name="DIGIKEY" x="73.66" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D203" gate="G$1" x="83.82" y="0">
+<attribute name="DIGIKEY" x="83.82" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D204" gate="G$1" x="93.98" y="0">
+<attribute name="DIGIKEY" x="93.98" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D205" gate="G$1" x="104.14" y="0">
+<attribute name="DIGIKEY" x="104.14" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D206" gate="G$1" x="114.3" y="0">
+<attribute name="DIGIKEY" x="114.3" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D207" gate="G$1" x="124.46" y="0">
+<attribute name="DIGIKEY" x="124.46" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D208" gate="G$1" x="134.62" y="0">
+<attribute name="DIGIKEY" x="134.62" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D209" gate="G$1" x="144.78" y="0">
+<attribute name="DIGIKEY" x="144.78" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D210" gate="G$1" x="154.94" y="0">
+<attribute name="DIGIKEY" x="154.94" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D211" gate="G$1" x="165.1" y="0">
+<attribute name="DIGIKEY" x="165.1" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D212" gate="G$1" x="175.26" y="0">
+<attribute name="DIGIKEY" x="175.26" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D213" gate="G$1" x="185.42" y="0">
+<attribute name="DIGIKEY" x="185.42" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D214" gate="G$1" x="195.58" y="0">
+<attribute name="DIGIKEY" x="195.58" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D215" gate="G$1" x="205.74" y="0">
+<attribute name="DIGIKEY" x="205.74" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D216" gate="G$1" x="215.9" y="0">
+<attribute name="DIGIKEY" x="215.9" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D217" gate="G$1" x="226.06" y="0">
+<attribute name="DIGIKEY" x="226.06" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D218" gate="G$1" x="236.22" y="0">
+<attribute name="DIGIKEY" x="236.22" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D219" gate="G$1" x="246.38" y="0">
+<attribute name="DIGIKEY" x="246.38" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D220" gate="G$1" x="256.54" y="0">
+<attribute name="DIGIKEY" x="256.54" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D221" gate="G$1" x="266.7" y="0">
+<attribute name="DIGIKEY" x="266.7" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D222" gate="G$1" x="276.86" y="0">
+<attribute name="DIGIKEY" x="276.86" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D223" gate="G$1" x="287.02" y="0">
+<attribute name="DIGIKEY" x="287.02" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D224" gate="G$1" x="297.18" y="0">
+<attribute name="DIGIKEY" x="297.18" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D225" gate="G$1" x="307.34" y="0">
+<attribute name="DIGIKEY" x="307.34" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D226" gate="G$1" x="317.5" y="0">
+<attribute name="DIGIKEY" x="317.5" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D227" gate="G$1" x="327.66" y="0">
+<attribute name="DIGIKEY" x="327.66" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D228" gate="G$1" x="337.82" y="0">
+<attribute name="DIGIKEY" x="337.82" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D229" gate="G$1" x="347.98" y="0">
+<attribute name="DIGIKEY" x="347.98" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D230" gate="G$1" x="358.14" y="0">
+<attribute name="DIGIKEY" x="358.14" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D231" gate="G$1" x="368.3" y="0">
+<attribute name="DIGIKEY" x="368.3" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D232" gate="G$1" x="378.46" y="0">
+<attribute name="DIGIKEY" x="378.46" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D233" gate="G$1" x="388.62" y="0">
+<attribute name="DIGIKEY" x="388.62" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D234" gate="G$1" x="398.78" y="0">
+<attribute name="DIGIKEY" x="398.78" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D235" gate="G$1" x="408.94" y="0">
+<attribute name="DIGIKEY" x="408.94" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D236" gate="G$1" x="419.1" y="0">
+<attribute name="DIGIKEY" x="419.1" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D237" gate="G$1" x="429.26" y="0">
+<attribute name="DIGIKEY" x="429.26" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D238" gate="G$1" x="439.42" y="0">
+<attribute name="DIGIKEY" x="439.42" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D239" gate="G$1" x="449.58" y="0">
+<attribute name="DIGIKEY" x="449.58" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D240" gate="G$1" x="459.74" y="0">
+<attribute name="DIGIKEY" x="459.74" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D241" gate="G$1" x="469.9" y="0">
+<attribute name="DIGIKEY" x="469.9" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D242" gate="G$1" x="480.06" y="0">
+<attribute name="DIGIKEY" x="480.06" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D243" gate="G$1" x="490.22" y="0">
+<attribute name="DIGIKEY" x="490.22" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D244" gate="G$1" x="500.38" y="0">
+<attribute name="DIGIKEY" x="500.38" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D245" gate="G$1" x="510.54" y="0">
+<attribute name="DIGIKEY" x="510.54" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D246" gate="G$1" x="520.7" y="0">
+<attribute name="DIGIKEY" x="520.7" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D247" gate="G$1" x="530.86" y="0">
+<attribute name="DIGIKEY" x="530.86" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D248" gate="G$1" x="541.02" y="0">
+<attribute name="DIGIKEY" x="541.02" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D249" gate="G$1" x="551.18" y="0">
+<attribute name="DIGIKEY" x="551.18" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D250" gate="G$1" x="561.34" y="0">
+<attribute name="DIGIKEY" x="561.34" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D251" gate="G$1" x="571.5" y="0">
+<attribute name="DIGIKEY" x="571.5" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D252" gate="G$1" x="581.66" y="0">
+<attribute name="DIGIKEY" x="581.66" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D253" gate="G$1" x="591.82" y="0">
+<attribute name="DIGIKEY" x="591.82" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D254" gate="G$1" x="601.98" y="0">
+<attribute name="DIGIKEY" x="601.98" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D255" gate="G$1" x="612.14" y="0">
+<attribute name="DIGIKEY" x="612.14" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D256" gate="G$1" x="622.3" y="0">
+<attribute name="DIGIKEY" x="622.3" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D257" gate="G$1" x="632.46" y="0">
+<attribute name="DIGIKEY" x="632.46" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D258" gate="G$1" x="642.62" y="0">
+<attribute name="DIGIKEY" x="642.62" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D259" gate="G$1" x="652.78" y="0">
+<attribute name="DIGIKEY" x="652.78" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D300" gate="G$1" x="53.34" y="-12.7">
+<attribute name="DIGIKEY" x="53.34" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D301" gate="G$1" x="63.5" y="-12.7">
+<attribute name="DIGIKEY" x="63.5" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D302" gate="G$1" x="73.66" y="-12.7">
+<attribute name="DIGIKEY" x="73.66" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D303" gate="G$1" x="83.82" y="-12.7">
+<attribute name="DIGIKEY" x="83.82" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D304" gate="G$1" x="93.98" y="-12.7">
+<attribute name="DIGIKEY" x="93.98" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D305" gate="G$1" x="104.14" y="-12.7">
+<attribute name="DIGIKEY" x="104.14" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D306" gate="G$1" x="114.3" y="-12.7">
+<attribute name="DIGIKEY" x="114.3" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D307" gate="G$1" x="124.46" y="-12.7">
+<attribute name="DIGIKEY" x="124.46" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D308" gate="G$1" x="134.62" y="-12.7">
+<attribute name="DIGIKEY" x="134.62" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D309" gate="G$1" x="144.78" y="-12.7">
+<attribute name="DIGIKEY" x="144.78" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D310" gate="G$1" x="154.94" y="-12.7">
+<attribute name="DIGIKEY" x="154.94" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D311" gate="G$1" x="165.1" y="-12.7">
+<attribute name="DIGIKEY" x="165.1" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D312" gate="G$1" x="175.26" y="-12.7">
+<attribute name="DIGIKEY" x="175.26" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D313" gate="G$1" x="185.42" y="-12.7">
+<attribute name="DIGIKEY" x="185.42" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D314" gate="G$1" x="195.58" y="-12.7">
+<attribute name="DIGIKEY" x="195.58" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D315" gate="G$1" x="205.74" y="-12.7">
+<attribute name="DIGIKEY" x="205.74" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D316" gate="G$1" x="215.9" y="-12.7">
+<attribute name="DIGIKEY" x="215.9" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D317" gate="G$1" x="226.06" y="-12.7">
+<attribute name="DIGIKEY" x="226.06" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D318" gate="G$1" x="236.22" y="-12.7">
+<attribute name="DIGIKEY" x="236.22" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D319" gate="G$1" x="246.38" y="-12.7">
+<attribute name="DIGIKEY" x="246.38" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D320" gate="G$1" x="256.54" y="-12.7">
+<attribute name="DIGIKEY" x="256.54" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D321" gate="G$1" x="266.7" y="-12.7">
+<attribute name="DIGIKEY" x="266.7" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D322" gate="G$1" x="276.86" y="-12.7">
+<attribute name="DIGIKEY" x="276.86" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D323" gate="G$1" x="287.02" y="-12.7">
+<attribute name="DIGIKEY" x="287.02" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D324" gate="G$1" x="297.18" y="-12.7">
+<attribute name="DIGIKEY" x="297.18" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D325" gate="G$1" x="307.34" y="-12.7">
+<attribute name="DIGIKEY" x="307.34" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D326" gate="G$1" x="317.5" y="-12.7">
+<attribute name="DIGIKEY" x="317.5" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D327" gate="G$1" x="327.66" y="-12.7">
+<attribute name="DIGIKEY" x="327.66" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D328" gate="G$1" x="337.82" y="-12.7">
+<attribute name="DIGIKEY" x="337.82" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D329" gate="G$1" x="347.98" y="-12.7">
+<attribute name="DIGIKEY" x="347.98" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D330" gate="G$1" x="358.14" y="-12.7">
+<attribute name="DIGIKEY" x="358.14" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D331" gate="G$1" x="368.3" y="-12.7">
+<attribute name="DIGIKEY" x="368.3" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D332" gate="G$1" x="378.46" y="-12.7">
+<attribute name="DIGIKEY" x="378.46" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D333" gate="G$1" x="388.62" y="-12.7">
+<attribute name="DIGIKEY" x="388.62" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D334" gate="G$1" x="398.78" y="-12.7">
+<attribute name="DIGIKEY" x="398.78" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D335" gate="G$1" x="408.94" y="-12.7">
+<attribute name="DIGIKEY" x="408.94" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D336" gate="G$1" x="419.1" y="-12.7">
+<attribute name="DIGIKEY" x="419.1" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D337" gate="G$1" x="429.26" y="-12.7">
+<attribute name="DIGIKEY" x="429.26" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D338" gate="G$1" x="439.42" y="-12.7">
+<attribute name="DIGIKEY" x="439.42" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D339" gate="G$1" x="449.58" y="-12.7">
+<attribute name="DIGIKEY" x="449.58" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D340" gate="G$1" x="459.74" y="-12.7">
+<attribute name="DIGIKEY" x="459.74" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D341" gate="G$1" x="469.9" y="-12.7">
+<attribute name="DIGIKEY" x="469.9" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D342" gate="G$1" x="480.06" y="-12.7">
+<attribute name="DIGIKEY" x="480.06" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D343" gate="G$1" x="490.22" y="-12.7">
+<attribute name="DIGIKEY" x="490.22" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D344" gate="G$1" x="500.38" y="-12.7">
+<attribute name="DIGIKEY" x="500.38" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D345" gate="G$1" x="510.54" y="-12.7">
+<attribute name="DIGIKEY" x="510.54" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D346" gate="G$1" x="520.7" y="-12.7">
+<attribute name="DIGIKEY" x="520.7" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D347" gate="G$1" x="530.86" y="-12.7">
+<attribute name="DIGIKEY" x="530.86" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D348" gate="G$1" x="541.02" y="-12.7">
+<attribute name="DIGIKEY" x="541.02" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D349" gate="G$1" x="551.18" y="-12.7">
+<attribute name="DIGIKEY" x="551.18" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D350" gate="G$1" x="561.34" y="-12.7">
+<attribute name="DIGIKEY" x="561.34" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D351" gate="G$1" x="571.5" y="-12.7">
+<attribute name="DIGIKEY" x="571.5" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D352" gate="G$1" x="581.66" y="-12.7">
+<attribute name="DIGIKEY" x="581.66" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D353" gate="G$1" x="591.82" y="-12.7">
+<attribute name="DIGIKEY" x="591.82" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D354" gate="G$1" x="601.98" y="-12.7">
+<attribute name="DIGIKEY" x="601.98" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D355" gate="G$1" x="612.14" y="-12.7">
+<attribute name="DIGIKEY" x="612.14" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D356" gate="G$1" x="622.3" y="-12.7">
+<attribute name="DIGIKEY" x="622.3" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D357" gate="G$1" x="632.46" y="-12.7">
+<attribute name="DIGIKEY" x="632.46" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D358" gate="G$1" x="642.62" y="-12.7">
+<attribute name="DIGIKEY" x="642.62" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D359" gate="G$1" x="652.78" y="-12.7">
+<attribute name="DIGIKEY" x="652.78" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5156,7 +6633,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="53.34" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="35.56" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="17.78" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <junction x="53.34" y="35.56"/>
 <junction x="71.12" y="35.56"/>
 <junction x="88.9" y="35.56"/>
@@ -5189,6 +6665,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="R1" gate="B" pin="2"/>
 <pinref part="D000" gate="G$1" pin="A"/>
 <pinref part="J406" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Q03" class="0">
