@@ -1,2 +1,10 @@
 *.b#?
 *.s#?
+*.l#?
+*.bat
+*.mpd
+*.png
+*.pov
+*.pov.none.txt
+*.pro
+*.bak

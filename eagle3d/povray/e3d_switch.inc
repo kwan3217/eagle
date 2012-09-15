@@ -1530,7 +1530,7 @@ union
 // dia_top = Durchmesser des Tasters am oberen Ende
 // Benutzt Makro "IC_SMD_PIN" aus "ic.inc"
 ********************************************************************************************************************************************/
-#macro SWITCH_PUSH_BUTTON_B3U_GRND(height,dia_top)
+#macro SWITCH_PUSH_BUTTON_B3U_GRND(height,dia_top,has_gnd)
 
 union
 {
@@ -1542,13 +1542,17 @@ union
 	cylinder {<0, height-0.2,0><0, height,0>,dia_top/2-0.2}
 	box {< 1.5,0,-0.7>,< 2,0.1,0.7> texture{col_silver}}
 	box {<-1.5,0,-0.7>,<-2,0.1,0.7> texture{col_silver}}
-	box {<-0.25,0,-1.25>,<0.25,0.1,-1.9> texture {col_silver}}
+	#if(has_gnd) box {<-0.25,0,-1.25>,<0.25,0.1,-1.9> texture {col_silver}} #end
 	pigment{Gray30}
 }
 #end
 
 #macro SWITCH_PUSH_BUTTON_B3U_1100()
-SWITCH_PUSH_BUTTON_B3U_GRND(1.6,1.5)
+SWITCH_PUSH_BUTTON_B3U_GRND(1.6,1.5,1)
+#end
+
+#macro SWITCH_PUSH_BUTTON_B3U_1000()
+SWITCH_PUSH_BUTTON_B3U_GRND(1.6,1.5,0)
 #end
 
 #macro SWITCH_DPDT_AZY020()

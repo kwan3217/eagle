@@ -2141,7 +2141,7 @@ JP10Q:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:CON_PH_2X10J(:
 1X12:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI(12,:Stiftleiste 2,54mm Raster 12Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 12Pin 1Row (jumper.lib)
 1X13:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI(13,:Stiftleiste 2,54mm Raster 13Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 13Pin 1Row (jumper.lib)
 1X14:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_1X14(:Stiftleiste 2,54mm Raster 14Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 14Pin 1Row (jumper.lib)
-1X15:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_1X15(:Stiftleiste 2,54mm Raster 15Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 15Pin 1Row (jumper.lib)
+1X15:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI(15,:Stiftleiste 2,54mm Raster 15Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 15Pin 1Row (jumper.lib)
 1X16:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_1X16(:Stiftleiste 2,54mm Raster 16Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 16Pin 1Row (jumper.lib)
 1X17:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_1X17(:Stiftleiste 2,54mm Raster 17Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 17Pin 1Row (jumper.lib)
 1X18:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_1X18(:Stiftleiste 2,54mm Raster 18Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 18Pin 1Row (jumper.lib)
@@ -2466,13 +2466,15 @@ SC-70-6:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_SC70_
 LSSOP-28;SSOP28DB:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_SSOP_28(:SC-70-6:
 BMP085:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_BMP085(:TQFP-64:
 BMP180:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_BMP180(:TQFP-64:
-CRYSTAL_SMD:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:IC_SMD_7MCRYSTAL(:TQFP-64:
+CRYSTAL_SMD:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:IC_SMD_CRYSTAL(3.2,2.5,:TQFP-64:
+CRYSTAL_SMD_2MM_2_5MM:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:IC_SMD_CRYSTAL(2.5,2.0,:TQFP-64:
 LGA14:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_ADXL345(:TQFP-64:
 LGA16-4X4:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_L3G4200D(:TQFP-64:
 16LPCC:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_HMC5883(:TQFP-64:
 MPU60X0:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_MPU60X0(:TQFP-64:
 MICRO-SD-SOCKET-PP;MICROSD-SOCKET-PP:0:1:0:1:0:0:0:0:0:0:0:0:0:-90:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:MicroSD(:SMD Kondensator 0603:SMD Capacitor 0603
 B3U-1100P:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:SWITCH_PUSH_BUTTON_B3U_1100(:SMD Kondensator 0402:SMD Capacitor 0402
+B3U-1000P:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:SWITCH_PUSH_BUTTON_B3U_1000(:SMD Kondensator 0402:SMD Capacitor 0402
 AYZ0202:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:SWITCH_DPDT_AZY020(:SMD Kondensator 0402:SMD Capacitor 0402
 GM5WA94310A:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:DIODE_SMD_LED_PLCC6(:SMD-LED im PLCC6:
 HSMF-C118:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:DIODE_SMD_LED_PLCC4(:SMD-LED im PLCC4:
