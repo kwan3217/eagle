@@ -2763,38 +2763,90 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </class>
 </classes>
 <parts>
-<part name="U001" library="SparkFun-DigitalIC" deviceset="FT232RL" device="SSOP"/>
-<part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device=""/>
-<part name="U401" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device="" value="ATMEGA328P"/>
-<part name="C420" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
-<part name="C404" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
-<part name="C406" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
+<part name="U001" library="SparkFun-DigitalIC" deviceset="FT232RL" device="SSOP">
+<attribute name="DIGIKEY" value="768-1007-1-ND"/>
+</part>
+<part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device="">
+<attribute name="DIGIKEY" value="455-2562-1-ND"/>
+</part>
+<part name="U401" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device="" value="ATMEGA328P">
+<attribute name="DIGIKEY" value="ATMEGA328P-15AZCT-ND"/>
+</part>
+<part name="C420" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+</part>
+<part name="C404" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+</part>
+<part name="C406" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+</part>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="C002" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
+<part name="C002" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+</part>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="R001" library="KwanSystems" deviceset="RP4" device="04" value="680"/>
-<part name="D401" library="SparkFun-LED" deviceset="LED" device="0603" value="green"/>
-<part name="D001" library="SparkFun-LED" deviceset="LED" device="0603" value="blue"/>
-<part name="D002" library="SparkFun-LED" deviceset="LED" device="0603" value="red"/>
-<part name="D402" library="SparkFun-LED" deviceset="LED" device="0603" value="amber"/>
+<part name="R001" library="KwanSystems" deviceset="RP4" device="04" value="680">
+<attribute name="DIGIKEY" value="CRA4S8680CT-ND"/>
+</part>
+<part name="D401" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DIGIKEY" value="350-2036-1-ND"/>
+</part>
+<part name="D001" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<attribute name="DIGIKEY" value="350-2037-1-ND"/>
+</part>
+<part name="D002" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<attribute name="DIGIKEY" value="754-1359-1-ND"/>
+</part>
+<part name="D402" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
+<attribute name="DIGIKEY" value="754-1124-1-ND"/>
+</part>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
-<part name="J002" library="SparkFun-Connectors" deviceset="M15" device=""/>
-<part name="J003" library="SparkFun-Connectors" deviceset="M15" device=""/>
-<part name="C418" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
-<part name="R429" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
-<part name="C407" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF"/>
-<part name="C408" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF"/>
-<part name="Y401" library="KwanSystems" deviceset="CX2520" device="" value="16MHz"/>
-<part name="S429" library="KwanSystems" deviceset="B3U-1000P" device="" value=""/>
-<part name="U201" library="KwanSystems" deviceset="MAX8881" device=""/>
-<part name="C203" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C201" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="J002" library="SparkFun-Connectors" deviceset="M15" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="J003" library="SparkFun-Connectors" deviceset="M15" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="C418" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+</part>
+<part name="R429" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k">
+<attribute name="DIGIKEY" value="P10.0KLCT-ND"/>
+</part>
+<part name="C407" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF">
+<attribute name="DIGIKEY" value="445-1238-1-ND"/>
+</part>
+<part name="C408" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF">
+<attribute name="DIGIKEY" value="445-1238-1-ND"/>
+</part>
+<part name="Y401" library="KwanSystems" deviceset="CX2520" device="" value="16MHz">
+<attribute name="DIGIKEY" value="478-6955-1-ND"/>
+</part>
+<part name="S429" library="KwanSystems" deviceset="B3U-1000P" device="" value="">
+<attribute name="DIGIKEY" value="SW1020CT-ND"/>
+</part>
+<part name="U201" library="KwanSystems" deviceset="MAX8881" device="">
+<attribute name="DIGIKEY" value="MAX8881EUT50+TCT-ND"/>
+</part>
+<part name="C203" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF">
+<attribute name="DIGIKEY" value="445-7395-1-ND"/>
+</part>
+<part name="C201" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF">
+<attribute name="DIGIKEY" value="445-1415-1-ND"/>
+</part>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
-<part name="D003" library="KwanSystems" deviceset="MSS1P6" device=""/>
+<part name="D003" library="KwanSystems" deviceset="MSS1P6" device="">
+<attribute name="DIGIKEY" value="MSS1P6-M3/89AGICT-ND"/>
+</part>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="PTH">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 </parts>
@@ -2803,42 +2855,94 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <plain>
 </plain>
 <instances>
-<instance part="U001" gate="G$1" x="127" y="68.58" rot="MR0"/>
-<instance part="J001" gate="G$1" x="185.42" y="88.9"/>
-<instance part="U401" gate="G$1" x="43.18" y="68.58"/>
-<instance part="C420" gate="G$1" x="2.54" y="71.12"/>
-<instance part="C404" gate="G$1" x="2.54" y="86.36"/>
-<instance part="C406" gate="G$1" x="-10.16" y="86.36"/>
+<instance part="U001" gate="G$1" x="127" y="68.58" rot="MR0">
+<attribute name="DIGIKEY" x="127" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J001" gate="G$1" x="185.42" y="88.9">
+<attribute name="DIGIKEY" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U401" gate="G$1" x="43.18" y="68.58">
+<attribute name="DIGIKEY" x="43.18" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C420" gate="G$1" x="2.54" y="71.12">
+<attribute name="DIGIKEY" x="2.54" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C404" gate="G$1" x="2.54" y="86.36">
+<attribute name="DIGIKEY" x="2.54" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C406" gate="G$1" x="-10.16" y="86.36">
+<attribute name="DIGIKEY" x="-10.16" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+1" gate="1" x="-10.16" y="99.06"/>
 <instance part="GND1" gate="1" x="-2.54" y="7.62"/>
-<instance part="C002" gate="G$1" x="104.14" y="73.66" rot="R90"/>
+<instance part="C002" gate="G$1" x="104.14" y="73.66" rot="R90">
+<attribute name="DIGIKEY" x="104.14" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+2" gate="1" x="149.86" y="96.52"/>
-<instance part="R001" gate="C" x="-22.86" y="78.74" rot="R90"/>
+<instance part="R001" gate="C" x="-22.86" y="78.74" rot="R90">
+<attribute name="DIGIKEY" x="-22.86" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R001" gate="A" x="106.68" y="45.72" rot="R90"/>
 <instance part="R001" gate="B" x="96.52" y="45.72" rot="R90"/>
 <instance part="R001" gate="D" x="86.36" y="45.72" rot="R90"/>
-<instance part="D401" gate="G$1" x="-22.86" y="45.72"/>
-<instance part="D001" gate="G$1" x="96.52" y="33.02"/>
-<instance part="D002" gate="G$1" x="106.68" y="33.02"/>
-<instance part="D402" gate="G$1" x="86.36" y="33.02"/>
+<instance part="D401" gate="G$1" x="-22.86" y="45.72">
+<attribute name="DIGIKEY" x="-22.86" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D001" gate="G$1" x="96.52" y="33.02">
+<attribute name="DIGIKEY" x="96.52" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D002" gate="G$1" x="106.68" y="33.02">
+<attribute name="DIGIKEY" x="106.68" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D402" gate="G$1" x="86.36" y="33.02">
+<attribute name="DIGIKEY" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+3" gate="1" x="127" y="33.02"/>
-<instance part="J002" gate="G$1" x="-53.34" y="81.28" rot="R180"/>
-<instance part="J003" gate="G$1" x="-48.26" y="81.28"/>
-<instance part="C418" gate="G$1" x="-2.54" y="86.36"/>
-<instance part="R429" gate="G$1" x="0" y="96.52"/>
-<instance part="C407" gate="G$1" x="-7.62" y="63.5" rot="R90"/>
-<instance part="C408" gate="G$1" x="-7.62" y="48.26" rot="R90"/>
-<instance part="Y401" gate="G$1" x="-5.08" y="55.88" rot="R90"/>
+<instance part="J002" gate="G$1" x="-53.34" y="81.28" rot="R180">
+<attribute name="DIGIKEY" x="-53.34" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J003" gate="G$1" x="-48.26" y="81.28">
+<attribute name="DIGIKEY" x="-48.26" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C418" gate="G$1" x="-2.54" y="86.36">
+<attribute name="DIGIKEY" x="-2.54" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R429" gate="G$1" x="0" y="96.52">
+<attribute name="DIGIKEY" x="0" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C407" gate="G$1" x="-7.62" y="63.5" rot="R90">
+<attribute name="DIGIKEY" x="-7.62" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C408" gate="G$1" x="-7.62" y="48.26" rot="R90">
+<attribute name="DIGIKEY" x="-7.62" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="Y401" gate="G$1" x="-5.08" y="55.88" rot="R90">
+<attribute name="DIGIKEY" x="-5.08" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y401" gate="G$2" x="-2.54" y="15.24"/>
-<instance part="S429" gate="S$1" x="-12.7" y="109.22" rot="R90"/>
-<instance part="U201" gate="G$1" x="101.6" y="119.38"/>
-<instance part="C203" gate="G$1" x="127" y="111.76"/>
-<instance part="C201" gate="G$1" x="68.58" y="111.76"/>
+<instance part="S429" gate="S$1" x="-12.7" y="109.22" rot="R90">
+<attribute name="DIGIKEY" x="-12.7" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U201" gate="G$1" x="101.6" y="119.38">
+<attribute name="DIGIKEY" x="101.6" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C203" gate="G$1" x="127" y="111.76">
+<attribute name="DIGIKEY" x="127" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C201" gate="G$1" x="68.58" y="111.76">
+<attribute name="DIGIKEY" x="68.58" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+5" gate="1" x="124.46" y="121.92"/>
-<instance part="D003" gate="G$1" x="152.4" y="119.38" rot="R180"/>
+<instance part="D003" gate="G$1" x="152.4" y="119.38" rot="R180">
+<attribute name="DIGIKEY" x="152.4" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="99.06" y="104.14"/>
-<instance part="JP1" gate="G$1" x="-60.96" y="25.4" rot="R180"/>
-<instance part="JP2" gate="G$1" x="-55.88" y="25.4"/>
+<instance part="JP1" gate="G$1" x="-60.96" y="25.4" rot="R180">
+<attribute name="DIGIKEY" x="-60.96" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="-55.88" y="25.4">
+<attribute name="DIGIKEY" x="-55.88" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+4" gate="1" x="-38.1" y="27.94"/>
 <instance part="GND2" gate="1" x="-38.1" y="20.32"/>
 </instances>
