@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4244,10 +4244,10 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="-0.1905" y="1.016" size="0.4064" layer="27" rot="R270">&gt;VALUE</text>
 </package>
 <package name="CRYSTAL_SMD">
-<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="1" x="-1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="2" x="1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="3" x="1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="4" x="-1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
 </package>
 <package name="CRA06">
 <smd name="1" x="-1.295" y="-0.975" dx="0.63" dy="1.15" layer="1"/>
@@ -4293,6 +4293,14 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
 <smd name="P$3" x="0" y="-1.65" dx="0.8" dy="1.1" layer="1"/>
 <text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
+<rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
+<rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.4" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.4" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.4" layer="51"/>
+<circle x="0" y="0" radius="0.75" width="0.05" layer="51"/>
+<rectangle x1="-0.25" y1="-1.9" x2="0.25" y2="-1.25" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -4308,14 +4316,20 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="GND" x="10.16" y="0" length="middle" rot="R180"/>
 </symbol>
 <symbol name="CRYSTAL_SMD">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<pin name="1" x="-7.62" y="0" length="middle"/>
-<pin name="2" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;PART</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
 </symbol>
 <symbol name="CASE_GND">
 <pin name="1" x="0" y="0" visible="off" length="middle" rot="R90"/>
@@ -4336,13 +4350,13 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="SPST">
-<wire x1="-5.08" y1="0" x2="3.81" y2="5.842" width="0.254" layer="94"/>
-<wire x1="2.032" y1="5.588" x2="3.81" y2="5.842" width="0.254" layer="94"/>
-<wire x1="3.81" y1="5.842" x2="2.794" y2="4.318" width="0.254" layer="94"/>
-<text x="5.334" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-5.08" y1="0" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
+<wire x1="-1.968" y1="2.588" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
+<wire x1="-0.19" y1="2.842" x2="-1.206" y2="1.318" width="0.254" layer="94"/>
+<text x="-4.666" y="3.286" size="1.778" layer="95">&gt;PART</text>
 <text x="-4.572" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="0" visible="off" length="middle" swaplevel="1"/>
-<pin name="2" x="10.16" y="0" visible="off" length="middle" function="dot" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" function="dot" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="LED_RGB_CA">
 <wire x1="-1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -4427,16 +4441,14 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
-<gate name="G$3" symbol="CRYSTAL_SMD" x="0" y="0"/>
+<gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
-<connect gate="G$3" pin="1" pad="1"/>
-<connect gate="G$3" pin="2" pad="3"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
+<connect gate="_" pin="1" pad="1"/>
+<connect gate="_" pin="2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4645,17 +4657,16 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instance part="J404" gate="G$1" x="-60.96" y="33.02" rot="MR180"/>
 <instance part="GND8" gate="1" x="-35.56" y="60.96"/>
 <instance part="C463" gate="G$1" x="78.74" y="182.88"/>
-<instance part="S457" gate="S" x="10.16" y="160.02" rot="R90"/>
+<instance part="S457" gate="S" x="10.16" y="157.48" rot="R90"/>
 <instance part="S457" gate="G" x="10.16" y="147.32" rot="R90"/>
-<instance part="S420" gate="S" x="15.24" y="33.02" rot="R90"/>
+<instance part="S420" gate="S" x="15.24" y="27.94" rot="R90"/>
 <instance part="S420" gate="G" x="15.24" y="20.32" rot="R90"/>
 <instance part="J403" gate="G$1" x="-66.04" y="48.26" rot="MR180"/>
 <instance part="C462" gate="G$1" x="0" y="99.06" rot="R90"/>
 <instance part="C461" gate="G$1" x="0" y="83.82" rot="R90"/>
 <instance part="GND12" gate="1" x="-7.62" y="78.74"/>
 <instance part="Y401" gate="G$1" x="-7.62" y="93.98" rot="R270"/>
-<instance part="Y401" gate="G$2" x="-7.62" y="91.44" rot="R270"/>
-<instance part="Y401" gate="G$3" x="5.08" y="91.44" rot="R90"/>
+<instance part="Y401" gate="_" x="5.08" y="91.44" rot="R90"/>
 <instance part="J002" gate="G$1" x="-20.32" y="5.08"/>
 <instance part="C432" gate="G$1" x="68.58" y="182.88"/>
 <instance part="S438" gate="1" x="-15.24" y="109.22" smashed="yes">
@@ -4694,12 +4705,13 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <net name="XTAL1" class="0">
 <segment>
 <wire x1="2.54" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="93.98" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<junction x="5.08" y="99.06"/>
 <pinref part="C462" gate="G$1" pin="2"/>
-<pinref part="Y401" gate="G$3" pin="2"/>
+<pinref part="Y401" gate="_" pin="2"/>
 <pinref part="U401" gate="G$1" pin="XTAL1"/>
 <label x="27.94" y="99.06" size="1.778" layer="95"/>
+<junction x="5.08" y="99.06"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -4708,11 +4720,12 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="10.16" y1="83.82" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="83.82" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
-<junction x="5.08" y="83.82"/>
-<pinref part="Y401" gate="G$3" pin="1"/>
+<wire x1="5.08" y1="83.82" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="Y401" gate="_" pin="1"/>
 <pinref part="C461" gate="G$1" pin="2"/>
 <pinref part="U401" gate="G$1" pin="XTAL2"/>
 <label x="27.94" y="93.98" size="1.778" layer="95"/>
+<junction x="5.08" y="83.82"/>
 </segment>
 </net>
 <net name="USBD-" class="0">
@@ -4921,7 +4934,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </segment>
 <segment>
 <wire x1="10.16" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="149.86" x2="10.16" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="152.4" x2="10.16" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="147.32" x2="10.16" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="139.7" x2="10.16" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="139.7" x2="10.16" y2="142.24" width="0.1524" layer="91"/>
@@ -4981,18 +4994,15 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <segment>
 <wire x1="-5.08" y1="99.06" x2="-7.62" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="99.06" x2="-7.62" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="93.98" x2="-7.62" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="91.44" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="93.98" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="83.82" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="83.82" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-7.62" y="83.82"/>
 <junction x="-7.62" y="93.98"/>
-<junction x="-7.62" y="91.44"/>
 <pinref part="C462" gate="G$1" pin="1"/>
 <pinref part="C461" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="Y401" gate="G$1" pin="1"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
@@ -5241,9 +5251,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <segment>
 <wire x1="33.02" y1="160.02" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="170.18" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="160.02" x2="15.24" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="160.02" x2="15.24" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="170.18" x2="10.16" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="160.02" x2="10.16" y2="160.02" width="0.1524" layer="91"/>
 <junction x="33.02" y="160.02"/>
 <label x="27.94" y="160.02" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="RESET"/>
@@ -5403,10 +5411,10 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="J403" gate="G$1" pin="10"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="45.72" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<junction x="15.24" y="43.18"/>
-<label x="17.78" y="40.64" size="1.778" layer="95"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
+<junction x="15.24" y="30.48"/>
+<label x="22.86" y="30.48" size="1.778" layer="95"/>
 <pinref part="S420" gate="S" pin="2"/>
 <pinref part="R401" gate="B" pin="2"/>
 </segment>

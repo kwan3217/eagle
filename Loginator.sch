@@ -6232,14 +6232,12 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
 <gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
 <connect gate="_" pin="1" pad="1"/>
 <connect gate="_" pin="2" pad="3"/>
 </connects>
@@ -6568,8 +6566,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="C462" gate="G$1" x="0" y="99.06" rot="R90"/>
 <instance part="C461" gate="G$1" x="0" y="83.82" rot="R90"/>
 <instance part="GND12" gate="1" x="-7.62" y="78.74"/>
-<instance part="Y401" gate="G$1" x="-7.62" y="93.98" rot="R270"/>
-<instance part="Y401" gate="G$2" x="-7.62" y="91.44" rot="R270"/>
 <instance part="Y401" gate="_" x="5.08" y="91.44" rot="R90"/>
 <instance part="J301" gate="G$1" x="129.54" y="231.14" rot="MR0"/>
 <instance part="U301" gate="G$1" x="86.36" y="231.14"/>
@@ -6630,6 +6626,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <attribute name="NAME" x="193.04" y="160.02" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U701" gate="G$1" x="185.42" y="101.6"/>
+<instance part="Y401" gate="G$1" x="-7.62" y="93.98" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6950,18 +6947,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <segment>
 <wire x1="-5.08" y1="99.06" x2="-7.62" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="99.06" x2="-7.62" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="93.98" x2="-7.62" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="91.44" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="93.98" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="83.82" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="83.82" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-7.62" y="83.82"/>
-<junction x="-7.62" y="93.98"/>
-<junction x="-7.62" y="91.44"/>
 <pinref part="C462" gate="G$1" pin="1"/>
 <pinref part="C461" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="Y401" gate="G$1" pin="1"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
+<junction x="-7.62" y="93.98"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="223.52" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
@@ -7732,6 +7726,22 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,38.1,139.7,U401,VSS,GND,,,"/>
+<approved hash="104,1,38.1,137.16,U401,VSS,GND,,,"/>
+<approved hash="104,1,38.1,134.62,U401,VSS,GND,,,"/>
+<approved hash="104,1,38.1,132.08,U401,VSS,GND,,,"/>
+<approved hash="104,1,38.1,106.68,U401,VBAT,VCC,,,"/>
+<approved hash="104,1,38.1,121.92,U401,VSSA,GND,,,"/>
+<approved hash="104,1,38.1,124.46,U401,VDDA3,VCC,,,"/>
+<approved hash="104,1,38.1,152.4,U401,VDD3-1,VCC,,,"/>
+<approved hash="104,1,38.1,149.86,U401,VDD3-2,VCC,,,"/>
+<approved hash="104,1,38.1,147.32,U401,VDD3-3,VCC,,,"/>
+<approved hash="104,1,38.1,142.24,U401,VSS,GND,,,"/>
+<approved hash="104,1,76.2,233.68,U301,VIN,VBUS,,,"/>
+<approved hash="104,1,96.52,233.68,U301,VBAT,VLIPO,,,"/>
+<approved hash="104,1,96.52,228.6,U301,VSS,GND,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

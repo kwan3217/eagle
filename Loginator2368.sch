@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5696,14 +5696,12 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
 <gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
 <connect gate="_" pin="1" pad="1"/>
 <connect gate="_" pin="2" pad="3"/>
 </connects>
@@ -6383,7 +6381,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="Y401" gate="G$1" x="-233.68" y="220.98" rot="R270">
 <attribute name="DIGIKEY" value="887-1316-1-ND" x="-233.68" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="Y401" gate="G$2" x="-233.68" y="218.44" rot="R270"/>
 <instance part="Y401" gate="_" x="-220.98" y="218.44" smashed="yes" rot="R90">
 <attribute name="PART" x="-216.916" y="213.36" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-223.52" y="215.9" size="1.778" layer="96" rot="R90"/>
@@ -6966,16 +6963,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="-233.68" y="99.06"/>
 <wire x1="-231.14" y1="226.06" x2="-233.68" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="226.06" x2="-233.68" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="220.98" x2="-233.68" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="218.44" x2="-233.68" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="220.98" x2="-233.68" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="210.82" x2="-233.68" y2="210.82" width="0.1524" layer="91"/>
 <junction x="-233.68" y="210.82"/>
 <junction x="-233.68" y="220.98"/>
-<junction x="-233.68" y="218.44"/>
 <pinref part="C422" gate="G$1" pin="1"/>
 <pinref part="C423" gate="G$1" pin="1"/>
 <pinref part="Y401" gate="G$1" pin="1"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
 <wire x1="-233.68" y1="210.82" x2="-233.68" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-233.68" y="119.38"/>
 <wire x1="-233.68" y1="175.26" x2="-233.68" y2="119.38" width="0.1524" layer="91"/>

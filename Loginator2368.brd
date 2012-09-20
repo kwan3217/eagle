@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3054,8 +3054,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U401" pad="15"/>
 <contactref element="C422" pad="1"/>
 <contactref element="C423" pad="1"/>
-<contactref element="Y401" pad="2"/>
-<contactref element="Y401" pad="4"/>
+<contactref element="Y401" pad="2" route="any" routetag="1"/>
 <contactref element="S453" pad="P$1"/>
 <contactref element="S453" pad="P$3"/>
 <contactref element="J301" pad="1"/>
@@ -3082,9 +3081,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R301" pad="1"/>
 <contactref element="U301" pad="2"/>
 <contactref element="J701" pad="6"/>
-<contactref element="J701" pad="CD2" route="any"/>
-<contactref element="J701" pad="GND3" route="any"/>
-<contactref element="J701" pad="GND1" route="any"/>
+<contactref element="J701" pad="CD2" route="any" routetag="SHIELD"/>
+<contactref element="J701" pad="GND3" route="any" routetag="SHIELD"/>
+<contactref element="J701" pad="GND1" route="any" routetag="SHIELD"/>
 <via x="33.8836" y="15.2146" extent="1-16" drill="0.3302"/>
 <via x="33.8836" y="17.2974" extent="1-16" drill="0.3302"/>
 <via x="43.815" y="25.9588" extent="1-16" drill="0.3302"/>
@@ -3123,6 +3122,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="8.3312" y="28.8798" extent="1-16" drill="0.3302"/>
 <via x="48.7426" y="30.7594" extent="1-16" drill="0.3302"/>
 <via x="51.7906" y="25.1714" extent="1-16" drill="0.3302"/>
+<contactref element="Y401" pad="4" route="any" routetag="1"/>
 </signal>
 <signal name="RAW">
 <contactref element="C201" pad="1"/>

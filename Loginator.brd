@@ -8,7 +8,7 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -2903,8 +2903,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J403" pad="1"/>
 <contactref element="C462" pad="1"/>
 <contactref element="C461" pad="1"/>
-<contactref element="Y401" pad="2"/>
-<contactref element="Y401" pad="4"/>
 <contactref element="C302" pad="2"/>
 <contactref element="R011" pad="1"/>
 <contactref element="C030" pad="2"/>
@@ -2962,6 +2960,8 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 <via x="52.2732" y="28.448" extent="1-16" drill="0.3302"/>
 <via x="48.0822" y="30.607" extent="1-16" drill="0.3302"/>
+<contactref element="Y401" pad="4" route="any" routetag="1"/>
+<contactref element="Y401" pad="2" route="any" routetag="1"/>
 </signal>
 <signal name="RAW">
 <contactref element="C204" pad="1"/>
@@ -3879,6 +3879,70 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.126" y1="28.956" x2="20.516" y2="28.956" width="0.1524" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="4,1,7f15a55e841b2aa1"/>
+<approved hash="4,1,aae9ac52e6e5ccac"/>
+<approved hash="4,1,21fd735588024e5e"/>
+<approved hash="4,1,dcf08a55861ee44a"/>
+<approved hash="4,1,53c41154641eda7a"/>
+<approved hash="4,1,0edf9856861f2467"/>
+<approved hash="4,1,85d3af2ae01dd612"/>
+<approved hash="4,1,20a77651861e4c1c"/>
+<approved hash="4,1,c7bafd59a412ea08"/>
+<approved hash="4,1,6adabefe721fbaf2"/>
+<approved hash="4,1,e5ea05fe901ea4fe"/>
+<approved hash="4,1,4cff08ff6a1c9ae5"/>
+<approved hash="4,1,2b65ba1a88808bff"/>
+<approved hash="4,1,be945afeea039a9d"/>
+<approved hash="4,1,6998a1fa781bbc88"/>
+<approved hash="4,1,e0a024f292125ab4"/>
+<approved hash="4,1,5bb503fb9414b8ab"/>
+<approved hash="4,1,52b8d6057218da57"/>
+<approved hash="4,1,8d4a5de2f01fb443"/>
+<approved hash="4,1,745ea0fe5a1fba4e"/>
+<approved hash="4,1,ef6e2ffe641e587a"/>
+<approved hash="4,1,667372ff9a1cba61"/>
+<approved hash="4,1,5106f9fd6860dc6d"/>
+<approved hash="4,1,88085cfef21bba19"/>
+<approved hash="4,1,031cbbf254139804"/>
+<approved hash="4,1,fa242efa521a3a30"/>
+<approved hash="4,1,752975e3f0048427"/>
+<approved hash="4,1,5c3cf9056be0dbd3"/>
+<approved hash="4,1,96ce47f9041fb9df"/>
+<approved hash="4,1,6849a4fd98155413"/>
+<approved hash="4,1,7901a535992d449b"/>
+<approved hash="4,1,60a5f01b3ef05d78"/>
+<approved hash="4,1,9477f0973e88b152"/>
+<approved hash="4,16,7f15a55e841b2aa1"/>
+<approved hash="4,16,aae9ac52e6e5ccac"/>
+<approved hash="4,16,21fd735588024e5e"/>
+<approved hash="4,16,dcf08a55861ee44a"/>
+<approved hash="4,16,53c41154641eda7a"/>
+<approved hash="4,16,0edf9856861f2467"/>
+<approved hash="4,16,85d3af2ae01dd612"/>
+<approved hash="4,16,20a77651861e4c1c"/>
+<approved hash="4,16,c7bafd59a412ea08"/>
+<approved hash="4,16,6adabefe721fbaf2"/>
+<approved hash="4,16,e5ea05fe901ea4fe"/>
+<approved hash="4,16,4cff08ff6a1c9ae5"/>
+<approved hash="4,16,2b65ba1a88808bff"/>
+<approved hash="4,16,be945afeea039a9d"/>
+<approved hash="4,16,6998a1fa781bbc88"/>
+<approved hash="4,16,e0a024f292125ab4"/>
+<approved hash="4,16,5bb503fb9414b8ab"/>
+<approved hash="4,16,52b8d6057218da57"/>
+<approved hash="4,16,8d4a5de2f01fb443"/>
+<approved hash="4,16,745ea0fe5a1fba4e"/>
+<approved hash="4,16,ef6e2ffe641e587a"/>
+<approved hash="4,16,667372ff9a1cba61"/>
+<approved hash="4,16,5106f9fd6860dc6d"/>
+<approved hash="4,16,88085cfef21bba19"/>
+<approved hash="4,16,031cbbf254139804"/>
+<approved hash="4,16,fa242efa521a3a30"/>
+<approved hash="4,16,752975e3f0048427"/>
+<approved hash="4,16,5c3cf9056be0dbd3"/>
+<approved hash="4,16,96ce47f9041fb9df"/>
+</errors>
 </board>
 </drawing>
 </eagle>

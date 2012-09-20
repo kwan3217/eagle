@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -128,9 +128,9 @@
 <wire x1="-3.81" y1="-5.08" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-5.08" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="4.7625" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-2.8702" drill="0.635" shape="square"/>
-<pad name="2" x="0" y="-2.8702" drill="0.635"/>
-<pad name="3" x="2.54" y="-2.8702" drill="0.635"/>
+<pad name="1" x="-2.54" y="-2.8702" drill="1.016" shape="square"/>
+<pad name="2" x="0" y="-2.8702" drill="1.016"/>
+<pad name="3" x="2.54" y="-2.8702" drill="1.016"/>
 <text x="5.08" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="5.08" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>

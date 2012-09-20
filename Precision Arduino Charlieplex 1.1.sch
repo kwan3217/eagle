@@ -3971,16 +3971,24 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-1.524" y="-1.74" size="0.8128" layer="21">&gt;VALUE</text>
 </package>
 <package name="CRYSTAL_SMD">
-<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="1" x="-1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="2" x="1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="3" x="1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="4" x="-1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
 </package>
 <package name="B3U-1100P">
 <smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
 <smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
 <smd name="P$3" x="0" y="-1.65" dx="0.8" dy="1.1" layer="1"/>
 <text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
+<rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
+<rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.4" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.4" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.4" layer="51"/>
+<circle x="0" y="0" radius="0.75" width="0.05" layer="51"/>
+<rectangle x1="-0.25" y1="-1.9" x2="0.25" y2="-1.25" layer="51"/>
 </package>
 <package name="SC-70-6">
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="21"/>
@@ -3999,14 +4007,20 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pin name="1" x="0" y="0" visible="off" length="middle" rot="R90"/>
 </symbol>
 <symbol name="CRYSTAL_SMD">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<pin name="1" x="-7.62" y="0" length="middle"/>
-<pin name="2" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;PART</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
 </symbol>
 <symbol name="RESISTOR">
 <wire x1="-3.048" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
@@ -4024,13 +4038,13 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="SPST">
-<wire x1="-5.08" y1="0" x2="3.81" y2="5.842" width="0.254" layer="94"/>
-<wire x1="2.032" y1="5.588" x2="3.81" y2="5.842" width="0.254" layer="94"/>
-<wire x1="3.81" y1="5.842" x2="2.794" y2="4.318" width="0.254" layer="94"/>
-<text x="5.334" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-5.08" y1="0" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
+<wire x1="-1.968" y1="2.588" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
+<wire x1="-0.19" y1="2.842" x2="-1.206" y2="1.318" width="0.254" layer="94"/>
+<text x="-4.666" y="3.286" size="1.778" layer="95">&gt;PART</text>
 <text x="-4.572" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="0" visible="off" length="middle" swaplevel="1"/>
-<pin name="2" x="10.16" y="0" visible="off" length="middle" function="dot" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" function="dot" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="MULTIPLEX_2X1">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -4051,16 +4065,14 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
-<gate name="G$3" symbol="CRYSTAL_SMD" x="0" y="0"/>
+<gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
-<connect gate="G$3" pin="1" pad="1"/>
-<connect gate="G$3" pin="2" pad="3"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
+<connect gate="_" pin="1" pad="1"/>
+<connect gate="_" pin="2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4068,7 +4080,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="RP4">
+<deviceset name="RP4" uservalue="yes">
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="RESISTOR" x="0" y="2.54" swaplevel="1"/>
@@ -5840,11 +5852,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="DIGIKEY" x="-254" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="-261.62" y="53.34"/>
-<instance part="Y401" gate="G$1" x="-261.62" y="91.44" rot="R270">
-<attribute name="DIGIKEY" x="-261.62" y="91.44" size="1.778" layer="96" display="off"/>
+<instance part="Y401" gate="G$1" x="-261.62" y="86.36" rot="R270">
+<attribute name="DIGIKEY" x="-261.62" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Y401" gate="G$2" x="-261.62" y="88.9" rot="R270"/>
-<instance part="Y401" gate="G$3" x="-246.38" y="86.36" rot="R270"/>
+<instance part="Y401" gate="_" x="-246.38" y="86.36" rot="R270"/>
 <instance part="J001" gate="G$1" x="-215.9" y="172.72" rot="MR180">
 <attribute name="DIGIKEY" x="-215.9" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7456,39 +7467,37 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="-233.68" y1="68.58" x2="-261.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-259.08" y1="78.74" x2="-261.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="78.74" x2="-261.62" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-261.62" y1="88.9" x2="-261.62" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-261.62" y1="91.44" x2="-261.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="86.36" x2="-261.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-259.08" y1="93.98" x2="-261.62" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-261.62" y1="93.98" x2="-261.62" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="93.98" x2="-261.62" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="104.14" x2="-261.62" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-271.78" y1="114.3" x2="-261.62" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="114.3" x2="-261.62" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-251.46" y1="109.22" x2="-261.62" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="109.22" x2="-261.62" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="104.14" x2="-261.62" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-271.78" y1="114.3" x2="-271.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-271.78" y1="114.3" x2="-266.7" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-261.62" y="63.5"/>
 <junction x="-261.62" y="66.04"/>
 <junction x="-261.62" y="68.58"/>
 <junction x="-261.62" y="78.74"/>
-<junction x="-261.62" y="88.9"/>
-<junction x="-261.62" y="91.44"/>
+<junction x="-261.62" y="86.36"/>
 <junction x="-261.62" y="93.98"/>
 <junction x="-261.62" y="109.22"/>
 <junction x="-261.62" y="104.14"/>
-<junction x="-271.78" y="119.38"/>
+<junction x="-266.7" y="119.38"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="U401" gate="G$1" pin="GND@2"/>
 <pinref part="U401" gate="G$1" pin="GND@1"/>
 <pinref part="U401" gate="G$1" pin="AGND"/>
 <pinref part="C408" gate="G$1" pin="1"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
 <pinref part="Y401" gate="G$1" pin="1"/>
 <pinref part="C407" gate="G$1" pin="1"/>
 <pinref part="C418" gate="G$1" pin="1"/>
 <pinref part="C420" gate="G$1" pin="2"/>
 <pinref part="S429" gate="G" pin="1"/>
 <pinref part="S429" gate="S" pin="1"/>
+<wire x1="-271.78" y1="119.38" x2="-266.7" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-190.5" y1="160.02" x2="-190.5" y2="157.48" width="0.1524" layer="91"/>
@@ -7541,23 +7550,26 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="XTAL1" class="0">
 <segment>
 <wire x1="-251.46" y1="93.98" x2="-246.38" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-246.38" y1="93.98" x2="-246.38" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-246.38" y1="88.9" x2="-246.38" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="93.98" x2="-233.68" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-246.38" y="93.98"/>
+<junction x="-246.38" y="88.9"/>
 <label x="-241.3" y="93.98" size="1.778" layer="95"/>
 <pinref part="C407" gate="G$1" pin="2"/>
-<pinref part="Y401" gate="G$3" pin="1"/>
+<pinref part="Y401" gate="_" pin="1"/>
 <pinref part="U401" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
 <segment>
 <wire x1="-233.68" y1="78.74" x2="-246.38" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-246.38" y1="83.82" x2="-246.38" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="78.74" x2="-251.46" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="78.74" x2="-233.68" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-246.38" y="78.74"/>
+<junction x="-246.38" y="83.82"/>
 <label x="-241.3" y="78.74" size="1.778" layer="95"/>
 <pinref part="C408" gate="G$1" pin="2"/>
-<pinref part="Y401" gate="G$3" pin="2"/>
+<pinref part="Y401" gate="_" pin="2"/>
 <pinref part="U401" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
 </segment>
 </net>
@@ -7609,7 +7621,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </segment>
 <segment>
 <wire x1="-233.68" y1="119.38" x2="-243.84" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="119.38" x2="-243.84" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-259.08" y1="119.38" x2="-243.84" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-243.84" y="119.38"/>
 <label x="-238.76" y="119.38" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="PC6(/RESET)"/>

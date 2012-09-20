@@ -1616,6 +1616,12 @@ IC_SMD_GRND(5,3,1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #macro IC_SMD_HMC5883(value,logo)
 IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
+#macro IC_SMD_ADXL377(value,logo)
+IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
+#macro IC_SMD_H3LIS331DL(value,logo)
+IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
 #macro IC_SMD_L3G4200D(value,logo)
 IC_SMD_GRND(4,4,1.1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
@@ -1630,9 +1636,9 @@ IC_SMD_LidBox(          5, 5,1.0, 4.7, 4.7, 0.2,    0.25,           0.4,        
 //#macro IC_SMD_LidBox(  LK, BK, HK, Lcap,Bcap,Hcap,hole_rad,cap_corner_rad,body_corner_rad,di_pcb,logo,hole_l,hole_b)
 IC_SMD_LidBox(          3.8,3.6,1.0, 3.55,3.35, 0.2,    0.25,           0.4,           0.15,0     ,logo,-3.8/2+1.225,-3.6/2+0.850)
 #end
-#macro IC_SMD_CRYSTAL(LK,BK,value)
+#macro IC_SMD_CRYSTAL(L,B,H,value)
 //#macro IC_SMD_LidBox(LK,BK, HK,Lcap,Bcap,Hcap,hole_rad,cap_corner_rad,body_corner_rad,di_pcb,logo)
-IC_SMD_LidBox(        LK,BK,0.5,LK-0.2, BK-0.2, 0.2,0.0,             0.4,           0.15,0,"",0,0)
+IC_SMD_LidBox(        L,B,H-0.4,L-0.2, B-0.2, H,0.0,             0.4,           0.15,0,"",0,0)
 #end
 #macro IC_SMD_SOT23_5(value,logo)
 IC_SMD_GRND(2.9,1.6,1,2.8,3,2,0.95,1.90,0.35,0.35,0.13,0.1,0,0,0,1.5,0.7,0,logo)

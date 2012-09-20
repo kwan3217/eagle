@@ -543,18 +543,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.05" layer="21"/>
 <wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.05" layer="21"/>
 </package>
-<package name="B3U-1000P">
-<smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
-<smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
-<text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
-<rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
-<rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
-<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
-<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.4" layer="51"/>
-<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.4" layer="51"/>
-<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.4" layer="51"/>
-<circle x="0" y="0" radius="0.75" width="0.05" layer="51"/>
-</package>
 <package name="SOT-23-6">
 <wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
@@ -583,6 +571,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="1.075" y1="-0.325" x2="1.075" y2="-0.35" width="0" layer="21"/>
 <rectangle x1="-1.275" y1="-0.45" x2="0.025" y2="0.45" layer="51"/>
 <rectangle x1="-1" y1="-0.8" x2="-0.5" y2="0.8" layer="21"/>
+</package>
+<package name="B3U-1000P">
+<smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
+<smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
+<text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
+<rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
+<rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.4" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.4" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.4" layer="51"/>
+<circle x="0" y="0" radius="0.75" width="0.05" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -629,15 +629,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <symbol name="CASE_GND">
 <pin name="1" x="0" y="0" visible="off" length="middle" rot="R90"/>
 </symbol>
-<symbol name="SPST">
-<wire x1="-5.08" y1="0" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
-<wire x1="-1.968" y1="2.588" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
-<wire x1="-0.19" y1="2.842" x2="-1.206" y2="1.318" width="0.254" layer="94"/>
-<text x="-4.666" y="3.286" size="1.778" layer="95">&gt;PART</text>
-<text x="-4.572" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="point" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="short" function="dot" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="REGULATOR">
 <pin name="IN" x="-12.7" y="2.54" length="middle"/>
 <pin name="SHDN#" x="-12.7" y="0" length="middle" function="dot"/>
@@ -666,6 +657,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="1.905" y1="1.27" x2="1.905" y2="0.635" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0.635" y1="-1.27" x2="0.635" y2="-0.635" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SPST">
+<wire x1="-5.08" y1="0" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
+<wire x1="-1.968" y1="2.588" x2="-0.19" y2="2.842" width="0.254" layer="94"/>
+<wire x1="-0.19" y1="2.842" x2="-1.206" y2="1.318" width="0.254" layer="94"/>
+<text x="-4.666" y="3.286" size="1.778" layer="95">&gt;PART</text>
+<text x="-4.572" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" function="dot" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -745,22 +745,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="B3U-1000P">
-<gates>
-<gate name="S$1" symbol="SPST" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="B3U-1000P">
-<connects>
-<connect gate="S$1" pin="1" pad="P$1"/>
-<connect gate="S$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MAX8881" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="REGULATOR" x="0" y="0"/>
@@ -790,6 +774,22 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B3U-1000P">
+<gates>
+<gate name="G$1" symbol="SPST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3U-1000P">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2824,9 +2824,6 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <part name="Y401" library="KwanSystems" deviceset="CX2520" device="" value="16MHz">
 <attribute name="DIGIKEY" value="478-6955-1-ND"/>
 </part>
-<part name="S429" library="KwanSystems" deviceset="B3U-1000P" device="" value="">
-<attribute name="DIGIKEY" value="SW1020CT-ND"/>
-</part>
 <part name="U201" library="KwanSystems" deviceset="MAX8881" device="">
 <attribute name="DIGIKEY" value="MAX8881EUT50+TCT-ND"/>
 </part>
@@ -2849,6 +2846,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </part>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
+<part name="U$3" library="KwanSystems" deviceset="B3U-1000P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2920,9 +2918,6 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <attribute name="DIGIKEY" x="-5.08" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Y401" gate="G$2" x="-2.54" y="15.24"/>
-<instance part="S429" gate="S$1" x="-12.7" y="109.22" rot="R90">
-<attribute name="DIGIKEY" x="-12.7" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U201" gate="G$1" x="101.6" y="119.38">
 <attribute name="DIGIKEY" x="101.6" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2945,6 +2940,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </instance>
 <instance part="P+4" gate="1" x="-38.1" y="27.94"/>
 <instance part="GND2" gate="1" x="-38.1" y="20.32"/>
+<instance part="U$3" gate="G$1" x="-12.7" y="109.22" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3031,9 +3027,9 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <pinref part="C408" gate="G$1" pin="1"/>
 <junction x="-12.7" y="48.26"/>
 <pinref part="Y401" gate="G$2" pin="1"/>
-<pinref part="S429" gate="S$1" pin="1"/>
 <wire x1="-12.7" y1="104.14" x2="-12.7" y2="83.82" width="0" layer="91"/>
 <junction x="-12.7" y="83.82"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
@@ -3181,10 +3177,10 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <label x="12.7" y="93.98" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="R429" gate="G$1" pin="2"/>
-<pinref part="S429" gate="S$1" pin="2"/>
 <wire x1="-12.7" y1="111.76" x2="12.7" y2="111.76" width="0" layer="91"/>
 <wire x1="12.7" y1="111.76" x2="12.7" y2="96.52" width="0" layer="91"/>
 <junction x="12.7" y="96.52"/>
+<pinref part="U$3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="-63.5" y1="93.98" x2="-73.66" y2="93.98" width="0.1524" layer="91"/>

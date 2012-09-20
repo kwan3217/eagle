@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6377,10 +6377,10 @@ It includes a sensing element and an IC interface capable of providing the measu
 <wire x1="1" y1="-1.15" x2="1" y2="1.15" width="0.2" layer="21"/>
 <wire x1="1" y1="1.15" x2="-1" y2="1.15" width="0.2" layer="21"/>
 <circle x="-0.4" y="-0.6" radius="0.2828" width="0.127" layer="21"/>
-<smd name="1" x="-0.75" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-0.25" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.25" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.75" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.75" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.25" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.25" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.75" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="5" x="0.75" y="1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="6" x="0.25" y="1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="7" x="-0.25" y="1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
@@ -6791,13 +6791,11 @@ It includes a sensing element and an IC interface capable of providing the measu
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="NC1" x="-15.24" y="2.54" length="middle" direction="nc"/>
 <pin name="VDD" x="-15.24" y="0" length="middle" direction="pwr"/>
-<pin name="VDDIO" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
-<pin name="NC4" x="15.24" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="VDDIO" x="-15.24" y="2.54" length="middle" direction="pwr"/>
 <pin name="SCL" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
 <pin name="SDA" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="10.16" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="UP501">
 <wire x1="2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.4064" layer="94"/>
@@ -7103,8 +7101,6 @@ It includes a sensing element and an IC interface capable of providing the measu
 <device name="" package="BMP180">
 <connects>
 <connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="NC1" pad="1"/>
-<connect gate="G$1" pin="NC4" pad="4"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="6"/>
 <connect gate="G$1" pin="VDD" pad="2"/>
@@ -7145,7 +7141,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 <connects>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11" route="any"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
@@ -7202,14 +7198,12 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
 <gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
 <connect gate="_" pin="1" pad="1"/>
 <connect gate="_" pin="2" pad="3"/>
 </connects>
@@ -8881,8 +8875,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </instance>
 <instance part="GND18" gate="1" x="-33.02" y="25.4" rot="MR0"/>
 <instance part="P+15" gate="1" x="-17.78" y="35.56" rot="MR0"/>
-<instance part="U2" gate="G$1" x="53.34" y="111.76" rot="R180">
-<attribute name="DIGIKEY" value="828-1027-1-ND" x="53.34" y="111.76" size="1.778" layer="96" display="off"/>
+<instance part="U2" gate="G$1" x="53.34" y="111.76" rot="MR0">
+<attribute name="DIGIKEY" value="828-1027-1-ND" x="53.34" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C103" gate="G$1" x="88.9" y="101.6">
 <attribute name="DIGIKEY" value="445-1268-1-ND" x="88.9" y="101.6" size="1.778" layer="96" display="off"/>
@@ -9405,8 +9399,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <wire x1="73.66" y1="99.06" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="101.6" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="109.22" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <junction x="73.66" y="99.06"/>
 <pinref part="C102" gate="G$1" pin="2"/>
@@ -9662,8 +9656,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="-124.46" y="223.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="33.02" y="109.22" size="1.778" layer="95"/>
+<wire x1="30.48" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="33.02" y="114.3" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="SDA"/>
 </segment>
 <segment>

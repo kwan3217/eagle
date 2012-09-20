@@ -810,14 +810,12 @@
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
 <gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
 <connect gate="_" pin="1" pad="1"/>
 <connect gate="_" pin="2" pad="3"/>
 </connects>
@@ -902,7 +900,7 @@
 <connects>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11" route="any"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
@@ -5761,7 +5759,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="Y422" gate="G$1" x="-25.4" y="38.1" rot="R270">
 <attribute name="DIGIKEY" x="-25.4" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Y422" gate="G$2" x="-25.4" y="35.56" rot="R270"/>
 <instance part="Y422" gate="_" x="-12.7" y="35.56" smashed="yes" rot="R90">
 <attribute name="PART" x="-13.716" y="38.1" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-10.16" y="38.1" size="1.778" layer="96" rot="R270"/>
@@ -7009,13 +7006,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-22.86" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="43.18" x2="-25.4" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="38.1" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="35.56" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="38.1" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="27.94" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-25.4" y="38.1"/>
-<junction x="-25.4" y="35.56"/>
 <pinref part="Y422" gate="G$1" pin="1"/>
-<pinref part="Y422" gate="G$2" pin="1"/>
 <wire x1="-25.4" y1="27.94" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="12.7" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>

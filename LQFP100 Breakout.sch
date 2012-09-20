@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -362,7 +362,7 @@
 <pin name="P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]" x="5.08" y="-99.06" length="middle" rot="R180"/>
 <pin name="P1[19]/CAP1[1]" x="5.08" y="-101.6" length="middle" rot="R180"/>
 <pin name="P1[20]/PWM1[2]/SCK0" x="5.08" y="-104.14" length="middle" rot="R180"/>
-<pin name="P1[21]/PWM1[2]/SSEL0" x="5.08" y="-106.68" length="middle" rot="R180"/>
+<pin name="P1[21]/PWM1[3]/SSEL0" x="5.08" y="-106.68" length="middle" rot="R180"/>
 <pin name="P1[22]/MAT1[0]" x="5.08" y="-109.22" length="middle" rot="R180"/>
 <pin name="P1[23]/PWM1[4]/MISO0" x="5.08" y="-111.76" length="middle" rot="R180"/>
 <pin name="P1[24]/PWM1[5]/MOSI0" x="5.08" y="-114.3" length="middle" rot="R180"/>
@@ -446,8 +446,8 @@
 <connect gate="G$1" pin="GND2" pad="41"/>
 <connect gate="G$1" pin="GND3" pad="55"/>
 <connect gate="G$1" pin="GND4" pad="72"/>
-<connect gate="G$1" pin="GND5" pad="92"/>
-<connect gate="G$1" pin="GND6" pad="76"/>
+<connect gate="G$1" pin="GND5" pad="97"/>
+<connect gate="G$1" pin="GND6" pad="83"/>
 <connect gate="G$1" pin="P0[0]/RD1/TXD3/SDA1" pad="46"/>
 <connect gate="G$1" pin="P0[10]/TXD2/SDA2/MAT3[0]" pad="48"/>
 <connect gate="G$1" pin="P0[11]/RXD2/SCL2/MAT3[1]" pad="49"/>
@@ -467,26 +467,26 @@
 <connect gate="G$1" pin="P0[27]/SDA0*" pad="25"/>
 <connect gate="G$1" pin="P0[28]/SCL0*" pad="24"/>
 <connect gate="G$1" pin="P0[29]/USB_D+" pad="29"/>
-<connect gate="G$1" pin="P0[2]/TXD0" pad="75"/>
+<connect gate="G$1" pin="P0[2]/TXD0" pad="98"/>
 <connect gate="G$1" pin="P0[30]/USB_D-" pad="30"/>
-<connect gate="G$1" pin="P0[3]/RXD0" pad="74"/>
-<connect gate="G$1" pin="P0[4]/I2SRX_CLK/RD2/CAP2[0]" pad="90"/>
-<connect gate="G$1" pin="P0[5]/I2SRX_WS/TD2/CAP2[1]" pad="89"/>
-<connect gate="G$1" pin="P0[6]/I2SRX_SDA/SSEL1/MAT2[0]" pad="88"/>
-<connect gate="G$1" pin="P0[7]/I2STX_CLK/SCK1/MAT2[1]" pad="87"/>
-<connect gate="G$1" pin="P0[8]/I2STX_WS/MISO1/MAT2[2]" pad="86"/>
-<connect gate="G$1" pin="P0[9]/I2STX_SDA/MOSI1/MAT2[3]" pad="85"/>
-<connect gate="G$1" pin="P1[0]/ENET_TXD0" pad="78"/>
-<connect gate="G$1" pin="P1[10]/ENET_RXD1" pad="99"/>
-<connect gate="G$1" pin="P1[14]/ENET_RX_ER" pad="98"/>
-<connect gate="G$1" pin="P1[15]/ENET_REF_CLK" pad="97"/>
-<connect gate="G$1" pin="P1[16]/ENET_MDC" pad="96"/>
-<connect gate="G$1" pin="P1[17]/ENET_MDIO" pad="95"/>
+<connect gate="G$1" pin="P0[3]/RXD0" pad="99"/>
+<connect gate="G$1" pin="P0[4]/I2SRX_CLK/RD2/CAP2[0]" pad="81"/>
+<connect gate="G$1" pin="P0[5]/I2SRX_WS/TD2/CAP2[1]" pad="80"/>
+<connect gate="G$1" pin="P0[6]/I2SRX_SDA/SSEL1/MAT2[0]" pad="79"/>
+<connect gate="G$1" pin="P0[7]/I2STX_CLK/SCK1/MAT2[1]" pad="78"/>
+<connect gate="G$1" pin="P0[8]/I2STX_WS/MISO1/MAT2[2]" pad="77"/>
+<connect gate="G$1" pin="P0[9]/I2STX_SDA/MOSI1/MAT2[3]" pad="76"/>
+<connect gate="G$1" pin="P1[0]/ENET_TXD0" pad="95"/>
+<connect gate="G$1" pin="P1[10]/ENET_RXD1" pad="90"/>
+<connect gate="G$1" pin="P1[14]/ENET_RX_ER" pad="89"/>
+<connect gate="G$1" pin="P1[15]/ENET_REF_CLK" pad="88"/>
+<connect gate="G$1" pin="P1[16]/ENET_MDC" pad="87"/>
+<connect gate="G$1" pin="P1[17]/ENET_MDIO" pad="86"/>
 <connect gate="G$1" pin="P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]" pad="32"/>
 <connect gate="G$1" pin="P1[19]/CAP1[1]" pad="33"/>
-<connect gate="G$1" pin="P1[1]/ENET_TXD1" pad="79"/>
+<connect gate="G$1" pin="P1[1]/ENET_TXD1" pad="94"/>
 <connect gate="G$1" pin="P1[20]/PWM1[2]/SCK0" pad="34"/>
-<connect gate="G$1" pin="P1[21]/PWM1[2]/SSEL0" pad="35"/>
+<connect gate="G$1" pin="P1[21]/PWM1[3]/SSEL0" pad="35"/>
 <connect gate="G$1" pin="P1[22]/MAT1[0]" pad="36"/>
 <connect gate="G$1" pin="P1[23]/PWM1[4]/MISO0" pad="37"/>
 <connect gate="G$1" pin="P1[24]/PWM1[5]/MOSI0" pad="38"/>
@@ -497,16 +497,16 @@
 <connect gate="G$1" pin="P1[29]/PCAP1[1]/MAT0[1]" pad="45"/>
 <connect gate="G$1" pin="P1[30]/VBUS/AD0[4]" pad="21"/>
 <connect gate="G$1" pin="P1[31]/SCK1/AD0[5]" pad="20"/>
-<connect gate="G$1" pin="P1[4]/ENET_TX_EN" pad="80"/>
-<connect gate="G$1" pin="P1[8]/ENET_CRS" pad="81"/>
-<connect gate="G$1" pin="P1[9]/ENET_RXD0" pad="100"/>
-<connect gate="G$1" pin="P2[0]/PWM1[1]/TXD1/TRACECLK" pad="84"/>
+<connect gate="G$1" pin="P1[4]/ENET_TX_EN" pad="93"/>
+<connect gate="G$1" pin="P1[8]/ENET_CRS" pad="92"/>
+<connect gate="G$1" pin="P1[9]/ENET_RXD0" pad="91"/>
+<connect gate="G$1" pin="P2[0]/PWM1[1]/TXD1/TRACECLK" pad="75"/>
 <connect gate="G$1" pin="P2[10]/#EINT0" pad="53"/>
 <connect gate="G$1" pin="P2[11]/#EINT1/MCIDAT1/I2STX_CLK" pad="52"/>
 <connect gate="G$1" pin="P2[12]/#EINT2/MCIDAT2/I2STX_WS" pad="51"/>
 <connect gate="G$1" pin="P2[13]/#EINT3/MCIDAT3/I2STX_SDA" pad="50"/>
-<connect gate="G$1" pin="P2[1]/PWM1[2]/RXD1/PIPESTAT0" pad="83"/>
-<connect gate="G$1" pin="P2[2]/PWM1[3]/CTS1/PIPESTAT1" pad="82"/>
+<connect gate="G$1" pin="P2[1]/PWM1[2]/RXD1/PIPESTAT0" pad="74"/>
+<connect gate="G$1" pin="P2[2]/PWM1[3]/CTS1/PIPESTAT1" pad="73"/>
 <connect gate="G$1" pin="P2[3]/PWM1[4]/DCD1/PIPESTAT2" pad="70"/>
 <connect gate="G$1" pin="P2[4]/PWM1[5]/DSR1/TRACESYNC" pad="69"/>
 <connect gate="G$1" pin="P2[5]/PWM1[6]/DTR1/TRACEPKT0" pad="68"/>
@@ -516,9 +516,9 @@
 <connect gate="G$1" pin="P2[9]/USB_CONNECT/RXD2/EXTINT0" pad="64"/>
 <connect gate="G$1" pin="P3[25]/MAT0[0]/PWM1[2]" pad="27"/>
 <connect gate="G$1" pin="P3[26]/MAT0[1]/PWM1[3]" pad="26"/>
-<connect gate="G$1" pin="P4[28]/MAT2[0]/TXD3" pad="91"/>
-<connect gate="G$1" pin="P4[29]/MAT2[1]/RXD3" pad="94"/>
-<connect gate="G$1" pin="RTCK" pad="73"/>
+<connect gate="G$1" pin="P4[28]/MAT2[0]/TXD3" pad="82"/>
+<connect gate="G$1" pin="P4[29]/MAT2[1]/RXD3" pad="85"/>
+<connect gate="G$1" pin="RTCK" pad="100"/>
 <connect gate="G$1" pin="RTCX1" pad="16"/>
 <connect gate="G$1" pin="RTCX2" pad="18"/>
 <connect gate="G$1" pin="TCK" pad="5"/>
@@ -529,10 +529,10 @@
 <connect gate="G$1" pin="VDD(3V3)0" pad="28"/>
 <connect gate="G$1" pin="VDD(3V3)1" pad="54"/>
 <connect gate="G$1" pin="VDD(3V3)2" pad="71"/>
-<connect gate="G$1" pin="VDD(3V3)3" pad="77"/>
+<connect gate="G$1" pin="VDD(3V3)3" pad="96"/>
 <connect gate="G$1" pin="VDD(DCDC)0" pad="13"/>
 <connect gate="G$1" pin="VDD(DCDC)1" pad="42"/>
-<connect gate="G$1" pin="VDD(DCDC)2" pad="93"/>
+<connect gate="G$1" pin="VDD(DCDC)2" pad="84"/>
 <connect gate="G$1" pin="VDDA" pad="10"/>
 <connect gate="G$1" pin="VREF" pad="12"/>
 <connect gate="G$1" pin="XTAL1" pad="22"/>
@@ -1866,7 +1866,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="7.62" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[21]/PWM1[2]/SSEL0"/>
+<pinref part="U1" gate="G$1" pin="P1[21]/PWM1[3]/SSEL0"/>
 <wire x1="119.38" y1="-17.78" x2="127" y2="-17.78" width="0.1524" layer="91"/>
 <label x="121.92" y="-17.78" size="1.778" layer="95"/>
 </segment>

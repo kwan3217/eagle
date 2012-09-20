@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3541,10 +3541,10 @@ It includes a sensing element and an IC interface capable of providing the measu
 <wire x1="1" y1="-1.15" x2="1" y2="1.15" width="0.2" layer="21"/>
 <wire x1="1" y1="1.15" x2="-1" y2="1.15" width="0.2" layer="21"/>
 <circle x="-0.4" y="-0.6" radius="0.2828" width="0.127" layer="21"/>
-<smd name="1" x="-0.75" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-0.25" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.25" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.75" y="-1.65" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.75" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.25" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.25" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.75" y="-1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="5" x="0.75" y="1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="6" x="0.25" y="1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="7" x="-0.25" y="1.55" dx="0.3" dy="0.8" layer="1" stop="no" cream="no"/>
@@ -3878,7 +3878,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 <connects>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11" route="any"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
@@ -3908,14 +3908,12 @@ It includes a sensing element and an IC interface capable of providing the measu
 <deviceset name="TSX-3225">
 <gates>
 <gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="25.4" y="0"/>
 <gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$2" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2 4" route="any"/>
 <connect gate="_" pin="1" pad="1"/>
 <connect gate="_" pin="2" pad="3"/>
 </connects>
@@ -3925,7 +3923,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 </device>
 </devices>
 </deviceset>
-<deviceset name="RP4">
+<deviceset name="RP4" uservalue="yes">
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="RESISTOR" x="0" y="2.54" swaplevel="1"/>
@@ -4499,8 +4497,7 @@ Source: http://document.sharpsma.com/files/GM5WA94310A_SS.pdf</description>
 <instance part="Y401" gate="G$1" x="22.86" y="-101.6" rot="R270">
 <attribute name="DIGIKEY" x="22.86" y="-101.6" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="Y401" gate="G$2" x="22.86" y="-104.14" rot="R270"/>
-<instance part="Y401" gate="_" x="38.1" y="-106.68" rot="R270"/>
+<instance part="Y401" gate="_" x="38.1" y="-104.14" rot="R270"/>
 <instance part="R401" gate="A" x="165.1" y="-38.1" rot="R90">
 <attribute name="DIGIKEY" x="165.1" y="-38.1" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
@@ -4816,18 +4813,15 @@ Source: http://document.sharpsma.com/files/GM5WA94310A_SS.pdf</description>
 <segment>
 <wire x1="25.4" y1="-99.06" x2="22.86" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-99.06" x2="22.86" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-101.6" x2="22.86" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-104.14" x2="22.86" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-101.6" x2="22.86" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-114.3" x2="22.86" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-114.3" x2="22.86" y2="-114.3" width="0.1524" layer="91"/>
 <junction x="22.86" y="-114.3"/>
 <junction x="22.86" y="-101.6"/>
-<junction x="22.86" y="-104.14"/>
 <pinref part="C462" gate="G$1" pin="1"/>
 <pinref part="C461" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="Y401" gate="G$1" pin="1"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-25.4" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
@@ -5293,11 +5287,11 @@ Source: http://document.sharpsma.com/files/GM5WA94310A_SS.pdf</description>
 </net>
 <net name="XTAL1" class="0">
 <segment>
-<wire x1="33.02" y1="-99.06" x2="38.1" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-104.14" x2="50.8" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-99.06" x2="50.8" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-101.6" x2="76.2" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="38.1" y="-104.14"/>
+<wire x1="33.02" y1="-99.06" x2="35.56" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-99.06" x2="35.56" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-101.6" x2="38.1" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-101.6" x2="76.2" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="38.1" y="-101.6"/>
 <label x="73.66" y="-99.06" size="1.778" layer="95" rot="R180"/>
 <pinref part="C462" gate="G$1" pin="2"/>
 <pinref part="U401" gate="G$1" pin="XTAL1"/>
@@ -5306,11 +5300,11 @@ Source: http://document.sharpsma.com/files/GM5WA94310A_SS.pdf</description>
 </net>
 <net name="XTAL2" class="0">
 <segment>
-<wire x1="50.8" y1="-114.3" x2="38.1" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-109.22" x2="33.02" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-114.3" x2="50.8" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-106.68" x2="76.2" y2="-106.68" width="0.1524" layer="91"/>
-<junction x="38.1" y="-109.22"/>
+<wire x1="38.1" y1="-106.68" x2="35.56" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-106.68" x2="35.56" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-114.3" x2="33.02" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-106.68" x2="76.2" y2="-106.68" width="0.1524" layer="91"/>
+<junction x="38.1" y="-106.68"/>
 <label x="66.04" y="-106.68" size="1.778" layer="95"/>
 <pinref part="C461" gate="G$1" pin="2"/>
 <pinref part="U401" gate="G$1" pin="XTAL2"/>
