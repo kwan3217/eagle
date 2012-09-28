@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2370,34 +2370,34 @@
 <text x="-8.89" y="5.08" size="0.8128" layer="27">&gt;Value</text>
 </package>
 <package name="MPU60X0">
-<smd name="1" x="-2" y="1.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="2" x="-2" y="0.75" dx="0.8" dy="0.35" layer="1"/>
-<smd name="3" x="-2" y="0.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="4" x="-2" y="-0.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="5" x="-2" y="-0.75" dx="0.8" dy="0.35" layer="1"/>
-<smd name="6" x="-2" y="-1.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="7" x="-1.25" y="-1.975" dx="0.35" dy="0.85" layer="1"/>
+<smd name="1" x="-2" y="1.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="2" x="-2" y="0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-2" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-2" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="-2" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="6" x="-2" y="-1.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="7" x="-1.25" y="-1.975" dx="0.3" dy="0.85" layer="1"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
-<smd name="8" x="-0.75" y="-1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="9" x="-0.25" y="-1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="10" x="0.25" y="-1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="11" x="0.75" y="-1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="12" x="1.25" y="-1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="13" x="2" y="-1.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="14" x="2" y="-0.75" dx="0.8" dy="0.35" layer="1"/>
-<smd name="15" x="2" y="-0.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="16" x="2" y="0.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="17" x="2" y="0.75" dx="0.8" dy="0.35" layer="1"/>
-<smd name="18" x="2" y="1.25" dx="0.8" dy="0.35" layer="1"/>
-<smd name="19" x="1.25" y="1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="20" x="0.75" y="1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="21" x="0.25" y="1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="22" x="-0.25" y="1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="23" x="-0.75" y="1.975" dx="0.35" dy="0.85" layer="1"/>
-<smd name="24" x="-1.25" y="1.975" dx="0.35" dy="0.85" layer="1"/>
+<smd name="8" x="-0.75" y="-1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="9" x="-0.25" y="-1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="10" x="0.25" y="-1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="11" x="0.75" y="-1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="12" x="1.25" y="-1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="13" x="2" y="-1.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="14" x="2" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="15" x="2" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="16" x="2" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="17" x="2" y="0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="18" x="2" y="1.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="19" x="1.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="20" x="0.75" y="1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="21" x="0.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="22" x="-0.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="23" x="-0.75" y="1.975" dx="0.3" dy="0.85" layer="1"/>
+<smd name="24" x="-1.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
 <circle x="-1" y="1" radius="0.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="1.5" x2="-2" y2="2" width="0.127" layer="21"/>
 <wire x1="-2" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
@@ -2409,6 +2409,17 @@
 <wire x1="-2" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="21"/>
 <text x="2.54" y="0" size="0.8128" layer="25">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-1.016" y1="-1.162" x2="-1.016" y2="0.362" width="0.0508" layer="51"/>
+<wire x1="-0.762" y1="0.108" x2="-1.016" y2="0.362" width="0.0508" layer="51"/>
+<wire x1="-1.016" y1="0.362" x2="-1.27" y2="0.108" width="0.0508" layer="51"/>
+<wire x1="-1.016" y1="-1.162" x2="0.508" y2="-1.162" width="0.0508" layer="51"/>
+<wire x1="0.254" y1="-0.908" x2="0.508" y2="-1.162" width="0.0508" layer="51"/>
+<wire x1="0.508" y1="-1.162" x2="0.254" y2="-1.416" width="0.0508" layer="51"/>
+<circle x="-0.508" y="-0.654" radius="0.0457" width="0.0762" layer="51"/>
+<circle x="-0.508" y="-0.654" radius="0.3592" width="0.0508" layer="51"/>
+<text x="-0.054" y="0.724" size="0.8128" layer="51" rot="R180">Y</text>
+<text x="0.762" y="-1.416" size="0.8128" layer="51">X</text>
+<text x="0" y="-0.4" size="0.8128" layer="51">Z</text>
 </package>
 <package name="LLGA16">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0" layer="51"/>
@@ -2432,7 +2443,7 @@
 <rectangle x1="-0.175" y1="1.1" x2="0.175" y2="1.35" layer="51" rot="R270"/>
 <rectangle x1="-0.675" y1="1.1" x2="-0.325" y2="1.35" layer="51" rot="R270"/>
 <circle x="-0.875" y="1.275" radius="0.075" width="0" layer="51"/>
-<smd name="1" x="-1.4" y="1" dx="0.8" dy="0.35" layer="1"/>
+<smd name="1" x="-1.4" y="1" dx="0.8" dy="0.3" layer="1"/>
 <text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-0.5" y1="0.7" x2="-0.8" y2="0.5" width="0" layer="51"/>
@@ -2446,21 +2457,21 @@
 <circle x="0.3" y="0.3" radius="0.05" width="0" layer="51"/>
 <circle x="0.3" y="0.3" radius="0.2" width="0.01" layer="51"/>
 <text x="0.6" y="0.2" size="0.2" layer="51">Z</text>
-<smd name="2" x="-1.4" y="0.5" dx="0.8" dy="0.35" layer="1"/>
-<smd name="3" x="-1.4" y="0" dx="0.8" dy="0.35" layer="1"/>
-<smd name="4" x="-1.4" y="-0.5" dx="0.8" dy="0.35" layer="1"/>
-<smd name="5" x="-1.4" y="-1" dx="0.8" dy="0.35" layer="1"/>
-<smd name="6" x="-0.5" y="-1.4" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="7" x="0" y="-1.4" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="8" x="0.5" y="-1.4" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="9" x="1.4" y="-1" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="10" x="1.4" y="-0.5" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="11" x="1.4" y="0" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="12" x="1.4" y="0.5" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="13" x="1.4" y="1" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="14" x="0.5" y="1.4" dx="0.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="15" x="0" y="1.4" dx="0.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="16" x="-0.5" y="1.4" dx="0.8" dy="0.35" layer="1" rot="R270"/>
+<smd name="2" x="-1.4" y="0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-1.4" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-1.4" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="-1.4" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="6" x="-0.5" y="-1.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0" y="-1.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.5" y="-1.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="1.4" y="-1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="1.4" y="-0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="11" x="1.4" y="0" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="12" x="1.4" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="13" x="1.4" y="1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="14" x="0.5" y="1.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="15" x="0" y="1.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="16" x="-0.5" y="1.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
 <rectangle x1="0.7" y1="1.2" x2="1.5" y2="1.5" layer="41"/>
 <rectangle x1="-1.5" y1="1.2" x2="-0.7" y2="1.5" layer="41"/>
