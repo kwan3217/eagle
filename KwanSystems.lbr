@@ -4879,6 +4879,26 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </device>
 </devices>
 </deviceset>
+<deviceset name="SN74LVC1G32">
+<gates>
+<gate name="G$1" symbol="OR" x="0" y="0"/>
+<gate name="G$2" symbol="PWR" x="-22.86" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+<connect gate="G$2" pin="GND" pad="3"/>
+<connect gate="G$2" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
