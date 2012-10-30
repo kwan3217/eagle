@@ -2095,7 +2095,11 @@ board(B)
                     sprintf(pov_pack,"%sobject {",pov_pack);
                     sprintf(pov_pack,"%s%s",pov_pack,pack_tra[31]);
                     if(pack_tra[1] == "1") sprintf(pov_pack,"%s\"%s\",",pov_pack,E.name);                                    //Name des Gehäuse ausgeben?
-                    if(pack_tra[2] == "1") sprintf(pov_pack,"%s\"%s\",",pov_pack,E.value);                                    //Value des Device ausgeben?
+                    string Label=E.value;
+                    if(E.attribute["LABEL_3D50"]) {
+                      Label=E.attribute["LABEL_3D50"];
+                    }
+                    if(pack_tra[2] == "1") sprintf(pov_pack,"%s\"%s\",",pov_pack,Label);                                    //Value des Device ausgeben?
                     if(pack_tra[3] == "1") sprintf(pov_pack,"%s%s,%s,",pov_pack,val2colors(E.value),color_t);                //Farbringe fur Widerstand?
                     if(pack_tra[5] == "1")                                                                                     //LED-Optionen
                     {
