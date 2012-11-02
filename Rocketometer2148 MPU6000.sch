@@ -9346,9 +9346,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="-12.7" y="-129.54"/>
 </segment>
 <segment>
-<pinref part="U401" gate="G$1" pin="(DSR1/MAT1.0/AD1.3)P0.12"/>
-<wire x1="149.86" y1="-73.66" x2="160.02" y2="-73.66" width="0.1524" layer="91"/>
-<label x="154.94" y="-73.66" size="1.778" layer="95"/>
+<pinref part="U401" gate="G$1" pin="(DTR1/MAT1.1/AD1.4)P0.13"/>
+<wire x1="149.86" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
+<label x="154.94" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="YACC" class="0">
@@ -9378,9 +9378,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="-22.86" y="-134.62"/>
 </segment>
 <segment>
-<pinref part="U401" gate="G$1" pin="(DTR1/MAT1.1/AD1.4)P0.13"/>
-<wire x1="149.86" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
-<label x="154.94" y="-76.2" size="1.778" layer="95"/>
+<pinref part="U401" gate="G$1" pin="(DSR1/MAT1.0/AD1.3)P0.12"/>
+<wire x1="149.86" y1="-73.66" x2="160.02" y2="-73.66" width="0.1524" layer="91"/>
+<label x="154.94" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
