@@ -1649,6 +1649,9 @@ IC_SMD_GRND(2.9,1.6,1,2.8,3,2,0.95,1.90,0.35,0.35,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #macro IC_SMD_SOT23_6(value,logo)
 IC_SMD_GRND(2.9,1.6,1,2.8,3,3,0.95,0.95,0.35,0.35,0.13,0.1,0,1,0,0.3,0.7,0,logo)
 #end
+#macro IC_SMD_SOT23_8(value,logo)
+IC_SMD_GRND(2.9,1.6,1,2.8,4,4,0.65,0.65,0.35,0.35,0.13,0.1,0,1,0,0.3,0.7,0,logo)
+#end
 #macro IC_SMD_SC70_6(value,logo)
 //#macro IC_SMD_GRND(LK, BK,  HK, B,  pin_u,pin_o,ptch_u,ptch_o,pinb_u,pinb_o,pin_s,di_pcb,kor_w,pin0_m,pin0_45,pin0_a,besch_s,besch_w,logo)
          IC_SMD_GRND(2.0,1.25,1.1,2.1,3,    3,    0.65,  0.65,  0.225, 0.225 ,0.175,0.1,   0,    1,     0,      0.3,0.7,0,logo)

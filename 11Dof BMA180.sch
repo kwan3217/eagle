@@ -5436,6 +5436,38 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <text x="0" y="0" size="0.8128" layer="25" align="center">&gt;NAME</text>
 <text x="1.84" y="-1.37" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="LGA12">
+<wire x1="-1.5" y1="1.5" x2="-0.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="0.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="0.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<circle x="-2" y="1.9" radius="0.1414" width="0.254" layer="21"/>
+<smd name="1" x="-1.3" y="1" dx="0.8" dy="0.32" layer="1"/>
+<smd name="2" x="-1.3" y="0.5" dx="0.8" dy="0.32" layer="1"/>
+<smd name="3" x="-1.3" y="0" dx="0.8" dy="0.32" layer="1"/>
+<smd name="4" x="-1.3" y="-0.5" dx="0.8" dy="0.32" layer="1"/>
+<smd name="5" x="-1.3" y="-1" dx="0.8" dy="0.32" layer="1"/>
+<smd name="6" x="0" y="-1.3" dx="0.8" dy="0.32" layer="1" rot="R90"/>
+<smd name="7" x="1.3" y="-1" dx="0.8" dy="0.32" layer="1" rot="R180"/>
+<smd name="8" x="1.3" y="-0.5" dx="0.8" dy="0.32" layer="1" rot="R180"/>
+<smd name="9" x="1.3" y="0" dx="0.8" dy="0.32" layer="1" rot="R180"/>
+<smd name="10" x="1.3" y="0.5" dx="0.8" dy="0.32" layer="1" rot="R180"/>
+<smd name="11" x="1.3" y="1" dx="0.8" dy="0.32" layer="1" rot="R180"/>
+<smd name="12" x="0" y="1.3" dx="0.8" dy="0.32" layer="1" rot="R270"/>
+<wire x1="0.8" y1="0.4" x2="0.6" y2="0.7" width="0" layer="51"/>
+<wire x1="0.4" y1="0.4" x2="0.6" y2="0.7" width="0" layer="51"/>
+<wire x1="0.6" y1="0.7" x2="0.6" y2="-0.6" width="0" layer="51"/>
+<wire x1="0.6" y1="-0.6" x2="-0.7" y2="-0.6" width="0" layer="51"/>
+<wire x1="-0.7" y1="-0.6" x2="-0.4" y2="-0.4" width="0" layer="51"/>
+<wire x1="-0.7" y1="-0.6" x2="-0.4" y2="-0.8" width="0" layer="51"/>
+<text x="0.2" y="0.7" size="0.2" layer="51" rot="R270">X</text>
+<text x="-0.7" y="-0.2" size="0.2" layer="51" rot="R270">Y</text>
+<circle x="0.4" y="-0.4" radius="0.05" width="0" layer="51"/>
+<circle x="0.4" y="-0.4" radius="0.2" width="0.01" layer="51"/>
+<text x="0.3" y="-0.7" size="0.2" layer="51" rot="R270">Z</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BMP180">
@@ -5463,6 +5495,26 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <symbol name="PWR">
 <pin name="VCC" x="2.54" y="10.16" length="middle" rot="R270"/>
 <pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+</symbol>
+<symbol name="BMA180">
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NC" x="-15.24" y="5.08" length="middle"/>
+<pin name="VDD" x="-15.24" y="2.54" length="middle"/>
+<pin name="VSS" x="-15.24" y="0" length="middle"/>
+<pin name="INT" x="-15.24" y="-2.54" length="middle"/>
+<pin name="CSB" x="-15.24" y="-5.08" length="middle"/>
+<pin name="NC1" x="-15.24" y="-7.62" length="middle"/>
+<pin name="SCK" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="SDO" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="SDI" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDDIO" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="NC2" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="NC3" x="15.24" y="5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5505,63 +5557,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LGA12">
-<wire x1="-1.5" y1="1.5" x2="-0.4" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="0.4" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="0.4" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<circle x="-0.5" y="0.6" radius="0.1414" width="0.254" layer="21"/>
-<smd name="1" x="-1.3" y="1" dx="0.8" dy="0.32" layer="1"/>
-<smd name="2" x="-1.3" y="0.5" dx="0.8" dy="0.32" layer="1"/>
-<smd name="3" x="-1.3" y="0" dx="0.8" dy="0.32" layer="1"/>
-<smd name="4" x="-1.3" y="-0.5" dx="0.8" dy="0.32" layer="1"/>
-<smd name="5" x="-1.3" y="-1" dx="0.8" dy="0.32" layer="1"/>
-<smd name="6" x="0" y="-1.3" dx="0.8" dy="0.32" layer="1" rot="R90"/>
-<smd name="7" x="1.3" y="-1" dx="0.8" dy="0.32" layer="1" rot="R180"/>
-<smd name="8" x="1.3" y="-0.5" dx="0.8" dy="0.32" layer="1" rot="R180"/>
-<smd name="9" x="1.3" y="0" dx="0.8" dy="0.32" layer="1" rot="R180"/>
-<smd name="10" x="1.3" y="0.5" dx="0.8" dy="0.32" layer="1" rot="R180"/>
-<smd name="11" x="1.3" y="1" dx="0.8" dy="0.32" layer="1" rot="R180"/>
-<smd name="12" x="0" y="1.3" dx="0.8" dy="0.32" layer="1" rot="R270"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BMA180">
-<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<text x="-10.16" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="NC" x="-15.24" y="5.08" length="middle"/>
-<pin name="VDD" x="-15.24" y="2.54" length="middle"/>
-<pin name="VSS" x="-15.24" y="0" length="middle"/>
-<pin name="INT" x="-15.24" y="-2.54" length="middle"/>
-<pin name="CSB" x="-15.24" y="-5.08" length="middle"/>
-<pin name="NC1" x="-15.24" y="-7.62" length="middle"/>
-<pin name="SCK" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="SDO" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="SDI" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="VDDIO" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="NC2" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="NC3" x="15.24" y="5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
 <deviceset name="BMA180">
-<description>3-axis, 14-bit SPI/I2C accelerometer.&lt;br&gt;
-Range 1/1.5/2/3/4/8/16g.</description>
 <gates>
 <gate name="G$1" symbol="BMA180" x="0" y="0"/>
 </gates>
@@ -5670,8 +5666,12 @@ Range 1/1.5/2/3/4/8/16g.</description>
 <part name="U$2" library="SparkFun" deviceset="OSHW-LOGO" device="S">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="U401" library="KwanSystems" deviceset="SN74LVC1G32" device=""/>
-<part name="U601" library="SparkFun-Sensors" deviceset="BMA180" device=""/>
+<part name="U401" library="KwanSystems" deviceset="SN74LVC1G32" device="">
+<attribute name="DIGIKEY" value="296-9847-2-ND"/>
+</part>
+<part name="U601" library="KwanSystems" deviceset="BMA180" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5746,9 +5746,13 @@ Range 1/1.5/2/3/4/8/16g.</description>
 <instance part="U$2" gate="G$1" x="116.84" y="228.6">
 <attribute name="DIGIKEY" x="116.84" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U401" gate="G$1" x="195.58" y="200.66" rot="R180"/>
+<instance part="U401" gate="G$1" x="195.58" y="200.66" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U401" gate="G$2" x="96.52" y="149.86" rot="R180"/>
-<instance part="U601" gate="G$1" x="50.8" y="254"/>
+<instance part="U601" gate="G$1" x="50.8" y="254">
+<attribute name="DIGIKEY" x="50.8" y="254" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

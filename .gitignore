@@ -9,4 +9,9 @@
 *.pro
 *.bak
 Memory.Log
+*.ger
+*.gpi
+*.dri
+*.xln
+*.zip
 

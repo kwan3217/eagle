@@ -4818,6 +4818,12 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <smd name="14" x="0.25" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
 <smd name="15" x="-0.25" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
 <smd name="16" x="-0.75" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<rectangle x1="-1.5" y1="1" x2="-1" y2="1.5" layer="41"/>
+<rectangle x1="1" y1="1" x2="1.5" y2="1.5" layer="41"/>
+<rectangle x1="-1.5" y1="-1.5" x2="-1" y2="-1" layer="41"/>
+<rectangle x1="1" y1="-1.5" x2="1.5" y2="-1" layer="41"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
+<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="42"/>
 </package>
 <package name="LLGA16">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0" layer="51"/>
@@ -4840,8 +4846,8 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <rectangle x1="0.325" y1="1.1" x2="0.675" y2="1.35" layer="51" rot="R270"/>
 <rectangle x1="-0.175" y1="1.1" x2="0.175" y2="1.35" layer="51" rot="R270"/>
 <rectangle x1="-0.675" y1="1.1" x2="-0.325" y2="1.35" layer="51" rot="R270"/>
-<circle x="-0.875" y="1.275" radius="0.075" width="0" layer="51"/>
-<smd name="1" x="-1.4" y="1" dx="0.8" dy="0.35" layer="1"/>
+<circle x="-2" y="2" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1.4" y="1" dx="0.8" dy="0.3" layer="1"/>
 <text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-0.5" y1="0.7" x2="-0.8" y2="0.5" width="0" layer="51"/>
@@ -4855,21 +4861,21 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <circle x="0.3" y="0.3" radius="0.05" width="0" layer="51"/>
 <circle x="0.3" y="0.3" radius="0.2" width="0.01" layer="51"/>
 <text x="0.6" y="0.2" size="0.2" layer="51">Z</text>
-<smd name="2" x="-1.4" y="0.5" dx="0.8" dy="0.35" layer="1"/>
-<smd name="3" x="-1.4" y="0" dx="0.8" dy="0.35" layer="1"/>
-<smd name="4" x="-1.4" y="-0.5" dx="0.8" dy="0.35" layer="1"/>
-<smd name="5" x="-1.4" y="-1" dx="0.8" dy="0.35" layer="1"/>
-<smd name="6" x="-0.5" y="-1.4" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="7" x="0" y="-1.4" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="8" x="0.5" y="-1.4" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="9" x="1.4" y="-1" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="10" x="1.4" y="-0.5" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="11" x="1.4" y="0" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="12" x="1.4" y="0.5" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="13" x="1.4" y="1" dx="0.8" dy="0.35" layer="1" rot="R180"/>
-<smd name="14" x="0.5" y="1.4" dx="0.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="15" x="0" y="1.4" dx="0.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="16" x="-0.5" y="1.4" dx="0.8" dy="0.35" layer="1" rot="R270"/>
+<smd name="2" x="-1.4" y="0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-1.4" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-1.4" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="-1.4" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="6" x="-0.5" y="-1.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0" y="-1.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.5" y="-1.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="1.4" y="-1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="1.4" y="-0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="11" x="1.4" y="0" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="12" x="1.4" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="13" x="1.4" y="1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="14" x="0.5" y="1.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="15" x="0" y="1.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="16" x="-0.5" y="1.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
 <rectangle x1="0.7" y1="1.2" x2="1.5" y2="1.5" layer="41"/>
 <rectangle x1="-1.5" y1="1.2" x2="-0.7" y2="1.5" layer="41"/>
@@ -5038,6 +5044,130 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Passives">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SJ_2S">
+<description>Small solder jumper with big paste layer so it will short during reflow.</description>
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
+<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
+</package>
+<package name="SJ_2S-TRACE">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SJ_2S-NOTRACE">
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
+<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
+<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90.03821"/>
+<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90.03821"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
+<smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
+</package>
+<package name="SJ_2S-NO">
+<description>Small solder jumper with no paste layer so it will open after reflow.</description>
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SOLDERJUMPER" prefix="SJ">
+<description>&lt;b&gt;Solder Jumper&lt;/b&gt;
+Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
+<gates>
+<gate name="1" symbol="SJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NC" package="SJ_2S">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TRACE" package="SJ_2S-TRACE">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NC2" package="SJ_2S-NOTRACE">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NO" package="SJ_2S-NO">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5062,10 +5192,18 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="U$2" library="SparkFun" deviceset="OSHW-LOGO" device="S">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="U101" library="KwanSystems" deviceset="AD799X" device="" value="AD7995"/>
-<part name="U901" library="KwanSystems" deviceset="ADXL377" device=""/>
-<part name="U801" library="KwanSystems" deviceset="H3LIS331DL" device=""/>
-<part name="U102" library="KwanSystems" deviceset="MCP1525" device=""/>
+<part name="U101" library="KwanSystems" deviceset="AD799X" device="" value="AD7995">
+<attribute name="DIGIKEY" value="AD7995YRJZ-1500RL7CT-ND"/>
+</part>
+<part name="U901" library="KwanSystems" deviceset="ADXL377" device="">
+<attribute name="DIGIKEY" value="ADXL377BCPZ-RL7CT-ND"/>
+</part>
+<part name="U801" library="KwanSystems" deviceset="H3LIS331DL" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="U102" library="KwanSystems" deviceset="MCP1525" device="">
+<attribute name="DIGIKEY" value="MCP1525T-I/TTCT-ND"/>
+</part>
 <part name="C102" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF">
 <attribute name="DIGIKEY" value="445-7486-1-ND"/>
 </part>
@@ -5097,6 +5235,18 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="C801" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1316-1-ND"/>
 </part>
+<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
+<part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5110,10 +5260,18 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instance part="U$2" gate="G$1" x="223.52" y="154.94">
 <attribute name="DIGIKEY" x="223.52" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U101" gate="G$1" x="119.38" y="127"/>
-<instance part="U901" gate="G$1" x="208.28" y="132.08"/>
-<instance part="U801" gate="G$1" x="271.78" y="139.7"/>
-<instance part="U102" gate="G$1" x="170.18" y="132.08"/>
+<instance part="U101" gate="G$1" x="119.38" y="127">
+<attribute name="DIGIKEY" x="119.38" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U901" gate="G$1" x="208.28" y="132.08">
+<attribute name="DIGIKEY" x="208.28" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U801" gate="G$1" x="271.78" y="139.7">
+<attribute name="DIGIKEY" x="271.78" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U102" gate="G$1" x="170.18" y="132.08">
+<attribute name="DIGIKEY" x="170.18" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C102" gate="G$1" x="157.48" y="124.46">
 <attribute name="DIGIKEY" x="157.48" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5162,6 +5320,22 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <attribute name="DIGIKEY" x="248.92" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="248.539" y="141.224" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="251.079" y="141.224" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ1" gate="1" x="76.2" y="137.16" smashed="yes">
+<attribute name="NAME" x="68.58" y="137.16" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="76.2" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ2" gate="1" x="76.2" y="134.62" smashed="yes">
+<attribute name="NAME" x="68.58" y="134.62" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="76.2" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ3" gate="1" x="76.2" y="132.08" smashed="yes">
+<attribute name="NAME" x="68.58" y="132.08" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="76.2" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ4" gate="1" x="76.2" y="121.92" smashed="yes">
+<attribute name="NAME" x="68.58" y="121.92" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="76.2" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -5330,12 +5504,15 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="U102" gate="G$1" pin="VOUT"/>
 <pinref part="C102" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="129.54" x2="149.86" y2="127" width="0.1524" layer="91"/>
-<pinref part="U101" gate="G$1" pin="VIN3/VREF"/>
-<wire x1="149.86" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
-<label x="137.16" y="127" size="1.778" layer="95"/>
+<pinref part="U101" gate="G$1" pin="VIN2"/>
+<wire x1="157.48" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<label x="137.16" y="129.54" size="1.778" layer="95"/>
 <junction x="157.48" y="129.54"/>
+</segment>
+<segment>
+<pinref part="SJ4" gate="1" pin="2"/>
+<wire x1="81.28" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+<label x="81.28" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ZACC" class="0">
@@ -5349,9 +5526,14 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <junction x="226.06" y="129.54"/>
 </segment>
 <segment>
-<pinref part="U101" gate="G$1" pin="VIN2"/>
-<wire x1="134.62" y1="129.54" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
-<label x="137.16" y="129.54" size="1.778" layer="95"/>
+<pinref part="U101" gate="G$1" pin="VIN3/VREF"/>
+<wire x1="134.62" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<label x="137.16" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="1" pin="2"/>
+<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<label x="81.28" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="YACC" class="0">
@@ -5369,6 +5551,11 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="134.62" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
 <label x="137.16" y="132.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
+<label x="81.28" y="134.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="XACC" class="0">
 <segment>
@@ -5384,6 +5571,39 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="U101" gate="G$1" pin="VIN0"/>
 <wire x1="134.62" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
 <label x="137.16" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="81.28" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
+<label x="81.28" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J401" gate="G$1" pin="3"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<wire x1="71.12" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J401" gate="G$1" pin="4"/>
+<pinref part="SJ2" gate="1" pin="1"/>
+<wire x1="71.12" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J401" gate="G$1" pin="5"/>
+<pinref part="SJ3" gate="1" pin="1"/>
+<wire x1="71.12" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J401" gate="G$1" pin="9"/>
+<wire x1="68.58" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
