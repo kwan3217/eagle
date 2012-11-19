@@ -2793,10 +2793,10 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <part name="D401" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN">
 <attribute name="DIGIKEY" value="350-2036-1-ND"/>
 </part>
-<part name="D001" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
+<part name="D022" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE">
 <attribute name="DIGIKEY" value="350-2037-1-ND"/>
 </part>
-<part name="D002" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
+<part name="D023" library="SparkFun-LED" deviceset="LED" device="0603" value="RED">
 <attribute name="DIGIKEY" value="754-1359-1-ND"/>
 </part>
 <part name="D402" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW">
@@ -2846,7 +2846,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </part>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$3" library="KwanSystems" deviceset="B3U-1000P" device=""/>
+<part name="S429" library="KwanSystems" deviceset="B3U-1000P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2886,10 +2886,10 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <instance part="D401" gate="G$1" x="-22.86" y="45.72">
 <attribute name="DIGIKEY" x="-22.86" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D001" gate="G$1" x="96.52" y="33.02">
+<instance part="D022" gate="G$1" x="96.52" y="33.02">
 <attribute name="DIGIKEY" x="96.52" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D002" gate="G$1" x="106.68" y="33.02">
+<instance part="D023" gate="G$1" x="106.68" y="33.02">
 <attribute name="DIGIKEY" x="106.68" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D402" gate="G$1" x="86.36" y="33.02">
@@ -2940,7 +2940,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </instance>
 <instance part="P+4" gate="1" x="-38.1" y="27.94"/>
 <instance part="GND2" gate="1" x="-38.1" y="20.32"/>
-<instance part="U$3" gate="G$1" x="-12.7" y="109.22" rot="R90"/>
+<instance part="S429" gate="G$1" x="-12.7" y="109.22" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3029,7 +3029,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <pinref part="Y401" gate="G$2" pin="1"/>
 <wire x1="-12.7" y1="104.14" x2="-12.7" y2="83.82" width="0" layer="91"/>
 <junction x="-12.7" y="83.82"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="S429" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
@@ -3094,8 +3094,8 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <wire x1="106.68" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="127" y1="22.86" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <junction x="106.68" y="22.86"/>
-<pinref part="D001" gate="G$1" pin="C"/>
-<pinref part="D002" gate="G$1" pin="C"/>
+<pinref part="D022" gate="G$1" pin="C"/>
+<pinref part="D023" gate="G$1" pin="C"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
 </segment>
 <segment>
@@ -3180,7 +3180,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <wire x1="-12.7" y1="111.76" x2="12.7" y2="111.76" width="0" layer="91"/>
 <wire x1="12.7" y1="111.76" x2="12.7" y2="96.52" width="0" layer="91"/>
 <junction x="12.7" y="96.52"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
+<pinref part="S429" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="-63.5" y1="93.98" x2="-73.66" y2="93.98" width="0.1524" layer="91"/>
@@ -3266,7 +3266,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <segment>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R001" gate="B" pin="1"/>
-<pinref part="D001" gate="G$1" pin="A"/>
+<pinref part="D022" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3287,7 +3287,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <segment>
 <wire x1="106.68" y1="40.64" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R001" gate="A" pin="1"/>
-<pinref part="D002" gate="G$1" pin="A"/>
+<pinref part="D023" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="D12" class="0">
