@@ -8301,10 +8301,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="DIGIKEY" value="445-1415-1-ND"/>
 </part>
 <part name="C030" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF">
-<attribute name="DIGIKEY" value="445-1239-1-ND"/>
+<attribute name="DIGIKEY" value="445-5363-1-ND"/>
 </part>
 <part name="C020" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF">
-<attribute name="DIGIKEY" value="445-1239-1-ND"/>
+<attribute name="DIGIKEY" value="445-5363-1-ND"/>
 </part>
 <part name="R031" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1.5k">
 <attribute name="DIGIKEY" value="P1.50KLCT-ND"/>
@@ -8332,24 +8332,24 @@ We've spent an enormous amount of time creating and checking these footprints an
 </part>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="C462" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF">
-<attribute name="DIGIKEY" value="445-1239-1-ND"/>
+<part name="C462" library="SparkFun" deviceset="CAP" device="0402-CAP" value="33pF">
+<attribute name="DIGIKEY" value="445-1241-1-ND"/>
 </part>
-<part name="C461" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF">
-<attribute name="DIGIKEY" value="445-1239-1-ND"/>
+<part name="C461" library="SparkFun" deviceset="CAP" device="0402-CAP" value="33pF">
+<attribute name="DIGIKEY" value="445-1241-1-ND"/>
 </part>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="C451" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1268-1-ND"/>
 </part>
 <part name="C463" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF">
-<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+<attribute name="DIGIKEY" value="445-1415-1-ND"/>
 </part>
 <part name="C443" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1268-1-ND"/>
 </part>
 <part name="C423" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF">
-<attribute name="DIGIKEY" value="445-1268-1-ND"/>
+<attribute name="DIGIKEY" value="445-1415-1-ND"/>
 </part>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
@@ -8394,11 +8394,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C613" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1268-1-ND"/>
 </part>
-<part name="S458" library="KwanSystems" deviceset="B3U-1000P" device="">
+<part name="S458" library="KwanSystems" deviceset="B3U-1000P" device="" value="">
 <attribute name="DIGIKEY" value="SW1020CT-ND"/>
 </part>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="U201" library="KwanSystems" deviceset="MIC5319" device="D5" value="MIC5319">
+<part name="U201" library="KwanSystems" deviceset="MIC5319" device="D5" value="MIC5319D5">
 <attribute name="DIGIKEY" value="576-1910-1-ND"/>
 </part>
 <part name="C215" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF">
@@ -8410,14 +8410,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U101" library="KwanSystems" deviceset="BMP180" device="">
 <attribute name="DIGIKEY" value="828-1027-1-ND"/>
 </part>
-<part name="D401" library="KwanSystems" deviceset="HSMF-C118" device="">
+<part name="D401" library="KwanSystems" deviceset="HSMF-C118" device="" value="RGB">
 <attribute name="DIGIKEY" value="516-1778-1-ND"/>
 </part>
 <part name="P+13" library="SparkFun" deviceset="VCC" device=""/>
 <part name="S457A" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="S457" library="KwanSystems" deviceset="B3U-1000P" device="">
+<part name="S457" library="KwanSystems" deviceset="B3U-1000P" device="" value="">
 <attribute name="DIGIKEY" value="SW1020CT-ND"/>
 </part>
 <part name="JP1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="TIGHT">
@@ -8430,13 +8430,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
 <part name="Y402" library="KwanSystems" deviceset="ABS06" device="" value="32kiHz">
-<attribute name="DIGIKEY" value="535-10248-1-ND"/>
+<attribute name="DIGIKEY" value="535-10104-1-ND"/>
 </part>
 <part name="C403" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF">
-<attribute name="DIGIKEY" value="445-1239-1-ND"/>
+<attribute name="DIGIKEY" value="445-5363-1-ND"/>
 </part>
 <part name="C405" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF">
-<attribute name="DIGIKEY" value="445-1239-1-ND"/>
+<attribute name="DIGIKEY" value="445-5363-1-ND"/>
 </part>
 <part name="P+14" library="SparkFun" deviceset="VCC" device=""/>
 <part name="JP3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="TIGHT">
@@ -8445,18 +8445,24 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="JP2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device="TIGHT">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="Y401" library="KwanSystems" deviceset="CX2520" device="" value="12MHz"/>
-<part name="U601" library="KwanSystems" deviceset="MPU6000" device=""/>
+<part name="Y401" library="KwanSystems" deviceset="CX2520" device="" value="12MHz">
+<attribute name="DIGIKEY" value="887-1487-1-ND"/>
+</part>
+<part name="U601" library="KwanSystems" deviceset="MPU6000" device="">
+<attribute name="DIGIKEY" value="$NOPART"/>
+</part>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="C620" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF">
-<attribute name="DIGIKEY" value="445-4976-1-ND"/>
+<attribute name="DIGIKEY" value="445-1257-1-ND"/>
 </part>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="C449" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1268-1-ND"/>
 </part>
-<part name="U901" library="KwanSystems" deviceset="ADXL377" device="" value="ADXL377"/>
+<part name="U901" library="KwanSystems" deviceset="ADXL377" device="" value="ADXL377">
+<attribute name="DIGIKEY" value="ADXL377BCPZ-RL7CT-ND"/>
+</part>
 <part name="C914" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="DIGIKEY" value="445-7395-1-ND"/>
 </part>
@@ -8482,7 +8488,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="DIGIKEY" value="445-7486-1-ND"/>
 </part>
 <part name="C907" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP" value="100nF">
-<attribute name="DIGIKEY" value="445-1316-1-ND"/>
+<attribute name="DIGIKEY" value="445-1268-1-ND"/>
 </part>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
@@ -8501,6 +8507,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="50.8" y="71.12" size="1.778" layer="97">D</text>
 <text x="129.54" y="7.62" size="1.778" layer="97">Max charge current Ireg=1000V/R301</text>
 <text x="129.54" y="5.08" size="1.778" layer="97">For R301=10k, Ireg=1000V/10000Ohm=0.1A</text>
+<text x="-27.94" y="-96.52" size="1.778" layer="97">Freq         Cl    Rs   Cx1,Cx2</text>
+<text x="-27.94" y="-99.06" size="1.778" layer="97">10MHz-15MHz  10pF &lt;300 18pF</text>
+<text x="-27.94" y="-101.6" size="1.778" layer="97">10MHz-15MHz  20pF &lt;220 38pF</text>
+<text x="-27.94" y="-104.14" size="1.778" layer="97">10MHz-15MHz  30pF &lt;140 58pF</text>
+<text x="-27.94" y="-91.44" size="1.778" layer="97">TXC inc 8Z 12MHz - 18pf Cl &lt;100 Rs 30ppm/30ppm</text>
+<text x="-55.88" y="-106.68" size="1.778" layer="97">at 18pF, exact Cx1 is 34pF, 33pF is closest E12</text>
+<text x="-38.1" y="-114.3" size="1.778" layer="97">Freq         Cl    Rs   Cx1,Cx2</text>
+<text x="-38.1" y="-116.84" size="1.778" layer="97">32kiHz       11pF &lt;100k 18pF</text>
+<text x="-38.1" y="-119.38" size="1.778" layer="97">32kiHz       13pF &lt;100k 22pF</text>
+<text x="-38.1" y="-121.92" size="1.778" layer="97">32kiHz       15pF &lt;100k 27pF</text>
+<text x="-55.88" y="-111.76" size="1.778" layer="97">Abracon ABS06 32kiHz - 12.5pf Cl &lt;90k Rs 20ppm</text>
+<text x="-55.88" y="-124.46" size="1.778" layer="97">at 12.5pF, exact Cx1 is 21pF, 22pF is closest E12</text>
 </plain>
 <instances>
 <instance part="J301" gate="G$1" x="208.28" y="30.48" rot="MR0">
@@ -8616,7 +8634,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="J401" gate="G$1" x="38.1" y="-134.62" rot="R180">
 <attribute name="DIGIKEY" x="38.1" y="-134.62" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="GND4" gate="1" x="17.78" y="-132.08"/>
+<instance part="GND4" gate="1" x="17.78" y="-134.62"/>
 <instance part="R401" gate="B" x="35.56" y="-35.56" rot="R90">
 <attribute name="DIGIKEY" x="35.56" y="-35.56" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
@@ -8719,9 +8737,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="JP2" gate="G$1" x="223.52" y="-86.36">
 <attribute name="DIGIKEY" x="223.52" y="-86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Y401" gate="G$1" x="40.64" y="-104.14" rot="R90"/>
+<instance part="Y401" gate="G$1" x="40.64" y="-104.14" rot="R90">
+<attribute name="DIGIKEY" x="40.64" y="-104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y401" gate="G$2" x="22.86" y="-104.14" rot="R270"/>
-<instance part="U601" gate="G$1" x="281.94" y="-93.98"/>
+<instance part="U601" gate="G$1" x="281.94" y="-93.98">
+<attribute name="DIGIKEY" x="281.94" y="-93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND15" gate="1" x="292.1" y="-127"/>
 <instance part="C620" gate="G$1" x="294.64" y="-73.66">
 <attribute name="DIGIKEY" x="294.64" y="-73.66" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -8731,7 +8753,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="C449" gate="G$1" x="63.5" y="-93.98" rot="R90">
 <attribute name="DIGIKEY" x="63.5" y="-93.98" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="U901" gate="G$1" x="208.28" y="-162.56"/>
+<instance part="U901" gate="G$1" x="208.28" y="-162.56">
+<attribute name="DIGIKEY" x="208.28" y="-162.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C914" gate="G$1" x="175.26" y="-165.1">
 <attribute name="DIGIKEY" x="175.26" y="-165.1" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
@@ -9013,10 +9037,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="C463" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="-132.08" x2="17.78" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-132.08" x2="17.78" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="J401" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<label x="25.4" y="-129.54" size="1.778" layer="95"/>
+<label x="25.4" y="-132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="-30.48" x2="251.46" y2="-30.48" width="0.1524" layer="91"/>
@@ -9271,8 +9295,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="J401" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="-129.54" x2="22.86" y2="-132.08" width="0.1524" layer="91"/>
-<label x="25.4" y="-132.08" size="1.778" layer="95"/>
+<wire x1="33.02" y1="-129.54" x2="22.86" y2="-129.54" width="0.1524" layer="91"/>
+<label x="25.4" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
