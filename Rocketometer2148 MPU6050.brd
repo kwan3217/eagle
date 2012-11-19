@@ -2029,7 +2029,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U301" library="KwanSystems" package="SOT-23-5" value="MCP73831" x="44.196" y="19.812" smashed="yes" rot="MR270">
 <attribute name="NAME" x="44.323" y="20.447" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="VALUE" x="44.3865" y="20.7645" size="0.4064" layer="28" rot="MR270"/>
-<attribute name="DIGIKEY" value="MCP73831T-2ACI/OTCT-ND" x="44.196" y="19.812" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY" value="576-1910-1-ND" x="44.196" y="19.812" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="LABEL_3D50" value="73831" x="44.196" y="19.812" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C301" library="SparkFun" package="0402-CAP" value="4.7uF" x="44.196" y="16.256" smashed="yes" rot="MR0">
@@ -2045,7 +2045,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="D301" library="SparkFun" package="LED-0603" value="YELLOW" x="40.64" y="21.59" smashed="yes" rot="MR90">
 <attribute name="NAME" x="41.783" y="21.6535" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="VALUE" x="39.878" y="21.9075" size="0.4064" layer="28" rot="MR180"/>
-<attribute name="DIGIKEY" value="754-1124-1-ND" x="40.64" y="21.59" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="350-2032-1-ND" x="40.64" y="21.59" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="LED_COLOR_3D50" value="Yellow" x="40.64" y="21.59" size="1.778" layer="21" rot="MR90" display="off"/>
 <attribute name="LED_TRANS_3D50" value="0.500000" x="40.64" y="21.59" size="1.778" layer="21" rot="MR90" display="off"/>
 </element>
@@ -2067,12 +2067,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C214" library="SparkFun" package="0402-CAP" value="100nF" x="45.212" y="2.54" smashed="yes" rot="MR90">
 <attribute name="NAME" x="45.5295" y="1.905" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="VALUE" x="45.085" y="1.9685" size="0.4064" layer="28" rot="MR90"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="45.212" y="2.54" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="45.212" y="2.54" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C204" library="SparkFun" package="0402-CAP" value="1uF" x="46.482" y="2.54" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.7995" y="1.905" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="VALUE" x="46.609" y="3.1115" size="0.4064" layer="28" rot="MR270"/>
-<attribute name="DIGIKEY" value="445-1415-1-ND" x="46.482" y="2.54" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY" value="445-4114-1-ND" x="46.482" y="2.54" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="D302" library="KwanSystems" package="SOT-23-3" value="DCC" x="44.196" y="13.97" smashed="yes" rot="MR180">
 <attribute name="NAME" x="43.942" y="13.1445" size="0.4064" layer="52" rot="MR90"/>
@@ -2098,7 +2098,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C010" library="SparkFun" package="0402-CAP" value="1uF" x="49.022" y="14.732" smashed="yes" rot="MR0">
 <attribute name="NAME" x="48.387" y="14.6685" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="VALUE" x="49.8475" y="14.605" size="0.4064" layer="28" rot="MR0"/>
-<attribute name="DIGIKEY" value="445-1415-1-ND" x="49.022" y="14.732" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY" value="445-4114-1-ND" x="49.022" y="14.732" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C030" library="SparkFun" package="0402-CAP" value="22pF" x="49.022" y="7.112" smashed="yes" rot="MR180">
 <attribute name="NAME" x="48.387" y="7.0485" size="0.4064" layer="52" rot="MR0"/>
@@ -2150,35 +2150,35 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="LOGO_3D50" value="NOLOGO" x="33.274" y="10.668" size="1.778" layer="21" rot="R90" display="off"/>
 <attribute name="DIGIKEY" value="568-1765-ND" x="33.274" y="10.668" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C462" library="SparkFun" package="0402-CAP" value="22pF" x="37.846" y="2.286" smashed="yes" rot="R90">
+<element name="C462" library="SparkFun" package="0402-CAP" value="33pF" x="37.846" y="2.286" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.7825" y="1.651" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="38.989" y="1.2065" size="0.4064" layer="27" rot="R90"/>
-<attribute name="DIGIKEY" value="445-1239-1-ND" x="37.846" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="445-1241-1-ND" x="37.846" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C461" library="SparkFun" package="0402-CAP" value="22pF" x="33.274" y="2.286" smashed="yes" rot="R270">
+<element name="C461" library="SparkFun" package="0402-CAP" value="33pF" x="33.274" y="2.286" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.2105" y="1.651" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="32.131" y="3.3655" size="0.4064" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="445-1239-1-ND" x="33.274" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-1241-1-ND" x="33.274" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C451" library="SparkFun" package="0402-CAP" value="1uF" x="30.861" y="2.286" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.7975" y="1.6512" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="29.718" y="3.3656" size="0.4064" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="30.861" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-4114-1-ND" x="30.861" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C463" library="SparkFun" package="0402-CAP" value="1uF" x="39.37" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.0344" y="4.5937" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="38.2269" y="6.1593" size="0.4064" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="39.37" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-4114-1-ND" x="39.37" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C443" library="SparkFun" package="0402-CAP" value="100nF" x="25.654" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.5415" y="9.5994" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="26.7971" y="9.0806" size="0.4064" layer="27" rot="R90"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="25.654" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="25.654" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C423" library="SparkFun" package="0402-CAP" value="1uF" x="33.274" y="18.288" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.791" y="18.3606" size="0.4064" layer="51"/>
 <attribute name="VALUE" x="34.3534" y="19.431" size="0.4064" layer="27" rot="R180"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="33.274" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="445-4114-1-ND" x="33.274" y="18.288" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J401" library="SparkFun-Connectors" package="1X08" value="M07" x="36.83" y="21.59" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="$NOPART" x="36.83" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2196,7 +2196,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C101" library="SparkFun" package="0402-CAP" value="100nF" x="16.764" y="19.177" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.9545" y="20.066" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="15.621" y="20.2565" size="0.4064" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="16.764" y="19.177" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="16.764" y="19.177" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U801" library="SparkFun" package="16LPCC" value="HMC5883L" x="8.89" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.382" y="17.653" size="0.4064" layer="51"/>
@@ -2208,12 +2208,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C802" library="SparkFun" package="0402-CAP" value="100nF" x="6.35" y="21.082" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.6675" y="21.971" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="7.493" y="20.0025" size="0.4064" layer="27" rot="R90"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="6.35" y="21.082" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="6.35" y="21.082" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C808" library="SparkFun" package="0402-CAP" value="220nF" x="7.874" y="21.082" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.1915" y="21.971" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="6.731" y="22.1615" size="0.4064" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="445-4972-1-ND" x="7.874" y="21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-5938-1-ND" x="7.874" y="21.082" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C810" library="SparkFun" package="0402-CAP" value="4.7uF" x="9.398" y="21.082" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.7155" y="21.971" size="0.4064" layer="51" rot="R90"/>
@@ -2223,18 +2223,18 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C610" library="SparkFun" package="0402-CAP" value="100nF" x="8.89" y="7.62" smashed="yes">
 <attribute name="NAME" x="9.525" y="7.3025" size="0.4064" layer="51"/>
 <attribute name="VALUE" x="7.8105" y="6.477" size="0.4064" layer="27"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="8.89" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="8.89" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C613" library="SparkFun" package="0402-CAP" value="100nF" x="11.176" y="10.922" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.8585" y="10.287" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="10.033" y="12.0015" size="0.4064" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="11.176" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="11.176" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="S458" library="KwanSystems" package="B3U-1000P" value="B3U-1000P" x="20.574" y="14.224" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="SW1020CT-ND" x="20.574" y="14.224" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="20.066" y="12.7" size="0.8128" layer="52" rot="MR90"/>
 </element>
-<element name="U201" library="KwanSystems" package="SOT-23-5" value="MIC5319" x="42.926" y="2.54" smashed="yes" rot="MR180">
+<element name="U201" library="KwanSystems" package="SOT-23-5" value="3.3V" x="42.926" y="2.54" smashed="yes" rot="MR180">
 <attribute name="NAME" x="42.328" y="2.74" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="VALUE" x="44.766" y="3.91" size="0.8128" layer="28" rot="MR180"/>
 <attribute name="DIGIKEY" value="576-1910-1-ND" x="42.926" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2270,7 +2270,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY" value="$NOPART" x="2.54" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Y402" library="KwanSystems" package="ABS06" value="32kiHz" x="40.894" y="8.382" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="535-10248-1-ND" x="40.894" y="8.382" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="535-10104-1-ND" x="40.894" y="8.382" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LABEL_3D50" value="32k" x="40.894" y="8.382" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.556" y="8.166" size="0.3" layer="51"/>
 <attribute name="VALUE" x="39.794" y="9.482" size="0.3" layer="27" rot="R270"/>
@@ -2288,20 +2288,23 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP2" library="SparkFun-Electromechanical" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="20.32">
 <attribute name="DIGIKEY" value="$NOPART" x="2.54" y="20.32" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Y401" library="KwanSystems" package="CRYSTAL_SMD_2MM_2_5MM" value="12MHz" x="35.56" y="2.286"/>
+<element name="Y401" library="KwanSystems" package="CRYSTAL_SMD_2MM_2_5MM" value="12MHz" x="35.56" y="2.286">
+<attribute name="DIGIKEY" value="887-1487-1-ND" x="35.56" y="2.286" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C620" library="SparkFun" package="0402-CAP" value="2.2nF" x="8.89" y="14.732" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="445-4976-1-ND" x="8.89" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="445-1257-1-ND" x="8.89" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="9.525" y="14.4145" size="0.4064" layer="51"/>
 <attribute name="VALUE" x="9.9695" y="15.875" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="C449" library="SparkFun" package="0402-CAP" value="100nF" x="29.21" y="2.286" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="29.21" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="29.21" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="29.1465" y="1.651" size="0.4064" layer="51" rot="R270"/>
 <attribute name="VALUE" x="30.353" y="1.2065" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="U901" library="KwanSystems" package="ADXL377" value="ADXL377" x="8.89" y="3.556" rot="R90">
 <attribute name="LOGO_3D50" value="NOLOGO" x="8.89" y="3.556" size="1.778" layer="21" rot="R90" display="off"/>
 <attribute name="LABEL_3D50" value="AD377" x="8.89" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="ADXL377BCPZ-RL7CT-ND" x="8.89" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C914" library="SparkFun" package="0402-CAP" value="4.7uF" x="8.89" y="6.096" smashed="yes">
 <attribute name="DIGIKEY" value="445-7395-1-ND" x="5.588" y="6.096" size="1.778" layer="27" display="off"/>
@@ -2309,17 +2312,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="7.8105" y="4.953" size="0.4064" layer="27"/>
 </element>
 <element name="C916" library="SparkFun" package="0402-CAP" value="100nF" x="5.842" y="3.556" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="5.842" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="5.842" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.1595" y="4.191" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="6.985" y="2.4765" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C904" library="SparkFun" package="0402-CAP" value="100nF" x="8.89" y="1.016" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="12.7" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="12.7" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.255" y="1.3335" size="0.4064" layer="51" rot="R180"/>
 <attribute name="VALUE" x="9.9695" y="2.159" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="C905" library="SparkFun" package="0402-CAP" value="100nF" x="12.7" y="3.556" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="445-1268-1-ND" x="21.844" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="21.844" y="3.556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.0175" y="4.191" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="13.843" y="2.4765" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -2334,7 +2337,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY" value="$NOPART" x="53.34" y="20.32" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U902" library="KwanSystems" package="SOT-23-8" value="AD7991" x="15.494" y="3.556" smashed="yes">
-<attribute name="DIGIKEY" value="AD7995YRJZ-1500RL7CT-ND" x="15.494" y="3.556" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="AD7991YRJZ-0500RL7CT-ND" x="15.494" y="3.556" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="14.478" y="3.302" size="0.6096" layer="51"/>
 <attribute name="VALUE" x="17.272" y="2.54" size="0.6096" layer="27"/>
 </element>
@@ -2344,7 +2347,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="14.224" y="6.477" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C907" library="SparkFun-Passives" package="0402-CAP" value="100nF" x="15.24" y="6.35" smashed="yes">
-<attribute name="DIGIKEY" value="445-1316-1-ND" x="15.24" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="445-1265-1-ND" x="15.24" y="3.302" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.875" y="6.2865" size="0.4064" layer="51"/>
 <attribute name="VALUE" x="14.1605" y="5.207" size="0.4064" layer="27"/>
 </element>
@@ -2352,6 +2355,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="LOGO_3D50" value="NOLOGO" x="7.62" y="11.43" size="1.778" layer="21" display="off"/>
 <attribute name="NAME" x="6.096" y="12.192" size="0.8128" layer="51"/>
 <attribute name="VALUE" x="10.16" y="10.16" size="0.8128" layer="27"/>
+<attribute name="DIGIKEY" value="$NOPART" x="7.62" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$5" library="KwanSystems" package="KWAN_ACC" value="" x="7.62" y="11.43" rot="MR0"/>
 <element name="U$1" library="KwanSystems" package="KWAN_ACC" value="" x="7.62" y="11.43"/>
