@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3616,6 +3616,33 @@
 </polygon>
 <rectangle x1="-0.1778" y1="-0.1016" x2="0" y2="0" layer="21"/>
 <rectangle x1="0" y1="0" x2="0.1524" y2="0.127" layer="21"/>
+</package>
+<package name="AXES_SM_TOP">
+<text x="0.962" y="1.886" size="0.8128" layer="21" rot="R180">Y</text>
+<text x="1.016" y="0.762" size="0.8128" layer="21">Z</text>
+<circle x="0.508" y="0.508" radius="0.0457" width="0.0762" layer="21"/>
+<circle x="0.508" y="0.508" radius="0.3592" width="0.0508" layer="21"/>
+<text x="1.778" y="-0.254" size="0.8128" layer="21">X</text>
+<wire x1="0" y1="0" x2="0" y2="1.524" width="0.0508" layer="21"/>
+<wire x1="0.254" y1="1.27" x2="0" y2="1.524" width="0.0508" layer="21"/>
+<wire x1="0" y1="1.524" x2="-0.254" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="0.254" x2="1.524" y2="0" width="0.0508" layer="21"/>
+<wire x1="1.524" y1="0" x2="1.27" y2="-0.254" width="0.0508" layer="21"/>
+</package>
+<package name="AXES_SM_BOT">
+<circle x="0.508" y="0.508" radius="0.3592" width="0.0508" layer="22"/>
+<text x="2.286" y="-0.254" size="0.8128" layer="22" rot="MR0">X</text>
+<wire x1="0" y1="0" x2="0" y2="1.524" width="0.0508" layer="22"/>
+<wire x1="0.254" y1="1.27" x2="0" y2="1.524" width="0.0508" layer="22"/>
+<wire x1="0" y1="1.524" x2="-0.254" y2="1.27" width="0.0508" layer="22"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.0508" layer="22"/>
+<wire x1="1.27" y1="0.254" x2="1.524" y2="0" width="0.0508" layer="22"/>
+<wire x1="1.524" y1="0" x2="1.27" y2="-0.254" width="0.0508" layer="22"/>
+<text x="-0.054" y="1.886" size="0.8128" layer="22" rot="MR180">Y</text>
+<text x="1.524" y="0.762" size="0.8128" layer="22" rot="MR0">Z</text>
+<wire x1="0.254" y1="0.762" x2="0.762" y2="0.254" width="0.0508" layer="22"/>
+<wire x1="0.762" y1="0.762" x2="0.254" y2="0.254" width="0.0508" layer="22"/>
 </package>
 </packages>
 <symbols>
