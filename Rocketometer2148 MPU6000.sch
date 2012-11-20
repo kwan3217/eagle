@@ -8511,13 +8511,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-27.94" y="-99.06" size="1.778" layer="97">10MHz-15MHz  10pF &lt;300 18pF</text>
 <text x="-27.94" y="-101.6" size="1.778" layer="97">10MHz-15MHz  20pF &lt;220 38pF</text>
 <text x="-27.94" y="-104.14" size="1.778" layer="97">10MHz-15MHz  30pF &lt;140 58pF</text>
-<text x="-27.94" y="-91.44" size="1.778" layer="97">TXC inc 8Z 12MHz - 18pf Cl &lt;100 Rs 30ppm/30ppm</text>
+<text x="-27.94" y="-91.44" size="1.778" layer="97">TXC inc 8Z 12MHz - 18pF Cl &lt;100 Rs 30ppm/30ppm</text>
 <text x="-55.88" y="-106.68" size="1.778" layer="97">at 18pF, exact Cx1 is 34pF, 33pF is closest E12</text>
 <text x="-38.1" y="-114.3" size="1.778" layer="97">Freq         Cl    Rs   Cx1,Cx2</text>
 <text x="-38.1" y="-116.84" size="1.778" layer="97">32kiHz       11pF &lt;100k 18pF</text>
 <text x="-38.1" y="-119.38" size="1.778" layer="97">32kiHz       13pF &lt;100k 22pF</text>
 <text x="-38.1" y="-121.92" size="1.778" layer="97">32kiHz       15pF &lt;100k 27pF</text>
-<text x="-55.88" y="-111.76" size="1.778" layer="97">Abracon ABS06 32kiHz - 12.5pf Cl &lt;90k Rs 20ppm</text>
+<text x="-55.88" y="-111.76" size="1.778" layer="97">Abracon ABS06 32kiHz - 12.5pF Cl &lt;90k Rs 20ppm</text>
 <text x="-55.88" y="-124.46" size="1.778" layer="97">at 12.5pF, exact Cx1 is 21pF, 22pF is closest E12</text>
 </plain>
 <instances>

@@ -2895,8 +2895,8 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <pin name="CLKIN" x="-17.78" y="7.62" length="middle" direction="in"/>
 <pin name="AUX_DA" x="-17.78" y="-7.62" length="middle"/>
 <pin name="AUX_CL" x="0" y="-15.24" length="middle" rot="R90"/>
-<pin name="VLOGIC" x="2.54" y="-15.24" length="middle" rot="R90"/>
-<pin name="AD0" x="5.08" y="-15.24" length="middle" direction="out" rot="R90"/>
+<pin name="VLOGIC" x="2.54" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="AD0" x="5.08" y="-15.24" length="middle" rot="R90"/>
 <pin name="REGOUT" x="7.62" y="-15.24" length="middle" rot="R90"/>
 <pin name="FSYNC" x="10.16" y="-15.24" length="middle" rot="R90"/>
 <pin name="INT" x="12.7" y="-15.24" length="middle" direction="out" rot="R90"/>
@@ -5645,14 +5645,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="J401" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="PWMG" class="0">
-<segment>
-<label x="154.94" y="-63.5" size="1.778" layer="95"/>
-<pinref part="U401" gate="G$1" pin="(TXD1/PWM4/A1.1)P0.8"/>
-<wire x1="149.86" y1="-63.5" x2="193.04" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="R402" gate="D" pin="2"/>
-</segment>
-</net>
 <net name="COMPINT" class="0">
 <segment>
 <wire x1="345.44" y1="-55.88" x2="353.06" y2="-55.88" width="0.1524" layer="91"/>
@@ -5697,21 +5689,21 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="231.14" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="QWMR" class="0">
 <segment>
 <pinref part="R402" gate="D" pin="1"/>
 <pinref part="D401" gate="G$1" pin="R"/>
 <wire x1="203.2" y1="-63.5" x2="210.82" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="QWMG" class="0">
 <segment>
 <pinref part="R402" gate="A" pin="1"/>
 <pinref part="D401" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="-68.58" x2="210.82" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="QWMB" class="0">
 <segment>
 <pinref part="R402" gate="B" pin="1"/>
 <pinref part="D401" gate="G$1" pin="B"/>
@@ -5734,12 +5726,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </net>
 <net name="PWMR" class="0">
 <segment>
-<label x="154.94" y="-58.42" size="1.778" layer="95"/>
-<pinref part="R402" gate="A" pin="2"/>
-<pinref part="U401" gate="G$1" pin="(SSEL0/PWM2/EINT2)P0.7"/>
-<wire x1="149.86" y1="-58.42" x2="182.88" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-58.42" x2="182.88" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-68.58" x2="193.04" y2="-68.58" width="0.1524" layer="91"/>
+<label x="154.94" y="-63.5" size="1.778" layer="95"/>
+<pinref part="U401" gate="G$1" pin="(TXD1/PWM4/A1.1)P0.8"/>
+<wire x1="149.86" y1="-63.5" x2="193.04" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="R402" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="RESET" class="1">
@@ -5834,6 +5824,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <junction x="226.06" y="-180.34"/>
 </segment>
 </net>
+<net name="PWMG" class="0">
+<segment>
+<label x="154.94" y="-58.42" size="1.778" layer="95"/>
+<pinref part="R402" gate="A" pin="2"/>
+<pinref part="U401" gate="G$1" pin="(SSEL0/PWM2/EINT2)P0.7"/>
+<wire x1="149.86" y1="-58.42" x2="182.88" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-58.42" x2="182.88" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-68.58" x2="193.04" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -5849,6 +5849,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <approved hash="104,1,76.2,-50.8,U401,VDD3-2,VCC,,,"/>
 <approved hash="104,1,76.2,-53.34,U401,VDD3-3,VCC,,,"/>
 <approved hash="104,1,76.2,-58.42,U401,VSS,GND,,,"/>
+<approved hash="104,1,193.04,-137.16,U101,VDD,VCC,,,"/>
+<approved hash="104,1,193.04,-134.62,U101,VDDIO,VCC,,,"/>
+<approved hash="104,1,309.88,-101.6,U601,VDD,VCC,,,"/>
 </errors>
 </schematic>
 </drawing>
