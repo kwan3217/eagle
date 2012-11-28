@@ -252,21 +252,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <hole x="1.5" y="0" drill="0.85"/>
 <hole x="-1.5" y="0" drill="0.85"/>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="SQFP-S-10X10-64">
 <description>&lt;b&gt;QFP64&lt;/b&gt;&lt;p&gt;
 shrink quad flat pack, square</description>
@@ -1828,6 +1813,30 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 </library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2122,12 +2131,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="LED_TRANS_3D50" value="0.500000" x="49.022" y="20.574" size="1.778" layer="21" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="350-2037-1-ND" x="49.022" y="20.574" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Q050" library="SparkFun" package="SOT23-3" value="PMOS" x="49.022" y="19.558" smashed="yes">
-<attribute name="NAME" x="48.1965" y="19.304" size="0.4064" layer="51"/>
-<attribute name="VALUE" x="48.006" y="19.3675" size="0.4064" layer="27"/>
-<attribute name="LOGO_3D50" value="NOLOGO" x="49.022" y="19.558" size="1.778" layer="22" display="off"/>
-<attribute name="DIGIKEY" value="NTR1P02T1GOSCT-ND" x="49.022" y="19.558" size="1.778" layer="27" display="off"/>
-</element>
 <element name="J001" library="KwanSystems" package="UB-MC5BR3-SD204-4S" value="USB_MICROB_JST" x="54.356" y="11.43" rot="MR270">
 <attribute name="LOGO_3D50" value="NOLOGO" x="54.356" y="11.43" size="1.778" layer="21" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="455-2562-1-ND" x="54.356" y="11.43" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2360,6 +2363,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$5" library="KwanSystems" package="KWAN_ACC" value="" x="7.62" y="11.43" rot="MR0"/>
 <element name="U$1" library="KwanSystems" package="KWAN_ACC" value="" x="7.62" y="11.43"/>
 <element name="U$6" library="KwanSystems" package="OSHW_ACC" value="" x="8.89" y="3.556" rot="MR0"/>
+<element name="Q001" library="SparkFun-DiscreteSemi" package="SOT23-3" value="PMOS" x="-2.032" y="-1.016"/>
 </elements>
 <signals>
 <signal name="VCC" class="1">
@@ -2381,7 +2385,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U801" pad="13"/>
 <contactref element="U801" pad="2"/>
 <contactref element="C802" pad="1"/>
-<contactref element="Q050" pad="2"/>
 <contactref element="U201" pad="5"/>
 <contactref element="C215" pad="1"/>
 <contactref element="J701" pad="4"/>
@@ -2408,7 +2411,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="34.024" y1="18.188" x2="33.924" y2="18.288" width="0.1524" layer="1"/>
 <wire x1="30.861" y1="2.936" x2="30.524" y2="3.273" width="0.1524" layer="1"/>
 <wire x1="30.524" y1="3.273" x2="30.524" y2="5.068" width="0.1524" layer="1"/>
-<wire x1="49.972" y1="18.558" x2="49.784" y2="18.37" width="0.1524" layer="1" curve="90"/>
 <wire x1="49.784" y1="18.37" x2="49.784" y2="17.018" width="0.1524" layer="1"/>
 <wire x1="49.784" y1="17.018" x2="49.672" y2="17.018" width="0.1524" layer="1"/>
 <wire x1="40.64" y1="1.89" x2="41.29" y2="1.24" width="0.1524" layer="16"/>
@@ -2502,6 +2504,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.524" y1="5.068" x2="30.524" y2="6.984" width="0.1524" layer="1"/>
 <wire x1="30.524" y1="6.984" x2="30.734" y2="7.194" width="0.1524" layer="1"/>
 <wire x1="30.734" y1="7.194" x2="30.734" y2="8.89" width="0.1524" layer="1"/>
+<contactref element="Q001" pad="2"/>
+<wire x1="-1.082" y1="-2.016" x2="6.87" y2="3.806" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="U301" pad="2"/>
@@ -2802,21 +2806,19 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="49.672" y1="9.652" x2="49.672" y2="8.382" width="0.1524" layer="16"/>
 </signal>
 <signal name="USB_LIGHT">
-<contactref element="Q050" pad="1"/>
 <contactref element="R051" pad="2"/>
 <contactref element="U401" pad="17"/>
-<wire x1="48.072" y1="18.558" x2="48.26" y2="18.558" width="0.1524" layer="1"/>
 <wire x1="48.26" y1="18.558" x2="48.26" y2="17.018" width="0.1524" layer="1"/>
 <wire x1="48.26" y1="17.018" x2="48.372" y2="17.018" width="0.1524" layer="1"/>
 <wire x1="37.024" y1="16.268" x2="37.024" y2="16.764" width="0.1524" layer="1"/>
 <wire x1="37.024" y1="16.764" x2="48.372" y2="16.764" width="0.1524" layer="1"/>
 <wire x1="48.372" y1="16.764" x2="48.372" y2="17.018" width="0.1524" layer="1"/>
+<contactref element="Q001" pad="1"/>
+<wire x1="-2.982" y1="-2.016" x2="37.024" y2="16.268" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="D050" pad="A"/>
 <contactref element="R031" pad="1"/>
-<contactref element="Q050" pad="3"/>
-<wire x1="49.022" y1="20.658" x2="49.022" y2="19.558" width="0.1524" layer="1"/>
 <via x="49.022" y="19.558" extent="1-16" drill="0.3302"/>
 <wire x1="49.022" y1="19.558" x2="49.022" y2="20.574" width="0.1524" layer="16"/>
 <wire x1="49.022" y1="20.574" x2="49.772" y2="20.574" width="0.1524" layer="16"/>
@@ -2825,6 +2827,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="47.752" y1="6.35" x2="53.086" y2="6.35" width="0.1524" layer="16"/>
 <wire x1="53.086" y1="6.35" x2="53.086" y2="17.26" width="0.1524" layer="16"/>
 <wire x1="53.086" y1="17.26" x2="49.772" y2="20.574" width="0.1524" layer="16"/>
+<contactref element="Q001" pad="3"/>
+<wire x1="-2.032" y1="0.084" x2="47.752" y2="6.35" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="D050" pad="C"/>
@@ -3223,27 +3227,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.024" y1="14.53" x2="30.024" y2="16.268" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,b9f5436989765911"/>
-<approved hash="4,1,49fc155cdc462a19"/>
-<approved hash="4,1,59f35b41d75b1315"/>
-<approved hash="4,1,c9f079b46aaec415"/>
-<approved hash="4,1,f9f07ba765bc6d14"/>
-<approved hash="4,1,b9f145afb8b05e15"/>
-<approved hash="4,1,49f0139233882715"/>
-<approved hash="4,1,4c719c8eace74c1a"/>
-<approved hash="6,1,e78da1b521b4678c"/>
-<approved hash="4,1,254eaa3a975a1978"/>
-<approved hash="4,1,234eab7a97321868"/>
-<approved hash="4,16,b9f5436989765911"/>
-<approved hash="4,16,49fc155cdc462a19"/>
-<approved hash="4,16,59f35b41d75b1315"/>
-<approved hash="4,16,c9f079b46aaec415"/>
-<approved hash="4,16,f9f07ba765bc6d14"/>
-<approved hash="4,16,b9f145afb8b05e15"/>
-<approved hash="4,16,49f0139233882715"/>
-<approved hash="4,16,4c719c8eace74c1a"/>
-</errors>
 </board>
 </drawing>
 </eagle>

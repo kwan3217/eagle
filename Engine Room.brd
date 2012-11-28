@@ -1049,13 +1049,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="63.84" y1="33.95" x2="64.77" y2="33.02" width="1.524" layer="1"/>
 <wire x1="64.77" y1="33.02" x2="66.555" y2="31.235" width="1.524" layer="1"/>
 <wire x1="66.555" y1="31.235" x2="66.555" y2="29.591" width="1.524" layer="1"/>
-<contactref element="Q201" pad="D1"/>
-<contactref element="Q201" pad="D2"/>
 <wire x1="63.84" y1="33.95" x2="61.722" y2="33.95" width="1.524" layer="1"/>
 <wire x1="61.722" y1="33.95" x2="52.8" y2="33.95" width="1.524" layer="1"/>
-<wire x1="52.8" y1="33.95" x2="52.8" y2="31.75" width="0.254" layer="1"/>
-<wire x1="61.8" y1="31.75" x2="61.722" y2="31.75" width="0.254" layer="1"/>
 <wire x1="61.722" y1="31.75" x2="61.722" y2="33.95" width="0.254" layer="1"/>
+<contactref element="Q201" pad="D1"/>
+<contactref element="Q201" pad="D2"/>
+<wire x1="52.8" y1="33.95" x2="52.8" y2="31.75" width="0.4064" layer="1"/>
+<wire x1="61.8" y1="31.75" x2="61.722" y2="31.75" width="0.4064" layer="1"/>
 </signal>
 <signal name="M2-" class="1">
 <contactref element="D2" pad="A"/>
@@ -1067,12 +1067,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.086" y1="1.524" x2="61.976" y2="1.524" width="1.524" layer="1"/>
 <wire x1="64.77" y1="2.54" x2="66.555" y2="4.325" width="1.524" layer="1"/>
 <wire x1="66.555" y1="4.325" x2="66.555" y2="5.969" width="1.524" layer="1"/>
+<wire x1="53.086" y1="3.81" x2="53.086" y2="1.524" width="0.4064" layer="1"/>
+<wire x1="61.89" y1="3.81" x2="61.89" y2="1.61" width="0.4064" layer="1"/>
 <contactref element="Q202" pad="D1"/>
 <contactref element="Q202" pad="D2"/>
-<wire x1="52.8" y1="3.81" x2="53.086" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="53.086" y1="3.81" x2="53.086" y2="1.524" width="0.4064" layer="1"/>
-<wire x1="61.8" y1="3.81" x2="61.89" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="61.89" y1="3.81" x2="61.89" y2="1.61" width="0.4064" layer="1"/>
+<wire x1="52.8" y1="3.81" x2="53.086" y2="3.81" width="0.254" layer="1"/>
+<wire x1="61.89" y1="3.81" x2="61.8" y2="3.81" width="0.254" layer="1"/>
 </signal>
 <signal name="VDD" class="1">
 <contactref element="D1" pad="C"/>
