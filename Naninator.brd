@@ -154,7 +154,7 @@
 <text x="34.036" y="9.906" size="1.27" layer="22" rot="MR0">the terminally ADD</text>
 <text x="34.036" y="8.382" size="0.8128" layer="22" rot="MR0">a division of Kwan Systems</text>
 <text x="41.91" y="13.97" size="1.27" layer="22" rot="MR0">Naninator 1.0</text>
-<text x="42.164" y="3.556" size="1.27" layer="22" rot="MR0">19 Nov 2012</text>
+<text x="42.164" y="3.556" size="1.27" layer="22" rot="MR0">20 Nov 2012</text>
 <text x="34.036" y="7.112" size="0.8128" layer="22" rot="MR0">stkwans.blogspot.com</text>
 </plain>
 <libraries>
@@ -1854,7 +1854,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="14mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>

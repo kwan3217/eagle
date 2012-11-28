@@ -6224,7 +6224,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="Z1" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="Z2" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="L2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
-<part name="R002" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1M"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP" value="100nF"/>
 <part name="U$23" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="U$31" library="MyPOW" deviceset="+5V" device=""/>
@@ -6374,10 +6373,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="VALUE" x="-58.42" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L2" gate="G$1" x="-106.68" y="-33.02" rot="R180"/>
-<instance part="R002" gate="G$1" x="-60.96" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="-63.5" y="100.7364" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-62.865" y="98.552" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C13" gate="G$1" x="-81.28" y="-106.68" smashed="yes">
 <attribute name="NAME" x="-78.74" y="-106.68" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-78.74" y="-109.22" size="1.778" layer="96"/>
@@ -7023,14 +7018,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <wire x1="2.54" y1="101.6" x2="-53.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="101.6" x2="-53.34" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="104.14" x2="-60.96" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="104.14" x2="-76.2" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="104.14" x2="-60.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="104.14" x2="-53.34" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="101.6" x2="-76.2" y2="104.14" width="0.1524" layer="91"/>
-<junction x="-60.96" y="104.14"/>
 <junction x="-76.2" y="104.14"/>
 <label x="-40.64" y="101.6" size="1.778" layer="95"/>
-<pinref part="R002" gate="G$1" pin="2"/>
 <pinref part="C004" gate="G$1" pin="2"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="XTAL2"/>
@@ -7039,15 +7031,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <net name="XTAL1" class="0">
 <segment>
 <wire x1="2.54" y1="96.52" x2="-53.34" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="93.98" x2="-53.34" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="93.98" x2="-53.34" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="93.98" x2="-76.2" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="93.98" x2="-60.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="93.98" x2="-53.34" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="96.52" x2="-76.2" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-60.96" y="93.98"/>
 <junction x="-76.2" y="93.98"/>
 <label x="-40.64" y="96.52" size="1.778" layer="95"/>
-<pinref part="R002" gate="G$1" pin="1"/>
 <pinref part="C015" gate="G$1" pin="1"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <pinref part="U$3" gate="G$1" pin="XTAL1"/>

@@ -143,7 +143,7 @@
 <text x="29.718" y="4.318" size="0.8128" layer="21" rot="R90">Compass</text>
 <text x="28.702" y="8.128" size="0.8128" layer="22" rot="MR0">Kwan Systems</text>
 <text x="9.398" y="2.794" size="0.8128" layer="21" rot="R90">IA</text>
-<text x="10.922" y="11.684" size="0.8128" layer="21">stkwans.blogspot.com</text>
+<text x="10.16" y="11.684" size="0.8128" layer="21">stkwans.blogspot.com</text>
 <rectangle x1="25.146" y1="4.318" x2="28.702" y2="7.874" layer="42" rot="R90"/>
 <rectangle x1="25.146" y1="7.112" x2="25.908" y2="7.874" layer="41"/>
 <rectangle x1="27.94" y1="7.112" x2="28.702" y2="7.874" layer="41"/>
@@ -1911,40 +1911,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="14.702" y1="5.346" x2="14.702" y2="5.263" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,68246eeca1c75bd5"/>
-<approved hash="4,1,ebfae72b08cfdee2"/>
-<approved hash="4,1,15fbf739a1dca5e1"/>
-<approved hash="4,1,17fa870db6d428e0"/>
-<approved hash="4,1,75fa7705cfe177e1"/>
-<approved hash="4,1,3bf67718fcfc7ae2"/>
-<approved hash="4,1,edfee76d3589c1e2"/>
-<approved hash="4,1,1fe7f763aa86c4fd"/>
-<approved hash="4,1,2dfe8777a39623e4"/>
-<approved hash="4,1,7bf67747d0a376ed"/>
-<approved hash="4,1,35fa675ae9be7de2"/>
-<approved hash="4,1,17faf7af3e4bc0e1"/>
-<approved hash="4,1,15fbc7bd9758cfe1"/>
-<approved hash="6,1,0eff617ee17b8efa"/>
-<approved hash="6,1,47f17677f672c7f4"/>
-<approved hash="6,1,a54957eb431c8611"/>
-<approved hash="4,1,1386178e210bd9d9"/>
-<approved hash="4,16,ebfae72b08cfdee2"/>
-<approved hash="4,16,15fbf739a1dca5e1"/>
-<approved hash="4,16,17fa870db6d428e0"/>
-<approved hash="4,16,75fa7705cfe177e1"/>
-<approved hash="4,16,3bf67718fcfc7ae2"/>
-<approved hash="4,16,edfee76d3589c1e2"/>
-<approved hash="4,16,1fe7f763aa86c4fd"/>
-<approved hash="4,16,2dfe8777a39623e4"/>
-<approved hash="4,16,7bf67747d0a376ed"/>
-<approved hash="4,16,35fa675ae9be7de2"/>
-<approved hash="4,16,17faf7af3e4bc0e1"/>
-<approved hash="4,16,15fbc7bd9758cfe1"/>
-<approved hash="4,16,68246eeca1c75bd5"/>
-<approved hash="6,16,a54957eb431c8611"/>
-<approved hash="4,16,1386178e210bd9d9"/>
-</errors>
 </board>
 </drawing>
 </eagle>
