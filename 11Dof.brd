@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -1738,7 +1738,7 @@ Package used by L3G4200D 3-axis gyro&lt;br&gt;
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2368,36 +2368,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="7.5946" y1="2.5654" x2="8.89" y2="1.27" width="0.1524" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,ebfae72b08cfdee2"/>
-<approved hash="4,1,15fbf739a1dca5e1"/>
-<approved hash="4,1,17fa870db6d428e0"/>
-<approved hash="4,1,75fa7705cfe177e1"/>
-<approved hash="4,1,3bf67718fcfc7ae2"/>
-<approved hash="4,1,edfee76d3589c1e2"/>
-<approved hash="4,1,1fe7f763aa86c4fd"/>
-<approved hash="4,1,2dfe8777a39623e4"/>
-<approved hash="4,1,7bf67747d0a376ed"/>
-<approved hash="4,1,35fa675ae9be7de2"/>
-<approved hash="4,1,17faf7af3e4bc0e1"/>
-<approved hash="4,1,15fbc7bd9758cfe1"/>
-<approved hash="4,1,68246eeca1c75bd5"/>
-<approved hash="4,1,1386178e210bd9d9"/>
-<approved hash="4,16,68246eeca1c75bd5"/>
-<approved hash="4,16,ebfae72b08cfdee2"/>
-<approved hash="4,16,15fbf739a1dca5e1"/>
-<approved hash="4,16,17fa870db6d428e0"/>
-<approved hash="4,16,75fa7705cfe177e1"/>
-<approved hash="4,16,3bf67718fcfc7ae2"/>
-<approved hash="4,16,edfee76d3589c1e2"/>
-<approved hash="4,16,1fe7f763aa86c4fd"/>
-<approved hash="4,16,2dfe8777a39623e4"/>
-<approved hash="4,16,7bf67747d0a376ed"/>
-<approved hash="4,16,35fa675ae9be7de2"/>
-<approved hash="4,16,17faf7af3e4bc0e1"/>
-<approved hash="4,16,15fbc7bd9758cfe1"/>
-<approved hash="4,16,1386178e210bd9d9"/>
-</errors>
 </board>
 </drawing>
 </eagle>
