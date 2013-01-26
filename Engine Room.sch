@@ -4343,16 +4343,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="MOSFET_NCHANNEL_2DRAIN">
+<symbol name="MOSFET_NCHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="1.905" width="0.1524" layer="94"/>
 <wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="0" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="0.508" x2="-2.032" y2="0" width="0.1524" layer="94"/>
@@ -4370,33 +4370,27 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="2.54" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
 <wire x1="3.175" y1="0.762" x2="3.429" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="1.905" y1="0.762" x2="1.651" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
 <circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
 <circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
 <text x="-1.5748" y="-4.2926" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <text x="0.9652" y="-5.8928" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
-<text x="-5.08" y="-1.27" size="0.8128" layer="93">G</text>
 <rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
 <rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
 <rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
-<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="D1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="D2" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="G" x="-7.62" y="0" visible="pin" length="point" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="pin" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="pin" length="point" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="IRF6718">
 <gates>
-<gate name="G$1" symbol="MOSFET_NCHANNEL_2DRAIN" x="-5.08" y="0"/>
+<gate name="G$1" symbol="MOSFET_NCHANNEL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIRECTFET_L6">
 <connects>
-<connect gate="G$1" pin="D1" pad="D1"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D" pad="D1 D2"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="S" pad="S"/>
 </connects>
@@ -4613,14 +4607,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="195.58" y1="71.12" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <junction x="195.58" y="71.12"/>
 <label x="243.84" y="71.12" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="M1" gate="G$1" pin="2"/>
-<pinref part="Q201" gate="G$1" pin="D1"/>
-<junction x="195.58" y="66.04"/>
-<pinref part="Q201" gate="G$1" pin="D2"/>
+<pinref part="Q201" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="M2-" class="1">
@@ -4629,14 +4620,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="243.84" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="40.64" x2="243.84" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="63.5" x2="256.54" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
 <junction x="152.4" y="40.64"/>
 <label x="203.2" y="40.64" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="M2" gate="G$1" pin="2"/>
-<pinref part="Q202" gate="G$1" pin="D1"/>
-<junction x="152.4" y="35.56"/>
-<pinref part="Q202" gate="G$1" pin="D2"/>
+<pinref part="Q202" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="VDD" class="1">
