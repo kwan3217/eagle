@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3766,7 +3766,7 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <rectangle x1="2.286" y1="-2.794" x2="2.794" y2="-2.286" layer="51"/>
 <rectangle x1="-0.254" y1="-2.794" x2="0.254" y2="-2.286" layer="51"/>
 </package>
-<package name="AZ2020">
+<package name="AYZ0202">
 <wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
 <wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
 <wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
@@ -6444,13 +6444,13 @@ Pin 3 is NC on the '6050, VDD on the '9150. Since pin 3 is not internally connec
 </device>
 </devices>
 </deviceset>
-<deviceset name="AZ2020">
+<deviceset name="AYZ0202">
 <gates>
 <gate name="G$1" symbol="SPDT" x="-1.27" y="6.096"/>
 <gate name="G$2" symbol="SPDT" x="-1.27" y="-6.096"/>
 </gates>
 <devices>
-<device name="" package="AZ2020">
+<device name="" package="AYZ0202">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="3"/>

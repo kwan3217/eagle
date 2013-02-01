@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2315,7 +2315,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2818,7 +2818,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY" value="$NOPART" x="2.54" y="20.32" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Y401" library="KwanSystems" package="CRYSTAL_SMD_2MM_2_5MM" value="12MHz" x="21.082" y="6.35" rot="R270"/>
-<element name="U$3" library="SparkFun-Sensors" package="LGA12" value="BMA180" x="8.89" y="11.43" rot="R270"/>
+<element name="U$3" library="SparkFun-Sensors" package="LGA12" value="BMA180" x="8.89" y="11.43" rot="R270">
+<attribute name="LOGO_3D50" value="NOLOGO" x="8.89" y="11.43" size="1.778" layer="21" rot="R270" display="off"/>
+</element>
 <element name="U402" library="KwanSystems" package="SOT-23-5" value="SN74LVC1G32" x="17.018" y="2.032" rot="R270"/>
 <element name="S402" library="SparkFun-Passives" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="17.018" y="2.032" rot="MR180">
 <attribute name="DIGIKEY" value="$NOPART" x="17.018" y="2.032" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -4445,33 +4447,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="31.2674" y="5.8674" extent="1-16" drill="0.3302"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,69a456fd1909db55"/>
-<approved hash="4,1,928444544663929b"/>
-<approved hash="4,1,692859120a98db45"/>
-<approved hash="4,1,6a184be306c7dbd9"/>
-<approved hash="4,1,b9f5436989765911"/>
-<approved hash="4,1,49fc155cdc462a19"/>
-<approved hash="4,1,59f35b41d75b1315"/>
-<approved hash="4,1,c9f079b46aaec415"/>
-<approved hash="4,1,f9f07ba765bc6d14"/>
-<approved hash="4,1,b9f145afb8b05e15"/>
-<approved hash="4,1,49f0139233882715"/>
-<approved hash="4,16,6a184be306c7dbd9"/>
-<approved hash="4,16,69a456fd1909db55"/>
-<approved hash="4,16,928444544663929b"/>
-<approved hash="4,16,692859120a98db45"/>
-<approved hash="4,16,b9f5436989765911"/>
-<approved hash="4,16,49fc155cdc462a19"/>
-<approved hash="4,16,59f35b41d75b1315"/>
-<approved hash="4,16,c9f079b46aaec415"/>
-<approved hash="4,16,f9f07ba765bc6d14"/>
-<approved hash="4,16,b9f145afb8b05e15"/>
-<approved hash="4,16,49f0139233882715"/>
-<approved hash="4,16,250ead7a91d21848"/>
-<approved hash="4,16,75a1227357128bc9"/>
-<approved hash="4,16,eba95413f08a5fc2"/>
-</errors>
 </board>
 </drawing>
 </eagle>
