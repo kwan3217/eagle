@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="13" fill="1" visible="yes" active="yes"/>
@@ -129,14 +129,14 @@
 <text x="49.784" y="14.478" size="1.27" layer="21" rot="R180">-</text>
 <text x="11.938" y="16.383" size="0.8128" layer="21" rot="R90">Baro</text>
 <text x="4.826" y="8.763" size="0.8128" layer="21" rot="R90">Compass</text>
-<text x="25.527" y="19.304" size="0.8128" layer="21">GND</text>
-<text x="30.734" y="19.304" size="0.8128" layer="21">RX0</text>
-<text x="33.274" y="19.304" size="0.8128" layer="21">TX0</text>
-<text x="28.067" y="19.304" size="0.8128" layer="21">RST</text>
-<text x="27.559" y="19.304" size="0.8128" layer="22" rot="MR0">GND</text>
-<text x="32.766" y="19.304" size="0.8128" layer="22" rot="MR0">RX0</text>
-<text x="35.306" y="19.304" size="0.8128" layer="22" rot="MR0">TX0</text>
-<text x="30.099" y="19.304" size="0.8128" layer="22" rot="MR0">RST</text>
+<text x="26.67" y="19.304" size="0.8128" layer="21" align="bottom-center">GND</text>
+<text x="31.75" y="19.304" size="0.8128" layer="21" align="bottom-center">RX</text>
+<text x="34.29" y="19.304" size="0.8128" layer="21" align="bottom-center">TX</text>
+<text x="29.21" y="19.304" size="0.8128" layer="21" align="bottom-center">RST</text>
+<text x="26.67" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">GND</text>
+<text x="31.75" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">RX</text>
+<text x="34.29" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">TX</text>
+<text x="29.21" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">RST</text>
 <text x="26.924" y="0.381" size="1.27" layer="22" rot="MR0">RocketometerPX9150</text>
 <text x="38.1" y="0.889" size="0.8128" layer="21">v1.0 01 Apr 2013</text>
 <text x="23.622" y="6.477" size="0.8128" layer="22" rot="MR0">St Kwan's Home for</text>
@@ -145,16 +145,16 @@
 <text x="13.335" y="2.54" size="0.8128" layer="21" rot="R90">HighAcc</text>
 <text x="23.622" y="3.302" size="0.8128" layer="22" rot="MR0">Kwan Systems</text>
 <text x="0.254" y="18.288" size="0.8128" layer="21" rot="R270">stkwans.blogspot.com</text>
-<text x="20.574" y="19.304" size="0.8128" layer="21">SDA</text>
-<text x="23.114" y="19.304" size="0.8128" layer="21">SCL</text>
-<text x="25.146" y="19.304" size="0.8128" layer="22" rot="MR0">SCL</text>
-<text x="22.606" y="19.304" size="0.8128" layer="22" rot="MR0">SDA</text>
-<text x="35.814" y="19.304" size="0.8128" layer="21">VBUS</text>
-<text x="18.034" y="19.304" size="0.8128" layer="21">3V3</text>
-<text x="38.608" y="19.304" size="0.8128" layer="22" rot="MR0">VBUS</text>
+<text x="21.59" y="19.304" size="0.8128" layer="21" align="bottom-center">SDA</text>
+<text x="24.13" y="19.304" size="0.8128" layer="21" align="bottom-center">SCL</text>
+<text x="24.13" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">SCL</text>
+<text x="21.59" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">SDA</text>
+<text x="36.83" y="19.304" size="0.8128" layer="21" align="bottom-center">VBUS</text>
+<text x="19.05" y="19.304" size="0.8128" layer="21" align="bottom-center">3V3</text>
+<text x="36.83" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">VBUS</text>
 <wire x1="53.34" y1="22.86" x2="55.88" y2="20.32" width="0" layer="20" curve="-90"/>
 <text x="16.256" y="15.494" size="1.27" layer="22" rot="MR0">Reset</text>
-<text x="20.066" y="19.304" size="0.8128" layer="22" rot="MR0">3V3</text>
+<text x="19.05" y="19.304" size="0.8128" layer="22" rot="MR0" align="bottom-center">3V3</text>
 <text x="3.81" y="8.763" size="0.8128" layer="21" rot="R90">Acc/Gyro/</text>
 <circle x="2.54" y="20.32" radius="2.794" width="0.1524" layer="41"/>
 <circle x="2.54" y="20.32" radius="2.794" width="0.1524" layer="42"/>
@@ -1693,7 +1693,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewÃ¤hlt, dass sie fÃ¼r 
@@ -2430,10 +2430,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U404" pad="12"/>
 <contactref element="U201" pad="42"/>
 <wire x1="8.87" y1="9.455" x2="8.87" y2="9.164" width="0.1524" layer="1"/>
-<wire x1="8.87" y1="9.164" x2="9.144" y2="8.89" width="0.1524" layer="1"/>
-<wire x1="9.144" y1="8.89" x2="13.716" y2="8.89" width="0.1524" layer="1"/>
-<wire x1="13.716" y1="8.89" x2="14.224" y2="8.382" width="0.1524" layer="1"/>
-<wire x1="14.224" y1="8.382" x2="23.114" y2="8.382" width="0.1524" layer="1"/>
+<wire x1="8.87" y1="9.164" x2="9.652" y2="8.382" width="0.1524" layer="1"/>
+<wire x1="9.652" y1="8.382" x2="23.114" y2="8.382" width="0.1524" layer="1"/>
 <wire x1="23.114" y1="8.382" x2="25.0185" y2="6.4775" width="0.1524" layer="1"/>
 <wire x1="25.0185" y1="6.4775" x2="27.3075" y2="6.4775" width="0.1524" layer="1"/>
 </signal>
@@ -2697,34 +2695,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J701" pad="8"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,b9f5436989765911"/>
-<approved hash="4,1,49fc155cdc462a19"/>
-<approved hash="4,1,59f35b41d75b1315"/>
-<approved hash="4,1,c9f079b46aaec415"/>
-<approved hash="4,1,f9f07ba765bc6d14"/>
-<approved hash="4,1,b9f145afb8b05e15"/>
-<approved hash="4,1,49f0139233882715"/>
-<approved hash="4,1,4c719c8eace74c1a"/>
-<approved hash="19,1,8732ebe967f60b2d"/>
-<approved hash="19,1,00b8747ef8618ca7"/>
-<approved hash="19,1,9bdfffda73c517c0"/>
-<approved hash="19,1,0cbf611ded0280a0"/>
-<approved hash="19,1,415400cf8cd4cd4f"/>
-<approved hash="19,1,c6de9f5813434ac5"/>
-<approved hash="19,1,5db914fc98e7d1a2"/>
-<approved hash="19,1,cad98a3b062046c2"/>
-<approved hash="4,1,234eab7a97321868"/>
-<approved hash="4,1,254eaa3a975a1978"/>
-<approved hash="4,16,b9f5436989765911"/>
-<approved hash="4,16,49fc155cdc462a19"/>
-<approved hash="4,16,59f35b41d75b1315"/>
-<approved hash="4,16,c9f079b46aaec415"/>
-<approved hash="4,16,f9f07ba765bc6d14"/>
-<approved hash="4,16,b9f145afb8b05e15"/>
-<approved hash="4,16,49f0139233882715"/>
-<approved hash="4,16,4c719c8eace74c1a"/>
-</errors>
 </board>
 </drawing>
 </eagle>
