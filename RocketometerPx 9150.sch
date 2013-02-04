@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4021,23 +4021,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 </part>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
-<part name="U404" library="KwanSystems" deviceset="MPU6050" device="">
+<part name="U404" library="KwanSystems" deviceset="MPU6050" device="" value="MPU9150">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="U201" library="KwanSystems" deviceset="P8X32A-Q44" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U202" library="KwanSystems" deviceset="EEPROM-I2C" device="" value="128kiB"/>
+<part name="U202" library="KwanSystems" deviceset="EEPROM-I2C" device="" value="M24M02"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Y1" library="KwanSystems" deviceset="CX2520" device="" value="up to 60MHz"/>
+<part name="Y1" library="KwanSystems" deviceset="CX2520" device="" value="8MHz"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+9" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+12" library="SparkFun" deviceset="VCC" device=""/>
 <part name="U$2" library="KwanSystems" deviceset="AYZ0202" device=""/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
-<part name="C208" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF">
+<part name="C208" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1265-1-ND"/>
 </part>
 <part name="C240" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
@@ -4047,6 +4047,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="DIGIKEY" value="445-1265-1-ND"/>
 </part>
 <part name="U$1" library="KwanSystems" deviceset="EEPROM-I2C" device="EIAJ"/>
+<part name="C202" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
+<attribute name="DIGIKEY" value="445-1265-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4058,9 +4061,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-20.32" y="20.32" size="1.778" layer="97">Max charge current Ireg=1000V/R301</text>
 <text x="-20.32" y="17.78" size="1.778" layer="97">For R301=10k, Ireg=1000V/10000Ohm=0.1A</text>
 <text x="-25.4" y="-71.12" size="1.778" layer="97">Section 2 - Controller</text>
-<text x="-55.88" y="2.54" size="1.778" layer="97" rot="R90">Serves U201 and U202</text>
 <text x="-50.8" y="2.54" size="1.778" layer="97" rot="R90">Serves U201 and J701</text>
 <text x="-45.72" y="2.54" size="1.778" layer="97" rot="R90">Serves U201 pin 30 and 40</text>
+<text x="58.42" y="-63.5" size="1.778" layer="97">Between 4MHz and 8MHz to use PLL,
+max speed 128MHz. 
+Up to 60MHz with no PLL.</text>
 </plain>
 <instances>
 <instance part="J102" gate="G$1" x="48.26" y="53.34" rot="MR270">
@@ -4264,6 +4269,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 </instance>
 <instance part="R401" gate="B" x="-58.42" y="-60.96" rot="R90"/>
 <instance part="U$1" gate="G$1" x="58.42" y="12.7"/>
+<instance part="C202" gate="G$1" x="43.18" y="5.08" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" x="43.18" y="5.08" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="37.084" y="5.461" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.544" y="2.921" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4394,6 +4404,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="73.66" y1="-2.54" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="73.66" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C202" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="5.08" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="63.5" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="U404" gate="G$1" pin="VDD1"/>
@@ -4602,12 +4616,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U$1" gate="G$1" pin="A1"/>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="12.7" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="10.16" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="10.16" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="5.08" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A2"/>
 <wire x1="45.72" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VSS"/>
 <wire x1="45.72" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="C202" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<junction x="35.56" y="5.08"/>
 </segment>
 <segment>
 <pinref part="U202" gate="G$1" pin="WP"/>
@@ -5063,4 +5081,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
