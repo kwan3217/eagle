@@ -1984,7 +1984,7 @@ union{
 	}
 	
 	#local topText = text {ttf besch_font value 0.1, 0
-		pigment{White} rotate<90,0,0> scale<l/8,1,b/1.5>}
+		pigment{White} rotate<90,0,0> scale<b/1.5,1,b/1.5>}
 		
 	object{topText Center_Trans(topText, x+z) translate<0,h+0.02,0>}
 	
@@ -2024,6 +2024,10 @@ RES_SMD_CHIP_ARRAY_GRND(1.50,3.20,0.8,0.4,0.8,4,value)
 
 #macro RES_SMD_CHIP_ARRAY_4X0402_0408(value)
 RES_SMD_CHIP_ARRAY_GRND(0.7,2.0,0.3,0.2,0.5,4,value)
+#end
+
+#macro RES_SMD_CHIP_ARRAY_2X0402_0404(value)
+RES_SMD_CHIP_ARRAY_GRND(0.7,1.0,0.3,0.2,0.5,2,value)
 #end
 
 

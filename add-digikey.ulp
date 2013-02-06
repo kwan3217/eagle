@@ -1,12 +1,25 @@
-string Version = "1.00";
+string Version = "1.01";
 
 string digikey_str;
 string digikey_list[];
 string p[];
 string msg;
 
+string source_name[]={"Digikey","Newark","Mouser"};
+string source_file[]={"digikey.dat","newark.dat","mouser.dat"};
+
+int pn_dialog;
+int source=0;
+pn_dialog=dlgDialog("Which supplier to use?") {
+  dlgGridLayout{
+    dlgCell(0,0) dlgLabel("Supplier: ");
+    dlgCell(0,1) dlgComboBox(source_name,source);
+    dlgCell(1,0,1,1) dlgPushButton("+OK") dlgAccept(0);
+  };
+};
+ 
 string main_path = filedir(argv[0]);
-string dat_file = main_path + "/digikey.dat";
+string dat_file = main_path + "/"+source_file[source];
 
 //Read the existing digikey list
 //Format:
@@ -16,7 +29,7 @@ string bom_dk_str="";
 string bom_part_str="";
 string bom_dk_list[];
 string bom_part_list[];
-int pn_dialog;
+
 
 string postcmd="Change display off;";
 
@@ -69,7 +82,7 @@ if (schematic) {
         }
       
         if(pn_dialog<2) {
-	  sprintf(postcmd,"%sATTRIBUTE %s DIGIKEY '%s';",postcmd,P.name,attrib);
+	  sprintf(postcmd,"%sATTRIBUTE %s %s '%s';",postcmd,P.name,source_name[source],attrib);
 
           //Now stick it in the BOM list for this board
           if(attrib!="$NOPART") {

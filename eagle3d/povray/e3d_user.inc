@@ -91,7 +91,7 @@
       rotate -y*90
 }
 
-#macro USB_MICROB(dummy1,dummy2) 
+#macro USB_MICROB(xtrans,dummy1,dummy2) 
   //#error "Just Checking"
   union {                             
     difference {
@@ -177,6 +177,7 @@
     }                           
     translate <-2.25,1.25,0>
     rotate -y*90
+    translate z*xtrans
   }
 #end                      
 
