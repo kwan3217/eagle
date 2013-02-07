@@ -1120,6 +1120,10 @@ union{
 CAP_SMD_CHIP_ARRAY_GRND(1.60,3.20,0.8,0.4,0.8,4)
 #end
 
+#macro CAP_SMD_CHIP_ARRAY_2X0402_0404(junk)
+CAP_SMD_CHIP_ARRAY_GRND(1.00,1.37,0.9,0.3,0.64,2)
+#end
+
 
 /********************************************************************************************************************************************
 //Grundmakro für SMD-Keramik-Chip-Kondensator (neu Parameter K = Anschlussbreite)

@@ -5868,7 +5868,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="U301" library="SparkFun" deviceset="MCP73831" device="" value="73831"/>
 <part name="C301" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
 <part name="R301" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k"/>
-<part name="D301" library="SparkFun" deviceset="LED" device="0603" value="RED"/>
+<part name="D301" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
 <part name="C302" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C203" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
@@ -5876,7 +5876,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="D302" library="KwanSystems" deviceset="PMEG2005CT" device="" value="DCC"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="R011" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100k"/>
-<part name="D050" library="SparkFun" deviceset="LED" device="0603" value="RED"/>
+<part name="D050" library="SparkFun" deviceset="LED" device="0603" value="YELLOW"/>
 <part name="Q050" library="SparkFun" deviceset="MOSFET-PCHANNEL" device="SMD" value="PMOS"/>
 <part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device="GCT"/>
 <part name="U201" library="KwanSystems" deviceset="MIC5319" device="D5" value="5319"/>

@@ -2485,9 +2485,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="35.1739" y="28.593" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="36.0769" y="26.92" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="C701" library="SparkFun" package="0402-CAP" value="100nF" x="5.588" y="27.178" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.477" y="26.4795" size="0.4064" layer="51" rot="R180"/>
-<attribute name="VALUE" x="6.6675" y="28.321" size="0.4064" layer="27" rot="R180"/>
+<element name="C701" library="SparkFun" package="0402-CAP" value="100nF" x="6.858" y="27.178" smashed="yes">
+<attribute name="NAME" x="5.969" y="27.8765" size="0.4064" layer="51"/>
+<attribute name="VALUE" x="5.7785" y="26.035" size="0.4064" layer="27"/>
 </element>
 <element name="R433" library="SparkFun" package="0402-RES" value="150" x="27.94" y="26.67" smashed="yes">
 <attribute name="NAME" x="27.305" y="26.9874" size="0.4064" layer="51" rot="R180"/>
@@ -2566,7 +2566,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="45.847" y="23.4315" size="0.4064" layer="51" rot="R180"/>
 <attribute name="VALUE" x="45.6565" y="22.987" size="0.4064" layer="27"/>
 </element>
-<element name="D301" library="SparkFun" package="LED-0603" value="RED" x="50.292" y="27.94" smashed="yes" rot="R90">
+<element name="D301" library="SparkFun" package="LED-0603" value="BLUE" x="50.292" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.657" y="28.2575" size="0.4064" layer="51" rot="R180"/>
 <attribute name="VALUE" x="51.054" y="28.2575" size="0.4064" layer="27" rot="R180"/>
 <attribute name="LED_COLOR_3D50" value="Blue" x="50.292" y="27.94" size="1.778" layer="21" rot="R90" display="off"/>
@@ -2593,7 +2593,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="49.657" y="22.1615" size="0.4064" layer="51" rot="R180"/>
 <attribute name="VALUE" x="49.7205" y="21.717" size="0.4064" layer="27"/>
 </element>
-<element name="D050" library="SparkFun" package="LED-0603" value="RED" x="50.292" y="31.496" smashed="yes" rot="R270">
+<element name="D050" library="SparkFun" package="LED-0603" value="YELLOW" x="50.292" y="31.496" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.657" y="31.8135" size="0.4064" layer="51" rot="R180"/>
 <attribute name="VALUE" x="49.53" y="31.1785" size="0.4064" layer="27"/>
 <attribute name="LED_COLOR_3D50" value="Yellow" x="50.292" y="31.496" size="1.778" layer="21" rot="R270" display="off"/>
@@ -2816,7 +2816,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="6.1468" y1="27.1018" x2="6.223" y2="27.178" width="0.1524" layer="1"/>
 <wire x1="6.1468" y1="20.268" x2="6.1468" y2="27.1018" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="20.2692" x2="6.9342" y2="20.2692" width="0.1524" layer="1"/>
-<wire x1="6.223" y1="27.178" x2="6.238" y2="27.178" width="0.1524" layer="1"/>
+<wire x1="6.223" y1="27.178" x2="6.208" y2="27.178" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="20.2692" x2="7.134" y2="20.268" width="0.1524" layer="1"/>
 <wire x1="7.1882" y1="20.2184" x2="7.134" y2="20.268" width="0.1524" layer="1"/>
 <wire x1="40.6654" y1="16.7894" x2="39.6494" y2="16.7894" width="0.1524" layer="1"/>
@@ -3872,68 +3872,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="44.927" y1="13.97" x2="44.9326" y2="13.97" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,7f15a55e841b2aa1"/>
-<approved hash="4,1,aae9ac52e6e5ccac"/>
-<approved hash="4,1,21fd735588024e5e"/>
-<approved hash="4,1,dcf08a55861ee44a"/>
-<approved hash="4,1,53c41154641eda7a"/>
-<approved hash="4,1,0edf9856861f2467"/>
-<approved hash="4,1,85d3af2ae01dd612"/>
-<approved hash="4,1,20a77651861e4c1c"/>
-<approved hash="4,1,c7bafd59a412ea08"/>
-<approved hash="4,1,6adabefe721fbaf2"/>
-<approved hash="4,1,e5ea05fe901ea4fe"/>
-<approved hash="4,1,4cff08ff6a1c9ae5"/>
-<approved hash="4,1,2b65ba1a88808bff"/>
-<approved hash="4,1,be945afeea039a9d"/>
-<approved hash="4,1,6998a1fa781bbc88"/>
-<approved hash="4,1,e0a024f292125ab4"/>
-<approved hash="4,1,5bb503fb9414b8ab"/>
-<approved hash="4,1,52b8d6057218da57"/>
-<approved hash="4,1,8d4a5de2f01fb443"/>
-<approved hash="4,1,745ea0fe5a1fba4e"/>
-<approved hash="4,1,ef6e2ffe641e587a"/>
-<approved hash="4,1,667372ff9a1cba61"/>
-<approved hash="4,1,5106f9fd6860dc6d"/>
-<approved hash="4,1,88085cfef21bba19"/>
-<approved hash="4,1,031cbbf254139804"/>
-<approved hash="4,1,fa242efa521a3a30"/>
-<approved hash="4,1,752975e3f0048427"/>
-<approved hash="4,1,5c3cf9056be0dbd3"/>
-<approved hash="4,1,96ce47f9041fb9df"/>
-<approved hash="4,1,6849a4fd98155413"/>
-<approved hash="4,1,7901a535992d449b"/>
-<approved hash="4,16,7f15a55e841b2aa1"/>
-<approved hash="4,16,aae9ac52e6e5ccac"/>
-<approved hash="4,16,21fd735588024e5e"/>
-<approved hash="4,16,dcf08a55861ee44a"/>
-<approved hash="4,16,53c41154641eda7a"/>
-<approved hash="4,16,0edf9856861f2467"/>
-<approved hash="4,16,85d3af2ae01dd612"/>
-<approved hash="4,16,20a77651861e4c1c"/>
-<approved hash="4,16,c7bafd59a412ea08"/>
-<approved hash="4,16,6adabefe721fbaf2"/>
-<approved hash="4,16,e5ea05fe901ea4fe"/>
-<approved hash="4,16,4cff08ff6a1c9ae5"/>
-<approved hash="4,16,2b65ba1a88808bff"/>
-<approved hash="4,16,be945afeea039a9d"/>
-<approved hash="4,16,6998a1fa781bbc88"/>
-<approved hash="4,16,e0a024f292125ab4"/>
-<approved hash="4,16,5bb503fb9414b8ab"/>
-<approved hash="4,16,52b8d6057218da57"/>
-<approved hash="4,16,8d4a5de2f01fb443"/>
-<approved hash="4,16,745ea0fe5a1fba4e"/>
-<approved hash="4,16,ef6e2ffe641e587a"/>
-<approved hash="4,16,667372ff9a1cba61"/>
-<approved hash="4,16,5106f9fd6860dc6d"/>
-<approved hash="4,16,88085cfef21bba19"/>
-<approved hash="4,16,031cbbf254139804"/>
-<approved hash="4,16,fa242efa521a3a30"/>
-<approved hash="4,16,752975e3f0048427"/>
-<approved hash="4,16,5c3cf9056be0dbd3"/>
-<approved hash="4,16,96ce47f9041fb9df"/>
-</errors>
 </board>
 </drawing>
 </eagle>
