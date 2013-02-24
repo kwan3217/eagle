@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5842,6 +5842,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="149.86" y1="-58.42" x2="182.88" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-58.42" x2="182.88" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-68.58" x2="193.04" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDA1" class="0">
+<segment>
+<pinref part="U601" gate="G$1" pin="AUX_DA"/>
+<wire x1="266.7" y1="-101.6" x2="259.08" y2="-101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCL1" class="0">
+<segment>
+<pinref part="U601" gate="G$1" pin="AUX_CL"/>
+<wire x1="284.48" y1="-109.22" x2="284.48" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
