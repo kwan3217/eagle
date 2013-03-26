@@ -1428,7 +1428,7 @@ union{
                 translate<0,HK+di_pcb+0.001,0>
             }
         #end
-#local besch_s=0.8;
+#local besch_s=0.6;
 #local besch_w=0;
         #if(logo_assigned < 0.5)
             #local label = text{ttf besch_font value 0.2,0 rotate<90,0,0> scale<besch_s,1,besch_s> translate<TextX+(LK-Lcap)/2,HK+Hcap+di_pcb+0.01,-besch_s/2+Bcap/4> }
