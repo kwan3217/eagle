@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -20,8 +20,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -1790,7 +1790,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <clearance class="0" value="0.1524"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2925,74 +2925,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="6.858" y1="5.969" x2="7.8994" y2="7.0104" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,6db844a189025fa1"/>
-<approved hash="4,1,69a849fe84096751"/>
-<approved hash="4,1,652c5cd89feb56d5"/>
-<approved hash="4,1,ca704051344a5894"/>
-<approved hash="4,1,ba714259b97e4f95"/>
-<approved hash="4,1,4a70206ce6763695"/>
-<approved hash="4,1,4a736e71eb6b0599"/>
-<approved hash="4,1,da73b804501ecc91"/>
-<approved hash="4,1,ca6c4a0b55105388"/>
-<approved hash="4,1,ba75781bb2045a91"/>
-<approved hash="4,1,4a7c2e2ee7342999"/>
-<approved hash="4,1,5a736033ec291095"/>
-<approved hash="4,1,ca7042c651dcc795"/>
-<approved hash="4,1,fa7040d55ece6e94"/>
-<approved hash="4,1,ba717edd83c25d95"/>
-<approved hash="4,1,4a7028e008fa2495"/>
-<approved hash="4,1,5a737af5edef6b91"/>
-<approved hash="4,1,ca0c48f84ae2f2e9"/>
-<approved hash="4,1,15fbf739a1dca5e1"/>
-<approved hash="4,1,17fa870db6d428e0"/>
-<approved hash="4,1,75fa7705cfe177e1"/>
-<approved hash="4,1,3bf67718fcfc7ae2"/>
-<approved hash="4,1,edfee76d3589c1e2"/>
-<approved hash="4,1,1fe7f763aa86c4fd"/>
-<approved hash="4,1,2dfe8777a39623e4"/>
-<approved hash="4,1,7bf67747d0a376ed"/>
-<approved hash="4,1,35fa675ae9be7de2"/>
-<approved hash="4,1,17faf7af3e4bc0e1"/>
-<approved hash="4,1,15fbc7bd9758cfe1"/>
-<approved hash="4,1,2bfa87b1a45012e0"/>
-<approved hash="4,1,7dfa7789dd6d99e1"/>
-<approved hash="4,1,2ffe679c92787ce2"/>
-<approved hash="4,1,1d86f7910b75db9d"/>
-<approved hash="4,16,6db844a189025fa1"/>
-<approved hash="4,16,69a849fe84096751"/>
-<approved hash="4,16,652c5cd89feb56d5"/>
-<approved hash="4,16,15fbf739a1dca5e1"/>
-<approved hash="4,16,17fa870db6d428e0"/>
-<approved hash="4,16,75fa7705cfe177e1"/>
-<approved hash="4,16,3bf67718fcfc7ae2"/>
-<approved hash="4,16,edfee76d3589c1e2"/>
-<approved hash="4,16,1fe7f763aa86c4fd"/>
-<approved hash="4,16,2dfe8777a39623e4"/>
-<approved hash="4,16,7bf67747d0a376ed"/>
-<approved hash="4,16,35fa675ae9be7de2"/>
-<approved hash="4,16,17faf7af3e4bc0e1"/>
-<approved hash="4,16,15fbc7bd9758cfe1"/>
-<approved hash="4,16,2bfa87b1a45012e0"/>
-<approved hash="4,16,7dfa7789dd6d99e1"/>
-<approved hash="4,16,2ffe679c92787ce2"/>
-<approved hash="4,16,1d86f7910b75db9d"/>
-<approved hash="4,16,ca704051344a5894"/>
-<approved hash="4,16,ba714259b97e4f95"/>
-<approved hash="4,16,4a70206ce6763695"/>
-<approved hash="4,16,4a736e71eb6b0599"/>
-<approved hash="4,16,da73b804501ecc91"/>
-<approved hash="4,16,ca6c4a0b55105388"/>
-<approved hash="4,16,ba75781bb2045a91"/>
-<approved hash="4,16,4a7c2e2ee7342999"/>
-<approved hash="4,16,5a736033ec291095"/>
-<approved hash="4,16,ca7042c651dcc795"/>
-<approved hash="4,16,fa7040d55ece6e94"/>
-<approved hash="4,16,ba717edd83c25d95"/>
-<approved hash="4,16,4a7028e008fa2495"/>
-<approved hash="4,16,5a737af5edef6b91"/>
-<approved hash="4,16,ca0c48f84ae2f2e9"/>
-</errors>
 </board>
 </drawing>
 </eagle>
