@@ -3920,6 +3920,7 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <rectangle x1="-2.5" y1="0.7" x2="-1.3" y2="1.6" layer="51"/>
 <rectangle x1="-2.5" y1="-1" x2="-1.6" y2="-0.7" layer="51"/>
 <rectangle x1="-2.5" y1="-1.6" x2="-1.3" y2="-1" layer="51"/>
+<circle x="-3.8" y="-1.2" radius="0.5" width="0.4064" layer="21"/>
 </package>
 <package name="CRYSTAL_SMD_3_2MM_2_5MM">
 <smd name="1" x="-0.95" y="0" dx="1.5" dy="2.7" layer="1"/>
@@ -4246,7 +4247,7 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.159" x2="1.524" y2="-2.159" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-2.159" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
-<pin name="P$1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-2.159" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="EEPROM-I2C">
@@ -5689,15 +5690,14 @@ http://www.diodes.com/datasheets/AP7332.pdf</description>
 </deviceset>
 <deviceset name="TSX-3225">
 <gates>
-<gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="_" symbol="CRYSTAL_SMD_CASE" x="0" y="0"/>
+<gate name="G$1" symbol="CRYSTAL_SMD_CASE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="2 4" route="any"/>
-<connect gate="_" pin="1" pad="1"/>
-<connect gate="_" pin="2" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6551,7 +6551,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="P$1" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="2 4" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
