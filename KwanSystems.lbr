@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4052,6 +4052,10 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <wire x1="0.45" y1="0.4" x2="0.35" y2="0.4" width="0.05" layer="51"/>
 <wire x1="0.35" y1="0.4" x2="0.35" y2="0.5" width="0.05" layer="51"/>
 </package>
+<package name="STANDOFF">
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<pad name="P$1" x="0" y="0" drill="3.048" diameter="4.572"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOSFET_NCHANNEL_2DRAIN">
@@ -5438,6 +5442,10 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <wire x1="0" y1="25.4" x2="0" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="-15.24" x2="-20.32" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-15.24" x2="-20.32" y2="25.4" width="0.254" layer="94"/>
+</symbol>
+<symbol name="STANDOFF">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7030,6 +7038,21 @@ This part contains a crystal and all the rest of the electronics needed to direc
 <connect gate="G" pin="C" pad="3"/>
 <connect gate="R" pin="A" pad="6"/>
 <connect gate="R" pin="C" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STANDOFF">
+<gates>
+<gate name="G$1" symbol="STANDOFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STANDOFF">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
