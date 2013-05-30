@@ -1846,6 +1846,67 @@ union{
 #end   
 
 
+#macro DIODE_SMD_LED_SMLP()
+union{
+
+  #local L = 1.5;
+  #local W = 1.0;  //Width of plastic (z)
+  #local H = 0.08;  //Height of top of plastic above board (y) 
+  #local LW= 1.5;  //Length of window (x)
+  #local WW= 0.6;  //Width of window (z)
+  #local HW=0.2;   //Height of bottom of window above board
+  #local LD=0.15;  //Size of diode die (square)
+  #local HD=0.15;  //Height of diode die top above board
+  #local WM=min(L,W);
+  #local N_Leads=3;
+  #local Lead_center=W/2;
+  #local Lead_L=0.5;
+  #local Lead_W=0.75;
+  #local Lead_H=0.75;
+  #local Lead_R=0.15;
+  #local Lead_Thick=0.2;
+  #local HA=0;   //Height of plastic above the board     
+  
+  union {
+    difference {
+      box {<-L/2,HA,-W/2>, <L/2,H,W/2>} 
+      cylinder {<-L/2,HA-0.01,-W/2>,<-L/2,H+0.01,-W/2>,Lead_R+0.001}
+      cylinder {<   0,HA-0.01,-W/2>,<   0,H+0.01,-W/2>,Lead_R+0.001}
+      cylinder {< L/2,HA-0.01,-W/2>,< L/2,H+0.01,-W/2>,Lead_R+0.001}
+      cylinder {<-L/2,HA-0.01, W/2>,<-L/2,H+0.01, W/2>,Lead_R+0.001}
+      cylinder {<   0,HA-0.01, W/2>,<   0,H+0.01, W/2>,Lead_R+0.001}
+      cylinder {< L/2,HA-0.01, W/2>,< L/2,H+0.01, W/2>,Lead_R+0.001}
+      pigment{White}
+    }       
+    intersection {     
+      union {
+        difference {cylinder {<-L/2,HA,-W/2>,<-L/2,H+0.01,-W/2>,Lead_Thick} cylinder {<-L/2,HA-0.01,-W/2>,<-L/2,H+0.02,-W/2>,Lead_R}}
+        difference {cylinder {<   0,HA,-W/2>,<   0,H+0.01,-W/2>,Lead_Thick} cylinder {<   0,HA-0.01,-W/2>,<   0,H+0.02,-W/2>,Lead_R}}
+        difference {cylinder {< L/2,HA,-W/2>,< L/2,H+0.01,-W/2>,Lead_Thick} cylinder {< L/2,HA-0.01,-W/2>,< L/2,H+0.02,-W/2>,Lead_R}}
+        difference {cylinder {<-L/2,HA, W/2>,<-L/2,H+0.01, W/2>,Lead_Thick} cylinder {<-L/2,HA-0.01, W/2>,<-L/2,H+0.02, W/2>,Lead_R}}
+        difference {cylinder {<   0,HA, W/2>,<   0,H+0.01, W/2>,Lead_Thick} cylinder {<   0,HA-0.01, W/2>,<   0,H+0.02, W/2>,Lead_R}}
+        difference {cylinder {< L/2,HA, W/2>,< L/2,H+0.01, W/2>,Lead_Thick} cylinder {< L/2,HA-0.01, W/2>,< L/2,H+0.02, W/2>,Lead_R}}
+      }
+      box {<-L/2,HA,-W/2>,<L/2,HW+0.01,W/2>}
+      texture {col_gold}
+     }
+  }
+  
+  box {
+    <-LW/2,HA,-WW/2>,<LW/2,HW,WW/2>
+    pigment {color rgbf <1,1,1,0.5>}
+  }
+
+  box{<-LD/2,0,-LD/2><LD/2,HD,LD/2> pigment{Red}   translate <        0,0, WW/2*0.5>}
+  box{<-LD/2,0,-LD/2><LD/2,HD,LD/2> pigment{Green} translate < LW/2*0.4,0,-WW/2*0.1>}
+  box{<-LD/2,0,-LD/2><LD/2,HD,LD/2> pigment{Blue}  translate <-LW/2*0.4,0,-WW/2*0.1>}
+  box{<-LD/3,0,-LD*2/3><LD/3,H+0.01,0> pigment{Green} translate < -L/2*0.5,0, W/2>}
+  box{<-LD/3,0,-LD*2/3><LD/3,H+0.01,0> pigment{Green} translate <  L/2*0.5,0, W/2>}
+  
+	
+}
+#end   
+
 /********************************************************************************************************************************************
 //MELF
 ********************************************************************************************************************************************/
