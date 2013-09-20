@@ -1622,6 +1622,9 @@ IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #macro IC_SMD_ADXL377(value,logo)
 IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
+#macro IC_SMD_ADXL375(value,logo)
+IC_SMD_GRND(5,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
 #macro IC_SMD_H3LIS331DL(value,logo)
 IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
