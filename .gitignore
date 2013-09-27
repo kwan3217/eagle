@@ -14,4 +14,6 @@ Memory.Log
 *.dri
 *.xln
 *.zip
+*.pdf
+*.job
 
