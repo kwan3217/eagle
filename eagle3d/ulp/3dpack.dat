@@ -2133,6 +2133,7 @@ JP10Q:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:CON_PH_2X10J(:
 1X01:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 1,:Stiftleiste 2,54mm Raster 1Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 1Pin 1Row (jumper.lib)
 1X02:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 2,:Stiftleiste 2,54mm Raster 2Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 2Pin 1Row (jumper.lib)
 1X03:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 3,:Stiftleiste 2,54mm Raster 3Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 3Pin 1Row (jumper.lib)
+1X03_NO_SILK:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 3,:Stiftleiste 2,54mm Raster 3Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 3Pin 1Row (jumper.lib)
 1X04:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 4,:Stiftleiste 2,54mm Raster 4Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 4Pin 1Row (jumper.lib)
 1X05:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 5,:Stiftleiste 2,54mm Raster 5Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 5Pin 1Row (jumper.lib)
 1X06:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 6,:Stiftleiste 2,54mm Raster 6Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 6Pin 1Row (jumper.lib)

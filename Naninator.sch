@@ -479,16 +479,20 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <library name="KwanSystems">
 <packages>
 <package name="CRA04">
-<smd name="1" x="-0.8" y="-0.475" dx="0.4" dy="0.5" layer="1"/>
-<smd name="2" x="-0.25" y="-0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="3" x="0.25" y="-0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="4" x="0.8" y="-0.475" dx="0.4" dy="0.5" layer="1"/>
-<smd name="5" x="0.8" y="0.475" dx="0.4" dy="0.5" layer="1"/>
-<smd name="6" x="0.25" y="0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="7" x="-0.25" y="0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="8" x="-0.8" y="0.475" dx="0.4" dy="0.5" layer="1"/>
-<text x="-1.424" y="0.978" size="0.8128" layer="21">&gt;NAME</text>
-<text x="-1.524" y="-1.74" size="0.8128" layer="21">&gt;VALUE</text>
+<smd name="1" x="-0.8" y="-0.5" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="-0.25" y="-0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="3" x="0.25" y="-0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="4" x="0.8" y="-0.5" dx="0.4" dy="0.5" layer="1"/>
+<smd name="5" x="0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
+<smd name="6" x="0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="7" x="-0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="8" x="-0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
+<text x="-1.424" y="0.978" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.74" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="0" size="0.2" layer="51" align="center">A</text>
+<text x="-0.2" y="0" size="0.2" layer="51" align="center">B</text>
+<text x="0.2" y="0" size="0.2" layer="51" align="center">C</text>
+<text x="0.8" y="0" size="0.2" layer="51" align="center">D</text>
 </package>
 <package name="CRA06">
 <smd name="1" x="-1.295" y="-0.975" dx="0.63" dy="1.15" layer="1"/>
@@ -548,7 +552,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.127" layer="21"/>
+<circle x="-1.9" y="-0.7" radius="0.1" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
@@ -575,7 +579,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <package name="B3U-1000P">
 <smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
 <smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
-<text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="0.6096" layer="25">&gt;NAME</text>
 <rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
 <rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
 <wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
@@ -583,6 +587,38 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.4" layer="51"/>
 <wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.4" layer="51"/>
 <circle x="0" y="0" radius="0.75" width="0.05" layer="51"/>
+</package>
+<package name="USB_MICROB_3075">
+<wire x1="-3.6" y1="4.25" x2="-3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-3.1" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-0.55" x2="3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="-3.1" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-1.15" x2="3.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-1.15" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<smd name="1" x="-1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$8" x="-1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<smd name="P$10" x="-2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<text x="-1.2" y="4.95" size="0.254" layer="51" rot="R90">1 Vbus</text>
+<text x="-0.55" y="4.95" size="0.254" layer="51" rot="R90">2 D-</text>
+<text x="0.1" y="4.95" size="0.254" layer="51" rot="R90">3 D+</text>
+<text x="0.75" y="4.95" size="0.254" layer="51" rot="R90">4 NC</text>
+<text x="1.45" y="4.95" size="0.254" layer="51" rot="R90">5 GND</text>
+<smd name="2" x="-0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="4" x="0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="5" x="1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$1" x="2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<wire x1="-3.6" y1="4.25" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<smd name="P$2" x="1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<pad name="P$3" x="-3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<pad name="P$4" x="3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<rectangle x1="-0.2" y1="0.4" x2="0.2" y2="2.5" layer="29"/>
+<rectangle x1="-1.6" y1="3.3" x2="1.6" y2="4.9" layer="29"/>
+<wire x1="-4.6" y1="0" x2="4.5" y2="0" width="0" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -610,7 +646,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pin name="D+" x="-5.08" y="0" length="middle"/>
 <pin name="GND" x="-5.08" y="2.54" length="middle"/>
 </symbol>
-<symbol name="CRYSTAL_SMD">
+<symbol name="CRYSTAL_SMD_CASE">
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -625,9 +661,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <text x="2.54" y="1.016" size="1.778" layer="95">&gt;PART</text>
 <text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-</symbol>
-<symbol name="CASE_GND">
-<pin name="1" x="0" y="0" visible="off" length="middle" rot="R90"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.159" x2="1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.159" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.159" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="REGULATOR">
 <pin name="IN" x="-12.7" y="2.54" length="middle"/>
@@ -669,7 +708,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RP4">
+<deviceset name="RP4" uservalue="yes">
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="RESISTOR" x="0" y="2.54" swaplevel="1"/>
@@ -718,7 +757,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11"/>
+<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11" route="any"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GCT" package="USB_MICROB_3075">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P$1 P$2 P$3 P$4 P$8 P$10" route="any"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
@@ -729,15 +779,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 <deviceset name="CX2520" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CRYSTAL_SMD" x="0" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="12" y="0"/>
+<gate name="G$1" symbol="CRYSTAL_SMD_CASE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD_2MM_2_5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$2" pin="1" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="2 4" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2766,7 +2815,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <part name="U001" library="SparkFun-DigitalIC" deviceset="FT232RL" device="SSOP">
 <attribute name="DIGIKEY" value="768-1007-1-ND"/>
 </part>
-<part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device="">
+<part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device="GCT">
 <attribute name="DIGIKEY" value="455-2562-1-ND"/>
 </part>
 <part name="U401" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device="" value="ATMEGA328P">
@@ -2834,7 +2883,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <attribute name="DIGIKEY" value="445-1415-1-ND"/>
 </part>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
-<part name="D003" library="KwanSystems" deviceset="MSS1P6" device="">
+<part name="D001" library="KwanSystems" deviceset="MSS1P6" device="">
 <attribute name="DIGIKEY" value="MSS1P6-M3/89AGICT-ND"/>
 </part>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
@@ -2914,24 +2963,23 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <instance part="C408" gate="G$1" x="-7.62" y="48.26" rot="R90">
 <attribute name="DIGIKEY" x="-7.62" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Y401" gate="G$1" x="-5.08" y="55.88" rot="R90">
-<attribute name="DIGIKEY" x="-5.08" y="55.88" size="1.778" layer="96" display="off"/>
+<instance part="Y401" gate="G$1" x="-5.08" y="55.88" rot="MR90">
+<attribute name="DIGIKEY" x="-5.08" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="Y401" gate="G$2" x="-2.54" y="15.24"/>
-<instance part="U201" gate="G$1" x="101.6" y="119.38">
-<attribute name="DIGIKEY" x="101.6" y="119.38" size="1.778" layer="96" display="off"/>
+<instance part="U201" gate="G$1" x="101.6" y="116.84">
+<attribute name="DIGIKEY" x="101.6" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C203" gate="G$1" x="127" y="111.76">
-<attribute name="DIGIKEY" x="127" y="111.76" size="1.778" layer="96" display="off"/>
+<instance part="C203" gate="G$1" x="127" y="109.22">
+<attribute name="DIGIKEY" x="127" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C201" gate="G$1" x="68.58" y="111.76">
-<attribute name="DIGIKEY" x="68.58" y="111.76" size="1.778" layer="96" display="off"/>
+<instance part="C201" gate="G$1" x="68.58" y="109.22">
+<attribute name="DIGIKEY" x="68.58" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+5" gate="1" x="124.46" y="121.92"/>
-<instance part="D003" gate="G$1" x="152.4" y="119.38" rot="R180">
+<instance part="P+5" gate="1" x="124.46" y="119.38"/>
+<instance part="D001" gate="G$1" x="152.4" y="119.38" rot="R180">
 <attribute name="DIGIKEY" x="152.4" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND3" gate="1" x="99.06" y="104.14"/>
+<instance part="GND3" gate="1" x="99.06" y="101.6"/>
 <instance part="JP1" gate="G$1" x="-60.96" y="25.4" rot="R180">
 <attribute name="DIGIKEY" x="-60.96" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2972,7 +3020,8 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <wire x1="-12.7" y1="83.82" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="68.58" x2="-12.7" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="63.5" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="63.5" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="55.88" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="48.26" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="40.64" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="15.24" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
@@ -3026,28 +3075,30 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <junction x="-12.7" y="63.5"/>
 <pinref part="C408" gate="G$1" pin="1"/>
 <junction x="-12.7" y="48.26"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
-<wire x1="-12.7" y1="104.14" x2="-12.7" y2="83.82" width="0" layer="91"/>
+<wire x1="-12.7" y1="104.14" x2="-12.7" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-12.7" y="83.82"/>
 <pinref part="S429" gate="G$1" pin="1"/>
+<pinref part="Y401" gate="G$1" pin="GND"/>
+<wire x1="-10.16" y1="55.88" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-12.7" y="55.88"/>
 </segment>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="109.22" x2="68.58" y2="106.68" width="0" layer="91"/>
-<wire x1="68.58" y1="106.68" x2="86.36" y2="106.68" width="0" layer="91"/>
+<wire x1="68.58" y1="106.68" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C203" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="106.68" x2="99.06" y2="106.68" width="0" layer="91"/>
-<wire x1="99.06" y1="106.68" x2="127" y2="106.68" width="0" layer="91"/>
-<wire x1="127" y1="106.68" x2="127" y2="109.22" width="0" layer="91"/>
+<wire x1="86.36" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="127" y1="104.14" x2="127" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<junction x="99.06" y="106.68"/>
+<junction x="99.06" y="104.14"/>
 <pinref part="U201" gate="G$1" pin="GND"/>
-<wire x1="88.9" y1="116.84" x2="86.36" y2="116.84" width="0" layer="91"/>
-<wire x1="86.36" y1="116.84" x2="86.36" y2="106.68" width="0" layer="91"/>
+<wire x1="88.9" y1="114.3" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="114.3" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="22.86" x2="-38.1" y2="22.86" width="0" layer="91"/>
+<wire x1="-48.26" y1="22.86" x2="-38.1" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <label x="-45.72" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -3137,22 +3188,21 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </segment>
 <segment>
 <pinref part="U201" gate="G$1" pin="FB"/>
-<wire x1="114.3" y1="119.38" x2="116.84" y2="119.38" width="0" layer="91"/>
-<wire x1="116.84" y1="119.38" x2="116.84" y2="121.92" width="0" layer="91"/>
+<wire x1="114.3" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U201" gate="G$1" pin="OUT"/>
-<wire x1="116.84" y1="121.92" x2="114.3" y2="121.92" width="0" layer="91"/>
+<wire x1="116.84" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="VCC"/>
-<wire x1="114.3" y1="121.92" x2="124.46" y2="121.92" width="0" layer="91"/>
-<wire x1="124.46" y1="121.92" x2="127" y2="121.92" width="0" layer="91"/>
-<pinref part="D003" gate="G$1" pin="K"/>
-<wire x1="127" y1="121.92" x2="149.86" y2="121.92" width="0" layer="91"/>
-<wire x1="149.86" y1="121.92" x2="149.86" y2="119.38" width="0" layer="91"/>
+<wire x1="114.3" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="D001" gate="G$1" pin="K"/>
+<wire x1="127" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C203" gate="G$1" pin="1"/>
-<wire x1="127" y1="116.84" x2="127" y2="121.92" width="0" layer="91"/>
+<wire x1="127" y1="114.3" x2="127" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
-<wire x1="-48.26" y1="27.94" x2="-38.1" y2="27.94" width="0" layer="91"/>
+<wire x1="-48.26" y1="27.94" x2="-38.1" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="VCC"/>
 <label x="-45.72" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -3177,8 +3227,8 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <label x="12.7" y="93.98" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="R429" gate="G$1" pin="2"/>
-<wire x1="-12.7" y1="111.76" x2="12.7" y2="111.76" width="0" layer="91"/>
-<wire x1="12.7" y1="111.76" x2="12.7" y2="96.52" width="0" layer="91"/>
+<wire x1="-12.7" y1="111.76" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="111.76" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
 <junction x="12.7" y="96.52"/>
 <pinref part="S429" gate="G$1" pin="2"/>
 </segment>
@@ -3194,7 +3244,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="-68.58" y1="22.86" x2="-76.2" y2="22.86" width="0" layer="91"/>
+<wire x1="-68.58" y1="22.86" x2="-76.2" y2="22.86" width="0.1524" layer="91"/>
 <label x="-76.2" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3242,7 +3292,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="25.4" x2="-76.2" y2="25.4" width="0" layer="91"/>
+<wire x1="-68.58" y1="25.4" x2="-76.2" y2="25.4" width="0.1524" layer="91"/>
 <label x="-76.2" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3303,7 +3353,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="27.94" x2="-76.2" y2="27.94" width="0" layer="91"/>
+<wire x1="-68.58" y1="27.94" x2="-76.2" y2="27.94" width="0.1524" layer="91"/>
 <label x="-76.2" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3320,7 +3370,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="25.4" x2="-38.1" y2="25.4" width="0" layer="91"/>
+<wire x1="-48.26" y1="25.4" x2="-38.1" y2="25.4" width="0.1524" layer="91"/>
 <label x="-45.72" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3556,7 +3606,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <pinref part="U401" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="93.98" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U001" gate="G$1" pin="TXD"/>
-<wire x1="83.82" y1="86.36" x2="93.98" y2="86.36" width="0" layer="91"/>
+<wire x1="83.82" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -3573,7 +3623,7 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 <pinref part="U401" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="93.98" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U001" gate="G$1" pin="RXD"/>
-<wire x1="83.82" y1="83.82" x2="93.98" y2="83.82" width="0" layer="91"/>
+<wire x1="83.82" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3584,24 +3634,24 @@ FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Se
 </segment>
 <segment>
 <pinref part="U201" gate="G$1" pin="IN"/>
-<wire x1="88.9" y1="121.92" x2="86.36" y2="121.92" width="0" layer="91"/>
+<wire x1="88.9" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C201" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="121.92" x2="68.58" y2="121.92" width="0" layer="91"/>
-<wire x1="68.58" y1="121.92" x2="55.88" y2="121.92" width="0" layer="91"/>
-<wire x1="68.58" y1="116.84" x2="68.58" y2="121.92" width="0" layer="91"/>
+<wire x1="86.36" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U201" gate="G$1" pin="SHDN#"/>
-<wire x1="88.9" y1="119.38" x2="86.36" y2="119.38" width="0" layer="91"/>
-<wire x1="86.36" y1="119.38" x2="86.36" y2="121.92" width="0" layer="91"/>
-<label x="58.42" y="121.92" size="1.778" layer="95"/>
+<wire x1="88.9" y1="116.84" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="116.84" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
+<label x="58.42" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
 <wire x1="180.34" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J001" gate="G$1" pin="VBUS"/>
-<pinref part="D003" gate="G$1" pin="A"/>
-<wire x1="154.94" y1="119.38" x2="170.18" y2="119.38" width="0" layer="91"/>
-<wire x1="170.18" y1="119.38" x2="170.18" y2="83.82" width="0" layer="91"/>
+<pinref part="D001" gate="G$1" pin="A"/>
+<wire x1="154.94" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="119.38" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <label x="162.56" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>

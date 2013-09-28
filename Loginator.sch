@@ -5102,8 +5102,8 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <smd name="6" x="0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
 <smd name="7" x="-0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
 <smd name="8" x="-0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
-<text x="-1.424" y="0.978" size="0.8128" layer="21">&gt;NAME</text>
-<text x="-1.524" y="-1.74" size="0.8128" layer="21">&gt;VALUE</text>
+<text x="-1.424" y="0.978" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.74" size="0.6096" layer="27">&gt;VALUE</text>
 <text x="-0.8" y="0" size="0.2" layer="51" align="center">A</text>
 <text x="-0.2" y="0" size="0.2" layer="51" align="center">B</text>
 <text x="0.2" y="0" size="0.2" layer="51" align="center">C</text>
@@ -5257,6 +5257,8 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="0.15" y1="0.3" x2="-0.15" y2="0.3" width="0.2" layer="51"/>
 <wire x1="-0.15" y1="0.3" x2="-0.15" y2="0.5" width="0.2" layer="51"/>
 <wire x1="-0.15" y1="0.5" x2="-0.5" y2="0.5" width="0.2" layer="51"/>
+<text x="1.27" y="0" size="0.6096" layer="25">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="CKCM25">
 <smd name="1" x="-0.325" y="-0.5" dx="0.35" dy="0.5" layer="1"/>
@@ -5269,6 +5271,8 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="-0.685" y1="-0.5" x2="0.685" y2="-0.5" width="0.3" layer="51"/>
 <wire x1="0.685" y1="-0.5" x2="0.685" y2="0.5" width="0.3" layer="51"/>
 <wire x1="0.685" y1="0.5" x2="-0.685" y2="0.5" width="0.3" layer="51"/>
+<text x="1.27" y="0" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 <package name="SMLP36">
 <smd name="3" x="0" y="0.425" dx="0.4" dy="0.45" layer="1" rot="R180"/>
@@ -5341,22 +5345,22 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="OUT" x="10.16" y="2.54" length="middle" rot="R180"/>
 </symbol>
 <symbol name="DUAL_CC_DIODE">
-<wire x1="-1.27" y1="6.35" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="1.27" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="6.35" x2="-1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="6.35" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="-1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
 <text x="-3.0226" y="2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="4.8514" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="K" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="A2" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="A1" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A2" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="A1" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="LDO_MLF">
 <wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
@@ -5450,7 +5454,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.159" x2="1.524" y2="-2.159" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-2.159" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
-<pin name="P$1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-2.159" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="SPDT">
@@ -5699,7 +5703,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="P$1" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="2 4" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5709,8 +5713,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </deviceset>
 <deviceset name="AYZ0202">
 <gates>
-<gate name="A" symbol="SPDT" x="-1.27" y="6.096"/>
-<gate name="B" symbol="SPDT" x="-1.27" y="-6.096"/>
+<gate name="A" symbol="SPDT" x="-1.27" y="6.096" swaplevel="1"/>
+<gate name="B" symbol="SPDT" x="-1.27" y="-6.096" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="AYZ0202">
@@ -5777,10 +5781,10 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <connects>
 <connect gate="B" pin="A" pad="2"/>
 <connect gate="B" pin="C" pad="1"/>
-<connect gate="G" pin="A" pad="4"/>
-<connect gate="G" pin="C" pad="3"/>
-<connect gate="R" pin="A" pad="6"/>
-<connect gate="R" pin="C" pad="5"/>
+<connect gate="G" pin="A" pad="6"/>
+<connect gate="G" pin="C" pad="5"/>
+<connect gate="R" pin="A" pad="4"/>
+<connect gate="R" pin="C" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5825,7 +5829,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="P+8" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+9" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="R433" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="150"/>
 <part name="JP1" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP2" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP3" library="SparkFun" deviceset="STAND-OFF" device=""/>
@@ -5849,7 +5852,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="J301" library="SparkFun" deviceset="M02" device="-JST-2MM-SMT" value="JST 2mm"/>
 <part name="U301" library="SparkFun" deviceset="MCP73831" device="" value="73831"/>
 <part name="C301" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="R301" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="D301" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
 <part name="C302" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
@@ -5857,7 +5859,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="C204" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="D302" library="KwanSystems" deviceset="PMEG2005CT" device="" value="DCC"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="R011" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100k"/>
 <part name="D050" library="SparkFun" deviceset="LED" device="0603" value="YELLOW"/>
 <part name="Q050" library="SparkFun" deviceset="MOSFET-PCHANNEL" device="SMD" value="PMOS"/>
 <part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device="GCT"/>
@@ -5879,12 +5880,11 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="S201" library="KwanSystems" deviceset="AYZ0202" device=""/>
 <part name="R023" library="KwanSystems" deviceset="RP2" device="EXB24V" value="33"/>
 <part name="R053" library="KwanSystems" deviceset="RP4" device="04" value="1.5k"/>
-<part name="R201" library="KwanSystems" deviceset="RP2" device="EXB24V" value="100k"/>
+<part name="R201" library="KwanSystems" deviceset="RP4" device="04" value="100k"/>
 <part name="C023" library="KwanSystems" deviceset="CKC" device="M25" value="22pF"/>
-<part name="R015" library="KwanSystems" deviceset="RP2" device="EXB24V" value="10k"/>
+<part name="R015" library="KwanSystems" deviceset="RP4" device="04" value="10k"/>
 <part name="D401" library="KwanSystems" deviceset="SMLP36RGB2W(R)" device="" value=""/>
-<part name="R002" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="150"/>
-<part name="R001" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="150"/>
+<part name="R422" library="KwanSystems" deviceset="RP4" device="04" value="150"/>
 </parts>
 <sheets>
 <sheet>
@@ -5930,6 +5930,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <text x="129.54" y="289.56" size="1.778" layer="97">Vout=100Vin=I(4.7Ohm)</text>
 <text x="129.54" y="281.94" size="1.778" layer="97">Isat=3.3V/4.7Ohm=702mA</text>
 <text x="129.54" y="279.4" size="1.778" layer="97">I(1DN)=Isat/1024=685uA</text>
+<text x="-5.08" y="228.6" size="1.778" layer="97">Just using to connect ground</text>
 </plain>
 <instances>
 <instance part="U401" gate="G$1" x="73.66" y="104.14"/>
@@ -5947,10 +5948,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="P+8" gate="1" x="152.4" y="172.72"/>
 <instance part="P+9" gate="1" x="5.08" y="43.18"/>
 <instance part="GND4" gate="1" x="15.24" y="10.16"/>
-<instance part="R433" gate="G$1" x="172.72" y="152.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="155.9814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="179.07" y="155.702" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="JP1" gate="G$1" x="170.18" y="180.34"/>
 <instance part="JP2" gate="G$1" x="175.26" y="180.34"/>
 <instance part="JP3" gate="G$1" x="180.34" y="180.34"/>
@@ -5976,7 +5973,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="J301" gate="G$1" x="119.38" y="241.3" rot="MR270"/>
 <instance part="U301" gate="G$1" x="86.36" y="231.14"/>
 <instance part="C301" gate="G$1" x="109.22" y="228.6"/>
-<instance part="R301" gate="G$1" x="104.14" y="223.52" rot="R90"/>
 <instance part="D301" gate="G$1" x="73.66" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.104" y="230.632" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -5986,7 +5982,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="C204" gate="G$1" x="175.26" y="226.06"/>
 <instance part="D302" gate="G$1" x="83.82" y="246.38" rot="R180"/>
 <instance part="GND5" gate="1" x="-35.56" y="210.82" rot="MR0"/>
-<instance part="R011" gate="G$1" x="-7.62" y="223.52" rot="MR90"/>
 <instance part="D050" gate="G$1" x="-25.4" y="266.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-28.956" y="262.128" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="-20.955" y="262.128" size="1.778" layer="96" rot="MR90"/>
@@ -6021,25 +6016,22 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="R023" gate="B" x="0" y="236.22"/>
 <instance part="R053" gate="B" x="-30.48" y="256.54" rot="R270"/>
 <instance part="R053" gate="A" x="-25.4" y="248.92" rot="R90"/>
-<instance part="R201" gate="A" x="147.32" y="223.52" rot="R90"/>
-<instance part="R201" gate="B" x="147.32" y="238.76" rot="R90"/>
+<instance part="R201" gate="B" x="147.32" y="223.52" rot="R270"/>
+<instance part="R201" gate="C" x="147.32" y="238.76" rot="R90"/>
 <instance part="C023" gate="A" x="22.86" y="220.98"/>
 <instance part="C023" gate="B" x="33.02" y="220.98"/>
 <instance part="R015" gate="A" x="-10.16" y="281.94" rot="R270"/>
 <instance part="R015" gate="B" x="15.24" y="241.3" rot="R180"/>
 <instance part="R053" gate="D" x="66.04" y="228.6" rot="R90"/>
-<instance part="R053" gate="C" x="55.88" y="269.24"/>
 <instance part="D401" gate="B" x="190.5" y="152.4" rot="R270"/>
 <instance part="D401" gate="R" x="190.5" y="142.24" rot="R270"/>
 <instance part="D401" gate="G" x="190.5" y="147.32" rot="R270"/>
-<instance part="R002" gate="G$1" x="172.72" y="147.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="150.9014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="179.07" y="150.622" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R001" gate="G$1" x="172.72" y="142.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="145.8214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="179.07" y="145.542" size="1.778" layer="96" rot="R180"/>
-</instance>
+<instance part="R422" gate="D" x="172.72" y="152.4"/>
+<instance part="R422" gate="B" x="172.72" y="147.32"/>
+<instance part="R422" gate="C" x="172.72" y="142.24"/>
+<instance part="R015" gate="C" x="104.14" y="223.52" rot="R270"/>
+<instance part="R201" gate="D" x="-7.62" y="223.52" rot="R90"/>
+<instance part="R201" gate="A" x="7.62" y="223.52"/>
 </instances>
 <busses>
 </busses>
@@ -6108,7 +6100,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="134.62" y1="160.02" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
 <label x="116.84" y="160.02" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="(TXD0/PWM1)P0.0"/>
-<pinref part="R001" gate="G$1" pin="2"/>
+<pinref part="R422" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -6367,7 +6359,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="C462" gate="G$1" pin="1"/>
 <pinref part="C461" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="Y401" gate="G$1" pin="P$1"/>
+<pinref part="Y401" gate="G$1" pin="GND"/>
 <wire x1="0" y1="91.44" x2="-7.62" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-7.62" y="91.44"/>
 </segment>
@@ -6381,7 +6373,9 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-7.62" y1="215.9" x2="-25.4" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="215.9" x2="-35.56" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="218.44" x2="22.86" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="215.9" x2="-25.4" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="215.9" x2="12.7" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="215.9" x2="2.54" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="215.9" x2="-25.4" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="218.44" x2="33.02" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="215.9" x2="22.86" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="215.9" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
@@ -6412,7 +6406,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="99.06" y1="215.9" x2="104.14" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="215.9" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="215.9" x2="99.06" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="228.6" x2="147.32" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="218.44" x2="147.32" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="241.3" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="241.3" x2="55.88" y2="243.84" width="0.1524" layer="91"/>
 <junction x="-35.56" y="215.9"/>
@@ -6438,7 +6432,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="C302" gate="G$1" pin="2"/>
 <pinref part="J001" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="R011" gate="G$1" pin="1"/>
 <pinref part="C301" gate="G$1" pin="2"/>
 <pinref part="C201" gate="G$1" pin="2"/>
 <pinref part="C203" gate="G$1" pin="2"/>
@@ -6447,15 +6440,20 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U202" gate="G$1" pin="GND1"/>
 <pinref part="U202" gate="G$1" pin="GND2"/>
 <pinref part="J301" gate="G$1" pin="1"/>
-<pinref part="R301" gate="G$1" pin="1"/>
 <pinref part="U301" gate="G$1" pin="VSS"/>
 <pinref part="S010" gate="S" pin="2"/>
 <pinref part="S010" gate="G" pin="1"/>
 <pinref part="S201" gate="A" pin="P$2"/>
 <pinref part="R053" gate="A" pin="1"/>
-<pinref part="R201" gate="A" pin="2"/>
+<pinref part="R201" gate="B" pin="2"/>
 <pinref part="C023" gate="A" pin="2"/>
 <pinref part="C023" gate="B" pin="2"/>
+<pinref part="R015" gate="C" pin="2"/>
+<pinref part="R201" gate="D" pin="1"/>
+<pinref part="R201" gate="A" pin="1"/>
+<wire x1="2.54" y1="223.52" x2="2.54" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R201" gate="A" pin="2"/>
+<wire x1="12.7" y1="223.52" x2="12.7" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
@@ -6489,12 +6487,12 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="66.04" y="233.68"/>
 <label x="43.18" y="233.68" size="1.778" layer="95"/>
 <pinref part="D302" gate="G$1" pin="A1"/>
-<pinref part="R011" gate="G$1" pin="2"/>
 <pinref part="J001" gate="G$1" pin="VBUS"/>
 <pinref part="C302" gate="G$1" pin="1"/>
 <pinref part="U301" gate="G$1" pin="VIN"/>
 <pinref part="R015" gate="B" pin="2"/>
 <pinref part="R053" gate="D" pin="2"/>
+<pinref part="R201" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
@@ -6672,7 +6670,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="157.48" y1="157.48" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="116.84" y="157.48" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="(RXD0/PWM3/EINT0)P0.1"/>
-<pinref part="R002" gate="G$1" pin="2"/>
+<pinref part="R422" gate="B" pin="1"/>
 </segment>
 </net>
 <net name="TX1/PWMR" class="0">
@@ -6687,7 +6685,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="160.02" y1="137.16" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="116.84" y="137.16" size="1.778" layer="95"/>
 <pinref part="U401" gate="G$1" pin="(TXD1/PWM4/A1.1)P0.8"/>
-<pinref part="R433" gate="G$1" pin="2"/>
+<pinref part="R422" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -6760,12 +6758,12 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </segment>
 <segment>
 <wire x1="147.32" y1="233.68" x2="147.32" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="231.14" x2="147.32" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="231.14" x2="147.32" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="231.14" x2="137.16" y2="231.14" width="0.1524" layer="91"/>
 <junction x="147.32" y="231.14"/>
 <label x="137.16" y="231.14" size="1.778" layer="95"/>
-<pinref part="R201" gate="A" pin="1"/>
 <pinref part="R201" gate="B" pin="1"/>
+<pinref part="R201" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="AD4" class="0">
@@ -6965,8 +6963,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <segment>
 <wire x1="104.14" y1="228.6" x2="104.14" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="R301" gate="G$1" pin="2"/>
 <pinref part="U301" gate="G$1" pin="PROG"/>
+<pinref part="R015" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -6999,7 +6997,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="S201" gate="A" pin="P$1"/>
 <junction x="147.32" y="246.38"/>
 <junction x="175.26" y="246.38"/>
-<pinref part="R201" gate="B" pin="2"/>
+<pinref part="R201" gate="C" pin="2"/>
 </segment>
 <segment>
 <wire x1="-55.88" y1="38.1" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
@@ -7065,7 +7063,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="124.46" y1="246.38" x2="124.46" y2="271.78" width="0.1524" layer="91"/>
 <junction x="124.46" y="246.38"/>
 <label x="124.46" y="271.78" size="1.778" layer="95"/>
-<label x="83.82" y="256.54" size="1.778" layer="95"/>
+<label x="88.9" y="246.38" size="1.778" layer="95"/>
 <pinref part="R203" gate="G$1" pin="1"/>
 <pinref part="D302" gate="G$1" pin="K"/>
 <pinref part="U202" gate="G$1" pin="RS+"/>
@@ -7087,21 +7085,21 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <segment>
 <wire x1="177.8" y1="142.24" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="D401" gate="R" pin="C"/>
-<pinref part="R001" gate="G$1" pin="1"/>
+<pinref part="R422" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="DR" class="0">
 <segment>
 <wire x1="187.96" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R433" gate="G$1" pin="1"/>
 <pinref part="D401" gate="B" pin="C"/>
+<pinref part="R422" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="DG" class="0">
 <segment>
 <wire x1="187.96" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="D401" gate="G" pin="C"/>
-<pinref part="R002" gate="G$1" pin="1"/>
+<pinref part="R422" gate="B" pin="2"/>
 </segment>
 </net>
 <net name="RGB_Q" class="0">

@@ -1622,6 +1622,9 @@ IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #macro IC_SMD_ADXL377(value,logo)
 IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
+#macro IC_SMD_ADXL375(value,logo)
+IC_SMD_GRND(5,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
 #macro IC_SMD_H3LIS331DL(value,logo)
 IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
@@ -1630,6 +1633,12 @@ IC_SMD_GRND(4,4,1.1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
 #macro IC_SMD_MPU60X0(value,logo)
 IC_SMD_GRND(4,4,1.1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
+#macro IC_SMD_DHVQFN16(value,logo)
+IC_SMD_GRND(3.5,2.5,1.1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
+#macro IC_SMD_DHVQFN14(value,logo)
+IC_SMD_GRND(3.0,2.5,1.1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
 #macro IC_SMD_BMP085(value,logo)
 //#macro IC_SMD_LidBox(LK,BK, HK,Lcap,Bcap,Hcap,hole_rad,cap_corner_rad,body_corner_rad,di_pcb,logo)
