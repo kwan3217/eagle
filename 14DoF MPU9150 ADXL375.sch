@@ -4858,7 +4858,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.1" layer="51"/>
 <wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.1" layer="51"/>
 <wire x1="2.5" y1="-1.5" x2="2.5" y2="1.5" width="0.1" layer="51"/>
-<circle x="2.9" y="1.9" radius="0.2" width="0.1" layer="51"/>
+<circle x="2.9" y="1.9" radius="0.2" width="0.1" layer="21"/>
 <wire x1="-1.5" y1="-0.9" x2="-1.5" y2="1.2" width="0.1" layer="51"/>
 <wire x1="-1.9" y1="0.8" x2="-1.5" y2="1.2" width="0.1" layer="51"/>
 <wire x1="-1.5" y1="1.2" x2="-1.1" y2="0.8" width="0.1" layer="51"/>
@@ -4884,8 +4884,10 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <smd name="12" x="1.2" y="-1.0975" dx="0.55" dy="1.145" layer="1"/>
 <smd name="13" x="2" y="-1.0975" dx="0.55" dy="1.145" layer="1"/>
 <smd name="14" x="2.0975" y="0" dx="1.145" dy="0.55" layer="1"/>
-<text x="-2.54" y="2.54" size="1.016" layer="51">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.016" layer="51" rot="R180">&gt;VALUE</text>
+<text x="-2.54" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="2.54" y="-1.778" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-1.5" x2="2.5" y2="1.5" layer="42"/>
+<rectangle x1="-1.5" y1="-0.5" x2="1.5" y2="0.5" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -4928,16 +4930,16 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="VDDIO" x="-22.86" y="17.78" length="middle" direction="pwr"/>
 <pin name="VS" x="-22.86" y="15.24" length="middle" direction="pwr"/>
 <pin name="GND" x="-22.86" y="12.7" length="middle" direction="pwr"/>
-<pin name="CS" x="12.78" y="2.6" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="CS" x="12.7" y="2.54" length="middle" direction="in" function="dot" rot="R180"/>
 <pin name="INT1" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
 <pin name="INT2" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
 <pin name="SDO/AA" x="12.7" y="12.7" length="middle" rot="R180"/>
 <pin name="SDA/SDI/SDIO" x="12.7" y="15.24" length="middle" rot="R180"/>
 <pin name="SCL/SCK" x="12.7" y="17.78" length="middle" direction="in" rot="R180"/>
-<wire x1="-17.78" y1="20.32" x2="-17.78" y2="0" width="0.1" layer="94"/>
-<wire x1="-17.78" y1="0" x2="7.62" y2="0" width="0.1" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="20.32" width="0.1" layer="94"/>
-<wire x1="7.62" y1="20.32" x2="-17.78" y2="20.32" width="0.1" layer="94"/>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="0" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="-17.78" y2="20.32" width="0.1524" layer="94"/>
 <text x="-17.78" y="20.32" size="1.016" layer="95">&gt;NAME</text>
 <text x="7.62" y="0" size="1.016" layer="96" rot="R180">&gt;VALUE</text>
 </symbol>

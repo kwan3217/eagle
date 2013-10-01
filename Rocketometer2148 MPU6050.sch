@@ -79,12 +79,15 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -1343,6 +1346,32 @@ shrink quad flat pack, square</description>
 <text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
+<package name="SWITCH-SPST-SMD-A">
+<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.3" x2="-0.1" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="0.3" x2="-3.35" y2="-0.3" width="0.2032" layer="21"/>
+<wire x1="3.35" y1="0.3" x2="3.35" y2="-0.3" width="0.2032" layer="21"/>
+<wire x1="2.7" y1="1.3" x2="-2.7" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-1.3" x2="0" y2="-1.3" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="-0.75" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="GND1" x="-3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND2" x="-3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="GND3" x="3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND4" x="3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<text x="-1.27" y="0.635" size="0.6096" layer="25">&gt;Name</text>
+<text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VCC2">
@@ -2028,6 +2057,16 @@ Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SMD-A" package="SWITCH-SPST-SMD-A">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAP" prefix="C" uservalue="yes">
@@ -2320,7 +2359,7 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <package name="B3U-1000P">
 <smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
 <smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
-<text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="0.6096" layer="25">&gt;NAME</text>
 <rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
 <rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
 <wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
@@ -2350,8 +2389,12 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <smd name="6" x="0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
 <smd name="7" x="-0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
 <smd name="8" x="-0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
-<text x="-1.424" y="0.978" size="0.8128" layer="21">&gt;NAME</text>
-<text x="-1.524" y="-1.74" size="0.8128" layer="21">&gt;VALUE</text>
+<text x="-1.424" y="0.978" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.74" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="0" size="0.2" layer="51" align="center">A</text>
+<text x="-0.2" y="0" size="0.2" layer="51" align="center">B</text>
+<text x="0.2" y="0" size="0.2" layer="51" align="center">C</text>
+<text x="0.8" y="0" size="0.2" layer="51" align="center">D</text>
 </package>
 <package name="TMLF_2MM_2MM_6PIN">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
@@ -2374,7 +2417,6 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
@@ -2657,25 +2699,57 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <wire x1="0.45" y1="0.4" x2="0.35" y2="0.4" width="0.05" layer="51"/>
 <wire x1="0.35" y1="0.4" x2="0.35" y2="0.5" width="0.05" layer="51"/>
 </package>
+<package name="USB_MICROB_3075">
+<wire x1="-3.6" y1="4.25" x2="-3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-3.1" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-0.55" x2="3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="-3.1" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-1.15" x2="3.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-1.15" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<smd name="1" x="-1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$8" x="-1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<smd name="P$10" x="-2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<text x="-1.2" y="4.95" size="0.254" layer="51" rot="R90">1 Vbus</text>
+<text x="-0.55" y="4.95" size="0.254" layer="51" rot="R90">2 D-</text>
+<text x="0.1" y="4.95" size="0.254" layer="51" rot="R90">3 D+</text>
+<text x="0.75" y="4.95" size="0.254" layer="51" rot="R90">4 NC</text>
+<text x="1.45" y="4.95" size="0.254" layer="51" rot="R90">5 GND</text>
+<smd name="2" x="-0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="4" x="0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="5" x="1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$1" x="2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<wire x1="-3.6" y1="4.25" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<smd name="P$2" x="1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<pad name="P$3" x="-3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<pad name="P$4" x="3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<rectangle x1="-0.2" y1="0.4" x2="0.2" y2="2.5" layer="29"/>
+<rectangle x1="-1.6" y1="3.3" x2="1.6" y2="4.9" layer="29"/>
+<wire x1="-4.6" y1="0" x2="4.5" y2="0" width="0" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DUAL_CC_DIODE">
-<wire x1="-1.27" y1="6.35" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="1.27" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="6.35" x2="-1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="6.35" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="-1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
 <text x="-3.0226" y="2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="4.8514" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="K" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="A2" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="A1" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A2" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="A1" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="USB_MB">
 <wire x1="7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
@@ -2685,6 +2759,28 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <pin name="D-" x="-5.08" y="-2.54" length="middle"/>
 <pin name="D+" x="-5.08" y="0" length="middle"/>
 <pin name="GND" x="-5.08" y="2.54" length="middle"/>
+</symbol>
+<symbol name="CRYSTAL_SMD_CASE">
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;PART</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.159" x2="1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.159" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.159" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="CRYSTAL_SMD">
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
@@ -2747,19 +2843,19 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="STAT" x="-12.7" y="2.54" length="middle"/>
-<pin name="VSS" x="-12.7" y="0" length="middle"/>
-<pin name="VBAT" x="-12.7" y="-2.54" length="middle"/>
-<pin name="VIN" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="PROG" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="-12.7" y="0" length="middle" direction="pwr"/>
+<pin name="VBAT" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VIN" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="PROG" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="USDCARD">
-<wire x1="-2.54" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-12.7" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
 <text x="-2.54" y="18.288" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CS" x="-7.62" y="12.7" length="middle"/>
+<pin name="/CS" x="-7.62" y="12.7" length="middle" function="dot"/>
 <pin name="DI" x="-7.62" y="10.16" length="middle"/>
 <pin name="GND" x="-7.62" y="2.54" length="middle"/>
 <pin name="VCC" x="-7.62" y="7.62" length="middle"/>
@@ -2769,6 +2865,12 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <pin name="NC" x="-7.62" y="15.24" length="middle"/>
 <pin name="CD" x="-7.62" y="-7.62" length="middle"/>
 <pin name="SHIELD" x="-7.62" y="-10.16" length="middle"/>
+<text x="5.08" y="15.24" size="1.524" layer="97" align="center-left">DAT2</text>
+<text x="5.08" y="12.7" size="1.524" layer="97" align="center-left">DAT3</text>
+<text x="5.08" y="10.16" size="1.524" layer="97" align="center-left">CMD</text>
+<text x="5.08" y="5.08" size="1.524" layer="97" align="center-left">CLK</text>
+<text x="5.08" y="0" size="1.524" layer="97" align="center-left">DAT0</text>
+<text x="5.08" y="-2.54" size="1.524" layer="97" align="center-left">DAT1</text>
 </symbol>
 <symbol name="BMP180">
 <wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
@@ -2843,9 +2945,6 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <pin name="G" x="0" y="-5.08" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="R" x="-5.08" y="-5.08" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="B" x="5.08" y="-5.08" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="CASE_GND">
-<pin name="1" x="0" y="0" visible="off" length="middle" rot="R90"/>
 </symbol>
 <symbol name="ADXL377">
 <pin name="ST" x="-15.24" y="-2.54" length="middle"/>
@@ -2956,6 +3055,17 @@ Schematic element and footprint for NXP LPC213x. Spark Fun Electronics SKU : COM
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11" route="any"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GCT" package="USB_MICROB_3075">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P$1 P$2 P$3 P$4 P$8 P$10" route="any"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
@@ -3079,8 +3189,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <devices>
 <device name="" package="MICROSD-SOCKET-PP">
 <connects>
+<connect gate="G$1" pin="/CS" pad="2"/>
 <connect gate="G$1" pin="CD" pad="CD1"/>
-<connect gate="G$1" pin="CS" pad="2"/>
 <connect gate="G$1" pin="DI" pad="3"/>
 <connect gate="G$1" pin="DO" pad="7"/>
 <connect gate="G$1" pin="GND" pad="6"/>
@@ -3151,15 +3261,14 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </deviceset>
 <deviceset name="CX2520" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CRYSTAL_SMD" x="0" y="0"/>
-<gate name="G$2" symbol="CASE_GND" x="12" y="0"/>
+<gate name="G$1" symbol="CRYSTAL_SMD_CASE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CRYSTAL_SMD_2MM_2_5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$2" pin="1" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="2 4" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3248,10 +3357,10 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <connects>
 <connect gate="B" pin="A" pad="2"/>
 <connect gate="B" pin="C" pad="1"/>
-<connect gate="G" pin="A" pad="4"/>
-<connect gate="G" pin="C" pad="3"/>
-<connect gate="R" pin="A" pad="6"/>
-<connect gate="R" pin="C" pad="5"/>
+<connect gate="G" pin="A" pad="6"/>
+<connect gate="G" pin="C" pad="5"/>
+<connect gate="R" pin="A" pad="4"/>
+<connect gate="R" pin="C" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3638,6 +3747,58 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-3.8" y="2.5" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.8" y="1.3" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="1X08_SMD_MALE">
+<text x="-1" y="3.321" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1" y="-4.591" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.25" x2="-1.27" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.25" x2="19.05" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="19.05" y1="-1.25" x2="19.05" y2="1.25" width="0.127" layer="51"/>
+<wire x1="19.05" y1="1.25" x2="-1.27" y2="1.25" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="2.54" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="5.08" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="7.62" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="10.16" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="12.7" y="0" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="-0.32" y1="0" x2="0.32" y2="2.75" layer="51"/>
+<rectangle x1="4.76" y1="0" x2="5.4" y2="2.75" layer="51"/>
+<rectangle x1="9.84" y1="0" x2="10.48" y2="2.75" layer="51"/>
+<rectangle x1="2.22" y1="-2.75" x2="2.86" y2="0" layer="51" rot="R180"/>
+<rectangle x1="7.3" y1="-2.75" x2="7.94" y2="0" layer="51" rot="R180"/>
+<rectangle x1="12.38" y1="-2.75" x2="13.02" y2="0" layer="51" rot="R180"/>
+<smd name="1" x="0" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="2" x="2.54" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="3" x="5.08" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="4" x="7.62" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="5" x="10.16" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="6" x="12.7" y="0" dx="1.02" dy="6" layer="1"/>
+<wire x1="-1.27" y1="1.25" x2="-1.27" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="-1.27" y1="-1.25" x2="-0.635" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="-1.27" y1="1.25" x2="-0.635" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="0.762" y1="1.25" x2="1.778" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="3.302" y1="1.25" x2="4.318" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="5.842" y1="1.25" x2="6.858" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="8.382" y1="1.25" x2="9.398" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="10.922" y1="1.25" x2="11.938" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="1.778" y1="-1.25" x2="0.762" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="4.318" y1="-1.25" x2="3.302" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="6.858" y1="-1.25" x2="5.842" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="9.398" y1="-1.25" x2="8.382" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="11.938" y1="-1.25" x2="10.922" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="19.05" y1="-1.25" x2="19.05" y2="1.25" width="0.1778" layer="21"/>
+<circle x="15.24" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="17.78" y="0" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="14.92" y1="0" x2="15.56" y2="2.75" layer="51"/>
+<rectangle x1="17.46" y1="-2.75" x2="18.1" y2="0" layer="51" rot="R180"/>
+<smd name="7" x="15.24" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="8" x="17.78" y="0" dx="1.02" dy="6" layer="1"/>
+<wire x1="16.002" y1="1.25" x2="17.018" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="17.018" y1="-1.25" x2="16.002" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="19.05" y1="-1.25" x2="18.415" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="19.05" y1="1.25" x2="18.415" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="13.462" y1="1.25" x2="14.478" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="14.478" y1="-1.25" x2="13.462" y2="-1.25" width="0.1778" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M08">
@@ -3806,6 +3967,23 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="SMD-MALE" package="1X08_SMD_MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-11292"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4072,6 +4250,23 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
+<package name="CAP-PTH-SMALLEZ">
+<description>This is the "EZ" version of the .1" spaced ceramic thru-hole cap.&lt;br&gt;
+It has reduced top mask to make it harder to put the component on the wrong side of the board.</description>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27">&gt;Value</text>
+<circle x="0" y="0" radius="0.898025" width="0" layer="30"/>
+<circle x="2.54" y="0" radius="0.915809375" width="0" layer="30"/>
+<circle x="0" y="0" radius="0.40160625" width="0" layer="29"/>
+<circle x="2.54" y="0" radius="0.40160625" width="0" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -4265,6 +4460,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="EZ" package="CAP-PTH-SMALLEZ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -4303,7 +4507,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STAND-OFF" prefix="JP">
+<deviceset name="STAND-OFF" prefix="STANDOFF">
 <description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
 <gates>
@@ -4340,9 +4544,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
 <wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
 <text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
@@ -4900,10 +5104,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="JP2" gate="G$1" x="223.52" y="-86.36">
 <attribute name="DIGIKEY" x="223.52" y="-86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Y401" gate="G$1" x="40.64" y="-104.14" rot="R90">
-<attribute name="DIGIKEY" x="40.64" y="-104.14" size="1.778" layer="96" display="off"/>
+<instance part="Y401" gate="G$1" x="40.64" y="-104.14" rot="MR90">
+<attribute name="DIGIKEY" x="40.64" y="-104.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="Y401" gate="G$2" x="22.86" y="-104.14" rot="R270"/>
 <instance part="C620" gate="G$1" x="347.98" y="-116.84" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" x="347.98" y="-116.84" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="345.821" y="-118.364" size="1.778" layer="95" rot="R270"/>
@@ -5212,10 +5415,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="45.72" y1="-114.3" x2="22.86" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="C405" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="-119.38" x2="22.86" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="Y401" gate="G$2" pin="1"/>
-<junction x="22.86" y="-104.14"/>
 <junction x="22.86" y="-119.38"/>
 <junction x="22.86" y="-114.3"/>
+<pinref part="Y401" gate="G$1" pin="GND"/>
+<wire x1="35.56" y1="-104.14" x2="22.86" y2="-104.14" width="0.1524" layer="91"/>
+<junction x="22.86" y="-104.14"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-25.4" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
@@ -5640,7 +5844,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="256.54" y1="-20.32" x2="233.68" y2="-20.32" width="0.1524" layer="91"/>
 <label x="236.22" y="-20.32" size="1.778" layer="95"/>
-<pinref part="J701" gate="G$1" pin="CS"/>
+<pinref part="J701" gate="G$1" pin="/CS"/>
 </segment>
 <segment>
 <pinref part="U401" gate="G$1" pin="(RI1/EINT2/AD1.5)P0.15"/>

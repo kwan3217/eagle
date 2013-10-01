@@ -8,15 +8,15 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="5" fill="1" visible="yes" active="yes"/>
@@ -65,12 +65,15 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -413,7 +416,6 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
@@ -451,46 +453,51 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <smd name="6" x="0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
 <smd name="7" x="-0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
 <smd name="8" x="-0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
-<text x="-1.424" y="0.978" size="0.8128" layer="21">&gt;NAME</text>
-<text x="-1.524" y="-1.74" size="0.8128" layer="21">&gt;VALUE</text>
+<text x="-1.424" y="0.978" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.74" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="0" size="0.2" layer="51" align="center">A</text>
+<text x="-0.2" y="0" size="0.2" layer="51" align="center">B</text>
+<text x="0.2" y="0" size="0.2" layer="51" align="center">C</text>
+<text x="0.8" y="0" size="0.2" layer="51" align="center">D</text>
 </package>
-<package name="UB-MC5BR3-SD204-4S">
-<wire x1="-5" y1="-1.45" x2="5" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.6" y1="2.7" x2="-3.6" y2="-2.3" width="0.3" layer="51"/>
-<wire x1="-3.6" y1="-2.3" x2="-3.1" y2="-2.3" width="0.3" layer="51"/>
-<wire x1="-3.1" y1="-2.3" x2="3.1" y2="-2.3" width="0.3" layer="51"/>
-<wire x1="3.2" y1="-2.3" x2="3.6" y2="-2.3" width="0.3" layer="51"/>
-<wire x1="3.6" y1="-2.3" x2="3.6" y2="2.7" width="0.3" layer="51"/>
-<wire x1="3.6" y1="2.7" x2="-3.6" y2="2.7" width="0.3" layer="51"/>
-<wire x1="-3.6" y1="-2.3" x2="-4.2" y2="-2.9" width="0.3" layer="51"/>
-<wire x1="3.6" y1="-2.3" x2="4.2" y2="-2.9" width="0.3" layer="51"/>
-<wire x1="-3.1" y1="-2.3" x2="-3.1" y2="-2.9" width="0.3" layer="51"/>
-<wire x1="-3.1" y1="-2.9" x2="3.2" y2="-2.9" width="0.3" layer="51"/>
-<wire x1="3.2" y1="-2.9" x2="3.2" y2="-2.3" width="0.3" layer="51"/>
-<wire x1="3.2" y1="-2.3" x2="3.1" y2="-2.3" width="0.3" layer="51"/>
-<smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="5" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="4" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="P$6" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="P$7" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="P$8" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="P$9" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="P$10" x="-3.2" y="2.35" dx="1.6" dy="1.4" layer="1"/>
-<smd name="P$11" x="3.2" y="2.35" dx="1.6" dy="1.4" layer="1"/>
-<text x="-1.2" y="3.55" size="0.254" layer="51" rot="R90">1 Vbus</text>
-<text x="-0.55" y="3.55" size="0.254" layer="51" rot="R90">2 D-</text>
-<text x="0.1" y="3.55" size="0.254" layer="51" rot="R90">3 D+</text>
-<text x="0.75" y="3.55" size="0.254" layer="51" rot="R90">4 NC</text>
-<text x="1.45" y="3.55" size="0.254" layer="51" rot="R90">5 GND</text>
+<package name="USB_MICROB_3075">
+<wire x1="-3.6" y1="4.25" x2="-3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-3.1" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-0.55" x2="3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="-3.1" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-1.15" x2="3.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-1.15" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<smd name="1" x="-1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$8" x="-1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<smd name="P$10" x="-2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<text x="-1.2" y="4.95" size="0.254" layer="51" rot="R90">1 Vbus</text>
+<text x="-0.55" y="4.95" size="0.254" layer="51" rot="R90">2 D-</text>
+<text x="0.1" y="4.95" size="0.254" layer="51" rot="R90">3 D+</text>
+<text x="0.75" y="4.95" size="0.254" layer="51" rot="R90">4 NC</text>
+<text x="1.45" y="4.95" size="0.254" layer="51" rot="R90">5 GND</text>
+<smd name="2" x="-0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="4" x="0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="5" x="1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$1" x="2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<wire x1="-3.6" y1="4.25" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<smd name="P$2" x="1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<pad name="P$3" x="-3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<pad name="P$4" x="3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<rectangle x1="-0.2" y1="0.4" x2="0.2" y2="2.5" layer="29"/>
+<rectangle x1="-1.6" y1="3.3" x2="1.6" y2="4.9" layer="29"/>
+<wire x1="-4.6" y1="0" x2="4.5" y2="0" width="0" layer="51"/>
 </package>
 <package name="SOT-23-6">
 <wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
 <wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.127" layer="21"/>
+<circle x="-1.9" y="-0.7" radius="0.1" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
@@ -1608,7 +1615,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <package name="B3U-1000P">
 <smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
 <smd name="P$2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
-<text x="1.27" y="-2.54" size="0.8128" layer="21">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="0.6096" layer="25">&gt;NAME</text>
 <rectangle x1="-2" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
 <rectangle x1="1.5" y1="-0.7" x2="2" y2="0.7" layer="51"/>
 <wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.4" layer="51"/>
@@ -2278,10 +2285,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="7.62" y="28.702" size="0.4064" layer="51" rot="R90"/>
 <attribute name="VALUE" x="8.89" y="28.702" size="0.4064" layer="27" rot="R90"/>
 <attribute name="DIGIKEY" value="768-1007-1-ND" x="8.89" y="32.512" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="IC-00870" x="8.89" y="32.512" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J001" library="KwanSystems" package="UB-MC5BR3-SD204-4S" value="USB_MICROB_JST" x="8.89" y="41.656" smashed="yes" rot="R180">
-<attribute name="LOGO_3D50" value="NOLOGO" x="8.89" y="41.656" size="1.778" layer="21" rot="R180" display="off"/>
-<attribute name="DIGIKEY" value="455-2562-1-ND" x="8.89" y="41.656" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J001" library="KwanSystems" package="USB_MICROB_3075" value="USB_MICROB_JSTGCT" x="8.89" y="43.18" smashed="yes" rot="R180">
+<attribute name="LOGO_3D50" value="NOLOGO" x="8.89" y="43.18" size="1.778" layer="21" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="455-2562-1-ND" x="8.89" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U401" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA328P" x="8.89" y="16.002" smashed="yes" rot="R90">
 <attribute name="LOGO_3D50" value="ATMEL" x="8.89" y="16.002" size="1.778" layer="21" rot="R90" display="off"/>
@@ -3242,12 +3250,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U001" pad="15"/>
 <wire x1="5.2578" y1="36.7538" x2="8.89" y2="36.7538" width="0.1524" layer="1"/>
 <wire x1="5.2578" y1="36.7538" x2="5.234" y2="36.737" width="0.1524" layer="1"/>
-<wire x1="8.89" y1="38.981" x2="8.89" y2="36.7538" width="0.1524" layer="1"/>
+<wire x1="8.89" y1="39.08" x2="8.89" y2="36.7538" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U001" pad="16"/>
 <contactref element="J001" pad="2"/>
-<wire x1="9.525" y1="38.9636" x2="9.54" y2="38.981" width="0.1524" layer="1"/>
+<wire x1="9.525" y1="38.9636" x2="9.54" y2="39.08" width="0.1524" layer="1"/>
 <wire x1="5.2578" y1="36.0934" x2="5.234" y2="36.087" width="0.1524" layer="1"/>
 <wire x1="9.525" y1="38.9636" x2="9.525" y2="36.0934" width="0.1524" layer="1"/>
 <wire x1="9.525" y1="36.0934" x2="5.2578" y2="36.0934" width="0.1524" layer="1"/>
@@ -3698,7 +3706,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.1854" y1="31.1658" x2="6.096" y2="27.0764" width="0.1524" layer="1"/>
 <wire x1="10.1854" y1="38.9636" x2="10.1854" y2="31.1658" width="0.1524" layer="1"/>
 <wire x1="12.319" y1="6.35" x2="12.076" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="10.1854" y1="38.9636" x2="10.19" y2="38.981" width="0.1524" layer="1"/>
+<wire x1="10.1854" y1="38.9636" x2="10.19" y2="39.08" width="0.1524" layer="1"/>
 <via x="10.7696" y="7.8994" extent="1-16" drill="0.3302"/>
 <via x="8.3058" y="13.1572" extent="1-16" drill="0.3302"/>
 <via x="8.2804" y="19.1516" extent="1-16" drill="0.3302"/>
@@ -3735,12 +3743,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J001" pad="5" route="any" routetag="GND"/>
 <contactref element="D402" pad="C"/>
 <contactref element="U001" pad="26"/>
-<contactref element="J001" pad="P$6" route="any" routetag="GND"/>
-<contactref element="J001" pad="P$7" route="any" routetag="GND"/>
+<contactref element="J001" pad="P$1" route="any" routetag="GND"/>
+<contactref element="J001" pad="P$2" route="any" routetag="GND"/>
 <contactref element="J001" pad="P$8" route="any" routetag="GND"/>
-<contactref element="J001" pad="P$9" route="any" routetag="GND"/>
+<contactref element="J001" pad="P$3" route="any" routetag="GND"/>
 <contactref element="J001" pad="P$10" route="any" routetag="GND"/>
-<contactref element="J001" pad="P$11" route="any" routetag="GND"/>
+<contactref element="J001" pad="P$4" route="any" routetag="GND"/>
 <contactref element="C407" pad="1"/>
 <contactref element="C408" pad="1"/>
 <contactref element="C201" pad="2"/>
@@ -3762,8 +3770,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="0" y="2.54"/>
 <vertex x="0" y="40.64" curve="-90"/>
 </polygon>
-<contactref element="U$3" pad="2" route="any" routetag="P$1"/>
-<contactref element="U$3" pad="4" route="any" routetag="P$1"/>
+<contactref element="U$3" pad="2" route="any" routetag="GND"/>
+<contactref element="U$3" pad="4" route="any" routetag="GND"/>
 </signal>
 </signals>
 <errors>
@@ -3792,13 +3800,13 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="4,1,e5ea05fe901ea4fe"/>
 <approved hash="4,1,4cff08ff6a1c9ae5"/>
 <approved hash="6,1,221541e0b2bdc3a8"/>
-<approved hash="6,1,cf23ae025ceb291a"/>
+<approved hash="6,1,37984e4bbf42c8ad"/>
+<approved hash="6,1,640c03d7f0b68589"/>
+<approved hash="6,1,dd6eb4b549f03e0f"/>
+<approved hash="6,1,177976cc8791f004"/>
 <approved hash="6,1,3d075bfea84fddd6"/>
 <approved hash="6,1,02d268019ad4e31b"/>
-<approved hash="6,1,37984e4bbf42c8ad"/>
-<approved hash="6,1,177976cc8791f004"/>
-<approved hash="6,1,dd6eb4b549f03e0f"/>
-<approved hash="6,1,640c03d7f0b68589"/>
+<approved hash="6,1,cf23ae025ceb291a"/>
 <approved hash="6,1,a3361db81e6ca862"/>
 <approved hash="6,1,a74c064a3818a9a6"/>
 <approved hash="6,1,a04b2d9ad25774fe"/>
@@ -3810,28 +3818,28 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="6,1,e49e178bf6d11724"/>
 <approved hash="6,1,fae00d79eccf0836"/>
 <approved hash="6,1,ef9b1a74f97a02a9"/>
-<approved hash="4,16,0a19e7e4c3cadaa3"/>
-<approved hash="4,16,27eee03ec47cfa18"/>
-<approved hash="4,16,3f80e3a2fa84efba"/>
-<approved hash="4,16,3277e284c6d6e2f1"/>
-<approved hash="4,16,6df1e8c4cc4ab80b"/>
 <approved hash="4,16,9d3819223d344b02"/>
+<approved hash="4,16,6df1e8c4cc4ab80b"/>
+<approved hash="4,16,0a19e7e4c3cadaa3"/>
+<approved hash="4,16,3277e284c6d6e2f1"/>
+<approved hash="4,16,27eee03ec47cfa18"/>
 <approved hash="4,16,788aee86caf4a8f4"/>
-<approved hash="4,16,501ce3f2c7dc80a6"/>
-<approved hash="4,16,8386e38ec29c53a0"/>
 <approved hash="4,16,58d5e12cc53a8d2f"/>
+<approved hash="4,16,4583e7acc69e95bd"/>
+<approved hash="4,16,501ce3f2c7dc80a6"/>
 <approved hash="4,16,8e2fffe4dbc65e99"/>
+<approved hash="4,16,3f80e3a2fa84efba"/>
+<approved hash="4,16,a33be13cc51e7105"/>
+<approved hash="4,16,8386e38ec29c53a0"/>
 <approved hash="4,16,b68de27cc6fa66f7"/>
 <approved hash="4,16,abf4e0f2c43c7e0e"/>
-<approved hash="4,16,a33be13cc51e7105"/>
-<approved hash="4,16,4583e7acc69e95bd"/>
 <approved hash="4,16,6adabefe721fbaf2"/>
 <approved hash="4,16,e5ea05fe901ea4fe"/>
 <approved hash="4,16,4cff08ff6a1c9ae5"/>
-<approved hash="6,16,cf23ae025ceb291a"/>
 <approved hash="6,16,177976cc8791f004"/>
-<approved hash="6,16,640c03d7f0b68589"/>
 <approved hash="6,16,dd6eb4b549f03e0f"/>
+<approved hash="6,16,640c03d7f0b68589"/>
+<approved hash="6,16,cf23ae025ceb291a"/>
 <approved hash="6,16,37984e4bbf42c8ad"/>
 <approved hash="6,16,02d268019ad4e31b"/>
 <approved hash="6,16,3d075bfea84fddd6"/>

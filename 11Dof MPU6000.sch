@@ -4890,7 +4890,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <smd name="22" x="-0.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
 <smd name="23" x="-0.75" y="1.975" dx="0.3" dy="0.85" layer="1"/>
 <smd name="24" x="-1.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
-<circle x="-1" y="1" radius="0.25" width="0.127" layer="21"/>
+<circle x="-2.25" y="2.25" radius="0.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="1.5" x2="-2" y2="2" width="0.127" layer="21"/>
 <wire x1="-2" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
@@ -4912,6 +4912,12 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="-0.054" y="0.724" size="0.8128" layer="51" rot="R180">Y</text>
 <text x="0.762" y="-1.416" size="0.8128" layer="51">X</text>
 <text x="0" y="-0.4" size="0.8128" layer="51">Z</text>
+<rectangle x1="-2" y1="-2" x2="2" y2="2" layer="42"/>
+<rectangle x1="-1.6" y1="-1.5" x2="1.6" y2="1.5" layer="41"/>
+<rectangle x1="1.4" y1="1.4" x2="2" y2="2" layer="41"/>
+<rectangle x1="-2" y1="1.4" x2="-1.4" y2="2" layer="41"/>
+<rectangle x1="-2" y1="-2" x2="-1.4" y2="-1.4" layer="41"/>
+<rectangle x1="1.4" y1="-2" x2="2" y2="-1.4" layer="41"/>
 </package>
 </packages>
 <symbols>

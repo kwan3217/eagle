@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -79,6 +79,8 @@
 <layer number="105" name="mountmask" color="7" fill="15" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -1402,7 +1404,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
-<designrules name="default">
+<designrules>
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1982,7 +1984,6 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="4,1,68246eeca1c75bd5"/>
 <approved hash="4,1,ebfae72b08cfdee2"/>
 <approved hash="4,1,15fbf739a1dca5e1"/>
 <approved hash="4,1,17fa870db6d428e0"/>
@@ -1995,8 +1996,9 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="4,1,35fa675ae9be7de2"/>
 <approved hash="4,1,17faf7af3e4bc0e1"/>
 <approved hash="4,1,15fbc7bd9758cfe1"/>
+<approved hash="4,1,68246eeca1c75bd5"/>
 <approved hash="6,1,0eff617ee17b8efa"/>
-<approved hash="6,1,47f17677f672c7f4"/>
+<approved hash="6,1,87b8b677f672c7bd"/>
 <approved hash="6,1,a54957eb431c8611"/>
 <approved hash="4,1,1386178e210bd9d9"/>
 <approved hash="4,16,ebfae72b08cfdee2"/>

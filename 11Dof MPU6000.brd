@@ -1569,7 +1569,7 @@
 <smd name="22" x="-0.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
 <smd name="23" x="-0.75" y="1.975" dx="0.3" dy="0.85" layer="1"/>
 <smd name="24" x="-1.25" y="1.975" dx="0.3" dy="0.85" layer="1"/>
-<circle x="-1" y="1" radius="0.25" width="0.127" layer="21"/>
+<circle x="-2.25" y="2.25" radius="0.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="1.5" x2="-2" y2="2" width="0.127" layer="21"/>
 <wire x1="-2" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
@@ -1591,6 +1591,12 @@
 <text x="-0.054" y="0.724" size="0.8128" layer="51" rot="R180">Y</text>
 <text x="0.762" y="-1.416" size="0.8128" layer="51">X</text>
 <text x="0" y="-0.4" size="0.8128" layer="51">Z</text>
+<rectangle x1="-2" y1="-2" x2="2" y2="2" layer="42"/>
+<rectangle x1="-1.6" y1="-1.5" x2="1.6" y2="1.5" layer="41"/>
+<rectangle x1="1.4" y1="1.4" x2="2" y2="2" layer="41"/>
+<rectangle x1="-2" y1="1.4" x2="-1.4" y2="2" layer="41"/>
+<rectangle x1="-2" y1="-2" x2="-1.4" y2="-1.4" layer="41"/>
+<rectangle x1="1.4" y1="-2" x2="2" y2="-1.4" layer="41"/>
 </package>
 </packages>
 </library>
@@ -2059,36 +2065,6 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,ebfae72b08cfdee2"/>
-<approved hash="4,1,15fbf739a1dca5e1"/>
-<approved hash="4,1,17fa870db6d428e0"/>
-<approved hash="4,1,75fa7705cfe177e1"/>
-<approved hash="4,1,3bf67718fcfc7ae2"/>
-<approved hash="4,1,edfee76d3589c1e2"/>
-<approved hash="4,1,1fe7f763aa86c4fd"/>
-<approved hash="4,1,2dfe8777a39623e4"/>
-<approved hash="4,1,7bf67747d0a376ed"/>
-<approved hash="4,1,35fa675ae9be7de2"/>
-<approved hash="4,1,17faf7af3e4bc0e1"/>
-<approved hash="4,1,15fbc7bd9758cfe1"/>
-<approved hash="4,1,68246eeca1c75bd5"/>
-<approved hash="4,1,1386178e210bd9d9"/>
-<approved hash="4,16,68246eeca1c75bd5"/>
-<approved hash="4,16,ebfae72b08cfdee2"/>
-<approved hash="4,16,15fbf739a1dca5e1"/>
-<approved hash="4,16,17fa870db6d428e0"/>
-<approved hash="4,16,75fa7705cfe177e1"/>
-<approved hash="4,16,3bf67718fcfc7ae2"/>
-<approved hash="4,16,edfee76d3589c1e2"/>
-<approved hash="4,16,1fe7f763aa86c4fd"/>
-<approved hash="4,16,2dfe8777a39623e4"/>
-<approved hash="4,16,7bf67747d0a376ed"/>
-<approved hash="4,16,35fa675ae9be7de2"/>
-<approved hash="4,16,17faf7af3e4bc0e1"/>
-<approved hash="4,16,15fbc7bd9758cfe1"/>
-<approved hash="4,16,1386178e210bd9d9"/>
-</errors>
 </board>
 </drawing>
 </eagle>
