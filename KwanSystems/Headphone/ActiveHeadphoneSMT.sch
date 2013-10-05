@@ -2494,9 +2494,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="R4" gate="G$1" pin="CW"/>
 <wire x1="25.4" y1="38.1" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="48.26" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="WIPER"/>
-<wire x1="27.94" y1="40.64" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <junction x="25.4" y="40.64"/>
 <junction x="25.4" y="48.26"/>
 <pinref part="C4" gate="G$1" pin="2"/>

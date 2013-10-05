@@ -2357,8 +2357,13 @@ board(B)
                     {
                         if(E.mirror==0) temp = strtod(pack_tra[11]); else temp = -1*strtod(pack_tra[11]);
 
-                        if(socket_dlg<2)
-                        {
+                        int has_socket=0;
+                        if(E.attribute["SOCKET_3D50"]) {
+                          has_socket=1;
+                          socket_dlg=strtol(E.attribute["SOCKET_3D50"]);
+                        }
+
+                        if(!has_socket) {
                             socket_dlg = dlgDialog(lang[90])
                             {
                                 dlgGridLayout{
@@ -2367,17 +2372,15 @@ board(B)
                                 dlgCell(0,2) dlgLabel(E.package.name);
                                 dlgCell(1,0,1,2) dlgPushButton("+"+lang[91]) dlgAccept(0);    //sockeln
                                 dlgCell(2,0,2,2) dlgPushButton(lang[92]) dlgAccept(1);        //nicht sockeln
-                                dlgCell(3,0,3,2) dlgPushButton(lang[117]) dlgAccept(2);        //alle sockeln
-                                dlgCell(4,0,4,2) dlgPushButton(lang[118]) dlgAccept(3);        //alle nicht sockeln
                             }};
                         }
-                        if((socket_dlg==0)||(socket_dlg==2))
-                        {
+                        if(socket_dlg==0) {
                             sprintf(pov_pack,"%stranslate<0,%f,0> ",pov_pack,temp/10);        //Bauteil Höhenoffset
                             sprintf(socket_str,"#ifndef(pack_%s) object{%s)",make_pov_str(E.name),pack_tra[10]);
                             sprintf(socket_str,"%srotate<0,%f,0> rotate<0,0,%d> translate<%f,%f,%f>",socket_str,-E.angle,E.mirror*180,u2mm(E.x),-(pcb_height*E.mirror),u2mm(E.y));
                             sprintf(socket_str,"%s}#end\t\t\t\t\t//%s %s %s\n",socket_str,pack_tra[12],E.name,E.value);    //Kommentar zum Sockel
                         }
+                        sprintf(attrib_3d50,"%sATTRIBUTE %s SOCKET_3D50 '%d';",attrib_3d50,E.name,socket_dlg);
                     }
 
                     sprintf(pov_pack,"%s}#end\t\t//%s %s %s %s\n",pov_pack,tmp_comment,E.name,E.value,E.package.name);                //Kommentar zum Bauteil
