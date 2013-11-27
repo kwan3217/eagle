@@ -2139,6 +2139,7 @@ JP10Q:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:CON_PH_2X10J(:
 1X06:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 6,:Stiftleiste 2,54mm Raster 6Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 6Pin 1Row (jumper.lib)
 1X07:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 7,:Stiftleiste 2,54mm Raster 7Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 7Pin 1Row (jumper.lib)
 1X08:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 8,:Stiftleiste 2,54mm Raster 8Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 8Pin 1Row (jumper.lib)
+M08NOSILK:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 8,:Stiftleiste 2,54mm Raster 8Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 8Pin 1Row (jumper.lib)
 1X09:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI( 9,:Stiftleiste 2,54mm Raster 9Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 9Pin 1Row (jumper.lib)
 1X10:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI(10,:Stiftleiste 2,54mm Raster 10Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 10Pin 1Row (jumper.lib)
 1X11:0:0:0:0:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:CON_PH_MULTI(11,:Stiftleiste 2,54mm Raster 11Pin 1Reihe (pinhead.lib):Header 2,54mm Grid 11Pin 1Row (jumper.lib)
@@ -2483,6 +2484,8 @@ LGA16-4X4:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_L3G
 16LPCC:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_HMC5883(:TQFP-64:
 MPU60X0:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_MPU60X0(:TQFP-64:
 LLGA24:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_MPU60X0(:TQFP-64:
+UDFN6:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_UDFN6(:TQFP-64:
+LGA24_LSM:0:1:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:IC_SMD_MPU60X0(:TQFP-64:
 MICRO-SD-SOCKET-PP;MICROSD-SOCKET-PP:0:1:0:1:0:0:0:0:0:0:0:0:0:-90:0:0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:MicroSD(:SMD Kondensator 0603:SMD Capacitor 0603
 B3U-1100P:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:SWITCH_PUSH_BUTTON_B3U_1100(:SMD Kondensator 0402:SMD Capacitor 0402
 B3U-1000P:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:SWITCH_PUSH_BUTTON_B3U_1000(:SMD Kondensator 0402:SMD Capacitor 0402

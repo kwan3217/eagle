@@ -5239,13 +5239,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="NAME" x="194.31" y="-58.42" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="190.5" y="-60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="R402" gate="D" x="195.58" y="-101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="191.77" y="-101.6" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="187.96" y="-104.14" size="1.778" layer="96"/>
+<instance part="R402" gate="D" x="195.58" y="-99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="191.77" y="-99.06" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="187.96" y="-101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="R402" gate="B" x="198.12" y="-68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.31" y="-68.58" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="190.5" y="-71.12" size="1.778" layer="96"/>
+<instance part="R402" gate="B" x="198.12" y="-73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="-73.66" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="190.5" y="-76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="251.46" y="-55.88"/>
 <instance part="P+5" gate="1" x="243.84" y="-10.16"/>
@@ -5315,8 +5315,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="Y401" gate="G$1" x="40.64" y="-104.14" rot="R270">
 <attribute name="DIGIKEY" x="40.64" y="-104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S458" gate="G" x="180.34" y="-104.14"/>
-<instance part="S457" gate="G" x="35.56" y="-58.42" rot="R180"/>
+<instance part="S458" gate="G" x="177.8" y="-104.14" rot="R180"/>
 <instance part="J301" gate="G$1" x="175.26" y="40.64" rot="MR270">
 <attribute name="DIGIKEY" x="175.26" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5405,8 +5404,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="D401" gate="B" x="218.44" y="-58.42" rot="R270">
 <attribute name="DIGIKEY" x="218.44" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D401" gate="R" x="218.44" y="-68.58" rot="R270"/>
-<instance part="D401" gate="G" x="218.44" y="-101.6" rot="R270"/>
+<instance part="D401" gate="R" x="218.44" y="-73.66" rot="R270"/>
+<instance part="D401" gate="G" x="218.44" y="-99.06" rot="R270"/>
 <instance part="C901" gate="G$1" x="195.58" y="-185.42" smashed="yes">
 <attribute name="DIGIKEY" x="195.58" y="-185.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="195.199" y="-181.356" size="1.778" layer="95" rot="R90"/>
@@ -5466,6 +5465,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R501" gate="A" x="358.14" y="22.86" rot="R90"/>
 <instance part="R501" gate="D" x="358.14" y="55.88" rot="R90"/>
 <instance part="U401" gate="U" x="111.76" y="-96.52"/>
+<instance part="S457" gate="G" x="35.56" y="-58.42" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5550,12 +5550,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="P+13" gate="1" pin="VCC"/>
 <pinref part="D401" gate="B" pin="A"/>
-<wire x1="220.98" y1="-58.42" x2="220.98" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-58.42" x2="220.98" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="D401" gate="G" pin="A"/>
-<wire x1="220.98" y1="-101.6" x2="220.98" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-101.6" x2="220.98" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-99.06" x2="220.98" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-99.06" x2="220.98" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="D401" gate="R" pin="A"/>
-<junction x="220.98" y="-101.6"/>
+<junction x="220.98" y="-99.06"/>
 </segment>
 <segment>
 <pinref part="C613" gate="G$1" pin="2"/>
@@ -5668,12 +5668,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="48.26" y="-93.98"/>
 <pinref part="S457" gate="S" pin="2"/>
 <wire x1="35.56" y1="-58.42" x2="48.26" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="S457" gate="G" pin="1"/>
-<junction x="35.56" y="-58.42"/>
 <junction x="48.26" y="-58.42"/>
 <pinref part="Y403" gate="G$2" pin="GND"/>
 <pinref part="U401" gate="U" pin="VSSA"/>
 <pinref part="U401" gate="U" pin="VSS"/>
+<pinref part="S457" gate="G" pin="1"/>
+<junction x="35.56" y="-58.42"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="-101.6" x2="22.86" y2="-101.6" width="0.1524" layer="91"/>
@@ -5747,7 +5747,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="S458" gate="G" pin="1"/>
 <wire x1="177.8" y1="-104.14" x2="190.5" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="177.8" y="-104.14"/>
-<wire x1="177.8" y1="-104.14" x2="180.34" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C610" gate="G$1" pin="2"/>
@@ -6192,9 +6191,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="QWMG" class="0">
 <segment>
 <pinref part="R402" gate="D" pin="1"/>
-<wire x1="200.66" y1="-101.6" x2="215.9" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-99.06" x2="215.9" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="D401" gate="G" pin="C"/>
-<label x="203.2" y="-63.5" size="1.778" layer="95"/>
+<label x="203.2" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="QWMB" class="0">
@@ -6423,18 +6422,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="PWMG" class="0">
 <segment>
-<label x="154.94" y="-101.6" size="1.778" layer="95"/>
 <pinref part="R402" gate="D" pin="2"/>
-<wire x1="149.86" y1="-101.6" x2="190.5" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="U401" gate="U" pin="(AD1.7/CAP0.0/MAT0.0)P0.22"/>
+<wire x1="149.86" y1="-99.06" x2="190.5" y2="-99.06" width="0.1524" layer="91"/>
+<label x="154.94" y="-99.06" size="1.778" layer="95"/>
+<pinref part="U401" gate="U" pin="(PWM5/AD1.6/CAP1.3)P0.21"/>
 </segment>
 </net>
 <net name="QWMR" class="0">
 <segment>
 <pinref part="R402" gate="B" pin="1"/>
-<wire x1="203.2" y1="-68.58" x2="215.9" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-73.66" x2="215.9" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="D401" gate="R" pin="C"/>
-<label x="203.2" y="-68.58" size="1.778" layer="95"/>
+<label x="203.2" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="1">
@@ -6641,26 +6640,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="PWMR" class="0">
 <segment>
 <pinref part="R402" gate="B" pin="2"/>
-<wire x1="193.04" y1="-68.58" x2="149.86" y2="-68.58" width="0.1524" layer="91"/>
-<label x="154.94" y="-68.58" size="1.778" layer="95"/>
-<pinref part="U401" gate="U" pin="(RTS1/CAP1.0/AD1.2)P0.10"/>
+<wire x1="193.04" y1="-73.66" x2="149.86" y2="-73.66" width="0.1524" layer="91"/>
+<label x="154.94" y="-73.66" size="1.778" layer="95"/>
+<pinref part="U401" gate="U" pin="(DSR1/MAT1.0/AD1.3)P0.12"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,76.2,-60.96,U401,VSS,GND,,,"/>
-<approved hash="104,1,76.2,-63.5,U401,VSS,GND,,,"/>
-<approved hash="104,1,76.2,-66.04,U401,VSS,GND,,,"/>
-<approved hash="104,1,76.2,-68.58,U401,VSS,GND,,,"/>
-<approved hash="104,1,76.2,-93.98,U401,VBAT,VLIPO,,,"/>
-<approved hash="104,1,76.2,-78.74,U401,VSSA,GND,,,"/>
-<approved hash="104,1,76.2,-76.2,U401,VDDA3,VCC,,,"/>
-<approved hash="104,1,76.2,-48.26,U401,VDD3-1,VCC,,,"/>
-<approved hash="104,1,76.2,-50.8,U401,VDD3-2,VCC,,,"/>
-<approved hash="104,1,76.2,-53.34,U401,VDD3-3,VCC,,,"/>
-<approved hash="104,1,76.2,-58.42,U401,VSS,GND,,,"/>
 <approved hash="104,1,193.04,-137.16,U101,VDD,VCC,,,"/>
 <approved hash="104,1,193.04,-134.62,U101,VDDIO,VCC,,,"/>
 <approved hash="104,1,124.46,33.02,U301,VIN,VBUS,,,"/>
@@ -6668,6 +6656,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <approved hash="104,1,144.78,27.94,U301,VSS,GND,,,"/>
 <approved hash="104,1,208.28,-170.18,U902,VDDIO,VCC,,,"/>
 <approved hash="104,1,208.28,-172.72,U902,VS,VCC,,,"/>
+<approved hash="104,1,76.2,-93.98,U401,VBAT,VLIPO,,,"/>
+<approved hash="104,1,76.2,-78.74,U401,VSSA,GND,,,"/>
+<approved hash="104,1,76.2,-76.2,U401,VDDA3,VCC,,,"/>
+<approved hash="104,1,76.2,-58.42,U401,VSS,GND,,,"/>
 </errors>
 </schematic>
 </drawing>
