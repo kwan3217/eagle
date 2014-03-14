@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5903,34 +5903,46 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <text x="-60.96" y="203.2" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
 <text x="-60.96" y="200.66" size="1.778" layer="97">Original design by C. Taylor and N. Seidle, Sparkfun Electronics http://www.sparkfun.com/products/10216</text>
 <text x="-60.96" y="198.12" size="1.778" layer="97">Heavily modified by C. Jeppesen, St Kwan's Home for the Terminally ADD, stkwans.blogspot.com</text>
-<text x="246.38" y="104.14" size="1.778" layer="98" align="center-right">GND</text>
-<text x="246.38" y="106.68" size="1.778" layer="98" align="center-right">3V3</text>
-<text x="246.38" y="109.22" size="1.778" layer="98" align="center-right">CSA</text>
-<text x="246.38" y="111.76" size="1.778" layer="98" align="center-right">IA</text>
-<text x="246.38" y="114.3" size="1.778" layer="98" align="center-right">MISO</text>
-<text x="246.38" y="116.84" size="1.778" layer="98" align="center-right">MOSI</text>
-<text x="246.38" y="119.38" size="1.778" layer="98" align="center-right">SCK</text>
-<text x="246.38" y="121.92" size="1.778" layer="98" align="center-right">IG</text>
-<text x="246.38" y="124.46" size="1.778" layer="98" align="center-right">CSG</text>
-<text x="246.38" y="127" size="1.778" layer="98" align="center-right">IC</text>
-<text x="246.38" y="129.54" size="1.778" layer="98" align="center-right">SCL</text>
-<text x="246.38" y="132.08" size="1.778" layer="98" align="center-right">SDA</text>
-<text x="124.46" y="154.94" size="1.778" layer="98">STAT0</text>
-<text x="124.46" y="152.4" size="1.778" layer="98">STOP</text>
-<text x="127" y="129.54" size="1.778" layer="98">STAT1</text>
-<text x="127" y="127" size="1.778" layer="98">AD8</text>
-<text x="129.54" y="119.38" size="1.778" layer="98">NC</text>
-<text x="129.54" y="114.3" size="1.778" layer="98">NC</text>
-<text x="127" y="76.2" size="1.778" layer="92">IC</text>
-<text x="127" y="78.74" size="1.778" layer="92">IG</text>
-<text x="127" y="88.9" size="1.778" layer="92">CSG</text>
-<text x="127" y="81.28" size="1.778" layer="92">IA</text>
-<text x="127" y="104.14" size="1.778" layer="92">CSA</text>
+<text x="182.88" y="30.48" size="1.778" layer="98" align="center-right">GND</text>
+<text x="182.88" y="33.02" size="1.778" layer="98" align="center-right">3V3</text>
+<text x="182.88" y="35.56" size="1.778" layer="98" align="center-right">CSA</text>
+<text x="182.88" y="38.1" size="1.778" layer="98" align="center-right">IA</text>
+<text x="182.88" y="40.64" size="1.778" layer="98" align="center-right">MISO</text>
+<text x="182.88" y="43.18" size="1.778" layer="98" align="center-right">MOSI</text>
+<text x="182.88" y="45.72" size="1.778" layer="98" align="center-right">SCK</text>
+<text x="182.88" y="48.26" size="1.778" layer="98" align="center-right">IG</text>
+<text x="182.88" y="50.8" size="1.778" layer="98" align="center-right">CSG</text>
+<text x="182.88" y="53.34" size="1.778" layer="98" align="center-right">IC</text>
+<text x="182.88" y="55.88" size="1.778" layer="98" align="center-right">SCL</text>
+<text x="182.88" y="58.42" size="1.778" layer="98" align="center-right">SDA</text>
+<text x="124.46" y="154.94" size="1.778" layer="92">STAT0</text>
+<text x="124.46" y="152.4" size="1.778" layer="92">STOP</text>
+<text x="127" y="129.54" size="1.778" layer="92">STAT1</text>
+<text x="127" y="127" size="1.778" layer="92">AD8</text>
+<text x="129.54" y="119.38" size="1.778" layer="92">NC</text>
+<text x="129.54" y="114.3" size="1.778" layer="92">NC</text>
+<text x="127" y="76.2" size="1.778" layer="98">IC</text>
+<text x="127" y="78.74" size="1.778" layer="98">IG</text>
+<text x="127" y="88.9" size="1.778" layer="98">CSG</text>
+<text x="127" y="81.28" size="1.778" layer="98">IA</text>
+<text x="127" y="104.14" size="1.778" layer="98">CSA</text>
 <text x="129.54" y="292.1" size="1.778" layer="97">Vin=I(0.047Ohm)</text>
 <text x="129.54" y="289.56" size="1.778" layer="97">Vout=100Vin=I(4.7Ohm)</text>
 <text x="129.54" y="281.94" size="1.778" layer="97">Isat=3.3V/4.7Ohm=702mA</text>
 <text x="129.54" y="279.4" size="1.778" layer="97">I(1DN)=Isat/1024=685uA</text>
 <text x="-5.08" y="228.6" size="1.778" layer="97">Just using to connect ground</text>
+<text x="231.14" y="50.8" size="1.778" layer="98" rot="R180" align="top-right">IC</text>
+<text x="231.14" y="53.34" size="1.778" layer="98" rot="R180" align="top-right">IG</text>
+<text x="231.14" y="58.42" size="1.778" layer="98" rot="R180" align="top-right">CSG</text>
+<text x="231.14" y="55.88" size="1.778" layer="98" rot="R180" align="top-right">IA</text>
+<text x="231.14" y="83.82" size="1.778" layer="98" rot="R180" align="top-right">SCK</text>
+<text x="231.14" y="78.74" size="1.778" layer="98" rot="R180" align="top-right">MOSI</text>
+<text x="231.14" y="81.28" size="1.778" layer="98" rot="R180" align="top-right">MISO</text>
+<text x="231.14" y="76.2" size="1.778" layer="98" rot="R180" align="top-right">CSA</text>
+<text x="231.14" y="38.1" size="1.778" layer="98" rot="R180" align="top-right">3V3</text>
+<text x="127" y="111.76" size="1.778" layer="98" rot="R180" align="top-right">SCK</text>
+<text x="127" y="109.22" size="1.778" layer="98" rot="R180" align="top-right">MISO</text>
+<text x="127" y="106.68" size="1.778" layer="98" rot="R180" align="top-right">MOSI</text>
 </plain>
 <instances>
 <instance part="U401" gate="G$1" x="73.66" y="104.14"/>
@@ -5946,8 +5958,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="P+5" gate="1" x="160.02" y="119.38"/>
 <instance part="C701" gate="G$1" x="160.02" y="91.44"/>
 <instance part="P+8" gate="1" x="152.4" y="172.72"/>
-<instance part="P+9" gate="1" x="5.08" y="43.18"/>
-<instance part="GND4" gate="1" x="15.24" y="10.16"/>
+<instance part="P+9" gate="1" x="147.32" y="76.2"/>
+<instance part="GND4" gate="1" x="157.48" y="43.18"/>
 <instance part="JP1" gate="G$1" x="170.18" y="180.34"/>
 <instance part="JP2" gate="G$1" x="175.26" y="180.34"/>
 <instance part="JP3" gate="G$1" x="180.34" y="180.34"/>
@@ -5955,18 +5967,18 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="C438" gate="G$1" x="-27.94" y="104.14"/>
 <instance part="U402" gate="G$1" x="-12.7" y="129.54"/>
 <instance part="GND14" gate="1" x="-27.94" y="96.52"/>
-<instance part="J401" gate="G$1" x="-17.78" y="17.78"/>
-<instance part="J402" gate="G$1" x="-60.96" y="73.66"/>
-<instance part="J404" gate="G$1" x="-60.96" y="33.02" rot="MR180"/>
-<instance part="GND8" gate="1" x="-35.56" y="60.96"/>
+<instance part="J401" gate="G$1" x="124.46" y="50.8"/>
+<instance part="J402" gate="G$1" x="218.44" y="78.74"/>
+<instance part="J404" gate="G$1" x="218.44" y="38.1" rot="MR180"/>
+<instance part="GND8" gate="1" x="243.84" y="66.04"/>
 <instance part="R203" gate="G$1" x="129.54" y="246.38"/>
 <instance part="U202" gate="G$1" x="144.78" y="271.78" rot="MR0"/>
 <instance part="C463" gate="G$1" x="78.74" y="182.88"/>
 <instance part="S457" gate="S" x="10.16" y="160.02" rot="R90"/>
 <instance part="S457" gate="G" x="10.16" y="147.32" rot="R90"/>
-<instance part="S420" gate="S" x="15.24" y="27.94" rot="R90"/>
-<instance part="S420" gate="G" x="15.24" y="20.32" rot="R90"/>
-<instance part="J403" gate="G$1" x="-66.04" y="48.26" rot="MR180"/>
+<instance part="S420" gate="S" x="157.48" y="60.96" rot="R90"/>
+<instance part="S420" gate="G" x="157.48" y="53.34" rot="R90"/>
+<instance part="J403" gate="G$1" x="213.36" y="53.34" rot="MR180"/>
 <instance part="C462" gate="G$1" x="0" y="99.06" rot="R90"/>
 <instance part="C461" gate="G$1" x="0" y="83.82" rot="R90"/>
 <instance part="GND12" gate="1" x="-7.62" y="78.74"/>
@@ -5990,18 +6002,18 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="J001" gate="G$1" x="-50.8" y="236.22" rot="R180"/>
 <instance part="U201" gate="G$1" x="203.2" y="243.84" rot="MR180"/>
 <instance part="C201" gate="G$1" x="228.6" y="226.06"/>
-<instance part="J002" gate="G$1" x="-20.32" y="5.08"/>
+<instance part="J002" gate="G$1" x="121.92" y="38.1"/>
 <instance part="C432" gate="G$1" x="68.58" y="182.88"/>
 <instance part="S438" gate="1" x="-15.24" y="109.22" smashed="yes">
 <attribute name="NAME" x="-17.78" y="111.76" size="1.778" layer="95"/>
 </instance>
 <instance part="R401" gate="A" x="152.4" y="165.1" rot="R270"/>
-<instance part="R401" gate="B" x="15.24" y="38.1" rot="R270"/>
+<instance part="R401" gate="B" x="157.48" y="71.12" rot="R270"/>
 <instance part="R401" gate="C" x="165.1" y="165.1" rot="R270"/>
 <instance part="R401" gate="D" x="27.94" y="170.18"/>
-<instance part="J406" gate="G$1" x="246.38" y="116.84" rot="MR180"/>
-<instance part="P+2" gate="1" x="269.24" y="106.68"/>
-<instance part="GND2" gate="1" x="266.7" y="101.6"/>
+<instance part="J406" gate="G$1" x="182.88" y="43.18" rot="MR180"/>
+<instance part="P+2" gate="1" x="205.74" y="33.02"/>
+<instance part="GND2" gate="1" x="203.2" y="27.94"/>
 <instance part="S010" gate="S" x="53.34" y="241.3"/>
 <instance part="S010" gate="G" x="55.88" y="243.84"/>
 <instance part="S401" gate="1" x="195.58" y="162.56" smashed="yes" rot="R90">
@@ -6090,8 +6102,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </net>
 <net name="TX0/PWMB" class="0">
 <segment>
-<wire x1="-12.7" y1="17.78" x2="-5.08" y2="17.78" width="0.1524" layer="91"/>
-<label x="-12.7" y="17.78" size="1.778" layer="95"/>
+<wire x1="129.54" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="129.54" y="50.8" size="1.778" layer="95"/>
 <pinref part="J401" gate="G$1" pin="3"/>
 </segment>
 <segment>
@@ -6194,16 +6206,16 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="R401" gate="D" pin="1"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<label x="-55.88" y="33.02" size="1.778" layer="95"/>
+<wire x1="223.52" y1="38.1" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
+<label x="223.52" y="38.1" size="1.778" layer="95"/>
 <pinref part="J404" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="5.08" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="25.4" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="25.4" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
-<junction x="5.08" y="43.18"/>
-<label x="-12.7" y="25.4" size="1.778" layer="95"/>
+<wire x1="147.32" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="58.42" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="147.32" y="76.2"/>
+<label x="129.54" y="58.42" size="1.778" layer="95"/>
 <pinref part="P+9" gate="1" pin="VCC"/>
 <pinref part="J401" gate="G$1" pin="6"/>
 <pinref part="R401" gate="B" pin="1"/>
@@ -6233,7 +6245,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="-10.16" y="287.02"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="33.02" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="J406" gate="G$1" pin="11"/>
 <pinref part="P+2" gate="1" pin="VCC"/>
 </segment>
@@ -6280,12 +6292,12 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="167.64" y="91.44"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="20.32" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
-<junction x="15.24" y="20.32"/>
-<junction x="15.24" y="22.86"/>
-<label x="-12.7" y="22.86" size="1.778" layer="95"/>
+<wire x1="157.48" y1="55.88" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="53.34" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
+<junction x="157.48" y="53.34"/>
+<junction x="157.48" y="55.88"/>
+<label x="129.54" y="55.88" size="1.778" layer="95"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="J401" gate="G$1" pin="5"/>
 <pinref part="S420" gate="S" pin="1"/>
@@ -6338,14 +6350,14 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="-55.88" y="30.48" size="1.778" layer="95"/>
+<wire x1="223.52" y1="35.56" x2="233.68" y2="35.56" width="0.1524" layer="91"/>
+<label x="223.52" y="35.56" size="1.778" layer="95"/>
 <pinref part="J404" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="66.04" x2="-35.56" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="66.04" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
-<label x="-55.88" y="66.04" size="1.778" layer="95"/>
+<wire x1="223.52" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="71.12" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<label x="223.52" y="71.12" size="1.778" layer="95"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="J403" gate="G$1" pin="1"/>
 </segment>
@@ -6456,15 +6468,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="12.7" y1="223.52" x2="12.7" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="30.48" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="J406" gate="G$1" pin="12"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
 <segment>
-<wire x1="-55.88" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
-<label x="-55.88" y="35.56" size="1.778" layer="95"/>
+<wire x1="223.52" y1="40.64" x2="233.68" y2="40.64" width="0.1524" layer="91"/>
+<label x="223.52" y="40.64" size="1.778" layer="95"/>
 <pinref part="J404" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -6590,13 +6602,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(CAP1.3/MISO1/MAT1.3)P0.18"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="76.2" x2="-48.26" y2="76.2" width="0.1524" layer="91"/>
-<label x="-55.88" y="76.2" size="1.778" layer="95"/>
+<wire x1="223.52" y1="81.28" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
+<label x="223.52" y="81.28" size="1.778" layer="95"/>
 <pinref part="J402" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="114.3" x2="266.7" y2="114.3" width="0.1524" layer="91"/>
-<label x="259.08" y="114.3" size="1.778" layer="95"/>
+<wire x1="193.04" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="195.58" y="40.64" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="8"/>
 </segment>
 </net>
@@ -6607,25 +6619,25 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(MAT1.2/MOSI1/CAP1.2)P0.19"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="73.66" x2="-48.26" y2="73.66" width="0.1524" layer="91"/>
-<label x="-55.88" y="73.66" size="1.778" layer="95"/>
+<wire x1="223.52" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="223.52" y="78.74" size="1.778" layer="95"/>
 <pinref part="J402" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="116.84" x2="266.7" y2="116.84" width="0.1524" layer="91"/>
-<label x="259.08" y="116.84" size="1.778" layer="95"/>
+<wire x1="193.04" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<label x="195.58" y="43.18" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="SCK1" class="0">
 <segment>
-<wire x1="-55.88" y1="78.74" x2="-48.26" y2="78.74" width="0.1524" layer="91"/>
-<label x="-55.88" y="78.74" size="1.778" layer="95"/>
+<wire x1="223.52" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
+<label x="223.52" y="83.82" size="1.778" layer="95"/>
 <pinref part="J402" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="119.38" x2="266.7" y2="119.38" width="0.1524" layer="91"/>
-<label x="259.08" y="119.38" size="1.778" layer="95"/>
+<wire x1="193.04" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
+<label x="195.58" y="45.72" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="6"/>
 </segment>
 <segment>
@@ -6641,8 +6653,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(SDA0/MAT0.0/EINT1)P0.3"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="91"/>
-<label x="-12.7" y="5.08" size="1.778" layer="95"/>
+<wire x1="129.54" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="129.54" y="38.1" size="1.778" layer="95"/>
 <pinref part="J002" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -6653,15 +6665,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(SCL0/CAP0.0)P0.2"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="91"/>
-<label x="-12.7" y="2.54" size="1.778" layer="95"/>
+<wire x1="129.54" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
+<label x="129.54" y="35.56" size="1.778" layer="95"/>
 <pinref part="J002" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RX0/PWMG" class="0">
 <segment>
-<wire x1="-12.7" y1="20.32" x2="-5.08" y2="20.32" width="0.1524" layer="91"/>
-<label x="-12.7" y="20.32" size="1.778" layer="95"/>
+<wire x1="129.54" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="129.54" y="53.34" size="1.778" layer="95"/>
 <pinref part="J401" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -6675,8 +6687,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </net>
 <net name="TX1/PWMR" class="0">
 <segment>
-<wire x1="-55.88" y1="27.94" x2="-45.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="-55.88" y="27.94" size="1.778" layer="95"/>
+<wire x1="223.52" y1="33.02" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
+<label x="223.52" y="33.02" size="1.778" layer="95"/>
 <pinref part="J404" gate="G$1" pin="5"/>
 </segment>
 <segment>
@@ -6695,8 +6707,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(RXD1/PWM6/EINT3)P0.9"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="25.4" x2="-45.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="-55.88" y="25.4" size="1.778" layer="95"/>
+<wire x1="223.52" y1="30.48" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
+<label x="223.52" y="30.48" size="1.778" layer="95"/>
 <pinref part="J404" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -6707,15 +6719,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(AD1.7/CAP0.0/MAT0.0)P0.22"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="55.88" x2="-48.26" y2="55.88" width="0.1524" layer="91"/>
-<label x="-55.88" y="55.88" size="1.778" layer="95"/>
+<wire x1="223.52" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
+<label x="223.52" y="60.96" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SDA1/BSL" class="0">
 <segment>
-<wire x1="-5.08" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
-<label x="-12.7" y="12.7" size="1.778" layer="95"/>
+<wire x1="137.16" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<label x="129.54" y="45.72" size="1.778" layer="95"/>
 <pinref part="J401" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -6726,8 +6738,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="R401" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="132.08" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
-<label x="259.08" y="132.08" size="1.778" layer="95"/>
+<wire x1="193.04" y1="58.42" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
+<label x="195.58" y="58.42" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -6745,8 +6757,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="R401" gate="D" pin="2"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="15.24" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
-<label x="-12.7" y="15.24" size="1.778" layer="95"/>
+<wire x1="129.54" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
+<label x="129.54" y="48.26" size="1.778" layer="95"/>
 <pinref part="J401" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -6773,13 +6785,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(AD0.4/AOUT)P0.25"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="53.34" x2="-48.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="-55.88" y="53.34" size="1.778" layer="95"/>
+<wire x1="223.52" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
+<label x="223.52" y="58.42" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="124.46" x2="266.7" y2="124.46" width="0.1524" layer="91"/>
-<label x="259.08" y="124.46" size="1.778" layer="95"/>
+<wire x1="193.04" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
+<label x="195.58" y="50.8" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -6790,13 +6802,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(AD0.1/CAP0.2/MAT0.2)P0.28"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="50.8" x2="-48.26" y2="50.8" width="0.1524" layer="91"/>
-<label x="-55.88" y="50.8" size="1.778" layer="95"/>
+<wire x1="223.52" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
+<label x="223.52" y="55.88" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
-<label x="259.08" y="111.76" size="1.778" layer="95"/>
+<wire x1="193.04" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
+<label x="195.58" y="38.1" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="9"/>
 </segment>
 </net>
@@ -6807,13 +6819,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(AD0.2/CAP0.3/MAT0.3)P0.29"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
-<label x="-55.88" y="48.26" size="1.778" layer="95"/>
+<wire x1="223.52" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
+<label x="223.52" y="53.34" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
-<label x="259.08" y="121.92" size="1.778" layer="95"/>
+<wire x1="193.04" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
+<label x="195.58" y="48.26" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -6824,13 +6836,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(AD0.3/EINT3/CAP0.0)P0.30"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="45.72" x2="-48.26" y2="45.72" width="0.1524" layer="91"/>
-<label x="-55.88" y="45.72" size="1.778" layer="95"/>
+<wire x1="223.52" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="223.52" y="50.8" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="127" x2="266.7" y2="127" width="0.1524" layer="91"/>
-<label x="259.08" y="127" size="1.778" layer="95"/>
+<wire x1="193.04" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
+<label x="195.58" y="53.34" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -6841,8 +6853,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(RTS1/CAP1.0/AD1.2)P0.10"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
-<label x="-55.88" y="60.96" size="1.778" layer="95"/>
+<wire x1="223.52" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<label x="223.52" y="66.04" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -6855,13 +6867,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="111.76" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="91"/>
-<label x="-12.7" y="7.62" size="1.778" layer="95"/>
+<wire x1="129.54" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
+<label x="129.54" y="40.64" size="1.778" layer="95"/>
 <pinref part="J002" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="129.54" x2="266.7" y2="129.54" width="0.1524" layer="91"/>
-<label x="259.08" y="129.54" size="1.778" layer="95"/>
+<wire x1="193.04" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<label x="195.58" y="55.88" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -6872,13 +6884,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(MAT1.3/SSEL1/EINT3)P0.20"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="71.12" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
-<label x="-55.88" y="71.12" size="1.778" layer="95"/>
+<wire x1="223.52" y1="76.2" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
+<label x="223.52" y="76.2" size="1.778" layer="95"/>
 <pinref part="J402" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="109.22" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
-<label x="259.08" y="109.22" size="1.778" layer="95"/>
+<wire x1="193.04" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
+<label x="195.58" y="35.56" size="1.778" layer="95"/>
 <pinref part="J406" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -6889,22 +6901,22 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(PWM5/AD1.6/CAP1.3)P0.21"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="58.42" x2="-48.26" y2="58.42" width="0.1524" layer="91"/>
-<label x="-55.88" y="58.42" size="1.778" layer="95"/>
+<wire x1="223.52" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
+<label x="223.52" y="63.5" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="STOP" class="0">
 <segment>
-<wire x1="-55.88" y1="43.18" x2="-48.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="-55.88" y="43.18" size="1.778" layer="95"/>
+<wire x1="223.52" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
+<label x="223.52" y="48.26" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="10"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="33.02" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<junction x="15.24" y="30.48"/>
-<label x="22.86" y="30.48" size="1.778" layer="95"/>
+<wire x1="157.48" y1="66.04" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
+<junction x="157.48" y="63.5"/>
+<label x="165.1" y="63.5" size="1.778" layer="95"/>
 <pinref part="S420" gate="S" pin="2"/>
 <pinref part="R401" gate="B" pin="2"/>
 </segment>
@@ -6933,8 +6945,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="(DSR1/MAT1.0/AD1.3)P0.12"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="63.5" x2="-48.26" y2="63.5" width="0.1524" layer="91"/>
-<label x="-55.88" y="63.5" size="1.778" layer="95"/>
+<wire x1="223.52" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<label x="223.52" y="68.58" size="1.778" layer="95"/>
 <pinref part="J403" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -7000,8 +7012,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="R201" gate="C" pin="2"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="38.1" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="-55.88" y="38.1" size="1.778" layer="95"/>
+<wire x1="223.52" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="223.52" y="43.18" size="1.778" layer="95"/>
 <pinref part="J404" gate="G$1" pin="1"/>
 </segment>
 </net>
