@@ -4658,6 +4658,17 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <smd name="3" x="0.7" y="0.55" dx="0.9" dy="0.8" layer="1"/>
 <smd name="4" x="-0.7" y="0.55" dx="0.9" dy="0.8" layer="1"/>
 </package>
+<package name="SC-70-3">
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="21"/>
+<circle x="-1.3" y="-0.9" radius="0.1" width="0.127" layer="21"/>
+<smd name="1" x="-0.65" y="-0.975" dx="0.5" dy="0.95" layer="1"/>
+<smd name="3" x="0" y="0.975" dx="0.5" dy="0.95" layer="1"/>
+<smd name="2" x="0.65" y="-0.975" dx="0.5" dy="0.95" layer="1"/>
+<wire x1="0.3" y1="-0.625" x2="-0.3" y2="-0.625" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="0.625" x2="-1" y2="0.625" width="0.1" layer="21"/>
+<wire x1="1" y1="0.625" x2="0.4" y2="0.625" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOSFET_NCHANNEL_2DRAIN">
@@ -8084,12 +8095,22 @@ See &lt;a href="http://ics.nxp.com/support/documents/interface/pdf/an97055.pdf"&
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMEG2005CT">
+<deviceset name="DIODE_COMMON_CATHODE">
 <gates>
 <gate name="G$1" symbol="DUAL_CC_DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-23-3">
+<device name="PMEG2005CT" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="K" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BAT30C" package="SC-70-3">
 <connects>
 <connect gate="G$1" pin="A1" pad="1"/>
 <connect gate="G$1" pin="A2" pad="2"/>
