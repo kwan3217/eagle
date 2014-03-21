@@ -5314,12 +5314,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF6718" prefix="U">
+<deviceset name="MOSFET_NCHANNEL" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET_NCHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIRECTFET_L6">
+<device name="IRF6718" package="DIRECTFET_L6">
 <connects>
 <connect gate="G$1" pin="D" pad="D1 D2"/>
 <connect gate="G$1" pin="G" pad="G"/>
@@ -6666,8 +6666,8 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="D205" library="KwanSystems" deviceset="BAT160S" device=""/>
 <part name="D203" library="SparkFun" deviceset="LED" device="0603" value="blue"/>
 <part name="R202" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="Q201" library="KwanSystems" deviceset="IRF6718" device=""/>
-<part name="Q202" library="KwanSystems" deviceset="IRF6718" device=""/>
+<part name="Q201" library="KwanSystems" deviceset="MOSFET_NCHANNEL" device="IRF6718"/>
+<part name="Q202" library="KwanSystems" deviceset="MOSFET_NCHANNEL" device="IRF6718"/>
 <part name="U003" library="SparkFun" deviceset="LPC213X" device="" value="LPC2148">
 <attribute name="DIGIKEY" value="568-1765-ND"/>
 </part>

@@ -4542,12 +4542,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF6718" prefix="U">
+<deviceset name="MOSFET_NCHANNEL" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET_NCHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIRECTFET_L6">
+<device name="IRF6718" package="DIRECTFET_L6">
 <connects>
 <connect gate="G$1" pin="D" pad="D1 D2"/>
 <connect gate="G$1" pin="G" pad="G"/>
@@ -6823,8 +6823,8 @@ Production SKU IC-00870</description>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="S429" library="KwanSystems" deviceset="B3U-1000P" device=""/>
-<part name="Q201" library="KwanSystems" deviceset="IRF6718" device=""/>
-<part name="Q202" library="KwanSystems" deviceset="IRF6718" device=""/>
+<part name="Q201" library="KwanSystems" deviceset="MOSFET_NCHANNEL" device="IRF6718"/>
+<part name="Q202" library="KwanSystems" deviceset="MOSFET_NCHANNEL" device="IRF6718"/>
 <part name="U$3" library="KwanSystems" deviceset="CX2520" device=""/>
 </parts>
 <sheets>
@@ -6913,17 +6913,17 @@ Production SKU IC-00870</description>
 <instance part="R001" gate="C" x="177.8" y="162.56" rot="R90">
 <attribute name="DIGIKEY" x="177.8" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R001" gate="A" x="307.34" y="129.54" rot="R90"/>
-<instance part="R001" gate="B" x="297.18" y="129.54" rot="R90"/>
+<instance part="R001" gate="A" x="307.34" y="121.92" rot="R90"/>
+<instance part="R001" gate="B" x="297.18" y="121.92" rot="R90"/>
 <instance part="R001" gate="D" x="287.02" y="129.54" rot="R90"/>
 <instance part="D401" gate="G$1" x="177.8" y="129.54">
 <attribute name="DIGIKEY" x="177.8" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D022" gate="G$1" x="297.18" y="116.84">
-<attribute name="DIGIKEY" x="297.18" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="D022" gate="G$1" x="297.18" y="137.16" rot="R180">
+<attribute name="DIGIKEY" x="297.18" y="137.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="D023" gate="G$1" x="307.34" y="116.84">
-<attribute name="DIGIKEY" x="307.34" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="D023" gate="G$1" x="307.34" y="139.7" rot="R180">
+<attribute name="DIGIKEY" x="307.34" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D402" gate="G$1" x="287.02" y="116.84">
 <attribute name="DIGIKEY" x="287.02" y="116.84" size="1.778" layer="96" display="off"/>
@@ -7077,15 +7077,15 @@ Production SKU IC-00870</description>
 <pinref part="U001" gate="G$1" pin="VCCIO"/>
 </segment>
 <segment>
-<wire x1="297.18" y1="111.76" x2="297.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="106.68" x2="307.34" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="111.76" x2="307.34" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="106.68" x2="327.66" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="106.68" x2="327.66" y2="116.84" width="0.1524" layer="91"/>
-<junction x="307.34" y="106.68"/>
-<pinref part="D022" gate="G$1" pin="C"/>
-<pinref part="D023" gate="G$1" pin="C"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
+<pinref part="R001" gate="B" pin="2"/>
+<wire x1="297.18" y1="127" x2="297.18" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="106.68" x2="307.34" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R001" gate="A" pin="2"/>
+<wire x1="327.66" y1="106.68" x2="307.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="106.68" x2="307.34" y2="127" width="0.1524" layer="91"/>
+<junction x="307.34" y="106.68"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
@@ -7707,24 +7707,15 @@ Production SKU IC-00870</description>
 <net name="TXLED1" class="0">
 <segment>
 <wire x1="312.42" y1="144.78" x2="307.34" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="144.78" x2="307.34" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U001" gate="G$1" pin="TXLED"/>
-<pinref part="R001" gate="A" pin="2"/>
+<pinref part="D023" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="RXLED1" class="0">
 <segment>
 <wire x1="312.42" y1="142.24" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="142.24" x2="297.18" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U001" gate="G$1" pin="RXLED"/>
-<pinref part="R001" gate="B" pin="2"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="297.18" y1="124.46" x2="297.18" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R001" gate="B" pin="1"/>
-<pinref part="D022" gate="G$1" pin="A"/>
+<pinref part="D022" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -7739,13 +7730,6 @@ Production SKU IC-00870</description>
 <wire x1="287.02" y1="124.46" x2="287.02" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R001" gate="D" pin="1"/>
 <pinref part="D402" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="307.34" y1="124.46" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R001" gate="A" pin="1"/>
-<pinref part="D023" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="D12" class="0">
@@ -8015,6 +7999,20 @@ Production SKU IC-00870</description>
 <wire x1="355.6" y1="203.2" x2="370.84" y2="203.2" width="0" layer="91"/>
 <wire x1="370.84" y1="203.2" x2="370.84" y2="167.64" width="0" layer="91"/>
 <label x="363.22" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R001" gate="B" pin="1"/>
+<pinref part="D022" gate="G$1" pin="A"/>
+<wire x1="297.18" y1="116.84" x2="297.18" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="D023" gate="G$1" pin="A"/>
+<pinref part="R001" gate="A" pin="1"/>
+<wire x1="307.34" y1="116.84" x2="307.34" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

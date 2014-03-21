@@ -2535,10 +2535,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="58.674" y="30.48" rot="R90"/>
 <element name="R201" library="KwanSystems" package="CRA04" value="1k" x="35.56" y="10.922" rot="R180"/>
 <element name="R203" library="KwanSystems" package="CRA04" value="220" x="24.765" y="36.703" rot="R180"/>
-<element name="Q201" library="KwanSystems" package="DIRECTFET_L6" value="IRF6718" x="50.8" y="41.91">
+<element name="Q201" library="KwanSystems" package="DIRECTFET_L6" value="MOSFET_NCHANNELIRF6718" x="50.8" y="41.91">
 <attribute name="LOGO_3D50" value="NOLOGO" x="50.8" y="41.91" size="1.778" layer="21" display="off"/>
 </element>
-<element name="Q202" library="KwanSystems" package="DIRECTFET_L6" value="IRF6718" x="50.8" y="3.81">
+<element name="Q202" library="KwanSystems" package="DIRECTFET_L6" value="MOSFET_NCHANNELIRF6718" x="50.8" y="3.81">
 <attribute name="LOGO_3D50" value="NOLOGO" x="50.8" y="3.81" size="1.778" layer="21" display="off"/>
 </element>
 <element name="U201" library="SparkFun" package="MULTIWATT15" value="L298" x="44.45" y="22.86" rot="R90"/>
@@ -4279,31 +4279,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.511" y1="36.195" x2="24.515" y2="36.203" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,0fe5db6e4f623118"/>
-<approved hash="4,1,17e2db088303851f"/>
-<approved hash="19,1,48d1773f7aa45638"/>
-<approved hash="5,1,3d6103d2d9d3b504"/>
-<approved hash="5,1,3fde03ded9d1b7b5"/>
-<approved hash="5,1,324f03ded9d3ba26"/>
-<approved hash="5,1,36ad03d2d9dbbec0"/>
-<approved hash="5,1,343c03d2d9ddbc57"/>
-<approved hash="5,1,3bfb02155c9d9962"/>
-<approved hash="5,1,54731a75448deefa"/>
-<approved hash="5,1,e574ab75788dd2fd"/>
-<approved hash="5,1,8afcb315609da565"/>
-<approved hash="5,1,76763875588df2ff"/>
-<approved hash="5,1,19fe2015409d8567"/>
-<approved hash="5,1,877bc975448deef2"/>
-<approved hash="5,1,e8f3d1155c9d996a"/>
-<approved hash="5,1,67f55e155c9d996c"/>
-<approved hash="5,1,64f24d324ad3b517"/>
-<approved hash="5,1,6bdc4d3e4ad3ba35"/>
-<approved hash="5,1,664d4d3e4ad1b7a6"/>
-<approved hash="5,1,6f3e4d324adbbed3"/>
-<approved hash="5,1,6daf4d324addbc44"/>
-<approved hash="19,1,1c5a21302fd101c9"/>
-</errors>
 </board>
 </drawing>
 </eagle>

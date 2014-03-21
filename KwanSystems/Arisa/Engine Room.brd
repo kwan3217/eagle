@@ -999,8 +999,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="BAT" library="SparkFun" package="1X02_XTRA_BIG" value="" x="67.31" y="17.78" rot="R180"/>
 <element name="M1" library="SparkFun" package="1X02_XTRA_BIG" value="" x="67.31" y="33.02" rot="R180"/>
 <element name="M2" library="SparkFun" package="1X02_XTRA_BIG" value="" x="67.31" y="2.54" rot="R180"/>
-<element name="Q201" library="KwanSystems" package="DIRECTFET_L6" value="IRF6718" x="57.15" y="31.75"/>
-<element name="Q202" library="KwanSystems" package="DIRECTFET_L6" value="IRF6718" x="57.15" y="3.81"/>
+<element name="Q201" library="KwanSystems" package="DIRECTFET_L6" value="MOSFET_NCHANNELIRF6718" x="57.15" y="31.75"/>
+<element name="Q202" library="KwanSystems" package="DIRECTFET_L6" value="MOSFET_NCHANNELIRF6718" x="57.15" y="3.81"/>
 </elements>
 <signals>
 <signal name="IN1">

@@ -997,8 +997,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U201" library="SparkFun" package="MULTIWATT15" value="L298" x="57.15" y="17.78" rot="R90"/>
 <element name="C1" library="SparkFun" package="0402-CAP" value="" x="56.642" y="22.606"/>
 <element name="C2" library="SparkFun" package="0402-CAP" value="" x="57.15" y="25.654" rot="R180"/>
-<element name="Q201" library="KwanSystems" package="DIRECTFET_L6" value="IRF6718" x="57.15" y="31.75"/>
-<element name="Q202" library="KwanSystems" package="DIRECTFET_L6" value="IRF6718" x="57.15" y="3.81"/>
+<element name="Q201" library="KwanSystems" package="DIRECTFET_L6" value="MOSFET_NCHANNELIRF6718" x="57.15" y="31.75"/>
+<element name="Q202" library="KwanSystems" package="DIRECTFET_L6" value="MOSFET_NCHANNELIRF6718" x="57.15" y="3.81"/>
 </elements>
 <signals>
 <signal name="IN1">

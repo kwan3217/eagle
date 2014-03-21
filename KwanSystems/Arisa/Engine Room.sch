@@ -4383,12 +4383,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IRF6718">
+<deviceset name="MOSFET_NCHANNEL" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET_NCHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIRECTFET_L6">
+<device name="IRF6718" package="DIRECTFET_L6">
 <connects>
 <connect gate="G$1" pin="D" pad="D1 D2"/>
 <connect gate="G$1" pin="G" pad="G"/>
@@ -4442,8 +4442,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="BAT" library="SparkFun" deviceset="M02" device="PTH4"/>
 <part name="M1" library="SparkFun" deviceset="M02" device="PTH4"/>
 <part name="M2" library="SparkFun" deviceset="M02" device="PTH4"/>
-<part name="Q201" library="KwanSystems" deviceset="IRF6718" device=""/>
-<part name="Q202" library="KwanSystems" deviceset="IRF6718" device=""/>
+<part name="Q201" library="KwanSystems" deviceset="MOSFET_NCHANNEL" device="IRF6718"/>
+<part name="Q202" library="KwanSystems" deviceset="MOSFET_NCHANNEL" device="IRF6718"/>
 </parts>
 <sheets>
 <sheet>
