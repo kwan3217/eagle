@@ -1613,6 +1613,9 @@ IC_SMD_GRND(2.9,1.3,1,2.8,2,1,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #macro IC_SMD_ADXL345(value,logo)
 IC_SMD_GRND(5,3,1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
+#macro IC_SMD_PUQFN_N12(value,logo)
+IC_SMD_GRND(2,1.7,1,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
+#end
 #macro IC_SMD_HMC5883(value,logo)
 IC_SMD_GRND(3,3,0.9,2.8,0,0,1.9,1.9,0.45,0.45,0.13,0.1,0,0,0,1.5,0.7,0,logo)
 #end
@@ -1696,6 +1699,27 @@ IC_SMD_GRND(2.9,1.6,1,2.8,4,4,0.65,0.65,0.35,0.35,0.13,0.1,0,1,0,0.3,0.7,0,logo)
 //          If pin0_45!=0 then the lower part of the body is 45deg instead of 10deg
 //#macro IC_SMD_GRND(LK, BK, HK,   B,  pin_u,pin_o,ptch_u,ptch_o,pinb_u,pinb_o,pin_s,di_pcb,kor_w,pin0_m,pin0_45,pin0_a,besch_s,besch_w,logo)
          IC_SMD_GRND(2.0,2.3,0.75, 3.1,4,    4,    0.5,   0.5,   0.21,  0.21,  0.13, 0.12,  0,    1,     0,      0.3,   0.7,    0,      logo)
+#end
+#macro IC_SMD_DCT_8(value,logo)
+//LK      = Laenge des Kunststoff(Seite der Pins)    length of plastic (side with pins)
+//BK      = Breite des Kunststoff(Seite ohne Pins)   width of the plastic (side without pins)
+//HK      = Hoehe des Kunststoff                     height of the plastic
+//B       = Laenge der Seite ohne Pins ueber alles   Overall length of the side without the pins
+//pin_u   = Pins auf der "unteren" Seite             pins on the "bottom" side
+//pin_o   = Pins auf der "oberen" Seite              pins on the "top" side
+//ptch_u  = Pitch der Pins auf der "unteren" Seite   Pitch of pins on the "bottom" side
+//ptch_o  = Pitch der Pins auf der "oberen" Seite    Pitch of pins on the "top" side
+//pinb_u  = Breite der Pins auf der "unteren" Seite  Width of pins on the "bottom" side
+//pinb_o  = Breite der Pins auf der  "oberen" Seite  Width of pins on the "top" side
+//pin_s   = Staerke des Pinmaterials                 Thickness of the pins
+//di_pcb  = Abstand des Kunststoff zur Platine       distance from the plastic to the board
+//kor_w   = Korrekturwinkel                          Correction angle
+//pin0_m  = Pin-1-Markierung: 0 = keine, 1 = Farbklecks, 2 = Kerbe wie bei DIP, 3 = PowerSO, 4 = DPAK
+//           Pin 1 indicator: 0=none, 1=blob of color, 2=Notch as DIP, 3=PowerSO, 4=DPAK
+//pin0_45 = Wenn != 0 wird an der unteren Seite ein Winkel am Koerper von 45° statt 10° verwendet (SO)              
+//          If pin0_45!=0 then the lower part of the body is 45deg instead of 10deg
+//#macro IC_SMD_GRND(LK, BK, HK,   B,  pin_u,pin_o,ptch_u,ptch_o,pinb_u,pinb_o,pin_s,di_pcb,kor_w,pin0_m,pin0_45,pin0_a,besch_s,besch_w,logo)
+         IC_SMD_GRND(3.9,2.8,0.75, 3.1,4,    4,    0.65,  0.65,  0.21,  0.21,  0.13, 0.12,  0,    1,     0,      0.3,   0.7,    0,      logo)
 #end
 #macro IC_SMD_SOT223(value,logo)
 IC_SMD_GRND(6.5,3.5,1.6,7,3,1,2.3,2.3,0.75,3,0.2,0.2,0,0,0,0,1.0,0,logo)
