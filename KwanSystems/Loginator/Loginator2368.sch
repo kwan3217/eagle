@@ -79,12 +79,15 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -2384,363 +2387,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="USB-A-H">
-<description>&lt;b&gt;USB Series A Hole Mounted&lt;/b&gt;</description>
-<wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="6" x2="-17.8" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="21"/>
-<wire x1="1" y1="-4" x2="1" y2="4" width="0.2032" layer="21"/>
-<wire x1="-13.5" y1="4.3" x2="-13.5" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="1.9" x2="-11.2" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="1.9" x2="-11.2" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="4.3" x2="-13.5" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-1.9" x2="-13.5" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-4.3" x2="-11.2" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-4.3" x2="-11.2" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-1.9" x2="-13.5" y2="-1.9" width="0.2032" layer="51"/>
-<pad name="GND" x="2.4" y="3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D+" x="2.4" y="1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D-" x="2.4" y="-1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="VBUS" x="2.4" y="-3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="GND2" x="0" y="-5.8" drill="2.2" rot="R270"/>
-<pad name="GND3" x="0" y="5.8" drill="2.2" rot="R270"/>
-<text x="5.85" y="-2.7" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.9" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
-<hole x="-0.1" y="2.25" drill="1.1"/>
-<hole x="-0.1" y="-2.25" drill="1.1"/>
-</package>
-<package name="USB-A-S">
-<description>&lt;b&gt;USB Series A Surface Mounted&lt;/b&gt;</description>
-<wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="21"/>
-<wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="21"/>
-<wire x1="-10.287" y1="6.477" x2="-10.287" y2="-6.477" width="0.127" layer="21"/>
-<wire x1="3.7084" y1="6.5024" x2="3.7084" y2="-6.5024" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-5.08" x2="-8.89" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-4.445" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
-<pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="3.45" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="3.45" y="3" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="3.45" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="3.45" y="-3" dx="3" dy="0.9" layer="1"/>
-<text x="5.715" y="3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="USB-MB-H">
-<description>&lt;b&gt;USB Series Mini-B Hole Mounted&lt;/b&gt;</description>
-<wire x1="-3.75" y1="3.9" x2="-3.75" y2="-3.9" width="0.127" layer="22"/>
-<wire x1="5.25" y1="3.9" x2="5.25" y2="-3.9" width="0.127" layer="22"/>
-<wire x1="-3.75" y1="3.9" x2="5.25" y2="3.9" width="0.127" layer="22"/>
-<wire x1="-3.75" y1="-3.9" x2="5.25" y2="-3.9" width="0.127" layer="22"/>
-<wire x1="0.75" y1="3.5" x2="-3.25" y2="3" width="0.127" layer="22"/>
-<wire x1="-3.25" y1="3" x2="-3.25" y2="2" width="0.127" layer="22"/>
-<wire x1="-3.25" y1="2" x2="0.75" y2="1.5" width="0.127" layer="22"/>
-<wire x1="1.25" y1="-3.5" x2="-3.25" y2="-3" width="0.127" layer="22"/>
-<wire x1="-3.25" y1="-3" x2="-3.25" y2="-2" width="0.127" layer="22"/>
-<wire x1="-3.25" y1="-2" x2="1.25" y2="-1.5" width="0.127" layer="22"/>
-<wire x1="-3.25" y1="1.25" x2="1.75" y2="0.75" width="0.127" layer="22"/>
-<wire x1="1.75" y1="0.75" x2="1.75" y2="-0.75" width="0.127" layer="22"/>
-<wire x1="1.75" y1="-0.75" x2="-3.25" y2="-1.25" width="0.127" layer="22"/>
-<pad name="VBUS" x="5.1" y="1.6" drill="0.8"/>
-<pad name="D+" x="5.1" y="0" drill="0.8"/>
-<pad name="GND" x="5.1" y="-1.6" drill="0.8"/>
-<pad name="D-" x="3.9" y="0.8" drill="0.8"/>
-<pad name="ID" x="3.9" y="-0.8" drill="0.8"/>
-<pad name="P$6" x="0" y="-3.65" drill="1.9"/>
-<pad name="P$7" x="0" y="3.65" drill="1.9"/>
-<text x="7.25" y="1.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<rectangle x1="3.25" y1="3" x2="5.75" y2="4.4" layer="43"/>
-<rectangle x1="3.25" y1="-4.4" x2="5.75" y2="-3" layer="43"/>
-<rectangle x1="-3.75" y1="-3.1" x2="-1.425" y2="3.1" layer="43"/>
-<rectangle x1="-1.425" y1="-2.325" x2="-0.65" y2="2.325" layer="43"/>
-</package>
-<package name="USB-B-SMT">
-<description>USB Series B Surface Mounted</description>
-<wire x1="-1" y1="-6" x2="2.4" y2="-6" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="6" x2="-1" y2="6" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="6" x2="2.4" y2="7.3" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="7.3" x2="2.2" y2="7.5" width="0.2032" layer="51"/>
-<wire x1="2.2" y1="7.5" x2="1.9" y2="7.5" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="7.5" x2="1.4" y2="7" width="0.2032" layer="51"/>
-<wire x1="-1" y1="6" x2="-1" y2="7.3" width="0.2032" layer="51"/>
-<wire x1="-0.8" y1="7.5" x2="-0.5" y2="7.5" width="0.2032" layer="51"/>
-<wire x1="-0.5" y1="7.5" x2="0" y2="7" width="0.2032" layer="51"/>
-<wire x1="0" y1="7" x2="1.4" y2="7" width="0.2032" layer="51"/>
-<wire x1="-1" y1="-6" x2="-1" y2="-7.3" width="0.2032" layer="51"/>
-<wire x1="-1" y1="-7.3" x2="-0.8" y2="-7.5" width="0.2032" layer="51"/>
-<wire x1="-0.8" y1="-7.5" x2="-0.5" y2="-7.5" width="0.2032" layer="51"/>
-<wire x1="-0.5" y1="-7.5" x2="0" y2="-7" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="-7.5" x2="1.4" y2="-7" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="-7" x2="0" y2="-7" width="0.2032" layer="51"/>
-<wire x1="-1" y1="7.3" x2="-0.8" y2="7.5" width="0.2032" layer="51"/>
-<wire x1="2.2" y1="-7.5" x2="1.9" y2="-7.5" width="0.2032" layer="51"/>
-<wire x1="2.2" y1="-7.5" x2="2.4" y2="-7.3" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-6" x2="2.4" y2="-7.3" width="0.2032" layer="51"/>
-<wire x1="-5" y1="6" x2="-5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-5" y1="6" x2="-9" y2="6" width="0.2032" layer="51"/>
-<wire x1="-9" y1="6" x2="-9" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-9" y1="-6" x2="-5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-5" y1="6" x2="-3" y2="6" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-6" x2="-3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="4" y1="-6" x2="7" y2="-6" width="0.2032" layer="21"/>
-<wire x1="7" y1="-6" x2="7" y2="-3" width="0.2032" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="6" width="0.2032" layer="21"/>
-<wire x1="7" y1="6" x2="4" y2="6" width="0.2032" layer="21"/>
-<smd name="5" x="0.58" y="6.8" dx="6.04" dy="3.4" layer="1"/>
-<smd name="6" x="0.58" y="-6.8" dx="6.04" dy="3.4" layer="1"/>
-<smd name="D+" x="7" y="1.875" dx="3" dy="0.7" layer="1"/>
-<smd name="D-" x="7" y="0.625" dx="3" dy="0.7" layer="1"/>
-<smd name="GND" x="7" y="-0.625" dx="3" dy="0.7" layer="1"/>
-<smd name="VUSB" x="7" y="-1.875" dx="3" dy="0.7" layer="1"/>
-<text x="4.3" y="-7.795" size="1.27" layer="25">&gt;NAME</text>
-<hole x="0" y="2.25" drill="1.4"/>
-<hole x="0" y="-2.25" drill="1.4"/>
-</package>
-<package name="USB-MINIB-OLD">
-<description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
-<wire x1="-1.5" y1="3.8" x2="0.9" y2="3.8" width="0.127" layer="21"/>
-<wire x1="3.3" y1="3.1" x2="3.3" y2="2.1" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-2.1" x2="3.3" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="1" y1="-3.8" x2="-1.5" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.127" layer="51"/>
-<smd name="1" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="2" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="3" x="3" y="-4.5" dx="3.5" dy="2" layer="1"/>
-<smd name="4" x="3" y="4.5" dx="3.5" dy="2" layer="1"/>
-<smd name="D+" x="3" y="0" dx="3.5" dy="0.5" layer="1"/>
-<smd name="D-" x="3" y="0.8" dx="3.5" dy="0.5" layer="1"/>
-<smd name="VBUS" x="3.01" y="1.61" dx="3.5" dy="0.5" layer="1"/>
-<smd name="ID" x="3" y="-0.8" dx="3.5" dy="0.5" layer="1"/>
-<smd name="GND" x="3" y="-1.6" dx="3.5" dy="0.5" layer="1"/>
-<text x="-3.81" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-3.81" y="0" size="0.4064" layer="25">&gt;NAME</text>
-<hole x="0" y="2.2" drill="0.9"/>
-<hole x="0" y="-2.2" drill="0.9"/>
-</package>
-<package name="USB-B-PTH">
-<description>&lt;b&gt;USB Series B Hole Mounted&lt;/b&gt;</description>
-<wire x1="-12.5" y1="6" x2="-8.6" y2="6" width="0.2032" layer="51"/>
-<wire x1="-8.6" y1="6" x2="-8.6" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-8.6" y1="-6" x2="-12.5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-12.5" y1="-6" x2="-12.5" y2="6" width="0.2032" layer="51"/>
-<wire x1="-8.6" y1="6" x2="-4.8" y2="6" width="0.2032" layer="21"/>
-<wire x1="-8.6" y1="-6" x2="-4.8" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-0.6" y1="-6" x2="3.3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="-6" x2="3.3" y2="6" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="6" x2="-0.6" y2="6" width="0.2032" layer="21"/>
-<pad name="VBUS" x="1.9812" y="-1.25" drill="0.9144" diameter="1.6764" rot="R90"/>
-<pad name="D-" x="1.9812" y="1.25" drill="0.9144" diameter="1.6764" rot="R90"/>
-<pad name="D+" x="0" y="1.25" drill="0.9144" diameter="1.6764" rot="R270"/>
-<pad name="GND" x="0" y="-1.25" drill="0.9144" diameter="1.6764" rot="R270"/>
-<pad name="S1" x="-2.7178" y="-6.0198" drill="2.286"/>
-<pad name="S2" x="-2.7178" y="6.0198" drill="2.286"/>
-<text x="-1.27" y="3.81" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="2.54" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="S4B-PH">
-<wire x1="-6" y1="2" x2="-6" y2="-7" width="0.3048" layer="51"/>
-<wire x1="-6" y1="-7" x2="6" y2="-7" width="0.3048" layer="51"/>
-<wire x1="6" y1="-7" x2="6" y2="2" width="0.3048" layer="51"/>
-<wire x1="6" y1="2" x2="-6" y2="2" width="0.3048" layer="51"/>
-<smd name="1" x="-3" y="-4.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="-1" y="-4.7" dx="1" dy="4.6" layer="1"/>
-<smd name="3" x="1" y="-4.7" dx="1" dy="4.6" layer="1"/>
-<smd name="4" x="3" y="-4.7" dx="1" dy="4.6" layer="1"/>
-<smd name="P$1" x="-5.4" y="0.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$2" x="5.4" y="0.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-</package>
-<package name="USB-MINIB">
-<description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
-<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
-<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
-<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
-<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
-<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
-<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
-<smd name="MTN3" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="MTN1" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="MTN4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="MTN2" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
-<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
-<hole x="0" y="2.2" drill="0.9"/>
-<hole x="0" y="-2.2" drill="0.9"/>
-</package>
-<package name="USB-A-PCB">
-<wire x1="-5" y1="6" x2="3.7" y2="6" width="0.127" layer="51"/>
-<wire x1="3.7" y1="6" x2="3.7" y2="-6" width="0.127" layer="51"/>
-<wire x1="3.7" y1="-6" x2="-5" y2="-6" width="0.127" layer="51"/>
-<wire x1="-5" y1="-6" x2="-5" y2="6" width="0.127" layer="51"/>
-<smd name="5V" x="-0.2" y="-3.5" dx="7.5" dy="1.5" layer="1"/>
-<smd name="USB_M" x="0.3" y="-1" dx="6.5" dy="1" layer="1"/>
-<smd name="USB_P" x="0.3" y="1" dx="6.5" dy="1" layer="1"/>
-<smd name="GND" x="-0.2" y="3.5" dx="7.5" dy="1.5" layer="1"/>
-<text x="-1.27" y="5.08" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.27" y="-5.08" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="USB-B-PTH-VERTICAL">
-<description>&lt;b&gt;USB Series B Hole Mounted&lt;/b&gt;</description>
-<wire x1="0" y1="0" x2="11.938" y2="0" width="0.254" layer="21"/>
-<wire x1="11.938" y1="0" x2="11.938" y2="11.303" width="0.254" layer="21"/>
-<wire x1="11.938" y1="11.303" x2="0" y2="11.303" width="0.254" layer="21"/>
-<wire x1="0" y1="11.303" x2="0" y2="0" width="0.254" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="10.795" y2="1.27" width="0.254" layer="51"/>
-<wire x1="10.795" y1="1.27" x2="10.795" y2="8.255" width="0.254" layer="51"/>
-<wire x1="10.795" y1="8.255" x2="8.89" y2="10.16" width="0.254" layer="51"/>
-<wire x1="8.89" y1="10.16" x2="3.175" y2="10.16" width="0.254" layer="51"/>
-<wire x1="3.175" y1="10.16" x2="1.27" y2="8.255" width="0.254" layer="51"/>
-<wire x1="1.27" y1="8.255" x2="1.27" y2="1.27" width="0.254" layer="51"/>
-<pad name="GND" x="7.3152" y="4.3942" drill="0.9144" diameter="1.6764" rot="R90"/>
-<pad name="VBUS" x="7.3152" y="7.5946" drill="0.9144" diameter="1.6764" rot="R90"/>
-<pad name="D-" x="4.826" y="7.5946" drill="0.9144" diameter="1.6764" rot="R270"/>
-<pad name="D+" x="4.826" y="4.3942" drill="0.9144" diameter="1.6764" rot="R270"/>
-<pad name="P$1" x="0" y="4.9022" drill="2.286"/>
-<pad name="P$2" x="12.0396" y="4.9022" drill="2.286"/>
-<text x="8.89" y="-1.27" size="0.8128" layer="25">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
-</package>
-<package name="USB-A-S-NOSILK">
-<wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-10.287" y1="6.477" x2="-10.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="3.7084" y1="6.5024" x2="3.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-5.08" x2="-8.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-4.445" x2="-8.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="51"/>
-<pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="3.45" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="3.45" y="3" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="3.45" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="3.45" y="-3" dx="3" dy="0.9" layer="1"/>
-<text x="5.715" y="3.81" size="1.27" layer="51" rot="R90">&gt;NAME</text>
-</package>
-<package name="USB-A-S-NOSILK-FEMALE">
-<wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-10.287" y1="6.477" x2="-10.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="3.7084" y1="6.5024" x2="3.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-5.08" x2="-8.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-4.445" x2="-8.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="51"/>
-<pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="4.212" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="4.212" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="4.212" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="4.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="8.46" y="-7.205" size="1.27" layer="51" rot="R180">&gt;NAME</text>
-</package>
-<package name="USB-MINIB-NOSTOP">
-<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
-<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
-<circle x="0" y="2.2" radius="0.35" width="0.41" layer="29"/>
-<circle x="0" y="-2.2" radius="0.35" width="0.41" layer="29"/>
-<pad name="H1" x="0" y="2.2" drill="0.9" diameter="0.8" stop="no"/>
-<pad name="H2" x="0" y="-2.2" drill="0.9" diameter="0.7874" stop="no"/>
-<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
-<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
-<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
-<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
-<smd name="G1" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="G2" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="G4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="G3" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
-<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="USB-A-S-SILK-FEMALE">
-<wire x1="6.6957" y1="6.5659" x2="-7.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="6.6957" y1="-6.5659" x2="-7.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-7.287" y1="6.477" x2="-7.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="6.7084" y1="6.5024" x2="6.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="0.46" y1="-5.08" x2="-5.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-4.445" x2="-5.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-1.27" x2="0.46" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="0.46" y1="5.08" x2="-5.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="4.445" x2="-5.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="1.27" x2="0.46" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-7.366" y1="6.604" x2="0.508" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="6.604" x2="-7.366" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="-6.604" x2="0.508" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-6.604" x2="6.858" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="-6.604" x2="6.858" y2="-4.318" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="4.318" x2="6.858" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="6.604" x2="5.08" y2="6.604" width="0.2032" layer="21"/>
-<pad name="P$5" x="3" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="P$6" x="3" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="7.212" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="7.212" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="7.212" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="7.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="-3.81" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="USB-MICROB">
-<description>Micro USB Package</description>
-<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="1.25" x2="-3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="1.25" x2="3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.127" layer="51"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="1.45" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="2.85" x2="-2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
-<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
-<smd name="VBUS" x="-1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="GND" x="1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D-" x="-0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D+" x="0" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="MT1" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="MT2" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<text x="-1.6" y="-0.35" size="0.762" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.762" layer="27">&gt;VALUE</text>
-</package>
 <package name="1X12">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
@@ -3369,16 +3015,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="USB">
-<wire x1="5.08" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="8.89" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="D+" x="-2.54" y="7.62" visible="pad" length="short"/>
-<pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
-<pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
-<pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
 </symbol>
 <symbol name="M12">
 <wire x1="6.35" y1="-17.78" x2="0" y2="-17.78" width="0.4064" layer="94"/>
@@ -4656,186 +4292,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB" prefix="X">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;
-&lt;p&gt;USB-B-PTH is fully proven SKU : PRT-00139
-&lt;p&gt;USB-miniB is fully proven SKU : PRT-00587
-&lt;p&gt;USB-A-PCB is untested.
-&lt;p&gt;USB-A-H is throughly reviewed, but untested. Spark Fun Electronics SKU : PRT-00437
-&lt;p&gt;USB-B-SMT is throughly reviewed, but untested. Needs silkscreen touching up.
-&lt;p&gt;USB-A-S has not been used/tested
-&lt;p&gt;USB-MB-H has not been used/tested</description>
-<gates>
-<gate name="G$1" symbol="USB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="G$1" pin="D+" pad="D-"/>
-<connect gate="G$1" pin="D-" pad="D+"/>
-<connect gate="G$1" pin="GND" pad="VBUS"/>
-<connect gate="G$1" pin="VBUS" pad="GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-H" package="USB-MB-H">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-S" package="USB-B-SMT">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VUSB"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="OLD" package="USB-MINIB-OLD">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="USB-B-PTH">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-JST-2MM-SMT" package="S4B-PH">
-<connects>
-<connect gate="G$1" pin="D+" pad="2"/>
-<connect gate="G$1" pin="D-" pad="3"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VBUS" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="USB-MINIB">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PCB" package="USB-A-PCB">
-<connects>
-<connect gate="G$1" pin="D+" pad="USB_P"/>
-<connect gate="G$1" pin="D-" pad="USB_M"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="5V"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH-VERTICAL" package="USB-B-PTH-VERTICAL">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="USB-A-S-NOSILK" package="USB-A-S-NOSILK">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-SMD" package="USB-A-S-NOSILK-FEMALE">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD-NS" package="USB-MINIB-NOSTOP">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_" package="USB-A-S-SILK-FEMALE">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MICROB" package="USB-MICROB">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M12" prefix="JP">
 <description>&lt;b&gt;Header 12&lt;/b&gt;
 Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
@@ -4978,12 +4434,6 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="1.778" y="0.8255" size="0.4064" layer="25" rot="R270">&gt;NAME</text>
 <text x="-0.1905" y="1.016" size="0.4064" layer="27" rot="R270">&gt;VALUE</text>
 </package>
-<package name="CRYSTAL_SMD">
-<smd name="1" x="-1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
-<smd name="2" x="1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
-<smd name="3" x="1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
-<smd name="4" x="-1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
-</package>
 <package name="TMLF_2MM_2MM_6PIN">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
@@ -5001,33 +4451,17 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <smd name="PAD" x="0" y="0" dx="1.2" dy="0.6" layer="1"/>
 </package>
 <package name="SOT-23-5">
-<wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
-<wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="51"/>
+<wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="51"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="4" x="0.95" y="1.3" dx="0.6" dy="1.1" layer="1"/>
 <smd name="5" x="-0.95" y="1.3" dx="0.6" dy="1.1" layer="1"/>
-<text x="0" y="0" size="0.8128" layer="25" align="center">&gt;NAME</text>
-<text x="1.84" y="-1.37" size="0.8128" layer="27">&gt;VALUE</text>
-</package>
-<package name="SOT-23-6">
-<wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
-<wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.127" layer="21"/>
-<smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
-<smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
-<smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
-<smd name="4" x="0.95" y="1.3" dx="0.6" dy="1.1" layer="1"/>
-<smd name="5" x="0" y="1.3" dx="0.6" dy="1.1" layer="1"/>
-<smd name="6" x="-0.95" y="1.3" dx="0.6" dy="1.1" layer="1"/>
-<text x="-1.36" y="-0.2" size="0.8128" layer="25">&gt;NAME</text>
-<text x="1.84" y="-1.37" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="0.4064" layer="25" align="center">&gt;NAME</text>
+<text x="1.84" y="-1.37" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="CRA06">
 <smd name="1" x="-1.295" y="-0.975" dx="0.63" dy="1.15" layer="1"/>
@@ -5042,16 +4476,20 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="-1.524" y="-2.54" size="0.8128" layer="21">&gt;VALUE</text>
 </package>
 <package name="CRA04">
-<smd name="1" x="-0.8" y="-0.475" dx="0.4" dy="0.5" layer="1"/>
-<smd name="2" x="-0.25" y="-0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="3" x="0.25" y="-0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="4" x="0.8" y="-0.475" dx="0.4" dy="0.5" layer="1"/>
-<smd name="5" x="0.8" y="0.475" dx="0.4" dy="0.5" layer="1"/>
-<smd name="6" x="0.25" y="0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="7" x="-0.25" y="0.475" dx="0.3" dy="0.5" layer="1"/>
-<smd name="8" x="-0.8" y="0.475" dx="0.4" dy="0.5" layer="1"/>
-<text x="-1.424" y="0.978" size="0.8128" layer="21">&gt;NAME</text>
-<text x="-1.524" y="-1.74" size="0.8128" layer="21">&gt;VALUE</text>
+<smd name="1" x="-0.8" y="-0.5" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="-0.25" y="-0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="3" x="0.25" y="-0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="4" x="0.8" y="-0.5" dx="0.4" dy="0.5" layer="1"/>
+<smd name="5" x="0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
+<smd name="6" x="0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="7" x="-0.25" y="0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="8" x="-0.8" y="0.5" dx="0.4" dy="0.5" layer="1"/>
+<text x="-1.424" y="0.978" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.74" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="0" size="0.2" layer="51" align="center">A</text>
+<text x="-0.2" y="0" size="0.2" layer="51" align="center">B</text>
+<text x="0.2" y="0" size="0.2" layer="51" align="center">C</text>
+<text x="0.8" y="0" size="0.2" layer="51" align="center">D</text>
 </package>
 <package name="HSMF-C118">
 <wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.127" layer="21"/>
@@ -5069,6 +4507,10 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="0" y1="-0.7" x2="0.6" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-0.7" x2="0.6" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-0.5" x2="1.1" y2="0" width="0.127" layer="21" curve="-90"/>
+<text x="1.5" y="0.5" size="0.6096" layer="51">R</text>
+<text x="-2" y="-1" size="0.6096" layer="51">B</text>
+<text x="-2" y="0.5" size="0.6096" layer="51">G</text>
+<text x="1.5" y="-1" size="0.6096" layer="51">A</text>
 </package>
 <package name="B3U-1100P">
 <smd name="P$1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1"/>
@@ -5325,6 +4767,166 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="-8.89" y="6.35" size="0.8128" layer="25">&gt;Name</text>
 <text x="-8.89" y="5.08" size="0.8128" layer="27">&gt;Value</text>
 </package>
+<package name="USB-MICROB-CONN-09505">
+<description>Micro USB Package</description>
+<wire x1="-3.4" y1="-0.7" x2="-3" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="3" y1="-0.7" x2="3.4" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-0.7" x2="-3.4" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="0" x2="-3.4" y2="4.3" width="0.127" layer="51"/>
+<wire x1="3.4" y1="4.3" x2="2.2" y2="4.3" width="0.127" layer="51"/>
+<wire x1="3.4" y1="4.3" x2="3.4" y2="0" width="0.127" layer="51"/>
+<wire x1="3.4" y1="0" x2="3.4" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="0" x2="3.4" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="2.7" x2="-3.4" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="4.3" x2="-2.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="4.3" x2="2.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="2.7" x2="3.4" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="0" x2="3.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="2.9" x2="2.2" y2="2.9" width="0.127" layer="51"/>
+<wire x1="2.2" y1="2.9" x2="2.2" y2="4.3" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="2.9" x2="-2.2" y2="4.3" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="4.3" x2="-2.2" y2="4.3" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="4.3" x2="-2.2" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="2.9" x2="2.2" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="2.9" x2="2.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-0.7" x2="-4" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="3.4" y1="-0.7" x2="4" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-0.7" x2="-3" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-1.35" x2="2.75" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.15" x2="3" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.1" x2="-2.8" y2="-1.35" width="0.127" layer="51" curve="84.547378"/>
+<wire x1="2.75" y1="-1.35" x2="3" y2="-1.15" width="0.127" layer="51" curve="84.547378"/>
+<smd name="1" x="-1.3" y="4.1" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="4.1" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="4.1" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="0" y="4.1" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="4.1" dx="1.4" dy="0.35" layer="1" rot="R90"/>
+<text x="4.75" y="-1.44" size="0.762" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-1.725" size="0.762" layer="27">&gt;VALUE</text>
+<smd name="P1" x="-1" y="1.45" dx="1.55" dy="1.5" layer="1" rot="R270"/>
+<smd name="P2" x="1" y="1.45" dx="1.55" dy="1.5" layer="1" rot="R90"/>
+<pad name="P3" x="-3.5" y="1.45" drill="1.15" diameter="1.4224"/>
+<pad name="P4" x="3.5" y="1.45" drill="1.15" diameter="1.4224"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-2.3" y="2.25"/>
+<vertex x="-2.3" y="0.65"/>
+<vertex x="-3.4" y="0.65" curve="-90"/>
+<vertex x="-4.2" y="1.45" curve="-90"/>
+<vertex x="-3.4" y="2.25"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="2.3" y="0.65"/>
+<vertex x="2.3" y="2.25"/>
+<vertex x="3.4" y="2.25" curve="-90"/>
+<vertex x="4.2" y="1.45" curve="-90"/>
+<vertex x="3.4" y="0.65"/>
+</polygon>
+<polygon width="0.381" layer="29">
+<vertex x="2.3" y="0.65"/>
+<vertex x="2.3" y="2.25"/>
+<vertex x="3.4" y="2.25" curve="-90"/>
+<vertex x="4.2" y="1.45" curve="-90"/>
+<vertex x="3.4" y="0.65"/>
+</polygon>
+<polygon width="0.381" layer="29">
+<vertex x="-2.3" y="2.25"/>
+<vertex x="-2.3" y="0.65"/>
+<vertex x="-3.4" y="0.65" curve="-90"/>
+<vertex x="-4.2" y="1.45" curve="-90"/>
+<vertex x="-3.4" y="2.25"/>
+</polygon>
+<pad name="P5" x="-2.5" y="4.15" drill="0.85" diameter="1.27"/>
+<pad name="P6" x="2.5" y="4.15" drill="0.85" diameter="1.27"/>
+<text x="-1.2" y="5" size="0.254" layer="51" rot="R90">1 Vbus</text>
+<text x="-0.55" y="5" size="0.254" layer="51" rot="R90">2 D-</text>
+<text x="0.1" y="5" size="0.254" layer="51" rot="R90">3 D+</text>
+<text x="0.75" y="5" size="0.254" layer="51" rot="R90">4 NC</text>
+<text x="1.45" y="5" size="0.254" layer="51" rot="R90">5 GND</text>
+</package>
+<package name="UB-MC5BR3-SD204-4S">
+<wire x1="-5" y1="-1.45" x2="5" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.6" y1="2.7" x2="-3.6" y2="-2.3" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-2.3" x2="-3.1" y2="-2.3" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-2.3" x2="3.1" y2="-2.3" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-2.3" x2="3.6" y2="-2.3" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-2.3" x2="3.6" y2="2.7" width="0.3" layer="51"/>
+<wire x1="3.6" y1="2.7" x2="-3.6" y2="2.7" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-2.3" x2="-4.2" y2="-2.9" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-2.3" x2="4.2" y2="-2.9" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-2.3" x2="-3.1" y2="-2.9" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-2.9" x2="3.2" y2="-2.9" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-2.9" x2="3.2" y2="-2.3" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-2.3" x2="3.1" y2="-2.3" width="0.3" layer="51"/>
+<smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="5" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="4" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$6" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="P$7" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="P$8" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="P$9" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="P$10" x="-3.2" y="2.35" dx="1.6" dy="1.4" layer="1"/>
+<smd name="P$11" x="3.2" y="2.35" dx="1.6" dy="1.4" layer="1"/>
+<text x="-1.2" y="3.55" size="0.254" layer="51" rot="R90">1 Vbus</text>
+<text x="-0.55" y="3.55" size="0.254" layer="51" rot="R90">2 D-</text>
+<text x="0.1" y="3.55" size="0.254" layer="51" rot="R90">3 D+</text>
+<text x="0.75" y="3.55" size="0.254" layer="51" rot="R90">4 NC</text>
+<text x="1.45" y="3.55" size="0.254" layer="51" rot="R90">5 GND</text>
+</package>
+<package name="USB_MICROB_3075">
+<wire x1="-3.6" y1="4.25" x2="-3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-3.1" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-0.55" x2="3.6" y2="-0.55" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<wire x1="-3.6" y1="-0.55" x2="-4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.6" y1="-0.55" x2="4.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-0.55" x2="-3.1" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="-3.1" y1="-1.15" x2="3.2" y2="-1.15" width="0.3" layer="51"/>
+<wire x1="3.2" y1="-1.15" x2="3.2" y2="-0.55" width="0.3" layer="51"/>
+<smd name="1" x="-1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$8" x="-1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<smd name="P$10" x="-2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<text x="-1.2" y="4.95" size="0.254" layer="51" rot="R90">1 Vbus</text>
+<text x="-0.55" y="4.95" size="0.254" layer="51" rot="R90">2 D-</text>
+<text x="0.1" y="4.95" size="0.254" layer="51" rot="R90">3 D+</text>
+<text x="0.75" y="4.95" size="0.254" layer="51" rot="R90">4 NC</text>
+<text x="1.45" y="4.95" size="0.254" layer="51" rot="R90">5 GND</text>
+<smd name="2" x="-0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="4" x="0.65" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="5" x="1.3" y="4.1" dx="0.4" dy="1.4" layer="1"/>
+<smd name="P$1" x="2.32" y="3.75" dx="1.15" dy="1.45" layer="1"/>
+<wire x1="-3.6" y1="4.25" x2="3.6" y2="4.25" width="0.3" layer="51"/>
+<smd name="P$2" x="1.125" y="1.45" dx="1.75" dy="1.9" layer="1"/>
+<pad name="P$3" x="-3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<pad name="P$4" x="3.575" y="1.45" drill="1.25" diameter="1.9" thermals="no"/>
+<rectangle x1="-0.2" y1="0.4" x2="0.2" y2="2.5" layer="29"/>
+<rectangle x1="-1.6" y1="3.3" x2="1.6" y2="4.9" layer="29"/>
+<wire x1="-4.6" y1="0" x2="4.5" y2="0" width="0" layer="51"/>
+</package>
+<package name="CRYSTAL_SMD">
+<smd name="1" x="-1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="2" x="1.0922" y="-0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="3" x="1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
+<smd name="4" x="-1.0922" y="0.8128" dx="1.4" dy="1.15" layer="1"/>
+</package>
+<package name="SOT-23-6">
+<wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="21"/>
+<circle x="-1.9" y="-0.7" radius="0.1" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.6" dy="1.1" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.6" dy="1.1" layer="1"/>
+<smd name="5" x="0" y="1.3" dx="0.6" dy="1.1" layer="1"/>
+<smd name="6" x="-0.95" y="1.3" dx="0.6" dy="1.1" layer="1"/>
+<text x="-1.36" y="-0.2" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.84" y="-1.37" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="V_REF">
@@ -5337,36 +4939,6 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="VCC" x="-10.16" y="2.54" length="middle"/>
 <pin name="VOUT" x="-10.16" y="-2.54" length="middle"/>
 <pin name="GND" x="7.62" y="0" length="middle" rot="R180"/>
-</symbol>
-<symbol name="MAX4173">
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="5.08" size="1.27" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="GND1" x="-15.24" y="2.54" length="middle"/>
-<pin name="GND2" x="-15.24" y="0" length="middle"/>
-<pin name="VCC" x="-15.24" y="-2.54" length="middle"/>
-<pin name="RS-" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="RS+" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="OUT" x="10.16" y="2.54" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CRYSTAL_SMD">
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;PART</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
 </symbol>
 <symbol name="DUAL_CC_DIODE">
 <wire x1="-1.27" y1="6.35" x2="0" y2="3.81" width="0.254" layer="94"/>
@@ -5570,24 +5142,13 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="-76.2" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
 <pin name="#RSTOUT" x="-81.28" y="0" length="middle" function="dot"/>
 <pin name="#RESET" x="-81.28" y="-2.54" length="middle" function="dot"/>
-<pin name="VDD(3V3)0" x="-81.28" y="-7.62" length="middle"/>
-<pin name="VDD(3V3)1" x="-81.28" y="-10.16" length="middle"/>
-<pin name="VDD(3V3)2" x="-81.28" y="-12.7" length="middle"/>
-<pin name="VDD(3V3)3" x="-81.28" y="-15.24" length="middle"/>
-<pin name="VDD(DCDC)0" x="-81.28" y="-20.32" length="middle"/>
-<pin name="VDD(DCDC)1" x="-81.28" y="-22.86" length="middle"/>
-<pin name="VDD(DCDC)2" x="-81.28" y="-25.4" length="middle"/>
+<pin name="VDD(3V3)" x="-81.28" y="-7.62" length="middle"/>
+<pin name="VDD(DCDC)" x="-81.28" y="-20.32" length="middle"/>
 <pin name="VDDA" x="-81.28" y="-30.48" length="middle"/>
 <pin name="VREF" x="-81.28" y="-35.56" length="middle"/>
 <pin name="VBAT" x="-81.28" y="-40.64" length="middle"/>
 <pin name="AGND" x="-81.28" y="-185.42" length="middle"/>
-<pin name="GND6" x="-81.28" y="-180.34" length="middle"/>
-<pin name="GND5" x="-81.28" y="-177.8" length="middle"/>
-<pin name="GND4" x="-81.28" y="-175.26" length="middle"/>
-<pin name="GND3" x="-81.28" y="-172.72" length="middle"/>
-<pin name="GND2" x="-81.28" y="-170.18" length="middle"/>
-<pin name="GND1" x="-81.28" y="-167.64" length="middle"/>
-<pin name="GND0" x="-81.28" y="-165.1" length="middle"/>
+<pin name="GND" x="-81.28" y="-165.1" length="middle"/>
 <pin name="XTAL1" x="-81.28" y="-58.42" length="middle"/>
 <pin name="XTAL2" x="-81.28" y="-60.96" length="middle"/>
 <pin name="RTCX1" x="-81.28" y="-66.04" length="middle"/>
@@ -5603,19 +5164,19 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="STAT" x="-12.7" y="2.54" length="middle"/>
-<pin name="VSS" x="-12.7" y="0" length="middle"/>
-<pin name="VBAT" x="-12.7" y="-2.54" length="middle"/>
-<pin name="VIN" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="PROG" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="-12.7" y="0" length="middle" direction="pwr"/>
+<pin name="VBAT" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VIN" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="PROG" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="USDCARD">
-<wire x1="-2.54" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-12.7" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
 <text x="-2.54" y="18.288" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CS" x="-7.62" y="12.7" length="middle"/>
+<pin name="/CS" x="-7.62" y="12.7" length="middle" function="dot"/>
 <pin name="DI" x="-7.62" y="10.16" length="middle"/>
 <pin name="GND" x="-7.62" y="2.54" length="middle"/>
 <pin name="VCC" x="-7.62" y="7.62" length="middle"/>
@@ -5625,6 +5186,56 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="NC" x="-7.62" y="15.24" length="middle"/>
 <pin name="CD" x="-7.62" y="-7.62" length="middle"/>
 <pin name="SHIELD" x="-7.62" y="-10.16" length="middle"/>
+<text x="5.08" y="15.24" size="1.524" layer="97" align="center-left">DAT2</text>
+<text x="5.08" y="12.7" size="1.524" layer="97" align="center-left">DAT3</text>
+<text x="5.08" y="10.16" size="1.524" layer="97" align="center-left">CMD</text>
+<text x="5.08" y="5.08" size="1.524" layer="97" align="center-left">CLK</text>
+<text x="5.08" y="0" size="1.524" layer="97" align="center-left">DAT0</text>
+<text x="5.08" y="-2.54" size="1.524" layer="97" align="center-left">DAT1</text>
+</symbol>
+<symbol name="USB_MB">
+<wire x1="7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="VBUS" x="-5.08" y="-5.08" length="middle"/>
+<pin name="D-" x="-5.08" y="-2.54" length="middle"/>
+<pin name="D+" x="-5.08" y="0" length="middle"/>
+<pin name="GND" x="-5.08" y="2.54" length="middle"/>
+</symbol>
+<symbol name="CRYSTAL_SMD_CASE">
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;PART</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.159" x2="1.524" y2="-2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.159" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="MAX4173">
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="GND" x="-15.24" y="2.54" length="middle"/>
+<pin name="VCC" x="-15.24" y="-2.54" length="middle"/>
+<pin name="RS-" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="RS+" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="OUT" x="10.16" y="2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5693,45 +5304,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </device>
 </devices>
 </deviceset>
-<deviceset name="TSX-3225">
-<gates>
-<gate name="G$1" symbol="CASE_GND" x="20.32" y="0"/>
-<gate name="_" symbol="CRYSTAL_SMD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CRYSTAL_SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="2 4" route="any"/>
-<connect gate="_" pin="1" pad="1"/>
-<connect gate="_" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAX4173">
-<gates>
-<gate name="G$1" symbol="MAX4173" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-6">
-<connects>
-<connect gate="G$1" pin="GND1" pad="1"/>
-<connect gate="G$1" pin="GND2" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="RS+" pad="5"/>
-<connect gate="G$1" pin="RS-" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RP4">
+<deviceset name="RP4" uservalue="yes">
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="RESISTOR" x="0" y="2.54" swaplevel="1"/>
@@ -5818,13 +5391,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="#RSTOUT" pad="14"/>
 <connect gate="G$1" pin="#TRST" pad="4"/>
 <connect gate="G$1" pin="AGND" pad="11"/>
-<connect gate="G$1" pin="GND0" pad="15"/>
-<connect gate="G$1" pin="GND1" pad="31"/>
-<connect gate="G$1" pin="GND2" pad="41"/>
-<connect gate="G$1" pin="GND3" pad="55"/>
-<connect gate="G$1" pin="GND4" pad="72"/>
-<connect gate="G$1" pin="GND5" pad="97"/>
-<connect gate="G$1" pin="GND6" pad="83"/>
+<connect gate="G$1" pin="GND" pad="15 31 41 55 72 83 97"/>
 <connect gate="G$1" pin="P0[0]/RD1/TXD3/SDA1" pad="46"/>
 <connect gate="G$1" pin="P0[10]/TXD2/SDA2/MAT3[0]" pad="48"/>
 <connect gate="G$1" pin="P0[11]/RXD2/SCL2/MAT3[1]" pad="49"/>
@@ -5903,13 +5470,8 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="TDI" pad="2"/>
 <connect gate="G$1" pin="TMS" pad="3"/>
 <connect gate="G$1" pin="VBAT" pad="19"/>
-<connect gate="G$1" pin="VDD(3V3)0" pad="28"/>
-<connect gate="G$1" pin="VDD(3V3)1" pad="54"/>
-<connect gate="G$1" pin="VDD(3V3)2" pad="71"/>
-<connect gate="G$1" pin="VDD(3V3)3" pad="96"/>
-<connect gate="G$1" pin="VDD(DCDC)0" pad="13"/>
-<connect gate="G$1" pin="VDD(DCDC)1" pad="42"/>
-<connect gate="G$1" pin="VDD(DCDC)2" pad="84"/>
+<connect gate="G$1" pin="VDD(3V3)" pad="28 54 71 96"/>
+<connect gate="G$1" pin="VDD(DCDC)" pad="13 42 84"/>
 <connect gate="G$1" pin="VDDA" pad="10"/>
 <connect gate="G$1" pin="VREF" pad="12"/>
 <connect gate="G$1" pin="XTAL1" pad="22"/>
@@ -5949,8 +5511,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <devices>
 <device name="" package="MICROSD-SOCKET-PP">
 <connects>
+<connect gate="G$1" pin="/CS" pad="2"/>
 <connect gate="G$1" pin="CD" pad="CD1"/>
-<connect gate="G$1" pin="CS" pad="2"/>
 <connect gate="G$1" pin="DI" pad="3"/>
 <connect gate="G$1" pin="DO" pad="7"/>
 <connect gate="G$1" pin="GND" pad="6"/>
@@ -5959,6 +5521,82 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <connect gate="G$1" pin="SCK" pad="5"/>
 <connect gate="G$1" pin="SHIELD" pad="CD2 GND1 GND3" route="any"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB_MICROB_JST">
+<gates>
+<gate name="G$1" symbol="USB_MB" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="UB-MC5BR3-SD204-4S">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11" route="any"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GCT" package="USB_MICROB_3075">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P$1 P$2 P$3 P$4 P$8 P$10" route="any"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FCI" package="USB-MICROB-CONN-09505">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P1 P2 P3 P4 P5 P6"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSX-3225">
+<gates>
+<gate name="G$1" symbol="CRYSTAL_SMD_CASE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CRYSTAL_SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX4173">
+<gates>
+<gate name="G$1" symbol="MAX4173" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="RS+" pad="5"/>
+<connect gate="G$1" pin="RS-" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6056,9 +5694,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="R103" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="0.047">
 <attribute name="DIGIKEY" value="P.047ATCT-ND"/>
 </part>
-<part name="U101" library="KwanSystems" deviceset="MAX4173" device="" value="100V/V">
-<attribute name="DIGIKEY" value="MAX4173HEUT+TCT-ND"/>
-</part>
 <part name="C454" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
 <attribute name="DIGIKEY" value="445-1268-1-ND"/>
 <attribute name="DIGIKEY#" value="445-1268-1-ND"/>
@@ -6079,9 +5714,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="C423" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF">
 <attribute name="DIGIKEY" value="445-1238-1-ND"/>
 <attribute name="DIGIKEY#" value="445-1238-1-ND"/>
-</part>
-<part name="Y401" library="KwanSystems" deviceset="TSX-3225" device="" value="12M">
-<attribute name="DIGIKEY" value="887-1316-1-ND"/>
 </part>
 <part name="J301" library="SparkFun" deviceset="M02" device="-JST-2MM-SMT" value="JST 2mm">
 <attribute name="DIGIKEY" value="455-1749-1-ND"/>
@@ -6123,7 +5755,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="R030" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="33">
 <attribute name="DIGIKEY" value="P33.0LCT-ND"/>
 </part>
-<part name="R011" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100k">
+<part name="R011" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="39k">
 <attribute name="DIGIKEY" value="P100KLCT-ND"/>
 </part>
 <part name="C030" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF">
@@ -6142,13 +5774,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="Q050" library="SparkFun" deviceset="MOSFET-PCHANNEL" device="SMD" value="PMOS">
 <attribute name="DIGIKEY" value="NTR1P02T1GOSCT-ND"/>
 </part>
-<part name="J001" library="SparkFun" deviceset="USB" device="SMD">
+<part name="J001" library="KwanSystems" deviceset="USB_MICROB_JST" device="FCI">
 <attribute name="DIGIKEY" value="670-1190-1-ND"/>
 </part>
 <part name="R050" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1.5k">
 <attribute name="DIGIKEY" value="P1.50KLCT-ND"/>
 </part>
-<part name="R010" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k">
+<part name="R010" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="24k">
 <attribute name="DIGIKEY" value="P10.0KLCT-ND"/>
 </part>
 <part name="R051" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k">
@@ -6159,9 +5791,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </part>
 <part name="C205" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="DIGIKEY" value="445-7395-1-ND"/>
-</part>
-<part name="Q201" library="SparkFun" deviceset="MOSFET-PCHANNEL" device="SMD" value="PMOS">
-<attribute name="DIGIKEY" value="NTR1P02T1GOSCT-ND"/>
 </part>
 <part name="R102" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100k">
 <attribute name="DIGIKEY" value="P100KLCT-ND"/>
@@ -6232,6 +5861,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="J701" library="KwanSystems" deviceset="MICROSD-SOCKET" device="">
 <attribute name="DIGIKEY" value="101-00581-59-1-ND"/>
 </part>
+<part name="Y401" library="KwanSystems" deviceset="TSX-3225" device=""/>
+<part name="U101" library="KwanSystems" deviceset="MAX4173" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6344,9 +5975,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="R103" gate="G$1" x="-38.1" y="182.88">
 <attribute name="DIGIKEY" value="P.047ATCT-ND" x="-38.1" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U101" gate="G$1" x="-43.18" y="165.1" rot="R90">
-<attribute name="DIGIKEY" value="MAX4173HEUT+TCT-ND" x="-43.18" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="C454" gate="G$1" x="-248.92" y="271.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="-244.856" y="272.161" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-257.556" y="272.161" size="1.778" layer="96"/>
@@ -6377,13 +6005,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <attribute name="VALUE" x="-227.584" y="212.979" size="1.778" layer="96" rot="R180"/>
 <attribute name="DIGIKEY#" x="-226.06" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGIKEY" value="445-1238-1-ND" x="-226.06" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="Y401" gate="G$1" x="-233.68" y="220.98" rot="R270">
-<attribute name="DIGIKEY" value="887-1316-1-ND" x="-233.68" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="Y401" gate="_" x="-220.98" y="218.44" smashed="yes" rot="R90">
-<attribute name="PART" x="-216.916" y="213.36" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-223.52" y="215.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J301" gate="G$1" x="40.64" y="210.82" rot="MR0">
 <attribute name="DIGIKEY" value="455-1749-1-ND" x="40.64" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6431,8 +6052,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <attribute name="VALUE" x="-3.81" y="265.938" size="1.778" layer="96" rot="MR0"/>
 <attribute name="DIGIKEY" value="P33.0LCT-ND" x="0" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R011" gate="G$1" x="-15.24" y="254" rot="MR90">
-<attribute name="DIGIKEY" value="P100KLCT-ND" x="-15.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R011" gate="G$1" x="0" y="256.54" rot="MR270">
+<attribute name="DIGIKEY" value="P100KLCT-ND" x="0" y="256.54" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C030" gate="G$1" x="22.86" y="254" smashed="yes" rot="MR0">
 <attribute name="NAME" x="22.479" y="262.636" size="1.778" layer="95" rot="MR270"/>
@@ -6456,8 +6077,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="Q050" gate="G$1" x="-20.32" y="297.18" rot="R180">
 <attribute name="DIGIKEY" value="NTR1P02T1GOSCT-ND" x="-20.32" y="297.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J001" gate="G$1" x="-38.1" y="274.32" rot="R180">
-<attribute name="DIGIKEY" value="670-1190-1-ND" x="-38.1" y="274.32" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="J001" gate="G$1" x="-38.1" y="266.7" rot="R180">
+<attribute name="DIGIKEY" value="670-1190-1-ND" x="-38.1" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R050" gate="G$1" x="-20.32" y="259.08" rot="MR270">
 <attribute name="DIGIKEY" value="P1.50KLCT-ND" x="-20.32" y="259.08" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6475,11 +6096,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </instance>
 <instance part="C205" gate="G$1" x="63.5" y="165.1">
 <attribute name="DIGIKEY" value="445-7395-1-ND" x="63.5" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="Q201" gate="G$1" x="17.78" y="175.26" smashed="yes" rot="MR180">
-<attribute name="NAME" x="22.86" y="177.8" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="20.32" y="180.34" size="1.778" layer="96" rot="MR180"/>
-<attribute name="DIGIKEY" value="NTR1P02T1GOSCT-ND" x="17.78" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R102" gate="G$1" x="-33.02" y="170.18" rot="MR90">
 <attribute name="DIGIKEY" value="P100KLCT-ND" x="-33.02" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6568,6 +6184,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="J701" gate="G$1" x="-68.58" y="269.24">
 <attribute name="DIGIKEY" value="101-00581-59-1-ND" x="-68.58" y="269.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="Y401" gate="G$1" x="-220.98" y="218.44" rot="R270"/>
+<instance part="U101" gate="G$1" x="-43.18" y="165.1" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6576,11 +6194,11 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <segment>
 <wire x1="-223.52" y1="226.06" x2="-220.98" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C422" gate="G$1" pin="2"/>
-<pinref part="Y401" gate="_" pin="2"/>
 <pinref part="U401" gate="G$1" pin="XTAL1"/>
 <wire x1="-220.98" y1="220.98" x2="-220.98" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="226.06" x2="-213.36" y2="226.06" width="0.1524" layer="91"/>
 <junction x="-220.98" y="226.06"/>
+<pinref part="Y401" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -6589,11 +6207,11 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-220.98" y1="210.82" x2="-215.9" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-223.52" y1="210.82" x2="-220.98" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="210.82" x2="-220.98" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="Y401" gate="_" pin="1"/>
 <pinref part="C423" gate="G$1" pin="2"/>
 <pinref part="U401" gate="G$1" pin="XTAL2"/>
 <wire x1="-215.9" y1="223.52" x2="-213.36" y2="223.52" width="0.1524" layer="91"/>
 <junction x="-220.98" y="210.82"/>
+<pinref part="Y401" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="USBD-" class="0">
@@ -6670,28 +6288,13 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <segment>
 <wire x1="-228.6" y1="281.94" x2="-228.6" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="VCC"/>
-<pinref part="U401" gate="G$1" pin="VDD(3V3)0"/>
-<pinref part="U401" gate="G$1" pin="VDD(3V3)1"/>
+<pinref part="U401" gate="G$1" pin="VDD(3V3)"/>
 <wire x1="-228.6" y1="276.86" x2="-213.36" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="276.86" x2="-228.6" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="274.32" x2="-213.36" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="VDD(3V3)2"/>
-<wire x1="-228.6" y1="274.32" x2="-228.6" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="271.78" x2="-213.36" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="VDD(3V3)3"/>
-<wire x1="-228.6" y1="271.78" x2="-228.6" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="269.24" x2="-213.36" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="VDD(DCDC)0"/>
-<wire x1="-228.6" y1="269.24" x2="-228.6" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="276.86" x2="-228.6" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="U401" gate="G$1" pin="VDD(DCDC)"/>
 <wire x1="-228.6" y1="264.16" x2="-213.36" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="VDD(DCDC)1"/>
-<wire x1="-228.6" y1="264.16" x2="-228.6" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="261.62" x2="-213.36" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="VDD(DCDC)2"/>
-<wire x1="-228.6" y1="261.62" x2="-228.6" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="259.08" x2="-213.36" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="U401" gate="G$1" pin="VDDA"/>
-<wire x1="-228.6" y1="259.08" x2="-228.6" y2="254" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="264.16" x2="-228.6" y2="254" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="254" x2="-213.36" y2="254" width="0.1524" layer="91"/>
 <pinref part="U401" gate="G$1" pin="VREF"/>
 <wire x1="-228.6" y1="254" x2="-228.6" y2="248.92" width="0.1524" layer="91"/>
@@ -6700,12 +6303,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-228.6" y1="248.92" x2="-228.6" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="243.84" x2="-213.36" y2="243.84" width="0.1524" layer="91"/>
 <junction x="-228.6" y="276.86"/>
-<junction x="-228.6" y="274.32"/>
-<junction x="-228.6" y="271.78"/>
-<junction x="-228.6" y="269.24"/>
 <junction x="-228.6" y="264.16"/>
-<junction x="-228.6" y="261.62"/>
-<junction x="-228.6" y="259.08"/>
 <junction x="-228.6" y="254"/>
 <junction x="-228.6" y="248.92"/>
 <wire x1="-243.84" y1="266.7" x2="-241.3" y2="266.7" width="0.1524" layer="91"/>
@@ -6833,15 +6431,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </segment>
 <segment>
 <pinref part="J001" gate="G$1" pin="GND"/>
-<wire x1="-35.56" y1="274.32" x2="-30.48" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="274.32" x2="-30.48" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="264.16" x2="-30.48" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="264.16" x2="-30.48" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-30.48" y1="243.84" x2="-30.48" y2="246.38" width="0.1524" layer="91"/>
 <junction x="-30.48" y="246.38"/>
 <wire x1="-20.32" y1="246.38" x2="-30.48" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="R011" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="246.38" x2="-15.24" y2="248.92" width="0.1524" layer="91"/>
-<junction x="-15.24" y="246.38"/>
+<pinref part="R011" gate="G$1" pin="2"/>
+<wire x1="0" y1="246.38" x2="0" y2="251.46" width="0.1524" layer="91"/>
+<junction x="0" y="246.38"/>
 <pinref part="C030" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="251.46" x2="22.86" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="S010" gate="S" pin="2"/>
@@ -6853,8 +6451,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="27.94" y1="246.38" x2="22.86" y2="246.38" width="0.1524" layer="91"/>
 <junction x="22.86" y="246.38"/>
 <wire x1="22.86" y1="246.38" x2="17.78" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="246.38" x2="-15.24" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="246.38" x2="-20.32" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="246.38" x2="0" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="0" y1="246.38" x2="-20.32" y2="246.38" width="0.1524" layer="91"/>
 <junction x="-20.32" y="246.38"/>
 <wire x1="-20.32" y1="254" x2="-20.32" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="R050" gate="G$1" pin="2"/>
@@ -6916,12 +6514,9 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-40.64" y1="139.7" x2="-40.64" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <junction x="-45.72" y="137.16"/>
-<pinref part="U101" gate="G$1" pin="GND2"/>
-<wire x1="-43.18" y1="149.86" x2="-45.72" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U101" gate="G$1" pin="GND1"/>
 <wire x1="-45.72" y1="149.86" x2="-45.72" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-40.64" y="137.16"/>
-<junction x="-45.72" y="149.86"/>
+<pinref part="U101" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="-297.18" y1="137.16" x2="-297.18" y2="147.32" width="0.1524" layer="91"/>
@@ -6933,43 +6528,17 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="U401" gate="G$1" pin="AGND"/>
 <wire x1="-233.68" y1="96.52" x2="-233.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="99.06" x2="-213.36" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND6"/>
-<wire x1="-233.68" y1="99.06" x2="-233.68" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="104.14" x2="-213.36" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND5"/>
-<wire x1="-233.68" y1="104.14" x2="-233.68" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="106.68" x2="-213.36" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND4"/>
-<wire x1="-233.68" y1="106.68" x2="-233.68" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="109.22" x2="-213.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND3"/>
-<wire x1="-233.68" y1="109.22" x2="-233.68" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="111.76" x2="-213.36" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND2"/>
-<wire x1="-233.68" y1="111.76" x2="-233.68" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="114.3" x2="-213.36" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND1"/>
-<wire x1="-233.68" y1="114.3" x2="-233.68" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="116.84" x2="-213.36" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U401" gate="G$1" pin="GND0"/>
-<wire x1="-233.68" y1="116.84" x2="-233.68" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U401" gate="G$1" pin="GND"/>
+<wire x1="-233.68" y1="99.06" x2="-233.68" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="119.38" x2="-213.36" y2="119.38" width="0.1524" layer="91"/>
-<junction x="-233.68" y="116.84"/>
-<junction x="-233.68" y="114.3"/>
-<junction x="-233.68" y="111.76"/>
-<junction x="-233.68" y="109.22"/>
-<junction x="-233.68" y="106.68"/>
-<junction x="-233.68" y="104.14"/>
 <junction x="-233.68" y="99.06"/>
 <wire x1="-231.14" y1="226.06" x2="-233.68" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="226.06" x2="-233.68" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="220.98" x2="-233.68" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="226.06" x2="-233.68" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="218.44" x2="-233.68" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="210.82" x2="-233.68" y2="210.82" width="0.1524" layer="91"/>
 <junction x="-233.68" y="210.82"/>
-<junction x="-233.68" y="220.98"/>
 <pinref part="C422" gate="G$1" pin="1"/>
 <pinref part="C423" gate="G$1" pin="1"/>
-<pinref part="Y401" gate="G$1" pin="1"/>
 <wire x1="-233.68" y1="210.82" x2="-233.68" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-233.68" y="119.38"/>
 <wire x1="-233.68" y1="175.26" x2="-233.68" y2="119.38" width="0.1524" layer="91"/>
@@ -7014,6 +6583,9 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="-254" y="231.14"/>
 <wire x1="-254" y1="175.26" x2="-233.68" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-233.68" y="175.26"/>
+<pinref part="Y401" gate="G$1" pin="GND"/>
+<wire x1="-226.06" y1="218.44" x2="-233.68" y2="218.44" width="0.1524" layer="91"/>
+<junction x="-233.68" y="218.44"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
@@ -7024,13 +6596,11 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </segment>
 <segment>
 <wire x1="40.64" y1="271.78" x2="-15.24" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="271.78" x2="-15.24" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="264.16" x2="-15.24" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="264.16" x2="-15.24" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="271.78" x2="-15.24" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="271.78" x2="-15.24" y2="271.78" width="0.1524" layer="91"/>
 <junction x="-15.24" y="271.78"/>
 <junction x="-15.24" y="271.78"/>
-<pinref part="R011" gate="G$1" pin="2"/>
 <pinref part="R010" gate="G$1" pin="2"/>
 <pinref part="J001" gate="G$1" pin="VBUS"/>
 <junction x="-15.24" y="271.78"/>
@@ -7051,22 +6621,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="-30.48" y="231.14"/>
 <wire x1="-30.48" y1="231.14" x2="-30.48" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U301" gate="G$1" pin="VIN"/>
-</segment>
-</net>
-<net name="RAW" class="0">
-<segment>
-<wire x1="17.78" y1="170.18" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="170.18" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="170.18" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="165.1" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="165.1" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
-<junction x="22.86" y="170.18"/>
-<junction x="17.78" y="170.18"/>
-<label x="22.86" y="170.18" size="1.778" layer="95"/>
-<pinref part="C201" gate="G$1" pin="1"/>
-<pinref part="U201" gate="G$1" pin="VIN"/>
-<pinref part="U201" gate="G$1" pin="EN"/>
-<pinref part="Q201" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
@@ -7092,8 +6646,12 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="S010" gate="S" pin="1"/>
 <pinref part="R010" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="264.16" x2="40.64" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="264.16" x2="17.78" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="264.16" x2="0" y2="264.16" width="0.1524" layer="91"/>
 <junction x="17.78" y="264.16"/>
+<pinref part="R011" gate="G$1" pin="1"/>
+<wire x1="0" y1="264.16" x2="17.78" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="261.62" x2="0" y2="264.16" width="0.1524" layer="91"/>
+<junction x="0" y="264.16"/>
 </segment>
 <segment>
 <pinref part="U401" gate="G$1" pin="P1[30]/VBUS/AD0[4]"/>
@@ -7387,10 +6945,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="17.78" y1="180.34" x2="0" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="0" y1="180.34" x2="0" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="S201" gate="1" pin="S"/>
-<pinref part="Q201" gate="G$1" pin="S"/>
 <label x="-15.24" y="180.34" size="1.778" layer="95"/>
 <wire x1="0" y1="180.34" x2="-15.24" y2="180.34" width="0.1524" layer="91"/>
 <junction x="0" y="180.34"/>
+<wire x1="17.78" y1="170.18" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
+<label x="22.86" y="170.18" size="1.778" layer="95"/>
+<pinref part="C201" gate="G$1" pin="1"/>
+<pinref part="U201" gate="G$1" pin="VIN"/>
+<wire x1="17.78" y1="180.34" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-256.54" y1="114.3" x2="-256.54" y2="121.92" width="0.1524" layer="91"/>
@@ -7398,7 +6961,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="J404" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U101" gate="G$1" pin="RS-"/>
 <wire x1="-40.64" y1="175.26" x2="-33.02" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="175.26" x2="-33.02" y2="182.88" width="0.1524" layer="91"/>
 <junction x="-33.02" y="182.88"/>
@@ -7407,18 +6969,19 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-33.02" y1="182.88" x2="-20.32" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R102" gate="G$1" pin="2"/>
 <junction x="-33.02" y="175.26"/>
+<pinref part="U101" gate="G$1" pin="RS-"/>
 </segment>
 </net>
 <net name="CONN_D-" class="0">
 <segment>
-<wire x1="-35.56" y1="269.24" x2="5.08" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="269.24" x2="5.08" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="R020" gate="G$1" pin="2"/>
 <pinref part="J001" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="CONN_D+" class="0">
 <segment>
-<wire x1="-35.56" y1="266.7" x2="-25.4" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="266.7" x2="-25.4" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="266.7" x2="-5.08" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="279.4" x2="-25.4" y2="266.7" width="0.1524" layer="91"/>
 <junction x="-25.4" y="266.7"/>
@@ -7432,13 +6995,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-20.32" y1="274.32" x2="-20.32" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="D050" gate="G$1" pin="C"/>
 <pinref part="R050" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="7.62" y1="175.26" x2="10.16" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="S201" gate="1" pin="P"/>
-<pinref part="Q201" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7464,9 +7020,9 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="-43.18" y1="175.26" x2="-43.18" y2="182.88" width="0.1524" layer="91"/>
 <label x="-53.34" y="182.88" size="1.778" layer="95"/>
 <pinref part="R103" gate="G$1" pin="1"/>
-<pinref part="U101" gate="G$1" pin="RS+"/>
 <wire x1="-43.18" y1="182.88" x2="-53.34" y2="182.88" width="0.1524" layer="91"/>
 <junction x="-43.18" y="182.88"/>
+<pinref part="U101" gate="G$1" pin="RS+"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="223.52" x2="25.4" y2="223.52" width="0.1524" layer="91"/>
@@ -7561,7 +7117,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <segment>
 <wire x1="-76.2" y1="281.94" x2="-109.22" y2="281.94" width="0.1524" layer="91"/>
 <label x="-106.68" y="281.94" size="1.778" layer="95"/>
-<pinref part="J701" gate="G$1" pin="CS"/>
+<pinref part="J701" gate="G$1" pin="/CS"/>
 </segment>
 <segment>
 <pinref part="U401" gate="G$1" pin="P2[13]/#EINT3/MCIDAT3/I2STX_SDA"/>
@@ -7763,6 +7319,15 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="12.7" y1="223.52" x2="12.7" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U301" gate="G$1" pin="STAT"/>
 <wire x1="12.7" y1="208.28" x2="10.16" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EN" class="0">
+<segment>
+<pinref part="U201" gate="G$1" pin="EN"/>
+<wire x1="27.94" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="165.1" x2="12.7" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="S201" gate="1" pin="P"/>
+<wire x1="12.7" y1="175.26" x2="7.62" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

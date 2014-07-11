@@ -5168,8 +5168,7 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <wire x1="5.08" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="GND1" x="-15.24" y="2.54" length="middle"/>
-<pin name="GND2" x="-15.24" y="0" length="middle"/>
+<pin name="GND" x="-15.24" y="2.54" length="middle"/>
 <pin name="VCC" x="-15.24" y="-2.54" length="middle"/>
 <pin name="RS-" x="10.16" y="-2.54" length="middle" rot="R180"/>
 <pin name="RS+" x="10.16" y="0" length="middle" rot="R180"/>
@@ -5764,24 +5763,13 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <wire x1="-76.2" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
 <pin name="#RSTOUT" x="-81.28" y="0" length="middle" function="dot"/>
 <pin name="#RESET" x="-81.28" y="-2.54" length="middle" function="dot"/>
-<pin name="VDD(3V3)0" x="-81.28" y="-7.62" length="middle"/>
-<pin name="VDD(3V3)1" x="-81.28" y="-10.16" length="middle"/>
-<pin name="VDD(3V3)2" x="-81.28" y="-12.7" length="middle"/>
-<pin name="VDD(3V3)3" x="-81.28" y="-15.24" length="middle"/>
-<pin name="VDD(DCDC)0" x="-81.28" y="-20.32" length="middle"/>
-<pin name="VDD(DCDC)1" x="-81.28" y="-22.86" length="middle"/>
-<pin name="VDD(DCDC)2" x="-81.28" y="-25.4" length="middle"/>
+<pin name="VDD(3V3)" x="-81.28" y="-7.62" length="middle"/>
+<pin name="VDD(DCDC)" x="-81.28" y="-20.32" length="middle"/>
 <pin name="VDDA" x="-81.28" y="-30.48" length="middle"/>
 <pin name="VREF" x="-81.28" y="-35.56" length="middle"/>
 <pin name="VBAT" x="-81.28" y="-40.64" length="middle"/>
 <pin name="AGND" x="-81.28" y="-185.42" length="middle"/>
-<pin name="GND6" x="-81.28" y="-180.34" length="middle"/>
-<pin name="GND5" x="-81.28" y="-177.8" length="middle"/>
-<pin name="GND4" x="-81.28" y="-175.26" length="middle"/>
-<pin name="GND3" x="-81.28" y="-172.72" length="middle"/>
-<pin name="GND2" x="-81.28" y="-170.18" length="middle"/>
-<pin name="GND1" x="-81.28" y="-167.64" length="middle"/>
-<pin name="GND0" x="-81.28" y="-165.1" length="middle"/>
+<pin name="GND" x="-81.28" y="-165.1" length="middle"/>
 <pin name="XTAL1" x="-81.28" y="-58.42" length="middle"/>
 <pin name="XTAL2" x="-81.28" y="-60.96" length="middle"/>
 <pin name="RTCX1" x="-81.28" y="-66.04" length="middle"/>
@@ -6829,6 +6817,42 @@ Parts in this library are those not found in the Sparkfun libraries, or shameles
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="LPC4078FBD80">
+</symbol>
+<symbol name="LPC4078FBD208">
+<pin name="P0[0]/CAN_RD1/U3_TXD/I2C1_SDA/U0_TXD" x="5.08" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[1]/CAN_TD1/U3_RXD/I2C1_SCL/U0_RXD" x="5.08" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[2]/U0_TXD/U3_TXD" x="5.08" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[3]/U0_RXD/U3_RXD" x="5.08" y="-7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[4]/I2S_RX_SCK/CAN_RD2/T2_CAP0/CMP_ROSC/LCD_VD[0]" x="5.08" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[5]/I2S_RX_WS/CAN_TD2/T2_CAP1/CMP_RESET/LCD_VD[1]" x="5.08" y="-12.7" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[6]/I2S_RX_SDA/SSP1_SSEL/T2_MAT0/U1_RTS/CMP_ROSC/LCD_VD[8]" x="5.08" y="-15.24" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[7]/I2S_TX_SCK/SSP1_SCK/T2_MAT1/RTC_EV0/CMP_VREF/LCD_VD[9]" x="5.08" y="-17.78" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[8]/I2S_TX_WS/SSP1_MISO/T2_MAT2/RTC_EV1/CMP1_IN[3]/LCD_CD[16]" x="5.08" y="-20.32" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[9]/I2S_TX_SDA/SSP1_MOSI/T2_MAT3/RTC_EV2/CMP1_IN[2]/LCD_VD[17]" x="5.08" y="-22.86" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[10]/U2_TXD/I2C2_SDA/T3_MAT0/LCD_VD[5]" x="5.08" y="-25.4" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[11]/U2_RXD/I2C2_SCL/T3_MAT1/LCD_VD[10]" x="5.08" y="-27.94" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[12]/USV_PPWR2/SSP1_MISO/ADC0_IN[6]" x="5.08" y="-30.48" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[13]/USB_UP_LED2/SSP1_MOSI/ADC0_IN[7]" x="5.08" y="-33.02" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[14]/USB_HSTEN2/SSP1_SSEL/USB_CONNECT2" x="5.08" y="-35.56" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[15]/U1_TXD/SSP0_SCK/SPIFI_IO[2]" x="5.08" y="-38.1" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[16]/U1_RXD/SSP0_SSEL/SPIFI_IO[3]" x="5.08" y="-40.64" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[17]/U1_CTS/SSP0_MISO_SPIFI_IO[1]" x="5.08" y="-43.18" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[18]/U1_DCD/SSP0_MOSI/SPIFI_IO[0]" x="5.08" y="-45.72" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[19]/U1_DSR/SD_CLK/I2C1_SDA/LCD_VD[13]" x="5.08" y="-48.26" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[20]/U1_DTR/SD_CMD/I2C1_SCL/LCD_VD[14]" x="5.08" y="-50.8" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[21]/U1_RI/SD_PWR/U4_OE/CAN_RD1/U4_SCLK" x="5.08" y="-53.34" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[22]/U1_RTS/SD_DAT[0]/U4_TXD/CAN_TD1/SPIFI_CLK" x="5.08" y="-55.88" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[23]/ADC0_IN[0]/I2S_RX_SCK/T3_CAP0" x="5.08" y="-58.42" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[24]/ADC0_IN[1]/I2S_RX_WS/T3_CAP1" x="5.08" y="-60.96" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[25]/ADC0_IN[2]/I2S_RX_SDA/U3_TXD" x="5.08" y="-63.5" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[26]/ADC0_IN[3]/DAC_OUT/U3_RXD" x="5.08" y="-66.04" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[27]/I2C0_SDA/USB_SDA1" x="5.08" y="-68.58" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[28]/IC20_SCL/USB_SCL1" x="5.08" y="-71.12" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[29]/USB_D+1/#EINT0" x="5.08" y="-73.66" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[30]/USB_D-1/#EINT1" x="5.08" y="-76.2" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0[31]/USB_D+2" x="5.08" y="-78.74" length="middle" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOSFET_NCHANNEL" prefix="Q">
@@ -6979,8 +7003,7 @@ http://www.diodes.com/datasheets/AP7332.pdf</description>
 <devices>
 <device name="" package="SOT-23-6">
 <connects>
-<connect gate="G$1" pin="GND1" pad="1"/>
-<connect gate="G$1" pin="GND2" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 2"/>
 <connect gate="G$1" pin="OUT" pad="6"/>
 <connect gate="G$1" pin="RS+" pad="5"/>
 <connect gate="G$1" pin="RS-" pad="4"/>
@@ -7668,13 +7691,7 @@ http://www.diodes.com/datasheets/AP7332.pdf</description>
 <connect gate="G$1" pin="#RSTOUT" pad="14"/>
 <connect gate="G$1" pin="#TRST" pad="4"/>
 <connect gate="G$1" pin="AGND" pad="11"/>
-<connect gate="G$1" pin="GND0" pad="15"/>
-<connect gate="G$1" pin="GND1" pad="31"/>
-<connect gate="G$1" pin="GND2" pad="41"/>
-<connect gate="G$1" pin="GND3" pad="55"/>
-<connect gate="G$1" pin="GND4" pad="72"/>
-<connect gate="G$1" pin="GND5" pad="97"/>
-<connect gate="G$1" pin="GND6" pad="83"/>
+<connect gate="G$1" pin="GND" pad="15 31 41 55 72 83 97"/>
 <connect gate="G$1" pin="P0[0]/RD1/TXD3/SDA1" pad="46"/>
 <connect gate="G$1" pin="P0[10]/TXD2/SDA2/MAT3[0]" pad="48"/>
 <connect gate="G$1" pin="P0[11]/RXD2/SCL2/MAT3[1]" pad="49"/>
@@ -7753,13 +7770,8 @@ http://www.diodes.com/datasheets/AP7332.pdf</description>
 <connect gate="G$1" pin="TDI" pad="2"/>
 <connect gate="G$1" pin="TMS" pad="3"/>
 <connect gate="G$1" pin="VBAT" pad="19"/>
-<connect gate="G$1" pin="VDD(3V3)0" pad="28"/>
-<connect gate="G$1" pin="VDD(3V3)1" pad="54"/>
-<connect gate="G$1" pin="VDD(3V3)2" pad="71"/>
-<connect gate="G$1" pin="VDD(3V3)3" pad="96"/>
-<connect gate="G$1" pin="VDD(DCDC)0" pad="13"/>
-<connect gate="G$1" pin="VDD(DCDC)1" pad="42"/>
-<connect gate="G$1" pin="VDD(DCDC)2" pad="84"/>
+<connect gate="G$1" pin="VDD(3V3)" pad="28 54 71 96"/>
+<connect gate="G$1" pin="VDD(DCDC)" pad="13 42 84"/>
 <connect gate="G$1" pin="VDDA" pad="10"/>
 <connect gate="G$1" pin="VREF" pad="12"/>
 <connect gate="G$1" pin="XTAL1" pad="22"/>
