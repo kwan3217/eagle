@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -447,26 +447,6 @@ chip</description>
 <vertex x="-3.81" y="0.447" curve="-90"/>
 <vertex x="-3.3681" y="-0.0101" curve="-90.012967"/>
 </polygon>
-</package>
-<package name="STAND-OFF">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.302"/>
-</package>
-<package name="STAND-OFF-TIGHT">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.048"/>
 </package>
 <package name="1X06">
 <wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
@@ -2154,142 +2134,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
 </polygon>
 </package>
-<package name="SWITCH-SPDT">
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-3.81" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="AYZ0202">
-<description>&lt;b&gt;DPDT Slide Switch SMD&lt;/b&gt;
-www.SparkFun.com SKU : Comp-SMDS</description>
-<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
-<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<text x="-2.54" y="1.143" size="0.4064" layer="25">&gt;Name</text>
-<text x="0.508" y="1.143" size="0.4064" layer="27">&gt;Value</text>
-<hole x="1.5" y="0" drill="0.85"/>
-<hole x="-1.5" y="0" drill="0.85"/>
-</package>
-<package name="SWITCHE-DPDT">
-<wire x1="8" y1="3.25" x2="-8" y2="3.25" width="0.127" layer="51"/>
-<wire x1="-8" y1="3.25" x2="-8" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="-8" y1="-3.25" x2="8" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="8" y1="-3.25" x2="8" y2="3.25" width="0.127" layer="51"/>
-<wire x1="-6" y1="3.25" x2="6" y2="3.25" width="0.2032" layer="21"/>
-<wire x1="8" y1="1" x2="8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-3.25" x2="-6" y2="-3.25" width="0.2032" layer="21"/>
-<wire x1="-8" y1="-1" x2="-8" y2="1" width="0.2032" layer="21"/>
-<pad name="P$1" x="-7.5" y="3" drill="1.5" diameter="2.54"/>
-<pad name="P$2" x="-7.5" y="-3" drill="1.5" diameter="2.54"/>
-<pad name="P$3" x="7.5" y="3" drill="1.5" diameter="2.54"/>
-<pad name="P$4" x="7.5" y="-3" drill="1.5" diameter="2.54"/>
-<pad name="1" x="-4" y="1.25" drill="0.7" diameter="1.6764"/>
-<pad name="2" x="0" y="1.25" drill="0.7" diameter="1.6764"/>
-<pad name="3" x="4" y="1.25" drill="0.7" diameter="1.6764"/>
-<pad name="4" x="-4" y="-1.25" drill="0.7" diameter="1.6764"/>
-<pad name="5" x="0" y="-1.25" drill="0.7" diameter="1.6764"/>
-<pad name="6" x="4" y="-1.25" drill="0.7" diameter="1.6764"/>
-</package>
-<package name="SWITCH-SPDT-SMD">
-<wire x1="-4.5" y1="1.75" x2="-4.5" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-4.5" y1="-1.75" x2="4.5" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="4.5" y1="-1.75" x2="4.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="4.5" y1="1.75" x2="2" y2="1.75" width="0.127" layer="51"/>
-<wire x1="2" y1="1.75" x2="0.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="0.5" y1="1.75" x2="-4.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="0.5" y1="1.75" x2="0.5" y2="3.75" width="0.127" layer="51"/>
-<wire x1="0.5" y1="3.75" x2="2" y2="3.75" width="0.127" layer="51"/>
-<wire x1="2" y1="3.75" x2="2" y2="1.75" width="0.127" layer="51"/>
-<wire x1="-4" y1="-1.75" x2="-4.5" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-1.75" x2="-4.5" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="1.75" x2="4.5" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="1.75" x2="4.5" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-1.75" x2="4" y2="-1.75" width="0.2032" layer="21"/>
-<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<text x="-1.27" y="0.635" size="0.6096" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
-<hole x="-3.55" y="0" drill="0.9"/>
-<hole x="3.55" y="0" drill="0.9"/>
-</package>
-<package name="SWITCH-SPDT_LOCK.007S">
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796"/>
-<text x="-3.81" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
-<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
-<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
-</package>
-<package name="SWITCH-SPDT_KIT">
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796" stop="no"/>
-<text x="-3.81" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
-<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
-<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
-<polygon width="0.127" layer="30">
-<vertex x="-0.0178" y="1.8414" curve="-90.039946"/>
-<vertex x="-0.8787" y="2.6975" curve="-90"/>
-<vertex x="-0.0026" y="3.5916" curve="-90.006409"/>
-<vertex x="0.8738" y="2.6975" curve="-90.03214"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-0.0051" y="-3.5967" curve="-90.006558"/>
-<vertex x="-0.8788" y="-2.7431" curve="-90.037923"/>
-<vertex x="0.0128" y="-1.8363" curve="-90.006318"/>
-<vertex x="0.8814" y="-2.7432" curve="-90.038792"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-0.0102" y="-0.8738" curve="-90.019852"/>
-<vertex x="-0.8762" y="-0.0203" curve="-90.019119"/>
-<vertex x="0.0153" y="0.8789" curve="-90"/>
-<vertex x="0.8739" y="-0.0077" curve="-90.038897"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="2.2758" curve="-90.012891"/>
-<vertex x="-0.4445" y="2.7" curve="-90"/>
-<vertex x="0" y="3.1673" curve="-90"/>
-<vertex x="0.4419" y="2.7102" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0.0026" y="-3.1648" curve="-90.012891"/>
-<vertex x="-0.4419" y="-2.7406" curve="-90"/>
-<vertex x="0.0026" y="-2.2733" curve="-90"/>
-<vertex x="0.4445" y="-2.7304" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0.0102" y="-0.4471" curve="-90.012891"/>
-<vertex x="-0.4343" y="-0.0229" curve="-90"/>
-<vertex x="0.0102" y="0.4444" curve="-90"/>
-<vertex x="0.4521" y="-0.0127" curve="-90.012967"/>
-</polygon>
-</package>
 <package name="SOT23-3">
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -2304,32 +2148,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SWITCH-SPST-SMD-A">
-<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="1.3" x2="-0.1" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-0.1" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-0.1" y1="1.3" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
-<wire x1="-0.1" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="0.3" x2="-3.35" y2="-0.3" width="0.2032" layer="21"/>
-<wire x1="3.35" y1="0.3" x2="3.35" y2="-0.3" width="0.2032" layer="21"/>
-<wire x1="2.7" y1="1.3" x2="-2.7" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-1.3" x2="0" y2="-1.3" width="0.2032" layer="21"/>
-<smd name="1" x="-2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="2" x="-0.75" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="3" x="2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="GND1" x="-3.65" y="1" dx="1" dy="0.6" layer="1"/>
-<smd name="GND2" x="-3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
-<smd name="GND3" x="3.65" y="1" dx="1" dy="0.6" layer="1"/>
-<smd name="GND4" x="3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
-<text x="-1.27" y="0.635" size="0.6096" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
-<hole x="-1.5" y="0" drill="0.9"/>
-<hole x="1.5" y="0" drill="0.9"/>
 </package>
 <package name="SJ_2S">
 <description>Small solder jumper with big paste layer so it will short during reflow.</description>
@@ -2848,9 +2666,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="STAND-OFF">
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
 <symbol name="M06">
 <wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
@@ -2926,19 +2741,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="TOGGLE">
-<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
-<text x="-1.905" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="MOSFET-PCHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
@@ -3196,25 +2998,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="STAND-OFF" prefix="JP">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<gates>
-<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="STAND-OFF">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TIGHT" package="STAND-OFF-TIGHT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4158,95 +3941,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH-SPST" prefix="S" uservalue="yes">
-<description>&lt;b&gt;SPST Switch&lt;/b&gt;
-Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
-<gates>
-<gate name="1" symbol="TOGGLE" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="SWITCH-SPDT">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="AYZ0202">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH2" package="SWITCHE-DPDT">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH3" package="R_SW_TH">
-<connects>
-<connect gate="1" pin="O" pad="P$1"/>
-<connect gate="1" pin="P" pad="P$2"/>
-<connect gate="1" pin="S" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2" package="SWITCH-SPDT-SMD">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH_LOCK" package="SWITCH-SPDT_LOCK.007S">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="KIT" package="SWITCH-SPDT_KIT">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD-A" package="SWITCH-SPST-SMD-A">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SOLDERJUMPER" prefix="SJ">
 <description>&lt;b&gt;Solder Jumper&lt;/b&gt;
 Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
@@ -4927,6 +4621,26 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="-1.36" y="-0.2" size="0.8128" layer="25">&gt;NAME</text>
 <text x="1.84" y="-1.37" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="STANDOFF">
+<circle x="0" y="0" radius="3.556" width="0.127" layer="39"/>
+<pad name="P$1" x="0" y="0" drill="3.048" diameter="4.572"/>
+<circle x="0" y="0" radius="0.762" width="1.651" layer="42"/>
+<circle x="0" y="0" radius="0.762" width="1.651" layer="41"/>
+</package>
+<package name="AYZ0202">
+<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
+<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<hole x="1.5" y="0" drill="0.85"/>
+<hole x="-1.5" y="0" drill="0.85"/>
+</package>
 </packages>
 <symbols>
 <symbol name="V_REF">
@@ -5236,6 +4950,20 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pin name="RS-" x="10.16" y="-2.54" length="middle" rot="R180"/>
 <pin name="RS+" x="10.16" y="0" length="middle" rot="R180"/>
 <pin name="OUT" x="10.16" y="2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="STANDOFF">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SPDT">
+<pin name="P$1" x="-2.54" y="2.54" visible="pad" length="short" function="dot" swaplevel="1"/>
+<pin name="P$2" x="-2.54" y="-2.54" visible="pad" length="short" function="dot" swaplevel="1"/>
+<pin name="P$3" x="2.54" y="0" visible="pad" length="point" function="dot" swaplevel="1" rot="R180"/>
+<wire x1="2.54" y1="0" x2="0.508" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.27" x2="0.508" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.032" x2="1.27" y2="2.032" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5604,6 +5332,42 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </device>
 </devices>
 </deviceset>
+<deviceset name="STANDOFF">
+<gates>
+<gate name="G$1" symbol="STANDOFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STANDOFF">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AYZ0202">
+<gates>
+<gate name="A" symbol="SPDT" x="-1.27" y="6.096" swaplevel="1"/>
+<gate name="B" symbol="SPDT" x="-1.27" y="-6.096" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="AYZ0202">
+<connects>
+<connect gate="A" pin="P$1" pad="1"/>
+<connect gate="A" pin="P$2" pad="3"/>
+<connect gate="A" pin="P$3" pad="2"/>
+<connect gate="B" pin="P$1" pad="4"/>
+<connect gate="B" pin="P$2" pad="6"/>
+<connect gate="B" pin="P$3" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -5662,16 +5426,16 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <part name="R482" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="33">
 <attribute name="DIGIKEY" value="P33.0LCT-ND"/>
 </part>
-<part name="JP1" library="SparkFun" deviceset="STAND-OFF" device="">
+<part name="JP1" library="KwanSystems" deviceset="STANDOFF" device="">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="JP2" library="SparkFun" deviceset="STAND-OFF" device="">
+<part name="JP2" library="KwanSystems" deviceset="STANDOFF" device="">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="JP3" library="SparkFun" deviceset="STAND-OFF" device="">
+<part name="JP3" library="KwanSystems" deviceset="STANDOFF" device="">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
-<part name="JP4" library="SparkFun" deviceset="STAND-OFF" device="">
+<part name="JP4" library="KwanSystems" deviceset="STANDOFF" device="">
 <attribute name="DIGIKEY" value="$NOPART"/>
 </part>
 <part name="C406" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF">
@@ -5732,9 +5496,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </part>
 <part name="C302" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="DIGIKEY" value="445-7395-1-ND"/>
-</part>
-<part name="S201" library="SparkFun" deviceset="SWITCH-SPST" device="SMD" value="SPDT">
-<attribute name="DIGIKEY" value="401-2013-1-ND"/>
 </part>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C204" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF">
@@ -5863,6 +5624,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </part>
 <part name="Y401" library="KwanSystems" deviceset="TSX-3225" device=""/>
 <part name="U101" library="KwanSystems" deviceset="MAX4173" device=""/>
+<part name="S202" library="KwanSystems" deviceset="AYZ0202" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5873,9 +5635,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <text x="-15.24" y="297.18" size="1.778" layer="97">G</text>
 <text x="-22.86" y="299.72" size="1.778" layer="97">S</text>
 <text x="-22.86" y="292.1" size="1.778" layer="97">D</text>
-<text x="12.7" y="172.72" size="1.778" layer="97">G</text>
-<text x="17.78" y="180.34" size="1.778" layer="97">S</text>
-<text x="17.78" y="170.18" size="1.778" layer="97">D</text>
 <text x="-203.2" y="309.88" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
 <text x="-203.2" y="307.34" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
 <text x="-203.2" y="304.8" size="1.778" layer="97">Original design by C. Taylor and N. Seidle, Sparkfun Electronics http://www.sparkfun.com/products/10216</text>
@@ -5889,8 +5648,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <text x="-63.5" y="269.24" size="1.778" layer="98">DAT0</text>
 <text x="-63.5" y="266.7" size="1.778" layer="98">DAT1</text>
 <text x="-66.04" y="124.46" size="1.778" layer="97" rot="MR180">Section 1 - Voltage and Current Measurement</text>
-<text x="5.08" y="177.8" size="1.778" layer="97">OFF</text>
-<text x="5.08" y="172.72" size="1.778" layer="97">ON</text>
+<text x="-5.08" y="160.02" size="1.778" layer="97">OFF</text>
+<text x="-5.08" y="167.64" size="1.778" layer="97">ON</text>
 </plain>
 <instances>
 <instance part="P+1" gate="1" x="-228.6" y="281.94"/>
@@ -5943,17 +5702,17 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <attribute name="VALUE" x="-92.71" y="163.322" size="1.778" layer="96" rot="R180"/>
 <attribute name="DIGIKEY" value="P33.0LCT-ND" x="-91.44" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="JP1" gate="G$1" x="-91.44" y="309.88">
-<attribute name="DIGIKEY" value="$NOPART" x="-91.44" y="309.88" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="JP1" gate="G$1" x="-86.36" y="243.84" rot="R90">
+<attribute name="DIGIKEY" value="$NOPART" x="-86.36" y="243.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="JP2" gate="G$1" x="-86.36" y="309.88">
-<attribute name="DIGIKEY" value="$NOPART" x="-86.36" y="309.88" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="JP2" gate="G$1" x="-81.28" y="243.84" rot="R90">
+<attribute name="DIGIKEY" value="$NOPART" x="-81.28" y="243.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="JP3" gate="G$1" x="-81.28" y="309.88">
-<attribute name="DIGIKEY" value="$NOPART" x="-81.28" y="309.88" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="JP3" gate="G$1" x="-86.36" y="248.92" rot="R90">
+<attribute name="DIGIKEY" value="$NOPART" x="-86.36" y="248.92" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="JP4" gate="G$1" x="-76.2" y="309.88">
-<attribute name="DIGIKEY" value="$NOPART" x="-76.2" y="309.88" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="JP4" gate="G$1" x="-81.28" y="248.92" rot="R90">
+<attribute name="DIGIKEY" value="$NOPART" x="-81.28" y="248.92" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C406" gate="G$1" x="-99.06" y="215.9">
 <attribute name="DIGIKEY" value="445-7395-1-ND" x="-99.06" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6026,17 +5785,14 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <instance part="C302" gate="G$1" x="-30.48" y="198.12">
 <attribute name="DIGIKEY" value="445-7395-1-ND" x="-30.48" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S201" gate="1" x="5.08" y="175.26" rot="R180">
-<attribute name="DIGIKEY" value="401-2013-1-ND" x="5.08" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="P+4" gate="1" x="63.5" y="172.72"/>
 <instance part="C204" gate="G$1" x="54.61" y="160.02">
 <attribute name="DIGIKEY#" x="54.61" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGIKEY" value="445-1268-1-ND" x="54.61" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C201" gate="G$1" x="17.78" y="160.02">
-<attribute name="DIGIKEY#" x="17.78" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" value="445-1415-1-ND" x="17.78" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C201" gate="G$1" x="17.78" y="162.56">
+<attribute name="DIGIKEY#" x="17.78" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" value="445-1415-1-ND" x="17.78" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D303" gate="G$1" x="20.32" y="223.52" rot="R180">
 <attribute name="DIGIKEY" value="568-6500-1-ND" x="20.32" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6186,6 +5942,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </instance>
 <instance part="Y401" gate="G$1" x="-220.98" y="218.44" rot="R270"/>
 <instance part="U101" gate="G$1" x="-43.18" y="165.1" rot="R90"/>
+<instance part="S202" gate="A" x="2.54" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -6392,9 +6149,19 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="C701" gate="G$1" pin="2"/>
 <pinref part="J701" gate="G$1" pin="GND"/>
 <wire x1="-76.2" y1="271.78" x2="-91.44" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="254" x2="-76.2" y2="254" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="254" x2="-86.36" y2="254" width="0.1524" layer="91"/>
 <pinref part="J701" gate="G$1" pin="SHIELD"/>
+<wire x1="-86.36" y1="254" x2="-81.28" y2="254" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="254" x2="-76.2" y2="254" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="254" x2="-76.2" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="P$1"/>
+<junction x="-86.36" y="254"/>
+<pinref part="JP4" gate="G$1" pin="P$1"/>
+<junction x="-81.28" y="254"/>
+<pinref part="JP1" gate="G$1" pin="P$1"/>
+<wire x1="-86.36" y1="254" x2="-86.36" y2="248.92" width="0.4064" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="P$1"/>
+<wire x1="-81.28" y1="254" x2="-81.28" y2="248.92" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <label x="-276.86" y="160.02" size="1.778" layer="95" rot="R90"/>
@@ -6498,12 +6265,12 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <wire x1="25.4" y1="154.94" x2="54.61" y2="154.94" width="0.1524" layer="91"/>
 <junction x="25.4" y="154.94"/>
 <pinref part="C201" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="157.48" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="160.02" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="S201" gate="1" pin="O"/>
-<wire x1="0" y1="172.72" x2="0" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="0" y1="162.56" x2="0" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="0" y1="154.94" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
 <junction x="17.78" y="154.94"/>
+<pinref part="S202" gate="A" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="-33.02" y1="147.32" x2="-33.02" y2="137.16" width="0.1524" layer="91"/>
@@ -6942,20 +6709,6 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 </net>
 <net name="VIN-" class="0">
 <segment>
-<wire x1="17.78" y1="180.34" x2="0" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="0" y1="180.34" x2="0" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="S201" gate="1" pin="S"/>
-<label x="-15.24" y="180.34" size="1.778" layer="95"/>
-<wire x1="0" y1="180.34" x2="-15.24" y2="180.34" width="0.1524" layer="91"/>
-<junction x="0" y="180.34"/>
-<wire x1="17.78" y1="170.18" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
-<label x="22.86" y="170.18" size="1.778" layer="95"/>
-<pinref part="C201" gate="G$1" pin="1"/>
-<pinref part="U201" gate="G$1" pin="VIN"/>
-<wire x1="17.78" y1="180.34" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="-256.54" y1="114.3" x2="-256.54" y2="121.92" width="0.1524" layer="91"/>
 <label x="-256.54" y="114.3" size="1.778" layer="95" rot="R90"/>
 <pinref part="J404" gate="G$1" pin="1"/>
@@ -6966,10 +6719,21 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <junction x="-33.02" y="182.88"/>
 <pinref part="R103" gate="G$1" pin="2"/>
 <label x="-30.48" y="182.88" size="1.778" layer="95"/>
-<wire x1="-33.02" y1="182.88" x2="-20.32" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="182.88" x2="-17.78" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R102" gate="G$1" pin="2"/>
 <junction x="-33.02" y="175.26"/>
 <pinref part="U101" gate="G$1" pin="RS-"/>
+<wire x1="17.78" y1="170.18" x2="0" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="0" y1="170.18" x2="0" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="0" y1="170.18" x2="-17.78" y2="170.18" width="0.1524" layer="91"/>
+<junction x="0" y="170.18"/>
+<wire x1="17.78" y1="170.18" x2="17.78" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
+<label x="22.86" y="170.18" size="1.778" layer="95"/>
+<pinref part="C201" gate="G$1" pin="1"/>
+<pinref part="U201" gate="G$1" pin="VIN"/>
+<pinref part="S202" gate="A" pin="P$1"/>
+<wire x1="-17.78" y1="182.88" x2="-17.78" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CONN_D-" class="0">
@@ -7324,10 +7088,8 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <net name="EN" class="0">
 <segment>
 <pinref part="U201" gate="G$1" pin="EN"/>
-<wire x1="27.94" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="165.1" x2="12.7" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="S201" gate="1" pin="P"/>
-<wire x1="12.7" y1="175.26" x2="7.62" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="165.1" x2="5.08" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="S202" gate="A" pin="P$3"/>
 </segment>
 </net>
 </nets>
