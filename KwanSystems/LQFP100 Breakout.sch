@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2322,9 +2322,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="157.48" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="RTCK"/>
-<wire x1="33.02" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
-<label x="25.4" y="2.54" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P2[2]/PWM1[3]/CTS1/PIPESTAT1"/>
+<wire x1="119.38" y1="-53.34" x2="127" y2="-53.34" width="0.1524" layer="91"/>
+<label x="121.92" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$74" class="0">
@@ -2334,9 +2334,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="137.16" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[3]/RXD0"/>
-<wire x1="119.38" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
-<label x="121.92" y="81.28" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P2[1]/PWM1[2]/RXD1/PIPESTAT0"/>
+<wire x1="119.38" y1="-50.8" x2="127" y2="-50.8" width="0.1524" layer="91"/>
+<label x="121.92" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -2346,9 +2346,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="157.48" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[2]/TXD0"/>
-<wire x1="119.38" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
-<label x="121.92" y="83.82" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P2[0]/PWM1[1]/TXD1/TRACECLK"/>
+<wire x1="119.38" y1="-48.26" x2="127" y2="-48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$76" class="0">
@@ -2358,9 +2358,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND6"/>
-<wire x1="33.02" y1="-91.44" x2="25.4" y2="-91.44" width="0.1524" layer="91"/>
-<label x="25.4" y="-91.44" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[9]/I2STX_SDA/MOSI1/MAT2[3]"/>
+<wire x1="119.38" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -2370,9 +2370,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VDD(3V3)3"/>
-<wire x1="33.02" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="25.4" y="73.66" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[8]/I2STX_WS/MISO1/MAT2[2]"/>
+<wire x1="119.38" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<label x="121.92" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$78" class="0">
@@ -2382,9 +2382,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[0]/ENET_TXD0"/>
-<wire x1="119.38" y1="15.24" x2="127" y2="15.24" width="0.1524" layer="91"/>
-<label x="121.92" y="15.24" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[7]/I2STX_CLK/SCK1/MAT2[1]"/>
+<wire x1="119.38" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<label x="121.92" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$79" class="0">
@@ -2394,9 +2394,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[1]/ENET_TXD1"/>
-<wire x1="119.38" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
-<label x="121.92" y="12.7" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[6]/I2SRX_SDA/SSEL1/MAT2[0]"/>
+<wire x1="119.38" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
+<label x="121.92" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -2406,9 +2406,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[4]/ENET_TX_EN"/>
-<wire x1="119.38" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91"/>
-<label x="121.92" y="10.16" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[5]/I2SRX_WS/TD2/CAP2[1]"/>
+<wire x1="119.38" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
+<label x="121.92" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -2418,9 +2418,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[8]/ENET_CRS"/>
-<wire x1="119.38" y1="7.62" x2="127" y2="7.62" width="0.1524" layer="91"/>
-<label x="121.92" y="7.62" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[4]/I2SRX_CLK/RD2/CAP2[0]"/>
+<wire x1="119.38" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<label x="121.92" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -2430,9 +2430,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P2[2]/PWM1[3]/CTS1/PIPESTAT1"/>
-<wire x1="119.38" y1="-53.34" x2="127" y2="-53.34" width="0.1524" layer="91"/>
-<label x="121.92" y="-53.34" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P4[28]/MAT2[0]/TXD3"/>
+<wire x1="119.38" y1="-93.98" x2="127" y2="-93.98" width="0.1524" layer="91"/>
+<label x="121.92" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$83" class="0">
@@ -2442,9 +2442,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P2[1]/PWM1[2]/RXD1/PIPESTAT0"/>
-<wire x1="119.38" y1="-50.8" x2="127" y2="-50.8" width="0.1524" layer="91"/>
-<label x="121.92" y="-50.8" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="GND6"/>
+<wire x1="33.02" y1="-91.44" x2="25.4" y2="-91.44" width="0.1524" layer="91"/>
+<label x="25.4" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$84" class="0">
@@ -2454,9 +2454,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P2[0]/PWM1[1]/TXD1/TRACECLK"/>
-<wire x1="119.38" y1="-48.26" x2="127" y2="-48.26" width="0.1524" layer="91"/>
-<label x="121.92" y="-48.26" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="VDD(DCDC)2"/>
+<wire x1="33.02" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="25.4" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$85" class="0">
@@ -2466,9 +2466,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[9]/I2STX_SDA/MOSI1/MAT2[3]"/>
-<wire x1="119.38" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P4[29]/MAT2[1]/RXD3"/>
+<wire x1="119.38" y1="-96.52" x2="127" y2="-96.52" width="0.1524" layer="91"/>
+<label x="121.92" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$86" class="0">
@@ -2478,9 +2478,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[8]/I2STX_WS/MISO1/MAT2[2]"/>
-<wire x1="119.38" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
-<label x="121.92" y="68.58" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[17]/ENET_MDIO"/>
+<wire x1="119.38" y1="-7.62" x2="127" y2="-7.62" width="0.1524" layer="91"/>
+<label x="121.92" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$87" class="0">
@@ -2490,9 +2490,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[7]/I2STX_CLK/SCK1/MAT2[1]"/>
-<wire x1="119.38" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<label x="121.92" y="71.12" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[16]/ENET_MDC"/>
+<wire x1="119.38" y1="-5.08" x2="127" y2="-5.08" width="0.1524" layer="91"/>
+<label x="121.92" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$88" class="0">
@@ -2502,9 +2502,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[6]/I2SRX_SDA/SSEL1/MAT2[0]"/>
-<wire x1="119.38" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
-<label x="121.92" y="73.66" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[15]/ENET_REF_CLK"/>
+<wire x1="119.38" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
+<label x="121.92" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$89" class="0">
@@ -2514,9 +2514,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[5]/I2SRX_WS/TD2/CAP2[1]"/>
-<wire x1="119.38" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<label x="121.92" y="76.2" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[14]/ENET_RX_ER"/>
+<wire x1="119.38" y1="0" x2="127" y2="0" width="0.1524" layer="91"/>
+<label x="121.92" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$90" class="0">
@@ -2526,9 +2526,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P0[4]/I2SRX_CLK/RD2/CAP2[0]"/>
-<wire x1="119.38" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<label x="121.92" y="78.74" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[10]/ENET_RXD1"/>
+<wire x1="119.38" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
+<label x="121.92" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$91" class="0">
@@ -2538,9 +2538,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P4[28]/MAT2[0]/TXD3"/>
-<wire x1="119.38" y1="-93.98" x2="127" y2="-93.98" width="0.1524" layer="91"/>
-<label x="121.92" y="-93.98" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[9]/ENET_RXD0"/>
+<wire x1="119.38" y1="5.08" x2="127" y2="5.08" width="0.1524" layer="91"/>
+<label x="121.92" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$92" class="0">
@@ -2550,9 +2550,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND5"/>
-<wire x1="33.02" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
-<label x="25.4" y="-88.9" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[8]/ENET_CRS"/>
+<wire x1="119.38" y1="7.62" x2="127" y2="7.62" width="0.1524" layer="91"/>
+<label x="121.92" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$93" class="0">
@@ -2562,9 +2562,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VDD(DCDC)2"/>
-<wire x1="33.02" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="25.4" y="63.5" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[4]/ENET_TX_EN"/>
+<wire x1="119.38" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91"/>
+<label x="121.92" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$94" class="0">
@@ -2574,9 +2574,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P4[29]/MAT2[1]/RXD3"/>
-<wire x1="119.38" y1="-96.52" x2="127" y2="-96.52" width="0.1524" layer="91"/>
-<label x="121.92" y="-96.52" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[1]/ENET_TXD1"/>
+<wire x1="119.38" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
+<label x="121.92" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$95" class="0">
@@ -2586,9 +2586,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[17]/ENET_MDIO"/>
-<wire x1="119.38" y1="-7.62" x2="127" y2="-7.62" width="0.1524" layer="91"/>
-<label x="121.92" y="-7.62" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P1[0]/ENET_TXD0"/>
+<wire x1="119.38" y1="15.24" x2="127" y2="15.24" width="0.1524" layer="91"/>
+<label x="121.92" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$96" class="0">
@@ -2598,9 +2598,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[16]/ENET_MDC"/>
-<wire x1="119.38" y1="-5.08" x2="127" y2="-5.08" width="0.1524" layer="91"/>
-<label x="121.92" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="VDD(3V3)3"/>
+<wire x1="33.02" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="25.4" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$97" class="0">
@@ -2610,9 +2610,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[15]/ENET_REF_CLK"/>
-<wire x1="119.38" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
-<label x="121.92" y="-2.54" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="GND5"/>
+<wire x1="33.02" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
+<label x="25.4" y="-88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$98" class="0">
@@ -2622,9 +2622,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[14]/ENET_RX_ER"/>
-<wire x1="119.38" y1="0" x2="127" y2="0" width="0.1524" layer="91"/>
-<label x="121.92" y="0" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[2]/TXD0"/>
+<wire x1="119.38" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
+<label x="121.92" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$99" class="0">
@@ -2634,9 +2634,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="139.7" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[10]/ENET_RXD1"/>
-<wire x1="119.38" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
-<label x="121.92" y="2.54" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0[3]/RXD0"/>
+<wire x1="119.38" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
+<label x="121.92" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$100" class="0">
@@ -2646,9 +2646,9 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="162.56" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="P1[9]/ENET_RXD0"/>
-<wire x1="119.38" y1="5.08" x2="127" y2="5.08" width="0.1524" layer="91"/>
-<label x="121.92" y="5.08" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="RTCK"/>
+<wire x1="33.02" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<label x="25.4" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
