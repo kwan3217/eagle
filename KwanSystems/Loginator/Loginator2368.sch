@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6537,7 +6537,7 @@ Push-push type uSD socket. Digikey 101-00660-68-6-1-ND. tDoc lines correctly ind
 <pinref part="R401" gate="C" pin="2"/>
 </segment>
 </net>
-<net name="PWMR$" class="0">
+<net name="PWMR" class="0">
 <segment>
 <wire x1="-96.52" y1="165.1" x2="-106.68" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R482" gate="G$1" pin="2"/>
