@@ -772,7 +772,11 @@ TR_TO218_GRND(value,3,10,2,on,-90*x,9*y)
 /********************************************************************************************************************************************
 //
 // Joerg Bredendiek <sprut(replace with at)sprut.de>   
-// pruefen:
+// pruefen:                                                                                                        
+//value - 
+// pins - number of pins
+// hor - 0 if vertical part, 1 if horizontal
+// inline - 1 if all pins are inline with each other
 //TO220H:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:-6.2:0:0:1:0:0:0:0:0:0:0:0:0:0:TR_TO220_L2(:TO220 liegend:TO220 Horizontal
 ********************************************************************************************************************************************/
 #macro TR_TO220_GRND(value, pins, hor, inline, lang, shift)
@@ -987,6 +991,9 @@ TR_TO220_GRND(value, 3, 0, 0, 0, 0)
 #end
 #macro TR_TO220_5_V(value)
 TR_TO220_GRND(value, 5, 0, 0, 2, 0)
+#end
+#macro TR_TO220_11_V(value)
+TR_TO220_GRND(value, 11, 0, 0, 18, 0)
 #end
 
 

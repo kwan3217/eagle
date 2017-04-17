@@ -17,4 +17,4 @@ Memory.Log
 *.zip
 *.pdf
 *.job
-
+.*.lck

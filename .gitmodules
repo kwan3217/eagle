@@ -1,0 +1,6 @@
+[submodule "adafruit/Adafruit-Pi-Cobber-PCBs"]
+	path = adafruit/Adafruit-Pi-Cobber-PCBs
+	url = https://github.com/adafruit/Adafruit-Pi-Cobber-PCBs.git
+[submodule "adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB"]
+	path = adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB
+	url = https://github.com/adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB.git
