@@ -4,3 +4,6 @@
 [submodule "adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB"]
 	path = adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB
 	url = https://github.com/adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB.git
+[submodule "adafruit/Adafruit-BNO055-Breakout-PCB"]
+	path = adafruit/Adafruit-BNO055-Breakout-PCB
+	url = https://github.com/adafruit/Adafruit-BNO055-Breakout-PCB.git
